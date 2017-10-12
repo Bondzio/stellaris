@@ -74,14 +74,14 @@ habitat_0 = {
 			}
 		} # use these for all non-star megastructures
 	}
-	
+
 	ai_weight = {
 		factor = 5
 	}
-	
+
 	on_build_start = {}
 	on_build_cancel = {}
-	
+
 	on_build_complete = {
 		spawn_planet = {
 			class = "pc_habitat"
@@ -89,9 +89,9 @@ habitat_0 = {
 			orbit_location = yes
 			orbit_angle_offset = 45
 			orbit_distance_offset = 9.899
-			size = 12
+			size = 25
 			has_ring = no
-			
+
 			init_effect = {
 				set_name = "HABITAT_PLANET_NAME"
 				set_planet_entity = {

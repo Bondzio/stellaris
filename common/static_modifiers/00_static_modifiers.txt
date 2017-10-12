@@ -50,8 +50,7 @@ difficulty_hard_ai = {
 	navy_size_mult = 0.25
 }
 
-difficulty_normal_ai = {
-}
+difficulty_normal_ai = {}
 
 # For non-playable empires, scales to galaxy size
 difficulty_scaled_insane = {
@@ -92,8 +91,7 @@ awakened_empire_decadence = {
 ##########################################################################
 
 # Base Pop Modifiers
-pop_base = {
-}
+pop_base = {}
 
 # At 0% habitability
 pop_habitability = {
@@ -131,7 +129,7 @@ occupation = {
 }
 
 pop_was_enslaved = {
-	pop_happiness = -0.10	
+	pop_happiness = -0.10
 }
 
 pop_enslaved = {
@@ -158,7 +156,7 @@ pop_enslaved_domestic = {
 }
 
 pop_enslaved_military = {
-	pop_happiness = -0.10	
+	pop_happiness = -0.10
 	tile_resource_energy_mult = -0.15
 	tile_resource_physics_research_mult = -0.5
 	tile_resource_society_research_mult = -0.5
@@ -206,7 +204,7 @@ pop_purging_labor_camps = {
 	tile_resource_energy_mult = -10
 	tile_resource_physics_research_mult = -10
 	tile_resource_society_research_mult = -10
-	tile_resource_engineering_research_mult = -10	
+	tile_resource_engineering_research_mult = -10
 	tile_resource_unity_mult = -10
 	pop_resettlement_cost_mult = -0.5
 }
@@ -255,15 +253,15 @@ pop_planet_terraforming = {
 
 pop_saved_from_slavery = {
 	pop_happiness = 0.1
-} 
+}
 
 pop_saved_from_purge = {
 	pop_happiness = 0.3
-} 
+}
 
 pop_recently_conquered = {
 	pop_happiness = -0.4
-} 
+}
 
 pop_angry_subterranean = {
 	pop_happiness = -0.2
@@ -275,7 +273,7 @@ pop_happiness_cheat = {
 
 pop_troubled_succession = {
 	pop_happiness = -0.3
-} 
+}
 
 pop_drought = {
 	pop_happiness = -0.2
@@ -309,7 +307,7 @@ hazardous_weather = {
 	pop_environment_tolerance = -0.10
 	pop_happiness = -0.05
 	tile_resource_energy_mult = 0.20
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_hazardous_weather.dds"
 	icon_frame = 2
 }
@@ -326,7 +324,7 @@ dangerous_wildlife = {
 weak_magnetic_field = {
 	pop_environment_tolerance = -0.05
 	pop_growth_speed = -0.05
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_weak_magnetic_field.dds"
 	icon_frame = 3
 }
@@ -334,7 +332,7 @@ weak_magnetic_field = {
 strong_magnetic_field = {
 	tile_resource_energy_mult = 0.05
 	tile_resource_physics_research_mult = 0.05
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_strong_magnetic_field.dds"
 	icon_frame = 1
 }
@@ -343,20 +341,20 @@ unstable_tectonics = {
 	pop_environment_tolerance = -0.10
 	pop_happiness = -0.05
 	tile_resource_engineering_research_mult = 0.20
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_unstable_tectonics.dds"
 	icon_frame = 3
 }
 
 tidal_locked = {
 	pop_environment_tolerance = -0.10
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_tidal_locked.dds"
 	icon_frame = 3
 }
 
 chthonian_planet = {
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_chthonian_planet.dds"
 	icon_frame = 1
 }
@@ -364,21 +362,21 @@ chthonian_planet = {
 asteroid_impacts = {
 	pop_environment_tolerance = -0.05
 	tile_resource_minerals_mult = 0.05
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_impacts.dds"
 	icon_frame = 2
 }
 
 extensive_moon_system = {
 	tile_resource_minerals_mult = 0.10
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_extensive_moon_system.dds"
 	icon_frame = 1
 }
 
 carbon_world = {
 	tile_resource_minerals_mult = 0.15
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_carbon_world.dds"
 	icon_frame = 1
 }
@@ -394,42 +392,42 @@ wild_storms = {
 
 mineral_rich = {
 	tile_resource_minerals_mult = 0.15
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_mineral_rich.dds"
 	icon_frame = 1
 }
 
 ultra_rich = {
 	tile_resource_minerals_mult = 0.25
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_ultra_rich.dds"
 	icon_frame = 1
 }
 
 mineral_poor = {
 	tile_resource_minerals_mult = -0.25
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_mineral_poor.dds"
 	icon_frame = 3
 }
 
 titanic_life = {
 	tile_resource_society_research_mult = 0.25
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_titanic_life.dds"
 	icon_frame = 1
 }
 
 eat_the_titans = {
 	tile_resource_food_mult = 0.5 #So much food!
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_titanic_life.dds"
 	icon_frame = 1
 }
 
 asteroid_belt = {
 	tile_resource_minerals_mult = 0.10
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_belt.dds"
 	icon_frame = 1
 }
@@ -437,7 +435,7 @@ asteroid_belt = {
 natural_beauty = {
 	pop_happiness = 0.05
 	planet_migration_all_pull = 0.25
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_natural_beauty.dds"
 	icon_frame = 1
 }
@@ -446,7 +444,7 @@ atmospheric_aphrodisiac = {
 	pop_environment_tolerance = 0.05
 	pop_growth_speed = 0.10
 	pop_government_ethic_attraction = -0.20
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_atmospheric_aphrodisiac.dds"
 	icon_frame = 1
 }
@@ -455,7 +453,7 @@ atmospheric_hallucinogen = {
 	biological_pop_happiness = 0.05
 	tile_resource_society_research_mult = 0.10
 	pop_government_ethic_attraction = -0.30
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_atmospheric_hallucinogen.dds"
 	icon_frame = 2
 }
@@ -463,7 +461,7 @@ atmospheric_hallucinogen = {
 atmospheric_hallucinogen_good = {
 	pop_happiness = 0.10
 	tile_resource_society_research_mult = 0.10
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_atmospheric_hallucinogen.dds"
 	icon_frame = 1
 }
@@ -471,7 +469,7 @@ atmospheric_hallucinogen_good = {
 lush_planet = {
 	pop_environment_tolerance = 0.10
 	tile_resource_food_mult = 0.20
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_lush.dds"
 	icon_frame = 1
 }
@@ -479,7 +477,7 @@ lush_planet = {
 bleak_planet = {
 	pop_environment_tolerance = -0.05
 	tile_resource_food_mult = -0.10
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_bleak.dds"
 	icon_frame = 3
 }
@@ -488,7 +486,7 @@ irradiated_planet = {
 	pop_environment_tolerance = -0.10
 	biological_pop_happiness = -0.20
 	tile_resource_food_mult = -0.50
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_irradiated.dds"
 	icon_frame = 3
 }
@@ -496,7 +494,7 @@ irradiated_planet = {
 low_gravity = {
 	planet_building_cost_mult = -0.1
 	pop_environment_tolerance = -0.05
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_low_gravity.dds"
 	icon_frame = 2
 }
@@ -504,7 +502,7 @@ low_gravity = {
 high_gravity = {
 	planet_building_cost_mult = 0.1
 	pop_environment_tolerance = -0.05
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_high_gravity.dds"
 	icon_frame = 3
 }
@@ -644,7 +642,7 @@ nuclear_devastation = {
 gamma_ray = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_strong_magnetic_field.dds"
 }
-	
+
 greenhouse_effect = {
 	icon = "gfx/interface/icons/planet_modifiers/pm_atmospheric_hallucinogen.dds"
 }
@@ -735,7 +733,7 @@ assist_research = {
 	tile_resource_physics_research_mult = 0.10
 	tile_resource_society_research_mult = 0.10
 	tile_resource_engineering_research_mult = 0.10
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_assist_research.dds"
 	icon_frame = 1
 }
@@ -785,7 +783,7 @@ terraforming_candidate = {
 
 disconnected_from_sector = {
 	pop_resource_output = -0.25
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_planet_from_space.dds"
 	icon_frame = 3
 }
@@ -802,21 +800,21 @@ planet_uncertain_past = {
 
 recent_quake = {
 	pop_happiness = -0.05
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_unstable_tectonics.dds"
 	icon_frame = 3
 }
 
 recent_comet = {
 	pop_happiness = 0.1
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_belt.dds"
 	icon_frame = 1
 }
 
 recent_impact = {
 	pop_happiness = -0.05
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_impacts.dds"
 	icon_frame = 3
 }
@@ -825,7 +823,7 @@ magnetic_research_boost = {
 	tile_resource_physics_research_mult = 0.2
 	tile_resource_society_research_mult = 0.2
 	tile_resource_engineering_research_mult = 0.2
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_strong_magnetic_field.dds"
 	icon_frame = 1
 }
@@ -835,7 +833,7 @@ magnetic_disruption = {
 	tile_resource_physics_research_mult = -0.1
 	tile_resource_society_research_mult = -0.1
 	tile_resource_engineering_research_mult = -0.1
-	
+
 	icon = "gfx/interface/icons/planet_modifiers/pm_strong_magnetic_field.dds"
 	icon_frame = 3
 }
@@ -919,8 +917,7 @@ skill_ruler = {
 	country_resource_unity_mult = 0.03
 }
 
-leader_skills_spawn = {
-}
+leader_skills_spawn = {}
 
 ##########################################################################
 # Spaceport levels

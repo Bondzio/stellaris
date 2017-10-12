@@ -19,7 +19,7 @@ ring_world_1 = {
 	potential = {
 		has_ascension_perk = ap_the_circle_of_life
 	}
-	
+
 	possible = {
 		custom_tooltip = {
 			fail_text = "requires_inside_border"
@@ -55,7 +55,7 @@ ring_world_1 = {
 			NOT = { has_any_megastructure = yes }
 		}
 	}
-	
+
 	placement_rules = {
 		planet_possible = {
 			custom_tooltip = {
@@ -72,15 +72,15 @@ ring_world_1 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
-		factor = 10		
+		factor = 10
 		modifier = {
 			factor = 0.5
 			has_any_megastructure_in_empire = yes
 		}
 	}
-	
+
 	on_build_start = {}
 	on_build_cancel = {}
 	on_build_complete = {
@@ -96,7 +96,7 @@ ring_world_2_intermediate = {
 	upgrade_from = {
 		ring_world_1
 	}
-	
+
 	build_time = 4800
 	build_cost = {
 		minerals = 20000
@@ -105,13 +105,13 @@ ring_world_2_intermediate = {
 	possible = {
 		from = { has_ascension_perk = ap_the_circle_of_life }
 	}
-	
+
 	on_build_start = {}
 	on_build_cancel = {}
 	on_build_complete = {
-		every_system_planet = { 
+		every_system_planet = {
 			limit = { is_star = no }
-			remove_planet = yes 
+			remove_planet = yes
 		}
 		asteroids_distance = 0
 		remove_megastructure = fromfrom
@@ -161,7 +161,7 @@ ring_world_2 = {
 	# used from script only
 	upgrade_desc = hide
 	potential = { always = no }
-	
+
 	upgrade_from = {
 		ring_world_2_intermediate
 	}
@@ -313,7 +313,7 @@ ring_world_restored = {
 	}
 
 	possible = {
-		from = { 
+		from = {
 			has_technology = tech_mega_engineering
 		}
 		custom_tooltip = {

@@ -31,7 +31,7 @@
 #	}
 #}
 #
-#spawn_chance = { 
+#spawn_chance = {
 #	modifier = {
 #		add = 3
 #		not = {
@@ -61,9 +61,7 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 }

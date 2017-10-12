@@ -264,7 +264,7 @@ create_pirate_country = {
 }
 
 swarm_vanguard = {
-	
+
 	random_list = {
 		10 = {
 			create_leader = {
@@ -409,7 +409,7 @@ swarm_vanguard = {
 			set_location = {
 				target = PREVPREV
 				distance = 35
-				angle = random 
+				angle = random
 			}
 			set_fleet_stance = aggressive
 			set_aggro_range = 500
@@ -502,7 +502,7 @@ swarm_armies = {
 			set_location = {
 				target = PREVPREV
 				distance = 20
-				angle = random 
+				angle = random
 			}
 		}
 	}
@@ -682,8 +682,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_stubborn 
+							NOR = {
+								has_trait = leader_trait_stubborn
 								has_trait = leader_trait_rigid_programming
 								owner = { has_authority = "auth_hive_mind" }
 							}
@@ -771,8 +771,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_roamer 
+							NOR = {
+								has_trait = leader_trait_roamer
 								has_trait = leader_trait_cataloger
 							}
 						}
@@ -782,7 +782,7 @@ add_random_leader_trait = {
 									NOT = { has_authority = "auth_machine_intelligence" }
 								}
 							}
-							add_trait = leader_trait_roamer 
+							add_trait = leader_trait_roamer
 							set_timed_leader_flag = { flag = gained_leader_trait_roamer days = 7 }
 						}
 						if = {
@@ -1001,8 +1001,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_stubborn 
+							NOR = {
+								has_trait = leader_trait_stubborn
 								has_trait = leader_trait_rigid_programming
 								owner = { has_authority = "auth_hive_mind" }
 							}
@@ -1060,7 +1060,7 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
+							NOR = {
 								has_trait = leader_trait_fleet_logistician
 								has_trait = leader_trait_maintenance_loop
 							}
@@ -1192,8 +1192,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_stubborn 
+							NOR = {
+								has_trait = leader_trait_stubborn
 								has_trait = leader_trait_rigid_programming
 								owner = { has_authority = "auth_hive_mind" }
 							}
@@ -1265,8 +1265,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_intellectual 
+							NOR = {
+								has_trait = leader_trait_intellectual
 								has_trait = leader_trait_analytical
 							}
 						}
@@ -1276,7 +1276,7 @@ add_random_leader_trait = {
 									NOT = { has_authority = "auth_machine_intelligence" }
 								}
 							}
-							add_trait = leader_trait_intellectual 
+							add_trait = leader_trait_intellectual
 							set_timed_leader_flag = { flag = gained_leader_trait_intellectual days = 7 }
 						}
 						if = {
@@ -1292,8 +1292,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_environmental_engineer 
+							NOR = {
+								has_trait = leader_trait_environmental_engineer
 								has_trait = leader_trait_bulldozer
 							}
 						}
@@ -1303,7 +1303,7 @@ add_random_leader_trait = {
 									NOT = { has_authority = "auth_machine_intelligence" }
 								}
 							}
-							add_trait = leader_trait_environmental_engineer 
+							add_trait = leader_trait_environmental_engineer
 							set_timed_leader_flag = { flag = gained_leader_trait_environmental_engineer days = 7 }
 						}
 						if = {
@@ -1354,8 +1354,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_stubborn 
+							NOR = {
+								has_trait = leader_trait_stubborn
 								has_trait = leader_trait_rigid_programming
 								owner = { has_authority = "auth_hive_mind" }
 							}
@@ -1423,8 +1423,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_charismatic 
+							NOR = {
+								has_trait = leader_trait_charismatic
 								has_trait = leader_trait_demoralizer
 							}
 						}
@@ -1434,7 +1434,7 @@ add_random_leader_trait = {
 									NOT = { has_authority = "auth_machine_intelligence" }
 								}
 							}
-							add_trait = leader_trait_charismatic 
+							add_trait = leader_trait_charismatic
 							set_timed_leader_flag = { flag = gained_leader_trait_charismatic days = 7 }
 						}
 						if = {
@@ -1460,7 +1460,7 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
+							NOR = {
 								has_trait = leader_trait_glory_seeker
 								has_trait = leader_trait_demoralizer
 							}
@@ -1487,8 +1487,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_armchair_commander 
+							NOR = {
+								has_trait = leader_trait_armchair_commander
 								has_trait = leader_trait_erratic_morality_core
 							}
 						}
@@ -1498,7 +1498,7 @@ add_random_leader_trait = {
 									NOT = { has_authority = "auth_machine_intelligence" }
 								}
 							}
-							add_trait = leader_trait_armchair_commander 
+							add_trait = leader_trait_armchair_commander
 							set_timed_leader_flag = { flag = gained_leader_trait_armchair_commander days = 7 }
 						}
 						if = {
@@ -1514,8 +1514,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_army_logistician 
+							NOR = {
+								has_trait = leader_trait_army_logistician
 								has_trait = leader_trait_parts_cannibalizer
 							}
 						}
@@ -1525,7 +1525,7 @@ add_random_leader_trait = {
 									NOT = { has_authority = "auth_machine_intelligence" }
 								}
 							}
-							add_trait = leader_trait_army_logistician 
+							add_trait = leader_trait_army_logistician
 							set_timed_leader_flag = { flag = gained_leader_trait_army_logistician days = 7 }
 						}
 						if = {
@@ -1574,8 +1574,8 @@ add_random_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOR = { 
-								has_trait = leader_trait_stubborn 
+							NOR = {
+								has_trait = leader_trait_stubborn
 								has_trait = leader_trait_rigid_programming
 								owner = { has_authority = "auth_hive_mind" }
 							}
@@ -2080,13 +2080,13 @@ spawn_sun_temperature_effect = {
 			location = this
 			type = yellow_sun_grow_particle_object
 			duration = 1
-			
+
 			use_3d_location= yes
-			
+
 			entity_offset = { min = 0 max = 0 }
 			entity_offset_angle = { min = 0 max = 360 }
 			entity_offset_height = { min = 0 max = 0 }
-			
+
 			entity_scale_to_size = yes
 			scale = 0.01
 		}
@@ -2102,13 +2102,13 @@ spawn_sun_temperature_effect = {
 					location = this
 					type = red_sun_grow_particle_object
 					duration = 1
-					
+
 					use_3d_location= yes
-					
+
 					entity_offset = { min = 0 max = 0 }
 					entity_offset_angle = { min = 0 max = 360 }
 					entity_offset_height = { min = 0 max = 0 }
-					
+
 					entity_scale_to_size = yes
 					scale = 0.01
 				}
@@ -2127,36 +2127,36 @@ spawn_sun_temperature_effect = {
 							location = this
 							type = blue_sun_grow_particle_object
 							duration = 1
-							
+
 							use_3d_location= yes
-							
+
 							entity_offset = { min = 0 max = 0 }
 							entity_offset_angle = { min = 0 max = 360 }
 							entity_offset_height = { min = 0 max = 0 }
-							
+
 							entity_scale_to_size = yes
 							scale = 0.01
 						}
 					}
 				}
-			}		
+			}
 		}
 	}
-	
-	
+
+
 }
 spawn_planet_temperature_effect = {
 	create_ambient_object = {
 		location = this
 		type = planet_heat_up_particle_object
 		duration = 30
-		
+
 		use_3d_location= yes
 		base_angle_towards = star
 		entity_face_object = star
-		
+
 		entity_offset = { min = 0 max = 0 }
-		
+
 		entity_scale_to_size = yes
 		scale = 0.15
 	}
@@ -2604,7 +2604,7 @@ spawn_vultaum_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_1
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2616,7 +2616,7 @@ spawn_vultaum_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2657,7 +2657,7 @@ spawn_vultaum_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_1
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2669,7 +2669,7 @@ spawn_vultaum_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2710,7 +2710,7 @@ spawn_vultaum_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_1
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2722,7 +2722,7 @@ spawn_vultaum_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2759,7 +2759,7 @@ spawn_vultaum_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_1
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2771,7 +2771,7 @@ spawn_vultaum_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2808,7 +2808,7 @@ spawn_vultaum_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_1
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2820,7 +2820,7 @@ spawn_vultaum_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2857,7 +2857,7 @@ spawn_vultaum_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_1
-				any_planet = { 
+				any_planet = {
 					is_planet_class = pc_gas_giant
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2869,7 +2869,7 @@ spawn_vultaum_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					is_planet_class = pc_gas_giant
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2906,7 +2906,7 @@ spawn_vultaum_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_1
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2918,7 +2918,7 @@ spawn_vultaum_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2955,7 +2955,7 @@ spawn_vultaum_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_1
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -2967,7 +2967,7 @@ spawn_vultaum_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3004,7 +3004,7 @@ spawn_vultaum_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_1
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3016,7 +3016,7 @@ spawn_vultaum_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3053,7 +3053,7 @@ spawn_vultaum_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_1
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3065,7 +3065,7 @@ spawn_vultaum_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3083,7 +3083,7 @@ spawn_vultaum_anomaly = {
 		break = yes
 	}
 }
-		
+
 spawn_yuht_anomaly = {
 	if = {
 		limit = {
@@ -3105,7 +3105,7 @@ spawn_yuht_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_2
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3117,7 +3117,7 @@ spawn_yuht_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3154,7 +3154,7 @@ spawn_yuht_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_2
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3166,7 +3166,7 @@ spawn_yuht_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3203,7 +3203,7 @@ spawn_yuht_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_2
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3215,7 +3215,7 @@ spawn_yuht_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3252,7 +3252,7 @@ spawn_yuht_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_2
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3264,7 +3264,7 @@ spawn_yuht_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3301,7 +3301,7 @@ spawn_yuht_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_2
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3313,7 +3313,7 @@ spawn_yuht_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3350,7 +3350,7 @@ spawn_yuht_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_2
-				any_planet = { 
+				any_planet = {
 					is_planet_class = pc_gas_giant
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3362,7 +3362,7 @@ spawn_yuht_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					is_planet_class = pc_gas_giant
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3399,7 +3399,7 @@ spawn_yuht_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_2
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3411,7 +3411,7 @@ spawn_yuht_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3448,7 +3448,7 @@ spawn_yuht_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_2
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3460,7 +3460,7 @@ spawn_yuht_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3500,7 +3500,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3512,7 +3512,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3549,7 +3549,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					is_planet_class = pc_gas_giant
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3561,7 +3561,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					is_planet_class = pc_gas_giant
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3598,7 +3598,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3610,7 +3610,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3647,7 +3647,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3659,7 +3659,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3696,7 +3696,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3708,7 +3708,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3745,7 +3745,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3757,7 +3757,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3794,7 +3794,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3806,7 +3806,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3843,7 +3843,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3855,7 +3855,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3892,7 +3892,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3904,7 +3904,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3941,7 +3941,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3953,7 +3953,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -3990,7 +3990,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4002,7 +4002,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4039,7 +4039,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4051,7 +4051,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4088,7 +4088,7 @@ spawn_league_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_3
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4100,7 +4100,7 @@ spawn_league_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4140,7 +4140,7 @@ spawn_irassian_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_4
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4152,7 +4152,7 @@ spawn_irassian_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4189,7 +4189,7 @@ spawn_irassian_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_4
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4201,7 +4201,7 @@ spawn_irassian_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4238,7 +4238,7 @@ spawn_irassian_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_4
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4250,7 +4250,7 @@ spawn_irassian_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4287,7 +4287,7 @@ spawn_irassian_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_4
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4299,7 +4299,7 @@ spawn_irassian_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4336,7 +4336,7 @@ spawn_irassian_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_4
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4348,7 +4348,7 @@ spawn_irassian_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4385,7 +4385,7 @@ spawn_irassian_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_4
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4397,7 +4397,7 @@ spawn_irassian_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4434,7 +4434,7 @@ spawn_irassian_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_4
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4446,7 +4446,7 @@ spawn_irassian_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4483,7 +4483,7 @@ spawn_irassian_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_4
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4495,7 +4495,7 @@ spawn_irassian_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4532,7 +4532,7 @@ spawn_irassian_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_4
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4544,7 +4544,7 @@ spawn_irassian_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4581,7 +4581,7 @@ spawn_irassian_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_4
-				any_planet = { 
+				any_planet = {
 					is_planet_class = pc_gas_giant
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4593,7 +4593,7 @@ spawn_irassian_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					is_planet_class = pc_gas_giant
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4633,7 +4633,7 @@ spawn_cybrex_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_5
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4645,7 +4645,7 @@ spawn_cybrex_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4682,7 +4682,7 @@ spawn_cybrex_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_5
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4694,7 +4694,7 @@ spawn_cybrex_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4731,7 +4731,7 @@ spawn_cybrex_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_5
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4743,7 +4743,7 @@ spawn_cybrex_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4780,7 +4780,7 @@ spawn_cybrex_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_5
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4792,7 +4792,7 @@ spawn_cybrex_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4829,7 +4829,7 @@ spawn_cybrex_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_5
-				any_planet = { 
+				any_planet = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4841,7 +4841,7 @@ spawn_cybrex_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					habitable_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4878,7 +4878,7 @@ spawn_cybrex_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_5
-				any_planet = { 
+				any_planet = {
 					is_planet_class = pc_gas_giant
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4890,7 +4890,7 @@ spawn_cybrex_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					is_planet_class = pc_gas_giant
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4927,7 +4927,7 @@ spawn_cybrex_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_5
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4939,7 +4939,7 @@ spawn_cybrex_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4976,7 +4976,7 @@ spawn_cybrex_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_5
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -4988,7 +4988,7 @@ spawn_cybrex_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -5025,7 +5025,7 @@ spawn_cybrex_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_5
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -5037,7 +5037,7 @@ spawn_cybrex_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -5074,7 +5074,7 @@ spawn_cybrex_anomaly = {
 		random_system_within_border = {
 			limit = {
 				has_star_flag = precursor_5
-				any_planet = { 
+				any_planet = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -5086,7 +5086,7 @@ spawn_cybrex_anomaly = {
 				}
 			}
 			random_system_planet = {
-				limit = { 
+				limit = {
 					uninhabitable_regular_planet = yes
 					NOT = { has_planet_flag = precursor_world }
 					has_owner = no
@@ -5193,7 +5193,7 @@ randomize_shroud_flags = {
 		25 = { set_country_flag = high.13 }
 		25 = { set_country_flag = high.14 }
 		25 = { set_country_flag = high.15 }
-		25 = { 
+		25 = {
 			if = {
 				limit = {
 					count_owned_ships = {
@@ -5212,115 +5212,115 @@ randomize_shroud_flags = {
 		125 = {}
 	}
 	random_list = {
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.1 } }
-				set_country_flag = medium.1 
+				set_country_flag = medium.1
 				else = { set_country_flag = medium.2 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.2 } }
-				set_country_flag = medium.2 
+				set_country_flag = medium.2
 				else = { set_country_flag = medium.3 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.3 } }
-				set_country_flag = medium.3 
+				set_country_flag = medium.3
 				else = { set_country_flag = medium.4 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.4 } }
-				set_country_flag = medium.4 
+				set_country_flag = medium.4
 				else = { set_country_flag = medium.5 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.5 } }
-				set_country_flag = medium.5 
+				set_country_flag = medium.5
 				else = { set_country_flag = medium.6 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.6 } }
 				set_country_flag = medium.6
 				else = { set_country_flag = medium.7 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.7 } }
-				set_country_flag = medium.7 
+				set_country_flag = medium.7
 				else = { set_country_flag = medium.8 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.8 } }
-				set_country_flag = medium.8 
+				set_country_flag = medium.8
 				else = { set_country_flag = medium.9 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.9 } }
-				set_country_flag = medium.9 
+				set_country_flag = medium.9
 				else = { set_country_flag = medium.10 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.10 } }
-				set_country_flag = medium.10 
+				set_country_flag = medium.10
 				else = { set_country_flag = medium.11 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.11 } }
-				set_country_flag = medium.11 
+				set_country_flag = medium.11
 				else = { set_country_flag = medium.12 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.12 } }
 				set_country_flag = medium.12
 				else = { set_country_flag = medium.13 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.13 } }
-				set_country_flag = medium.13 
+				set_country_flag = medium.13
 				else = { set_country_flag = medium.14 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.14 } }
-				set_country_flag = medium.14 
+				set_country_flag = medium.14
 				else = { set_country_flag = medium.15 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
 				limit = { NOT = { has_country_flag = high.15 } }
 				set_country_flag = medium.15
 				else = { set_country_flag = medium.16 }
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { has_country_flag = high.16 } 
+				limit = {
+					NOT = { has_country_flag = high.16 }
 					count_owned_ships = {
 						limit = { is_ship_size = psionic_avatar }
 						count < 1
@@ -5337,366 +5337,366 @@ randomize_shroud_flags = {
 		80 = {}
 	}
 	random_list = {
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.1 
-						has_country_flag = medium.1 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.1
+						has_country_flag = medium.1
+					}
 				}
-				set_country_flag = low.1 
-				else = { 
+				set_country_flag = low.1
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.2 
-								has_country_flag = medium.2 
-							} 
+							NOT = {
+								has_country_flag = high.2
+								has_country_flag = medium.2
+							}
 						}
-						set_country_flag = low.2 
+						set_country_flag = low.2
 						else = { set_country_flag = low.3 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.2 
-						has_country_flag = medium.2 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.2
+						has_country_flag = medium.2
+					}
 				}
-				set_country_flag = low.2 
-				else = { 
+				set_country_flag = low.2
+				else = {
 					if = {
 						limit = {
-							NOT = { 
+							NOT = {
 								has_country_flag = high.3
-								has_country_flag = medium.3 
-							} 
+								has_country_flag = medium.3
+							}
 						}
-						set_country_flag = low.3 
+						set_country_flag = low.3
 						else = { set_country_flag = low.4 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.3 
-						has_country_flag = medium.3 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.3
+						has_country_flag = medium.3
+					}
 				}
-				set_country_flag = low.3 
-				else = { 
+				set_country_flag = low.3
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.4 
-								has_country_flag = medium.4 
-							} 
+							NOT = {
+								has_country_flag = high.4
+								has_country_flag = medium.4
+							}
 						}
-						set_country_flag = low.4 
+						set_country_flag = low.4
 						else = { set_country_flag = low.5 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.4 
-						has_country_flag = medium.4 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.4
+						has_country_flag = medium.4
+					}
 				}
-				set_country_flag = low.4 
-				else = { 
+				set_country_flag = low.4
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.5 
-								has_country_flag = medium.5 
-							} 
+							NOT = {
+								has_country_flag = high.5
+								has_country_flag = medium.5
+							}
 						}
-						set_country_flag = low.5 
+						set_country_flag = low.5
 						else = { set_country_flag = low.6 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.5 
-						has_country_flag = medium.5 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.5
+						has_country_flag = medium.5
+					}
 				}
 				set_country_flag = low.5
-				else = { 
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.6 
-								has_country_flag = medium.6 
-							} 
+							NOT = {
+								has_country_flag = high.6
+								has_country_flag = medium.6
+							}
 						}
-						set_country_flag = low.6 
+						set_country_flag = low.6
 						else = { set_country_flag = low.7 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.6 
-						has_country_flag = medium.6 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.6
+						has_country_flag = medium.6
+					}
 				}
-				set_country_flag = low.6 
-				else = { 
+				set_country_flag = low.6
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.7 
-								has_country_flag = medium.7 
-							} 
+							NOT = {
+								has_country_flag = high.7
+								has_country_flag = medium.7
+							}
 						}
-						set_country_flag = low.7 
+						set_country_flag = low.7
 						else = { set_country_flag = low.8 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.7 
-						has_country_flag = medium.7 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.7
+						has_country_flag = medium.7
+					}
 				}
-				set_country_flag = low.7 
-				else = { 
+				set_country_flag = low.7
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.8 
-								has_country_flag = medium.8 
-							} 
+							NOT = {
+								has_country_flag = high.8
+								has_country_flag = medium.8
+							}
 						}
-						set_country_flag = low.8 
+						set_country_flag = low.8
 						else = { set_country_flag = low.9 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.8 
-						has_country_flag = medium.8 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.8
+						has_country_flag = medium.8
+					}
 				}
-				set_country_flag = low.8 
-				else = { 
+				set_country_flag = low.8
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.9 
-								has_country_flag = medium.9 
-							} 
+							NOT = {
+								has_country_flag = high.9
+								has_country_flag = medium.9
+							}
 						}
-						set_country_flag = low.9 
+						set_country_flag = low.9
 						else = { set_country_flag = low.10 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.9 
+				limit = {
+					NOT = {
+						has_country_flag = high.9
 						has_country_flag = medium.9
-					} 
+					}
 				}
-				set_country_flag = low.9 
-				else = { 
+				set_country_flag = low.9
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.10 
-								has_country_flag = medium.10 
-							} 
+							NOT = {
+								has_country_flag = high.10
+								has_country_flag = medium.10
+							}
 						}
-						set_country_flag = low.10 
+						set_country_flag = low.10
 						else = { set_country_flag = low.11 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
+				limit = {
+					NOT = {
 						has_country_flag = high.10
 						has_country_flag = medium.10
-					} 
+					}
 				}
-				set_country_flag = low.10 
-				else = { 
+				set_country_flag = low.10
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.11 
-								has_country_flag = medium.11 
-							} 
+							NOT = {
+								has_country_flag = high.11
+								has_country_flag = medium.11
+							}
 						}
-						set_country_flag = low.11 
+						set_country_flag = low.11
 						else = { set_country_flag = low.12 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.11 
-						has_country_flag = medium.11 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.11
+						has_country_flag = medium.11
+					}
 				}
-				set_country_flag = low.11 
-				else = { 
+				set_country_flag = low.11
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.12 
-								has_country_flag = medium.12 
-							} 
+							NOT = {
+								has_country_flag = high.12
+								has_country_flag = medium.12
+							}
 						}
-						set_country_flag = low.12 
+						set_country_flag = low.12
 						else = { set_country_flag = low.13 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.12 
-						has_country_flag = medium.12 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.12
+						has_country_flag = medium.12
+					}
 				}
-				set_country_flag = low.12 
-				else = { 
+				set_country_flag = low.12
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.13 
-								has_country_flag = medium.13 
-							} 
+							NOT = {
+								has_country_flag = high.13
+								has_country_flag = medium.13
+							}
 						}
-						set_country_flag = low.13 
+						set_country_flag = low.13
 						else = { set_country_flag = low.14 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.13 
-						has_country_flag = medium.13 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.13
+						has_country_flag = medium.13
+					}
 				}
-				set_country_flag = low.13 
-				else = { 
+				set_country_flag = low.13
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.14 
-								has_country_flag = medium.14 
-							} 
+							NOT = {
+								has_country_flag = high.14
+								has_country_flag = medium.14
+							}
 						}
-						set_country_flag = low.14 
+						set_country_flag = low.14
 						else = { set_country_flag = low.15 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.14 
-						has_country_flag = medium.14 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.14
+						has_country_flag = medium.14
+					}
 				}
-				set_country_flag = low.14 
-				else = { 
+				set_country_flag = low.14
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.15 
-								has_country_flag = medium.15 
-							} 
+							NOT = {
+								has_country_flag = high.15
+								has_country_flag = medium.15
+							}
 						}
-						set_country_flag = low.15 
+						set_country_flag = low.15
 						else = { set_country_flag = low.16 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.15 
-						has_country_flag = medium.15 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.15
+						has_country_flag = medium.15
+					}
 				}
-				set_country_flag = low.15 
-				else = { 
+				set_country_flag = low.15
+				else = {
 					if = {
 						limit = {
-							NOT = { 
+							NOT = {
 								has_country_flag = high.16
 								has_country_flag = medium.16
-							} 
+							}
 						}
-						set_country_flag = low.16 
+						set_country_flag = low.16
 						else = { set_country_flag = low.1 }
 					}
 				}
 			}
 		}
-		25 = { 
+		25 = {
 			if = {
-				limit = { 
-					NOT = { 
-						has_country_flag = high.16 
-						has_country_flag = medium.16 
-					} 
+				limit = {
+					NOT = {
+						has_country_flag = high.16
+						has_country_flag = medium.16
+					}
 				}
-				set_country_flag = low.16 
-				else = { 
+				set_country_flag = low.16
+				else = {
 					if = {
 						limit = {
-							NOT = { 
-								has_country_flag = high.1 
-								has_country_flag = medium.1 
+							NOT = {
+								has_country_flag = high.1
+								has_country_flag = medium.1
 							}
 							count_owned_ships = {
 								limit = { is_ship_size = psionic_avatar }
@@ -5707,7 +5707,7 @@ randomize_shroud_flags = {
 								count < 1
 							}
 						}
-						set_country_flag = low.1 
+						set_country_flag = low.1
 						else = { set_country_flag = low.2 }
 					}
 				}
@@ -5716,7 +5716,7 @@ randomize_shroud_flags = {
 	}
 }
 
-happiness_shroud_high = { 
+happiness_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3030 }}
@@ -5743,7 +5743,7 @@ happiness_shroud_low = {
 		}
 	}
 }
-upkeep_shroud_high = { 
+upkeep_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3031 }}
@@ -5752,7 +5752,7 @@ upkeep_shroud_high = {
 		}
 	}
 }
-upkeep_shroud_medium = { 
+upkeep_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3031 }}
@@ -5761,7 +5761,7 @@ upkeep_shroud_medium = {
 		}
 	}
 }
-upkeep_shroud_low = { 
+upkeep_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3031 }}
@@ -5770,7 +5770,7 @@ upkeep_shroud_low = {
 		}
 	}
 }
-research_shroud_high = { 
+research_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3032 }}
@@ -5779,7 +5779,7 @@ research_shroud_high = {
 		}
 	}
 }
-research_shroud_medium = { 
+research_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3032 }}
@@ -5788,7 +5788,7 @@ research_shroud_medium = {
 		}
 	}
 }
-research_shroud_low = { 
+research_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3032 }}
@@ -5797,7 +5797,7 @@ research_shroud_low = {
 		}
 	}
 }
-shields_shroud_high = { 
+shields_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3033 }}
@@ -5806,7 +5806,7 @@ shields_shroud_high = {
 		}
 	}
 }
-shields_shroud_medium = { 
+shields_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3033 }}
@@ -5815,7 +5815,7 @@ shields_shroud_medium = {
 		}
 	}
 }
-shields_shroud_low = { 
+shields_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3033 }}
@@ -5824,7 +5824,7 @@ shields_shroud_low = {
 		}
 	}
 }
-weapons_shroud_high = { 
+weapons_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3034 }}
@@ -5833,7 +5833,7 @@ weapons_shroud_high = {
 		}
 	}
 }
-weapons_shroud_medium = { 
+weapons_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3034 }}
@@ -5842,7 +5842,7 @@ weapons_shroud_medium = {
 		}
 	}
 }
-weapons_shroud_low = { 
+weapons_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3034 }}
@@ -5851,7 +5851,7 @@ weapons_shroud_low = {
 		}
 	}
 }
-firingrate_shroud_high = { 
+firingrate_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3035 }}
@@ -5860,7 +5860,7 @@ firingrate_shroud_high = {
 		}
 	}
 }
-firingrate_shroud_medium = { 
+firingrate_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3035 }}
@@ -5869,7 +5869,7 @@ firingrate_shroud_medium = {
 		}
 	}
 }
-firingrate_shroud_low = { 
+firingrate_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3035 }}
@@ -5878,7 +5878,7 @@ firingrate_shroud_low = {
 		}
 	}
 }
-ethics_shroud_high = { 
+ethics_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3036 }}
@@ -5887,7 +5887,7 @@ ethics_shroud_high = {
 		}
 	}
 }
-ethics_shroud_medium = { 
+ethics_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3036 }}
@@ -5896,7 +5896,7 @@ ethics_shroud_medium = {
 		}
 	}
 }
-ethics_shroud_low = { 
+ethics_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3036 }}
@@ -5905,7 +5905,7 @@ ethics_shroud_low = {
 		}
 	}
 }
-influence_shroud_high = { 
+influence_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3037 }}
@@ -5914,7 +5914,7 @@ influence_shroud_high = {
 		}
 	}
 }
-influence_shroud_medium = { 
+influence_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3037 }}
@@ -5923,7 +5923,7 @@ influence_shroud_medium = {
 		}
 	}
 }
-influence_shroud_low = { 
+influence_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3037 }}
@@ -5932,7 +5932,7 @@ influence_shroud_low = {
 		}
 	}
 }
-unity_shroud_high = { 
+unity_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3038 }}
@@ -5941,7 +5941,7 @@ unity_shroud_high = {
 		}
 	}
 }
-unity_shroud_medium = { 
+unity_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3038 }}
@@ -5950,7 +5950,7 @@ unity_shroud_medium = {
 		}
 	}
 }
-unity_shroud_low = { 
+unity_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3038 }}
@@ -5959,7 +5959,7 @@ unity_shroud_low = {
 		}
 	}
 }
-evasion_shroud_high = { 
+evasion_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3039 }}
@@ -5968,7 +5968,7 @@ evasion_shroud_high = {
 		}
 	}
 }
-evasion_shroud_medium = { 
+evasion_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3039 }}
@@ -5977,7 +5977,7 @@ evasion_shroud_medium = {
 		}
 	}
 }
-evasion_shroud_low = { 
+evasion_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3039 }}
@@ -5986,7 +5986,7 @@ evasion_shroud_low = {
 		}
 	}
 }
-repair_shroud_high = { 
+repair_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3040 }}
@@ -5995,7 +5995,7 @@ repair_shroud_high = {
 		}
 	}
 }
-repair_shroud_medium = { 
+repair_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3040 }}
@@ -6003,8 +6003,8 @@ repair_shroud_medium = {
 			20 = { country_event = { id = utopia.3051 }}
 		}
 	}
-}	
-repair_shroud_low = { 
+}
+repair_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3040 }}
@@ -6013,7 +6013,7 @@ repair_shroud_low = {
 		}
 	}
 }
-lifespan_shroud_high = { 
+lifespan_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3041 }}
@@ -6022,7 +6022,7 @@ lifespan_shroud_high = {
 		}
 	}
 }
-lifespan_shroud_medium = { 
+lifespan_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3041 }}
@@ -6030,8 +6030,8 @@ lifespan_shroud_medium = {
 			20 = { country_event = { id = utopia.3054 }}
 		}
 	}
-}	
-lifespan_shroud_low = { 
+}
+lifespan_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3041 }}
@@ -6040,7 +6040,7 @@ lifespan_shroud_low = {
 		}
 	}
 }
-speed_shroud_high = { 
+speed_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3042 }}
@@ -6049,7 +6049,7 @@ speed_shroud_high = {
 		}
 	}
 }
-speed_shroud_medium = { 
+speed_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3042 }}
@@ -6058,7 +6058,7 @@ speed_shroud_medium = {
 		}
 	}
 }
-speed_shroud_low = { 
+speed_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3042 }}
@@ -6067,7 +6067,7 @@ speed_shroud_low = {
 		}
 	}
 }
-morale_shroud_high = { 
+morale_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3043 }}
@@ -6076,7 +6076,7 @@ morale_shroud_high = {
 		}
 	}
 }
-morale_shroud_medium = { 
+morale_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3043 }}
@@ -6085,7 +6085,7 @@ morale_shroud_medium = {
 		}
 	}
 }
-morale_shroud_low = { 
+morale_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3043 }}
@@ -6094,7 +6094,7 @@ morale_shroud_low = {
 		}
 	}
 }
-sensor_shroud_high = { 
+sensor_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			70 = { country_event = { id = utopia.3044 }}
@@ -6103,7 +6103,7 @@ sensor_shroud_high = {
 		}
 	}
 }
-sensor_shroud_medium = { 
+sensor_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			50 = { country_event = { id = utopia.3044 }}
@@ -6112,7 +6112,7 @@ sensor_shroud_medium = {
 		}
 	}
 }
-sensor_shroud_low = { 
+sensor_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			30 = { country_event = { id = utopia.3044 }}
@@ -6121,7 +6121,7 @@ sensor_shroud_low = {
 		}
 	}
 }
-avatar_shroud_high = { 
+avatar_shroud_high = {
 	hidden_effect = {
 		random_list = {
 			38 = { country_event = { id = utopia.3020 }}
@@ -6131,7 +6131,7 @@ avatar_shroud_high = {
 		}
 	}
 }
-avatar_shroud_medium = { 
+avatar_shroud_medium = {
 	hidden_effect = {
 		random_list = {
 			25 = { country_event = { id = utopia.3020 }}
@@ -6141,7 +6141,7 @@ avatar_shroud_medium = {
 		}
 	}
 }
-avatar_shroud_low = { 
+avatar_shroud_low = {
 	hidden_effect = {
 		random_list = {
 			15 = { country_event = { id = utopia.3020 }}
@@ -6393,7 +6393,7 @@ create_ai_planet_defense = {
 		effect = {
 			set_owner = event_target:AI_crisis
 			while = {
-				count = 20 
+				count = 20
 				create_army_transport = {
 					graphical_culture = "ai_01"
 					army_type = "android_army"
@@ -6458,7 +6458,7 @@ create_ai_armies = {
 		effect = {
 			set_owner = event_target:AI_crisis
 			while = {
-				count = 20 
+				count = 20
 				create_army_transport = {
 					graphical_culture = "ai_01"
 					army_type = "android_army"
@@ -6475,7 +6475,7 @@ create_ai_armies = {
 		effect = {
 			set_owner = event_target:AI_crisis
 			while = {
-				count = 20 
+				count = 20
 				create_army_transport = {
 					graphical_culture = "ai_01"
 					army_type = "android_army"
@@ -6563,7 +6563,7 @@ awaken_fallen_machine_empire = {
 			is_country_type = fallen_empire
 			has_authority = auth_machine_intelligence
 		}
-		
+
 		country_event = { id = fallen_machine_empire.1 days = 30 random = 30 }
 	}
 }
@@ -6613,8 +6613,8 @@ create_fallen_empire_large_station = {
 			name = random
 			design = "NAME_Omega"
 			graphical_culture = owner
-		}						
-	}					
+		}
+	}
 	if = {
 		limit = {
 			owner = { has_ethic = ethic_fanatic_materialist }
@@ -6623,7 +6623,7 @@ create_fallen_empire_large_station = {
 			name = random
 			design = "NAME_Obscurer"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6633,7 +6633,7 @@ create_fallen_empire_large_station = {
 			name = random
 			design = "NAME_Bulwark"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6643,7 +6643,7 @@ create_fallen_empire_large_station = {
 			name = random
 			design = "NAME_Reaper"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6653,7 +6653,7 @@ create_fallen_empire_large_station = {
 			name = random
 			design = "NAME_Sentinel"
 			graphical_culture = owner
-		}						
+		}
 	}
 }
 
@@ -6666,8 +6666,8 @@ create_fallen_empire_small_station = {
 			name = random
 			design = "NAME_Sigma"
 			graphical_culture = owner
-		}						
-	}					
+		}
+	}
 	if = {
 		limit = {
 			owner = { has_ethic = ethic_fanatic_materialist }
@@ -6676,7 +6676,7 @@ create_fallen_empire_small_station = {
 			name = random
 			design = "NAME_Cloaker"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6686,7 +6686,7 @@ create_fallen_empire_small_station = {
 			name = random
 			design = "NAME_Faith"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6696,7 +6696,7 @@ create_fallen_empire_small_station = {
 			name = random
 			design = "NAME_Devastator"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6706,7 +6706,7 @@ create_fallen_empire_small_station = {
 			name = random
 			design = "NAME_Watcher"
 			graphical_culture = owner
-		}						
+		}
 	}
 }
 
@@ -6719,8 +6719,8 @@ create_fallen_empire_titan = {
 			name = random
 			design = "NAME_Alpha"
 			graphical_culture = owner
-		}						
-	}					
+		}
+	}
 	if = {
 		limit = {
 			owner = { has_ethic = ethic_fanatic_materialist }
@@ -6729,7 +6729,7 @@ create_fallen_empire_titan = {
 			name = random
 			design = "NAME_Savant"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6739,7 +6739,7 @@ create_fallen_empire_titan = {
 			name = random
 			design = "NAME_Eternal"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6749,7 +6749,7 @@ create_fallen_empire_titan = {
 			name = random
 			design = "NAME_Imperium"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6759,7 +6759,7 @@ create_fallen_empire_titan = {
 			name = random
 			design = "NAME_Keeper"
 			graphical_culture = owner
-		}						
+		}
 	}
 }
 
@@ -6772,8 +6772,8 @@ create_fallen_empire_large_ship = {
 			name = random
 			design = "NAME_Beta"
 			graphical_culture = owner
-		}						
-	}					
+		}
+	}
 	if = {
 		limit = {
 			owner = { has_ethic = ethic_fanatic_materialist }
@@ -6782,7 +6782,7 @@ create_fallen_empire_large_ship = {
 			name = random
 			design = "NAME_Scholar"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6792,7 +6792,7 @@ create_fallen_empire_large_ship = {
 			name = random
 			design = "NAME_Avatar"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6802,7 +6802,7 @@ create_fallen_empire_large_ship = {
 			name = random
 			design = "NAME_Supremacy"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6812,7 +6812,7 @@ create_fallen_empire_large_ship = {
 			name = random
 			design = "NAME_Custodian"
 			graphical_culture = owner
-		}						
+		}
 	}
 }
 
@@ -6825,8 +6825,8 @@ create_fallen_empire_small_ship = {
 			name = random
 			design = "NAME_Gamma"
 			graphical_culture = owner
-		}						
-	}					
+		}
+	}
 	if = {
 		limit = {
 			owner = { has_ethic = ethic_fanatic_materialist }
@@ -6835,7 +6835,7 @@ create_fallen_empire_small_ship = {
 			name = random
 			design = "NAME_Sage"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6845,7 +6845,7 @@ create_fallen_empire_small_ship = {
 			name = random
 			design = "NAME_Zealot"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6855,7 +6855,7 @@ create_fallen_empire_small_ship = {
 			name = random
 			design = "NAME_Glory"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6865,7 +6865,7 @@ create_fallen_empire_small_ship = {
 			name = random
 			design = "NAME_Warden"
 			graphical_culture = owner
-		}						
+		}
 	}
 }
 
@@ -6878,8 +6878,8 @@ create_fallen_empire_construction_ship = {
 			name = random
 			design = "NAME_Theta"
 			graphical_culture = owner
-		}						
-	}					
+		}
+	}
 	if = {
 		limit = {
 			owner = { has_ethic = ethic_fanatic_materialist }
@@ -6888,7 +6888,7 @@ create_fallen_empire_construction_ship = {
 			name = random
 			design = "NAME_Librarian"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6898,7 +6898,7 @@ create_fallen_empire_construction_ship = {
 			name = random
 			design = "NAME_Penitent"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6908,7 +6908,7 @@ create_fallen_empire_construction_ship = {
 			name = random
 			design = "NAME_Servitor"
 			graphical_culture = owner
-		}						
+		}
 	}
 	if = {
 		limit = {
@@ -6918,7 +6918,7 @@ create_fallen_empire_construction_ship = {
 			name = random
 			design = "NAME_Builder"
 			graphical_culture = owner
-		}						
+		}
 	}
 }
 
@@ -6940,33 +6940,33 @@ create_fallen_empire_reinforcements = {
 					set_location = {
 						target = prev
 						distance = 30
-						angle = random 
-					}				
+						angle = random
+					}
 				}
 				25 = {
 					set_location = {
 						target = prev
 						distance = 45
-						angle = random 
-					}				
+						angle = random
+					}
 				}
 				25 = {
 					set_location = {
 						target = prev
 						distance = 60
-						angle = random 
-					}				
+						angle = random
+					}
 				}
 				25 = {
 					set_location = {
 						target = prev
 						distance = 75
-						angle = random 
-					}				
-				}				
+						angle = random
+					}
+				}
 			}
 		}
-	}					
+	}
 }
 
 
@@ -6987,40 +6987,40 @@ create_fallen_empire_fleet = {
 					set_location = {
 						target = prev
 						distance = 30
-						angle = random 
-					}				
+						angle = random
+					}
 				}
 				25 = {
 					set_location = {
 						target = prev
 						distance = 45
-						angle = random 
-					}				
+						angle = random
+					}
 				}
 				25 = {
 					set_location = {
 						target = prev
 						distance = 60
-						angle = random 
-					}				
+						angle = random
+					}
 				}
 				25 = {
 					set_location = {
 						target = prev
 						distance = 75
-						angle = random 
-					}				
-				}				
+						angle = random
+					}
+				}
 			}
 		}
-	}					
+	}
 }
 
 create_fallen_empire_starting_navy = {
 	create_fallen_empire_fleet = yes
 	create_fallen_empire_fleet = yes
 	random = {
-		chance = 33			
+		chance = 33
 		create_fallen_empire_fleet = yes
 	}
 	random = {
@@ -7032,8 +7032,8 @@ create_fallen_empire_starting_navy = {
 				set_location = {
 					target = prev
 					distance = 20
-					angle = random 
-				}					
+					angle = random
+				}
 			}
 		}
 	}
@@ -7044,8 +7044,8 @@ create_fallen_empire_starting_navy = {
 			set_location = {
 				target = prev
 				distance = 60
-				angle = random 
-			}				
+				angle = random
+			}
 		}
 	}
 	create_fleet = {
@@ -7055,10 +7055,10 @@ create_fallen_empire_starting_navy = {
 			set_location = {
 				target = prev
 				distance = 80
-				angle = random 
-			}				
+				angle = random
+			}
 		}
-	}				
+	}
 	create_fleet = {
 		effect = {
 			set_owner = prev.owner
@@ -7066,8 +7066,8 @@ create_fallen_empire_starting_navy = {
 			set_location = {
 				target = prev
 				distance = 100
-				angle = random 
-			}				
+				angle = random
+			}
 		}
 	}
 }
@@ -7189,18 +7189,18 @@ refugee_pop_effect = {
 		random_relation = {
 			limit = {
 				is_country_type = default
-				NOT = { has_policy_flag = refugees_not_allowed } 
+				NOT = { has_policy_flag = refugees_not_allowed }
 				root = {
-					OR = { 
+					OR = {
 						has_citizenship_type = { type = citizenship_full country = prev }
 						has_citizenship_type = { type = citizenship_caste_system country = prev }
 						AND = {
 							has_citizenship_type = { type = citizenship_limited country = prev }
 							has_citizenship_type = { type = citizenship_caste_system_limited country = prev }
 							prev = { has_policy_flag = refugees_allowed }
-						}	
-					}		
-				}	
+						}
+					}
+				}
 				any_owned_planet = {
 					habitability = { who = root value > 0.2 }
 					is_under_colonization = no
@@ -7209,7 +7209,7 @@ refugee_pop_effect = {
 					any_tile = {
 						has_blocker = no
 						has_pop = no
-					}									
+					}
 				}
 			}
 			random_owned_planet = {
@@ -7221,7 +7221,7 @@ refugee_pop_effect = {
 					any_tile = {
 						has_blocker = no
 						has_pop = no
-					}					
+					}
 				}
 				resettle_pop = {
 					pop = root
@@ -7239,14 +7239,14 @@ refugee_pop_effect = {
 									}
 								}
 							}
-						}				
-					}		
+						}
+					}
 					root = { pop_event = { id = refugees.1 } }
-				}	
+				}
 				add_organic_sanctuaries = yes
 			}
-		}		
-	}		
+		}
+	}
 }
 
 clear_organic_sanctuaries = {
@@ -7257,8 +7257,8 @@ clear_organic_sanctuaries = {
 		every_tile = {
 			limit = {
 				OR = {
-					has_building = "building_organic_sanctuary" 
-					has_building = "building_organic_paradise" 				
+					has_building = "building_organic_sanctuary"
+					has_building = "building_organic_paradise"
 				}
 				OR = {
 					has_pop = no
@@ -7266,10 +7266,10 @@ clear_organic_sanctuaries = {
 						NAND = {
 							is_robot_pop = no
 							is_sapient = yes
-							is_growing = no				
+							is_growing = no
 						}
-					}					
-				}				
+					}
+				}
 			}
 			remove_building = yes
 		}
@@ -7282,17 +7282,17 @@ add_organic_sanctuaries = {
 			owner = { has_valid_civic = civic_machine_servitor }
 		}
 		every_tile = {
-			limit = {	
+			limit = {
 				NOR = {
-					has_building = "building_organic_sanctuary" 
-					has_building = "building_organic_paradise" 				
+					has_building = "building_organic_sanctuary"
+					has_building = "building_organic_paradise"
 				}
 				has_pop = yes
 				pop = {
 					is_robot_pop = no
 					is_sapient = yes
-					is_growing = no				
-				}									
+					is_growing = no
+				}
 			}
 			if = {
 				limit = {
@@ -7310,17 +7310,17 @@ add_organic_sanctuaries = {
 upgrade_organic_sanctuaries = {
 	if = {
 		limit = {
-			owner = { 
-				has_valid_civic = civic_machine_servitor 
+			owner = {
+				has_valid_civic = civic_machine_servitor
 				has_swapped_tradition = tr_synchronicity_organic_paradise
 			}
 		}
 		every_tile = {
-			limit = {	
-				has_building = "building_organic_sanctuary" 									
+			limit = {
+				has_building = "building_organic_sanctuary"
 			}
 			set_building = "building_organic_paradise"
-		}	
+		}
 	}
 }
 
@@ -7328,83 +7328,83 @@ generate_start_buildings_and_blockers = {
 	random_tile = {
 		limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
 		set_building = "building_capital_1"
-		set_deposit = d_energy_deposit				
+		set_deposit = d_energy_deposit
 		random_neighboring_tile = {
 			limit = { has_blocker = no has_building = no }
 			set_building = "building_hydroponics_farm_1"
-			set_deposit = d_rich_farmland_deposit						
+			set_deposit = d_rich_farmland_deposit
 		}
 		random_neighboring_tile = {
 			limit = { has_blocker = no has_building = no }
 			set_building = "building_hydroponics_farm_1"
-			set_deposit = d_rich_farmland_deposit						
+			set_deposit = d_rich_farmland_deposit
 		}
 		random_neighboring_tile = {
 			limit = { has_blocker = no has_building = no }
 			set_building = "building_power_plant_1"
-			set_deposit = d_rich_energy_deposit					
+			set_deposit = d_rich_energy_deposit
 		}
 		random_neighboring_tile = {
 			limit = { has_blocker = no has_building = no }
 			set_building = "building_mining_network_1"
 			set_deposit = d_rich_mineral_deposit
-		}				
+		}
 	}
 	random_tile = {
 		limit = { has_blocker = no has_building = no }
 		set_building = "building_basic_science_lab_1"
 		random_list = {
-			33 = { 
-				set_deposit = d_engineering_deposit										
+			33 = {
+				set_deposit = d_engineering_deposit
 			}
-			33 = { 
-				set_deposit = d_society_deposit											
+			33 = {
+				set_deposit = d_society_deposit
 			}
-			33 = { 
-				set_deposit = d_physics_deposit											
-			}					
-		}					
+			33 = {
+				set_deposit = d_physics_deposit
+			}
+		}
 	}
 	random_tile = {
 		limit = { has_blocker = no has_building = no }
 		set_building = "building_mining_network_1"
-		set_deposit = d_mineral_deposit					
-	}				
-	random_tile = {
-		limit = { has_blocker = no has_building = no }
-		set_blocker = "tb_failing_infrastructure"
-		set_deposit = d_engineering_deposit			
+		set_deposit = d_mineral_deposit
 	}
 	random_tile = {
 		limit = { has_blocker = no has_building = no }
 		set_blocker = "tb_failing_infrastructure"
-		set_deposit = d_society_deposit			
+		set_deposit = d_engineering_deposit
 	}
 	random_tile = {
 		limit = { has_blocker = no has_building = no }
 		set_blocker = "tb_failing_infrastructure"
-		set_deposit = d_physics_deposit			
+		set_deposit = d_society_deposit
+	}
+	random_tile = {
+		limit = { has_blocker = no has_building = no }
+		set_blocker = "tb_failing_infrastructure"
+		set_deposit = d_physics_deposit
 	}
 	random_tile = {
 		limit = { has_blocker = no has_building = no }
 		set_blocker = "tb_decrepit_dwellings"
-		set_deposit = d_rich_energy_deposit				
+		set_deposit = d_rich_energy_deposit
 	}
 	random_tile = {
 		limit = { has_blocker = no has_building = no }
 		set_blocker = "tb_decrepit_dwellings"
-		set_deposit = d_rich_farmland_deposit				
+		set_deposit = d_rich_farmland_deposit
 	}
 	random_tile = {
 		limit = { has_blocker = no has_building = no }
 		set_blocker = "tb_decrepit_dwellings"
-		set_deposit = d_rich_mineral_deposit			
+		set_deposit = d_rich_mineral_deposit
 	}
 	random_tile = {
 		limit = { has_blocker = no has_building = no }
 		set_building = "building_power_plant_1"
-		set_deposit = d_rich_energy_deposit			
-	}	
+		set_deposit = d_rich_energy_deposit
+	}
 }
 
 calculate_servitor_morale = {
@@ -7551,7 +7551,7 @@ calculate_servitor_morale = {
 												modifier = servitor_morale_0
 												days = -1
 											}
-										}												
+										}
 									}
 								}
 							}
@@ -7564,44 +7564,44 @@ calculate_servitor_morale = {
 }
 
 remove_culture_shock = {
-	if = { 
-		limit = { has_modifier = culture_shock_stone_age } 
+	if = {
+		limit = { has_modifier = culture_shock_stone_age }
 		remove_modifier = culture_shock_stone_age
 	}
-	if = { 
-		limit = { has_modifier = culture_shock_bronze_age } 
+	if = {
+		limit = { has_modifier = culture_shock_bronze_age }
 		remove_modifier = culture_shock_bronze_age
 	}
-	if = { 
-		limit = { has_modifier = culture_shock_iron_age } 
+	if = {
+		limit = { has_modifier = culture_shock_iron_age }
 		remove_modifier = culture_shock_iron_age
 	}
-	if = { 
-		limit = { has_modifier = culture_shock_late_medieval_age } 
+	if = {
+		limit = { has_modifier = culture_shock_late_medieval_age }
 		remove_modifier = culture_shock_late_medieval_age
 	}
-	if = { 
-		limit = { has_modifier = culture_shock_renaissance_age } 
+	if = {
+		limit = { has_modifier = culture_shock_renaissance_age }
 		remove_modifier = culture_shock_renaissance_age
 	}
-	if = { 
-		limit = { has_modifier = culture_shock_steam_age } 
+	if = {
+		limit = { has_modifier = culture_shock_steam_age }
 		remove_modifier = culture_shock_steam_age
 	}
-	if = { 
-		limit = { has_modifier = culture_shock_industrial_age } 
+	if = {
+		limit = { has_modifier = culture_shock_industrial_age }
 		remove_modifier = culture_shock_industrial_age
 	}
-	if = { 
-		limit = { has_modifier = culture_shock_machine_age } 
+	if = {
+		limit = { has_modifier = culture_shock_machine_age }
 		remove_modifier = culture_shock_machine_age
 	}
-	if = { 
-		limit = { has_modifier = culture_shock_atomic_age } 
+	if = {
+		limit = { has_modifier = culture_shock_atomic_age }
 		remove_modifier = culture_shock_atomic_age
 	}
-	if = { 
-		limit = { has_modifier = culture_shock_early_space_age } 
+	if = {
+		limit = { has_modifier = culture_shock_early_space_age }
 		remove_modifier = culture_shock_early_space_age
 	}
 }
@@ -7747,7 +7747,7 @@ fire_warning_sign = {
 					factor = 0
 					OR = {
 						has_country_flag = triggered_syndaw_520
-						NOT = { 
+						NOT = {
 							any_owned_planet = {
 								any_tile = {
 									OR = {
@@ -7765,7 +7765,7 @@ fire_warning_sign = {
 										has_building = building_biolab_3
 										has_building = building_biolab_4
 									}
-								}								
+								}
 							}
 						}
 					}

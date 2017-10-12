@@ -27,19 +27,19 @@ ai_system_01 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 1 max = 4 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -51,7 +51,7 @@ ai_system_01 = {
 
 	planet = {
 		class = pc_barren
-		size = 20
+		size = 25
 		flags = { machine_world_1 }
 	}
 
@@ -59,9 +59,9 @@ ai_system_01 = {
 		count = { min = 1 max = 4 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -93,15 +93,15 @@ ai_system_02 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
 
 	planet = {
 		class = pc_molten
-		size = 20
+		size = 25
 		flags = { machine_world_2 }
 	}
 
@@ -109,9 +109,9 @@ ai_system_02 = {
 		count = { min = 1 max = 7 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -143,19 +143,19 @@ ai_system_03 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 1 max = 4 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -167,7 +167,7 @@ ai_system_03 = {
 
 	planet = {
 		class = pc_gas_giant
-		size = 35
+		size = 36
 		flags = { machine_world_3 }
 	}
 
@@ -175,9 +175,9 @@ ai_system_03 = {
 		count = { min = 1 max = 4 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -209,19 +209,19 @@ ai_system_04 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = 5
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -233,7 +233,7 @@ ai_system_04 = {
 
 	planet = {
 		class = pc_toxic
-		size = 20
+		size = 25
 		flags = { machine_world_4 }
 	}
 
@@ -241,9 +241,9 @@ ai_system_04 = {
 		count = { min = 1 max = 4 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -264,16 +264,16 @@ ai_system_05 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 75
 
 	planet = {
 		class = pc_ai
 		name = "NAME_Contingency_Lair"
-		size = 35
+		size = 36
 		flags = { machine_lair }
 
 		init_effect = {
@@ -293,21 +293,21 @@ ai_system_05 = {
 		class = pc_barren
 		orbit_distance = 35
 		orbit_angle = { min = 90 max = 270 }
-		size = 12
+		size = 16
 	}
 
 	planet = {
 		class = pc_barren_cold
 		orbit_distance = 30
 		orbit_angle = { min = 90 max = 270 }
-		size = 8
+		size = 9
 	}
 
 	planet = {
 		class = pc_barren_cold
 		orbit_distance = 45
 		orbit_angle = { min = 90 max = 270 }
-		size = 10
+		size = 16
 	}
 }
 
@@ -316,7 +316,7 @@ cybrex_beta = {
 	class = "sc_g"
 
 	flags = { cybrex_beta }
-	
+
 	planet = {
 		class = star
 		orbit_distance = 0
@@ -358,7 +358,7 @@ cybrex_beta = {
 					}
 				}
 			}
-			last_created_country = { 
+			last_created_country = {
 				save_global_event_target_as = cybrex
 				set_country_flag = cybrex_reborn
 				create_ship_design = { design = "NAME_Cybrex_Transport" }
@@ -369,9 +369,9 @@ cybrex_beta = {
 			}
 		}
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		class = "pc_cybrex"
 		name = "NAME_Cybrex_Beta_1"
@@ -379,14 +379,14 @@ cybrex_beta = {
 		orbit_distance = 0
 		tile_blockers = none
 		modifiers = none
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 			set_owner = event_target:cybrex
 			set_capital = yes
 			set_planet_max_health = 20000
 			set_planet_health = 20000
-	
+
 			create_fleet = {
 				name = "NAME_Cybrex_Core"
 				effect = {
@@ -475,7 +475,7 @@ cybrex_beta = {
 			set_owner = event_target:cybrex
 			set_planet_max_health = 20000
 			set_planet_health = 20000
-			
+
 			create_fleet = {
 				name = "NAME_Cybrex_Station_1"
 				effect = {
@@ -561,7 +561,7 @@ cybrex_beta = {
 			set_owner = event_target:cybrex
 			set_planet_max_health = 20000
 			set_planet_health = 20000
-			
+
 			create_fleet = {
 				name = "NAME_Cybrex_Station_1"
 				effect = {
@@ -647,7 +647,7 @@ cybrex_beta = {
 			set_owner = event_target:cybrex
 			set_planet_max_health = 20000
 			set_planet_health = 20000
-			
+
 			create_fleet = {
 				name = "NAME_Cybrex_Station_1"
 				effect = {

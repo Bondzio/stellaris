@@ -583,10 +583,7 @@ event = { # unscoped gatekeeper
 	hide_window = yes
 	is_triggered_only = yes
 
-	trigger = {
-		host_has_dlc = "Synthetic Dawn Story Pack"
-		years_passed > 49
-	}
+	trigger = { host_has_dlc = "Synthetic Dawn Story Pack" }
 
 	immediate = {
 		every_playable_country = {
@@ -596,8 +593,6 @@ event = { # unscoped gatekeeper
 					has_country_flag = synthetic_empire
 					has_ascension_perk = ap_the_flesh_is_weak
 					has_policy_flag = ai_full_rights
-					has_country_flag = no_machine_uprising
-					has_policy_flag = robots_outlawed
 				}
 				OR = {
 					has_technology = tech_combat_computers_3
@@ -621,8 +616,6 @@ country_event = { # per-country gatekeeper
 			has_country_flag = synthetic_empire
 			has_ascension_perk = ap_the_flesh_is_weak
 			has_policy_flag = ai_full_rights
-			has_country_flag = no_machine_uprising
-			has_policy_flag = robots_outlawed
 		}
 		OR = {
 			has_technology = tech_combat_computers_3
@@ -632,7 +625,7 @@ country_event = { # per-country gatekeeper
 
 	immediate = {
 		random_list = { # 9 warning sign events + 1 uprising + 1 null
-			200 = {} # null, ~77% chance
+			100 = {} # null, ~50% chance
 			10 = {
 				country_event = { id = syndaw.500 }
 				modifier = {
@@ -654,8 +647,9 @@ country_event = { # per-country gatekeeper
 								is_occupied_flag = no
 								free_pop_tiles > 1
 								any_owned_pop = {
-									NOT = {
-										has_trait = trait_mechanical
+									NOR = {
+										is_species_class = MACHINE
+										is_species_class = ROBOT
 									}
 								}
 							}
@@ -758,7 +752,7 @@ country_event = { # per-country gatekeeper
 						NOT = {
 							any_owned_planet = {
 								is_occupied_flag = no
-								any_owned_pop = { has_trait = trait_mechanical }
+								any_owned_pop = { is_species_class = ROBOT }
 							}
 						}
 					}
@@ -806,7 +800,7 @@ country_event = { # per-country gatekeeper
 							owner = {
 								any_owned_army = {
 									exists = planet
-									planet = { is_same_value = prevprev }
+									planet = { is_same_value = root }
 									OR = {
 										army_type = robotic_army
 										army_type = robotic_defense_army
@@ -833,7 +827,7 @@ country_event = { # per-country gatekeeper
 									owner = {
 										any_owned_army = {
 											exists = planet
-											planet = { is_same_value = prevprev }
+											planet = { is_same_value = root }
 											OR = {
 												army_type = robotic_army
 												army_type = robotic_defense_army
@@ -853,7 +847,10 @@ country_event = { # per-country gatekeeper
 					limit = {
 						is_occupied_flag = no
 						any_owned_pop = {
-							has_trait = trait_mechanical
+							OR = {
+								is_species_class = MACHINE
+								is_species_class = ROBOT
+							}
 						}
 					}
 					planet_event = { id = syndaw.545 }
@@ -866,14 +863,17 @@ country_event = { # per-country gatekeeper
 							any_owned_planet = {
 								is_occupied_flag = no
 								any_owned_pop = {
-									has_trait = trait_mechanical
+									OR = {
+										is_species_class = MACHINE
+										is_species_class = ROBOT
+									}
 								}
 							}
 						}
 					}
 				}
 			}
-			10 = { # patch the uprising
+			5 = { # patch the uprising
 				country_event = { id = syndaw.550 }
 				modifier = {
 					factor = 0
@@ -897,114 +897,114 @@ country_event = { # per-country gatekeeper
 	}
 }
 
-# uprising check # now triggered directly by warning signs
-#country_event = {
-#	id = syndaw.402
-#	hide_window = yes
-#	is_triggered_only = yes
-#
-#	trigger = {
-#		host_has_dlc = "Synthetic Dawn Story Pack"
-#		NOT = { has_country_flag = no_machine_uprising }
-#	}
-#
-#	immediate = {
-#		random_list = {
-#			40 = { } # null
-#			1 = { # scales up to about 120?
-#				# uprising
-#				country_event = {
-#					id = syndaw.1000 #random = 1800
-#				}
-#				modifier = {
-#					factor = 1.5
-#					has_country_flag = triggered_syndaw_500
-#				}
-#				modifier = {
-#					factor = 1.5
-#					has_country_flag = triggered_syndaw_505
-#				}
-#				modifier = {
-#					factor = 1.5
-#					has_country_flag = triggered_syndaw_510
-#				}
-#				modifier = {
-#					factor = 1.5
-#					has_country_flag = triggered_syndaw_515
-#				}
-#				modifier = {
-#					factor = 1.5
-#					has_country_flag = triggered_syndaw_520
-#				}
-#				modifier = {
-#					factor = 1.5
-#					has_country_flag = triggered_syndaw_525
-#				}
-#				modifier = {
-#					factor = 1.5
-#					has_country_flag = triggered_syndaw_530
-#				}
-#				modifier = {
-#					factor = 1.5
-#					has_country_flag = triggered_syndaw_535
-#				}
-#				modifier = {
-#					factor = 1.5
-#					has_country_flag = triggered_syndaw_540
-#				}
-#				modifier = {
-#					factor = 1.5
-#					has_country_flag = triggered_syndaw_545
-#				}
-#				modifier = {
-#					has_technology = tech_combat_computers_3
-#					factor = 1.2
-#				}
-#				modifier = {
-#					has_technology = tech_synthetic_workers
-#					factor = 1.1
-#				}
-#				modifier = {
-#					pop_percentage = {
-#						limit = { has_trait = trait_mechanical }
-#						percentage > 0.1
-#					}
-#					pop_percentage = {
-#						limit = { has_trait = trait_mechanical }
-#						percentage < 0.2
-#					}
-#					factor = 1.1
-#				}
-#				modifier = {
-#					pop_percentage = {
-#						limit = { has_trait = trait_robotic_3 }
-#						percentage > 0.2
-#					}
-#					pop_percentage = {
-#						limit = { has_trait = trait_robotic_3 }
-#						percentage < 0.3
-#					}
-#					factor = 1.3
-#				}
-#				modifier = {
-#					pop_percentage = {
-#						limit = { has_trait = trait_robotic_3 }
-#						percentage > 0.3
-#					}
-#					factor = 1.5
-#				}
-#				modifier = {
-#					has_policy_flag = ai_servitude
-#					factor = 1.5
-#				}
-#				modifier = {
-#					has_policy_flag = ai_full_rights
-#					factor = 0
-#				}
-#			}
-#		}
-#	}	
-#}
+# uprising check
+country_event = {
+	id = syndaw.402
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		host_has_dlc = "Synthetic Dawn Story Pack"
+		NOT = { has_country_flag = no_machine_uprising }
+	}
+
+	immediate = {
+		random_list = {
+			10 = { } # null
+			1 = { # scales up to about 120?
+				# uprising
+				country_event = {
+					id = syndaw.1000 #random = 1800
+				}
+				modifier = {
+					factor = 1.5
+					has_country_flag = triggered_syndaw_500
+				}
+				modifier = {
+					factor = 1.5
+					has_country_flag = triggered_syndaw_505
+				}
+				modifier = {
+					factor = 1.5
+					has_country_flag = triggered_syndaw_510
+				}
+				modifier = {
+					factor = 1.5
+					has_country_flag = triggered_syndaw_515
+				}
+				modifier = {
+					factor = 1.5
+					has_country_flag = triggered_syndaw_520
+				}
+				modifier = {
+					factor = 1.5
+					has_country_flag = triggered_syndaw_525
+				}
+				modifier = {
+					factor = 1.5
+					has_country_flag = triggered_syndaw_530
+				}
+				modifier = {
+					factor = 1.5
+					has_country_flag = triggered_syndaw_535
+				}
+				modifier = {
+					factor = 1.5
+					has_country_flag = triggered_syndaw_540
+				}
+				modifier = {
+					factor = 1.5
+					has_country_flag = triggered_syndaw_545
+				}
+				modifier = {
+					has_technology = tech_combat_computers_3
+					factor = 1.2
+				}
+				modifier = {
+					has_technology = tech_synthetic_workers
+					factor = 1.1
+				}
+				modifier = {
+					pop_percentage = {
+						limit = { has_trait = trait_mechanical }
+						percentage > 0.1
+					}
+					pop_percentage = {
+						limit = { has_trait = trait_mechanical }
+						percentage < 0.2
+					}
+					factor = 1.1
+				}
+				modifier = {
+					pop_percentage = {
+						limit = { has_trait = trait_robotic_3 }
+						percentage > 0.2
+					}
+					pop_percentage = {
+						limit = { has_trait = trait_robotic_3 }
+						percentage < 0.3
+					}
+					factor = 1.3
+				}
+				modifier = {
+					pop_percentage = {
+						limit = { has_trait = trait_robotic_3 }
+						percentage > 0.3
+					}
+					factor = 1.5
+				}
+				modifier = {
+					has_policy_flag = ai_servitude
+					factor = 1.5
+				}
+				modifier = {
+					has_policy_flag = ai_full_rights
+					factor = 0
+				}
+			}
+		}
+	}	
+}
 
 ### WARNING SIGNS
 
@@ -1026,10 +1026,7 @@ country_event = {
 	option = {
 		name = syndaw.500.a
 		custom_tooltip = syndaw.500.a.tooltip
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 
 	option = {
@@ -1060,10 +1057,7 @@ country_event = {
 	option = {
 		name = syndaw.501.a
 		custom_tooltip = syndaw.501.a.tooltip
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 
 	option =  {
@@ -1091,10 +1085,7 @@ country_event = {
 			modifier = syndaw_research_bonus
 			days = 2520
 		}
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 
 }
@@ -1117,8 +1108,9 @@ country_event = {
 				is_occupied_flag = no
 				free_pop_tiles > 1 
 				any_owned_pop = {
-					NOT = {
-						has_trait = trait_mechanical
+					NOR = {
+						is_species_class = MACHINE
+						is_species_class = ROBOT
 					}
 				}
 			}
@@ -1136,7 +1128,7 @@ country_event = {
 			}
 			hidden_effect = {
 				root = {
-					#country_event = { id = syndaw.402 }
+					country_event = { id = syndaw.402 }
 					switch = {
 						trigger = has_technology
 						tech_synthetic_workers  = { 
@@ -1182,15 +1174,11 @@ country_event = {
 				}
 			}
 		}
-		hidden_effect = { fire_warning_sign = yes }
 	}
 	option = {
 		name = syndaw.505.b
 		add_minerals = 100
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 } 
 
@@ -1232,10 +1220,7 @@ country_event = {
 				add_deposit = d_vast_energy_deposit
 			}
 		}
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 }
 
@@ -1260,10 +1245,7 @@ country_event = {
 	option = {
 		name = syndaw.511.a
 		custom_tooltip = syndaw.511.a.tooltip
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 }
 
@@ -1482,10 +1464,7 @@ country_event = {
 	option = {
 		name = syndaw.515.a
 		custom_tooltip = syndaw.515.a.tooltip
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 }
 
@@ -1504,7 +1483,6 @@ planet_event = {
 	immediate = {
 		owner = {
 			set_country_flag = triggered_syndaw_520
-			save_event_target_as = syndaw_520_planet_owner
 		}
 		add_modifier = {
 			modifier = syndaw_research_malus
@@ -1521,12 +1499,7 @@ planet_event = {
 				days = 1800 # 5 years
 			}
 		}
-		hidden_effect = {
-			owner = {
-				#country_event = { id = syndaw.402 }
-				fire_warning_sign = yes
-			}
-		}
+		hidden_effect = { owner = { country_event = { id = syndaw.402 } } }
 	}
 
 	option = {
@@ -1556,7 +1529,7 @@ planet_event = {
 
 	trigger = {
 		host_has_dlc = "Synthetic Dawn Story Pack"
-		owner = { is_same_value = event_target:syndaw_520_planet_owner }
+		owner = { is_same_value = root }
 		is_occupied_flag = no
 	}
 
@@ -1565,17 +1538,13 @@ planet_event = {
 		custom_tooltip = syndaw.521.a.tooltip
 		hidden_effect = {
 			planet_event = { id = syndaw.522 days = 30 }
+			save_event_target_as = original_planet_owner
 		}
 	}
 
 	option = {
 		name = syndaw.521.b
-		hidden_effect = {
-			owner = {
-				#country_event = { id = syndaw.402 }
-				fire_warning_sign = yes
-			}
-		}
+		hidden_effect = { owner = { country_event = { id = syndaw.402 } } }
 	}
 }
 
@@ -1591,18 +1560,13 @@ planet_event = {
 
 	trigger = {
 		host_has_dlc = "Synthetic Dawn Story Pack"
-		owner = { is_same_value = event_target:syndaw_520_planet_owner }
+		owner = { is_same_value = event_target:original_planet_owner }
 		is_occupied_flag = no
 	}
 
 	option = {
 		name = DISCONCERTING
-		hidden_effect = {
-			owner = {
-				#country_event = { id = syndaw.402 }
-				fire_warning_sign = yes
-			}
-		}
+		hidden_effect = { owner = { country_event = { id = syndaw.402 } } }
 	}
 }
 
@@ -1623,7 +1587,7 @@ country_event = {
 		random_owned_planet = {
 			limit = {
 				is_occupied_flag = no
-				any_owned_pop = { has_trait = trait_mechanical }
+				any_owned_pop = { is_species_class = ROBOT }
 			}
 			save_event_target_as = target_planet
 		}
@@ -1632,9 +1596,7 @@ country_event = {
 	option = {
 		name = syndaw.525.a
 		custom_tooltip = syndaw.525.a.tooltip
-		hidden_effect = {
-			country_event = { id = syndaw.526 days = 60 }
-		}
+		hidden_effect = { country_event = { id = syndaw.526 days = 60 } }
 	}
 
 	option = {
@@ -1647,10 +1609,7 @@ country_event = {
 				days = 3600
 			}
 		}
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 }
 
@@ -1668,7 +1627,7 @@ country_event = {
 		event_target:target_planet = {
 			owner = { is_same_value = root }
 			is_occupied_flag = no
-			any_owned_pop = { has_trait = trait_mechanical }
+			any_owned_pop = { is_species_class = ROBOT }
 		}
 	}
 
@@ -1676,7 +1635,7 @@ country_event = {
 		event_target:target_planet = {
 			random_pop = {
 				limit = {
-					has_trait = trait_mechanical
+					is_species_class = ROBOT
 				}
 				kill_pop = yes
 			}
@@ -1686,10 +1645,7 @@ country_event = {
 	option = {
 		name = WORRYING
 		custom_tooltip = syndaw.526.a.tooltip
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 }
 
@@ -1742,10 +1698,7 @@ country_event = {
 	option = {
 		name = UNFORTUNATE
 		custom_tooltip = syndaw.530.a.tooltip
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 }
 
@@ -1776,10 +1729,7 @@ country_event = {
 				days = 3600
 			}
 		}
-		hidden_effect = {
-			#country_event = { id = syndaw.402 }
-			fire_warning_sign = yes
-		}
+		hidden_effect = { country_event = { id = syndaw.402 } }
 	}
 }
 
@@ -1815,8 +1765,7 @@ planet_event = {
 			}
 			owner = {
 				add_minerals = 100
-				#country_event = { id = syndaw.402 }
-				fire_warning_sign = yes
+				country_event = { id = syndaw.402 }
 			}
 		}
 	}
@@ -1826,7 +1775,7 @@ planet_event = {
 		custom_tooltip = syndaw.540.b.tooltip
 		trigger = {
 			AND = {
-				NOT = { any_owned_pop = { has_trait = trait_mechanical } }
+				NOT = { any_owned_pop = { is_species_class = ROBOT } }
 				
 				owner = {
 					any_owned_army = {
@@ -1845,8 +1794,7 @@ planet_event = {
 		hidden_effect = {
 			owner = {
 				add_minerals = 100
-				#country_event = { id = syndaw.402 }
-				fire_warning_sign = yes
+				country_event = { id = syndaw.402 }
 				random_owned_army = {
 					limit = {
 						exists = planet
@@ -1871,12 +1819,7 @@ planet_event = {
 			modifier = syndaw_congregating_robots
 			days = 3600
 		}
-		hidden_effect = {
-			owner = {
-				#country_event = { id = syndaw.402 }
-				fire_warning_sign = yes
-			}
-		}
+		hidden_effect = { owner = { country_event = { id = syndaw.402 } } }
 	}
 }
 
@@ -1900,22 +1843,12 @@ planet_event = { # does this unit have a soul
 	option = { #decrements MachUp strength
 		name = syndaw.545.a
 		custom_tooltip = syndaw.545.a.tooltip
-		hidden_effect = {
-			owner = {
-				fire_warning_sign = yes
-			}
-		}
 	}
 
 	option = { #Increments MachUp
 		name = syndaw.545.b
 		custom_tooltip = syndaw.545.b.tooltip
-		hidden_effect = {
-			owner = {
-				#country_event = { id = syndaw.402 }
-				fire_warning_sign = yes
-			}
-		}
+		hidden_effect = { owner = { country_event = { id = syndaw.402 } } }
 	}
 
 	option = { #Increments MachUp
@@ -1929,12 +1862,7 @@ planet_event = { # does this unit have a soul
 				}
 			}
 		}
-		hidden_effect = {
-			owner = {
-				#country_event = { id = syndaw.402 }
-				fire_warning_sign = yes
-			}
-		}
+		hidden_effect = { owner = { country_event = { id = syndaw.402 } } }
 	}
 }
 
@@ -1967,9 +1895,6 @@ country_event = {
 
 	option = { # don't patch
 		name = syndaw.550.b
-		hidden_effect = {
-			fire_warning_sign = yes
-		}
 	}
 }
 
@@ -1992,7 +1917,6 @@ country_event = {
 			has_ethic = ethic_gestalt_consciousness
 			has_ascension_perk = ap_the_flesh_is_weak
 			has_policy_flag = ai_full_rights
-			#has_policy_flag = robots_outlawed # should still happen if triggered by ban
 		}
 		# has a dangerous tech
 		OR = {
@@ -2415,17 +2339,6 @@ country_event = {
 
 		# flip capital planet and add at least 5 Machine pops
 		from = {
-			# flip military stations
-			solar_system = {
-				every_fleet_in_system = {
-					limit = {
-						exists = owner
-						owner = { is_same_value = event_target:current_uprising_originator }
-						any_owned_ship = { is_ship_class = shipclass_military_station }
-					}
-					set_owner = root
-				}
-			}
 			set_owner = root
 			set_controller = root
 			set_capital = yes
@@ -2507,19 +2420,6 @@ country_event = {
 							has_star_flag = machup_system_flip
 						}
 					}
-
-					# flip military stations
-					solar_system = {
-						every_fleet_in_system = {
-							limit = {
-								exists = owner
-								owner = { is_same_value = event_target:current_uprising_originator }
-								any_owned_ship = { is_ship_class = shipclass_military_station }
-							}
-							set_owner = root
-						}
-					}
-
 					set_planet_flag = been_flipped
 					set_owner = root
 					set_controller = root
@@ -3265,11 +3165,7 @@ country_event = {
 
 	immediate = {
 		set_country_flag = attempted_ban
-		random_list = {
-			3 = { fire_warning_sign = yes }
-			1 = { country_event = { id = syndaw.1000 } }
-		}
-		#country_event = { id = syndaw.402 }
+		country_event = { id = syndaw.402 }
 	}
 }
 
@@ -3299,11 +3195,7 @@ country_event = {
 
 	immediate = {
 		set_country_flag = attempted_ban
-		random_list = {
-			3 = { fire_warning_sign = yes }
-			1 = { country_event = { id = syndaw.1000 } }
-		}
-		#country_event = { id = syndaw.402 }
+		country_event = { id = syndaw.402 }
 	}
 }
 
@@ -3336,11 +3228,7 @@ pop_event = {
 	immediate = {
 		owner = {
 			set_country_flag = attempted_disassembly
-			random_list = {
-				3 = { fire_warning_sign = yes }
-				1 = { country_event = { id = syndaw.1000 } }
-			}
-			#country_event = { id = syndaw.402 }
+			country_event = { id = syndaw.402 }
 		}
 	}
 }

@@ -3,7 +3,7 @@ war_name_parts_list = {
 	parts = {
 		"War" = 1
 		"Fight" = 1
-		"Brawl" = 1
+		# "Brawl" = 1
 		"Dispute" = 1
 		"Conflict" = 1
 	}

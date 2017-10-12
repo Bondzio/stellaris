@@ -45,15 +45,15 @@ building_akx_worm_1 = {
 	base_buildtime = @b3time
 	is_listed = yes
 	planet_unique = yes
-	
+
 	cost = {
 		minerals = @b3cost
 	}
-	
+
 	potential = {
 		#planet = { is_capital = yes }
 	}
-	
+
 	allow = {
 		custom_tooltip = {
 			fail_text = "requires_power_hub_absence"
@@ -74,24 +74,24 @@ building_akx_worm_1 = {
 	produced_resources = {
 		energy = 6
 	}
-	
+
 	prerequisites = {
 		"tech_akx_worm_1"
 	}
-	
+
 	ai_allow = {
 		NOR = {
 			has_resource = {
 				type = sr_betharian
 				amount > 0
-			}	
+			}
 			has_resource = {
 				type = sr_alien_pets
 				amount > 0
-			}				
+			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 0
 	}
@@ -101,17 +101,16 @@ building_akx_worm_2 = {
 	base_buildtime = @b3time
 	is_listed = yes
 	planet_unique = yes
-	
+
 	cost = {
 		minerals = @b3cost
 	}
-	
+
 	potential = {
 		#planet = { is_capital = yes }
-	}	
-	
-	allow = {
 	}
+
+	allow = {}
 
 	produced_resources = {
 		society_research = 8
@@ -121,28 +120,28 @@ building_akx_worm_2 = {
 		pop_government_ethic_attraction = 0.05
 		pop_happiness = 0.05
 	}
-	
+
 	required_resources = {
 		energy = @b3upkeep
 	}
-	
+
 	prerequisites = {
 		"tech_akx_worm_2"
 	}
-	
+
 	ai_allow = {
 		NOR = {
 			has_resource = {
 				type = sr_betharian
 				amount > 0
-			}	
+			}
 			has_resource = {
 				type = sr_alien_pets
 				amount > 0
-			}				
+			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 0
 	}
@@ -152,14 +151,13 @@ building_akx_worm_3 = {
 	base_buildtime = @b5time
 	is_listed = yes
 	empire_unique = yes
-	
+
 	cost = {
 		minerals = @b3cost
 	}
-	
-	potential = {
-	}	
-	
+
+	potential = {}
+
 	allow = {
 		planet = { is_capital = yes }
 	}
@@ -168,30 +166,29 @@ building_akx_worm_3 = {
 		physics_research = 10
 	}
 
-	planet_modifier  = {
-	}
-	
+	planet_modifier  = {}
+
 	required_resources = {
 		energy = @b5upkeep
 	}
-	
+
 	prerequisites = {
 		"tech_akx_worm_3"
 	}
-	
+
 	ai_allow = {
 		NOR = {
 			has_resource = {
 				type = sr_betharian
 				amount > 0
-			}	
+			}
 			has_resource = {
 				type = sr_alien_pets
 				amount > 0
-			}				
+			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 0
 	}
@@ -199,38 +196,38 @@ building_akx_worm_3 = {
 
 building_worm_mine = {
 	is_listed = no
-	
+
 	allow = {
 		always = no
 	}
-	
+
 	produced_resources = {
 		minerals = @feproduction
 	}
-	
+
 	required_resources = {
 		energy = @b3upkeep
 	}
-	
+
 	ai_replace = no
 	event_building = yes
 }
 
 building_worm_farm = {
 	is_listed = no
-	
+
 	allow = {
 		always = no
 	}
-	
+
 	produced_resources = {
 		food = @feproduction
 	}
-	
+
 	required_resources = {
 		energy = @b3upkeep
 	}
-	
+
 	ai_replace = no
 	event_building = yes
 }

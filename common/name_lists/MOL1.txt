@@ -12,71 +12,64 @@ MOL1 = {
 			Paggsch Obrogg Tegglosch Tugglusch Iggalasch Waggalusch Wirglurg Wossag Withlasch Gawagga Gijjigg Wergta
 			Iragg Yssagg Boldrosch Bischglur Bossgar Sossagg Higgla Havaggasch Wagolasch Korgasch Schlumon Pathagga
 			Oggal Paschgo Gaschalga Kaschaliss Jaschaglur Jogloib Uggoib Palschoib Urgusch Schalgor Haggusch Iogg
-			Dorgjasch Mildrosch Maggasch Mirglorg Schlobbjor Schashka Gogglir Eglana Jaggogish Oggar Ugascha Iggam 
+			Dorgjasch Mildrosch Maggasch Mirglorg Schlobbjor Schashka Gogglir Eglana Jaggogish Oggar Ugascha Iggam
 		}
 
-		corvette = {
-		}
-		
-		destroyer = {
-		}
-		
-		cruiser = {
-		}
-		
-		battleship = {
-		}
-		
-		science = {
-		}
-		
-		colonizer = {
-		}
-		
-		constructor = {
-		}
-		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		science = {}
+
+		colonizer = {}
+
+		constructor = {}
+
+		mining_station = {}
+		research_station = {}
+		wormhole_station = {}
+
+		observation_station = {}
 		outpost_station = {
-			#random_names = { }
+			#random_names = {}
 			#sequential_name = "%O% Frontier Outpost"
 		}
 
 		military_station_small = {}
 		military_station_medium = {}
-		military_station_large = {}	
+		military_station_large = {}
 	}
 
 	fleet_names = {
 		random_names = {
-			"Boggwoss Squadron" "Reggam Squadron" "Shoggor Squadron" "Paggirim Squadron" "Meggisch Squadron" "Lurggam Squadron" 
+			"Boggwoss Squadron" "Reggam Squadron" "Shoggor Squadron" "Paggirim Squadron" "Meggisch Squadron" "Lurggam Squadron"
 			"Ithagga Squadron" "Juraggi Squadron"
 		}
 		sequential_name = "%O% Nautilus Squadron"
 	}
-	
+
 	### ARMIES
 	army_names = {
 		defense_army = {
 			sequential_name = "%O% Defense Shell"
 		}
-			
+
 		assault_army = {
 			sequential_name = "%O% Invasion Shoal"
 		}
-		
+
 		slave_army = {
 			sequential_name = "%O% Slave Forces"
 		}
-		
+
 		clone_army = {
 			sequential_name = "Clone Cluster %C%"
 		}
-		
+
 		robotic_army = {
 			sequential_name = "%O% Cephalodroids"
 		}
@@ -84,7 +77,7 @@ MOL1 = {
 		robotic_defense_army = {
 			sequential_name = "%O% Cephalodroid Guard"
 		}
-		
+
 		android_army = {
 			sequential_name = "%O% Spirit Shells"
 		}
@@ -92,15 +85,15 @@ MOL1 = {
 		android_defense_army = {
 			sequential_name = "%O% Spirit Guard"
 		}
-		
-		psionic_army = { 
+
+		psionic_army = {
 			sequential_name = "%O% Psychic Phalanx"
 		}
-		
+
 		xenomorph_army = {
 			sequential_name = "%O% Consuming Swarm"
 		}
-		
+
 		gene_warrior_army = {
 			sequential_name = "%O% Ascenders"
 		}
@@ -112,55 +105,46 @@ MOL1 = {
 
 		generic = {
 			names = {
-				Siggwal Schlurg Raggani "Lurgi Pash" Uggrim Uldrugg Maggrathi Gabbog Guraschim "Mag Rutosch" Gablorr Riblagga Tuggam Schlargoss Weggri Bakangi Guthur Eskogg Agglor
+				Siggwal Schlurg Raggani Lurgi Pash Uggrim Uldrugg Maggrathi Gabbog Guraschim Mag Rutosch Gablorr Riblagga Tuggam Schlargoss Weggri Bakangi Guthur Eskogg Agglor
 			}
 		}
-		
+
 		pc_desert = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tropical = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arid = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_continental = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_ocean = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tundra = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arctic = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_savannah = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_alpine = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 	}
 
 	### CHARACTERS
@@ -171,19 +155,17 @@ MOL1 = {
 			full_names = {
 				Schlurma Paggro Glorim Sagglor Ethogg Bagglosch Regglor Garma Bhanogg Tagglaro Riblogg Glosch Schlargim Shushk Alorig Aboglor Shugglerm Pablasch Gethmar Glabonsch
 			}
-			
+
 			# Always combined with a second name
-			first_names = {
-			}
-			
+			first_names = {}
+
 			# Always combined with a first name
-			second_names = {
-			}
-			
+			second_names = {}
+
 			regnal_first_names = {
 				Schlurma Paggro Glorim Sagglor Ethogg Bagglosch Regglor Garma
 			}
-			
+
 			regnal_second_names = {
 				Sschlass
 			}

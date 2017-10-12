@@ -1,4 +1,4 @@
-#Dyson Sphere Site 
+#Dyson Sphere Site
 dyson_sphere_0 = {
 	entity = "construction_platform_entity"
 	construction_entity = "construction_platform_entity"
@@ -18,7 +18,7 @@ dyson_sphere_0 = {
 	potential = {
 		has_ascension_perk = ap_galactic_wonders
 	}
-	
+
 	possible = {
 		custom_tooltip = {
 			fail_text = "requires_inside_border"
@@ -27,7 +27,7 @@ dyson_sphere_0 = {
 		custom_tooltip = {
 			fail_text = "requires_no_existing_dyson_sphere"
 			from = { NOT = { has_country_flag = built_dyson_sphere } }
-		}		
+		}
 		custom_tooltip = {
 			fail_text = "requires_surveyed_system"
 			NOT = {
@@ -66,7 +66,7 @@ dyson_sphere_0 = {
 			NOT = { has_any_megastructure = yes }
 		}
 	}
-	
+
 	placement_rules = {
 		planet_possible = {
 			custom_tooltip = {
@@ -83,15 +83,15 @@ dyson_sphere_0 = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 15
-		
+
 		modifier = {
 			factor = 0.1
 			has_any_megastructure_in_empire = yes
 		}
-		
+
 		modifier = {
 			factor = 0.1
 			any_system_within_border = {
@@ -100,12 +100,12 @@ dyson_sphere_0 = {
 					has_megastructure = dyson_sphere_2
 					has_megastructure = dyson_sphere_3
 					has_megastructure = dyson_sphere_4
-					has_megastructure = dyson_sphere_5	
+					has_megastructure = dyson_sphere_5
 				}
 			}
 		}
 	}
-	
+
 	on_build_start = {}
 	on_build_cancel = {}
 	on_build_complete = {
@@ -230,7 +230,7 @@ dyson_sphere_5 = {
 				is_planet_class = pc_barren
 			}
 			change_pc = pc_barren_cold
-		}		
+		}
 	}
 }
 
@@ -261,7 +261,7 @@ dyson_sphere_restored = {
 	}
 
 	possible = {
-		from = { has_technology = tech_mega_engineering }		
+		from = { has_technology = tech_mega_engineering }
 	}
 
 	on_build_start = {

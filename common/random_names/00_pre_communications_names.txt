@@ -81,8 +81,8 @@ pre_communications_name_parts_list = {
 	key = "xenophobe_first"
 	parts = {
 		"Menace'" = 100
-#		"Threat'" = 10
-#		"Hazard'" = 1
+		"Threat'" = 10
+		"Hazard'" = 1
 	}
 }
 
@@ -96,7 +96,7 @@ pre_communications_name_format = {
 				has_ethic = ethic_fanatic_xenophobe
 				has_ethic = ethic_xenophobe
 			}
-			NOT = { 
+			NOT = {
 				has_country_flag = human_2
 				has_country_flag = human_1
 			}

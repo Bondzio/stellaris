@@ -4,43 +4,36 @@
 FUN2 = {
 	ship_names = {
 		generic = {
-			Yehm-Guulyeg Yehm-Frahan Yehm-Qiigrud Yehm-Priidgynn Yehm-Taagrid Yehm-Neerolg Yehm-Tuurazh Yehm-Phuetl Yehm-Houtrend Yehm-Yglaagd Yehm-Ruuvgru Yehm-Tiiqup Yehm-Daaremt Yehm-Traguud Yehm-Wootunn Yehm-Raaslurg Yehm-Rehm Yehm-Nargudd Yehm-Fiilyub Yehm-Raasud Yehm-Plourh Yehm-Fleeyup Yehm-Putrieeg Yehm-Shaaluv Yehm-Khaarnob Yehm-Truukend Yehm-Gfaleehn Yehm-Yduumen Yehm-Muldaryyn Yehm-Trooghum Yehm-Beiiyud Yehm-Tiipagh Yehm-Sughraad Yehm-Filgfuul Yehm-Buydool
+			Yehmguulyeg Yehmfrahan Yehmqiigrud Yehmpriidgynn Yehmtaagrid Yehmneerolg Yehmtuurazh Yehmphuetl Yehmhoutrend Yehmyglaagd Yehmruuvgru Yehmtiiqup Yehmdaaremt Yehmtraguud Yehmwootunn Yehmraaslurg Yehmrehm Yehmnargudd Yehmfiilyub Yehmraasud Yehmplourh Yehmfleeyup Yehmputrieeg Yehmshaaluv Yehmkhaarnob Yehmtruukend Yehmgfaleehn Yehmyduumen Yehmmuldaryyn Yehmtrooghum Yehmbeiiyud Yehmtiipagh Yehmsughraad Yehmfilgfuul Yehmbuydool
 		}
 
-		corvette = {
-		}
-		
-		destroyer = {
-		}
-		
-		cruiser = {
-		}
-		
-		battleship = {
-		}
-		
-		science = {
-		}
-		
-		colonizer = {
-		}
-		
-		constructor = {
-		}
-		
-		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		science = {}
+
+		colonizer = {}
+
+		constructor = {}
+
+
+		orbital_station = {}
+		mining_station = {}
+		research_station = {}
+		wormhole_station = {}
+
+		observation_station = {}
 
 		military_station_small = {}
 		military_station_medium = {}
 		military_station_large = {}
 		outpost_station = {
-			#random_names = { }
+			#random_names = {}
 			#sequential_name = "%O% Frontier Outpost"
 		}
 	}
@@ -60,23 +53,23 @@ FUN2 = {
 		assault_army = {
 			sequential_name = "%O% Ballistospore"
 		}
-		
+
 		slave_army = {
 			sequential_name = "%O% Cordyceptic Force"
 		}
-		
-		clone_army = { 
+
+		clone_army = {
 			sequential_name = "%O% Fungible Formation"
 		}
-		
+
 		robotic_army = {
-			sequential_name = "%O% Robo-Shroom Group"
+			sequential_name = "%O% Roboshroom Group"
 		}
 
 		robotic_defense_army = {
 			sequential_name = "%O% Robotic Agarics"
 		}
-		
+
 		android_army = {
 			sequential_name = "%O% Synthetic Formation"
 		}
@@ -84,20 +77,20 @@ FUN2 = {
 		android_defense_army = {
 			sequential_name = "%O% Synthetic Agarics"
 		}
-		
-		psionic_army = { 
+
+		psionic_army = {
 			sequential_name = "%O% Psychofungi"
 		}
-		
+
 		xenomorph_army = {
 			sequential_name = "%O% Encroachers"
 		}
-		
+
 		gene_warrior_army = {
 			sequential_name = "%O% Slime Molds"
 		}
 	}
-		
+
 
 	### PLANETS
 
@@ -105,59 +98,46 @@ FUN2 = {
 
 		generic = {
 			names = {
-				Jurg-Felooq Jurg-Saphand Jurg-Puuligh Jurg-Sohoodh Jurg-Ghirgaal Jurg-Qurliidh Jurg-Shondaar Jurg-Huquell Jurg-Ondareen Jurg-Gurhiil Jurg-Saromyin Jurg-Qoleath Jurg-Hulaagh Jurg-Sabarandh Jurg-Knootheg Jurg-Shuugrem Jurg-Ularaih Jurg-Upaadgh Jurg-Seroondh Jurg-Faliigh Jurg-Sahuul Jurg-Pabdoon Jurg-Pheedhun Jurg-Wuudhal Jurg-Woraaq
+				Jurgfelooq Jurgsaphand Jurgpuuligh Jurgsohoodh Jurgghirgaal Jurgqurliidh Jurgshondaar Jurghuquell Jurgondareen Jurggurhiil Jurgsaromyin Jurgqoleath Jurghulaagh Jurgsabarandh Jurgknootheg Jurgshuugrem Jurgularaih Jurgupaadgh Jurgseroondh Jurgfaliigh Jurgsahuul Jurgpabdoon Jurgpheedhun Jurgwuudhal Jurgworaaq
 			}
 		}
-		
+
 		pc_desert = {
-			names = {
-				
-			}
+			names = {}
 		}
-		
+
 		pc_tropical = {
-			names = {
-				
-			}
+			names = {}
 		}
-		
+
 		pc_arid = {
-			names = {
-				
-			}
+			names = {}
 		}
-		
+
 		pc_continental = {
-			names = {
-				
-			}
+			names = {}
 		}
-		
+
 		pc_ocean = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tundra = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arctic = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_savannah = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_alpine = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 	}
 
 	### CHARACTERS
@@ -168,19 +148,17 @@ FUN2 = {
 			full_names = {
 				Wuuqam Elgicroon Qaarugm Pubgluurh Mishgreel Shunbloor Seedkugh Huuregdhe Gurloonh Hmaalurd Oleghatuur Thuunolg Liqeerudh Jhulaad Jhutleeg Jhomneel Grodsuun Wluguarq Pugleesh Eguloordh
 			}
-			
+
 			# Always combined with a second name
-			first_names = {
-			}
-			
+			first_names = {}
+
 			# Always combined with a first name
-			second_names = {
-			}
-			
+			second_names = {}
+
 			regnal_first_names = {
 				Wuuqam Elgicroon Qaarugm Pubgluurh Mishgreel Shunbloor Seedkugh
 			}
-			
+
 			regnal_second_names = {
 				Waqqo
 			}

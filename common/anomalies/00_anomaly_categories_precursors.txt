@@ -26,8 +26,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -37,22 +37,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_1 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_1 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -77,8 +76,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -88,22 +87,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_2 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_2 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -128,8 +126,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -139,22 +137,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_3 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_3 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -179,8 +176,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -190,22 +187,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_4 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_4 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -230,8 +226,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -241,22 +237,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_5 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_5 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -281,8 +276,8 @@ anomaly_category = {
 	picture = GFX_evt_microscopic_life
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -292,22 +287,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_6 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_6 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -330,8 +324,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -341,22 +335,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_7 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_7 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -381,8 +374,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -392,22 +385,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_8 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_8 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -432,8 +424,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -443,22 +435,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_9 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_9 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -483,8 +474,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -494,22 +485,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_10 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_10 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -534,8 +524,8 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -545,22 +535,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = vultaum_11 }
-					has_country_flag = vultaum_intro 
+					has_country_flag = vultaum_intro
 					has_event_chain = vultaum_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = vultaum_11 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.33 }
@@ -589,33 +578,32 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
 			habitable_planet = yes
 			solar_system = { has_star_flag = precursor_2 }
 			FROM = {
-				owner = { 
+				owner = {
 					is_ai = no
 					NOT = { has_country_flag = yuht_1 }
-					has_country_flag = yuht_intro 
+					has_country_flag = yuht_intro
 					has_event_chain = yuht_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = yuht_1 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.34 }
@@ -640,8 +628,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -651,22 +639,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = yuht_2 }
-					has_country_flag = yuht_intro 
+					has_country_flag = yuht_intro
 					has_event_chain = yuht_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = yuht_2 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.34 }
@@ -691,8 +678,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -702,22 +689,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = yuht_3 }
-					has_country_flag = yuht_intro 
+					has_country_flag = yuht_intro
 					has_event_chain = yuht_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = yuht_3 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.34 }
@@ -742,8 +728,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -753,22 +739,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = yuht_4 }
-					has_country_flag = yuht_intro 
+					has_country_flag = yuht_intro
 					has_event_chain = yuht_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = yuht_4 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.34 }
@@ -793,8 +778,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -804,22 +789,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = yuht_5 }
-					has_country_flag = yuht_intro 
+					has_country_flag = yuht_intro
 					has_event_chain = yuht_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = yuht_5 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.34 }
@@ -844,8 +828,8 @@ anomaly_category = {
 	picture = GFX_evt_microscopic_life
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -855,22 +839,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = yuht_6 }
-					has_country_flag = yuht_intro 
+					has_country_flag = yuht_intro
 					has_event_chain = yuht_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = yuht_6 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.34 }
@@ -893,8 +876,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -904,22 +887,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = yuht_7 }
-					has_country_flag = yuht_intro 
+					has_country_flag = yuht_intro
 					has_event_chain = yuht_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = yuht_7 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.34 }
@@ -944,8 +926,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -955,22 +937,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = yuht_8 }
-					has_country_flag = yuht_intro 
+					has_country_flag = yuht_intro
 					has_event_chain = yuht_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = yuht_8 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.34 }
@@ -995,8 +976,8 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1006,22 +987,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = yuht_9 }
-					has_country_flag = yuht_intro 
+					has_country_flag = yuht_intro
 					has_event_chain = yuht_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = yuht_9 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.34 }
@@ -1050,8 +1030,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1061,22 +1041,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_1 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_1 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1101,8 +1080,8 @@ anomaly_category = {
 	picture = GFX_evt_microscopic_life
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1112,22 +1091,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_2 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_2 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1150,8 +1128,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1161,22 +1139,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_3 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_3 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1201,8 +1178,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1212,22 +1189,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_4 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_4 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1252,8 +1228,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1263,22 +1239,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_5 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_5 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1303,8 +1278,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1314,22 +1289,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_6 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_6 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1354,8 +1328,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1365,22 +1339,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_7 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_7 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1405,8 +1378,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1416,22 +1389,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_8 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_8 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1456,8 +1428,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1467,22 +1439,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_9 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_9 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1507,8 +1478,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1518,22 +1489,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_10 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_10 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1558,8 +1528,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1569,22 +1539,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_11 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_11 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1609,8 +1578,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1620,22 +1589,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_12 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_12 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1660,8 +1628,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1671,22 +1639,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_13 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_13 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1711,8 +1678,8 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1722,22 +1689,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = first_league_14 }
-					has_country_flag = first_league_intro 
+					has_country_flag = first_league_intro
 					has_event_chain = first_league_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = first_league_14 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.35 }
@@ -1766,8 +1732,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1777,22 +1743,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_1 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_1 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -1817,8 +1782,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1828,22 +1793,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_2 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_2 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -1868,8 +1832,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1879,22 +1843,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_3 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_3 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -1919,8 +1882,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1930,22 +1893,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_4 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_4 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -1970,8 +1932,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -1981,22 +1943,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_5 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_5 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -2021,8 +1982,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2032,22 +1993,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_6 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_6 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -2072,8 +2032,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2083,22 +2043,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_7 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_7 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -2123,8 +2082,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2134,22 +2093,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_8 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_8 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -2174,8 +2132,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2185,22 +2143,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_9 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_9 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -2225,8 +2182,8 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2236,22 +2193,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_10 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_10 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -2276,8 +2232,8 @@ anomaly_category = {
 	picture = GFX_evt_microscopic_life
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2287,22 +2243,21 @@ anomaly_category = {
 				owner = {
 					is_ai = no
 					NOT = { has_country_flag = irassians_11 }
-					has_country_flag = irassian_intro 
+					has_country_flag = irassian_intro
 					has_event_chain = irassian_chain
 				}
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = irassians_11 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.36 }
@@ -2329,8 +2284,8 @@ anomaly_category = {
 	picture = GFX_evt_archaeological_dig
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2346,16 +2301,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_1 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2380,8 +2334,8 @@ anomaly_category = {
 	picture = GFX_evt_archaeological_dig
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2397,16 +2351,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_2 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2431,8 +2384,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2448,16 +2401,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_3 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2482,8 +2434,8 @@ anomaly_category = {
 	picture = GFX_evt_archaeological_dig
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2499,16 +2451,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_4 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2533,8 +2484,8 @@ anomaly_category = {
 	picture = GFX_evt_archaeological_dig
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2550,16 +2501,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_5 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2584,8 +2534,8 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2601,16 +2551,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_6 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2635,8 +2584,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2652,16 +2601,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_7 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2684,8 +2632,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2701,16 +2649,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_8 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2735,8 +2682,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2752,16 +2699,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_9 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2786,8 +2732,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2803,16 +2749,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_10 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2837,8 +2782,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 10
 			NOT = { has_planet_flag = precursor_world }
@@ -2854,16 +2799,15 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		set_planet_flag = precursor_world
 		FROM = {
 			owner = { set_country_flag = cybrex_11 }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.37 }
@@ -2888,47 +2832,47 @@ anomaly_category = {
 anomaly_category = {
 	key = "VULTAUMAR"
 	desc = "VULTAUMAR_DESC"
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 0
 		}
 	}
-	
+
 }
 
 anomaly_category = {
 	key = "YUHTAAN"
 	desc = "YUHTAAN_DESC"
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 0
 		}
 	}
-	
+
 }
 
 anomaly_category = {
 	key = "FEN_HABBANIS"
 	desc = "FEN_HABBANIS_DESC"
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 0
 		}
 	}
-	
+
 }
 
 anomaly_category = {
 	key = "IRASSIA"
 	desc = "IRASSIA_DESC"
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 0
 		}
 	}
-	
+
 }

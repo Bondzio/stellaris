@@ -9,7 +9,7 @@ spy_orb_0 = {
 	place_entity_on_planet_plane = no
 	entity_offset = { x = @phase_0_entity_x y = @phase_0_entity_y }
 	build_time = 1800
-	
+
 	build_cost = {
 		minerals = 10000
 		influence = 300
@@ -22,7 +22,7 @@ spy_orb_0 = {
 	potential = {
 		has_ascension_perk = ap_galactic_wonders
 	}
-	
+
 	possible = {
 		custom_tooltip = {
 			fail_text = "requires_inside_border"
@@ -44,7 +44,7 @@ spy_orb_0 = {
 			from = { NOT = { has_country_flag = built_spyorb } }
 		}
 	}
-	
+
 	placement_rules = {
 		planet_possible = {
 			custom_tooltip = {
@@ -92,8 +92,8 @@ spy_orb_0 = {
 				}
 			}
 		} # use these for all non-star megastructures
-	}	
-	
+	}
+
 	ai_weight = {
 		factor = 10
 		modifier = {
@@ -103,12 +103,12 @@ spy_orb_0 = {
 				has_ethic = ethic_fanatic_militarist
 			}
 		}
-		
+
 		modifier = {
 			factor = 0.1
 			has_any_megastructure_in_empire = yes
 		}
-		
+
 		modifier = {
 			factor = 0.1
 			any_system_within_border = {
@@ -121,7 +121,7 @@ spy_orb_0 = {
 			}
 		}
 	}
-	
+
 	on_build_start = {}
 	on_build_cancel = {}
 	on_build_complete = {
@@ -255,7 +255,7 @@ spy_orb_restored = {
 	}
 
 	possible = {
-		from = { 
+		from = {
 			has_technology = tech_mega_engineering
 		}
 	}

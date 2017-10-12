@@ -6,7 +6,7 @@ setup_scenario = {
 	num_empires = { min = 1 max = 21 }	#limits player customization
 	num_empire_default = 11
 	fallen_empire_default = 4
-	fallen_empire_max = 5
+	fallen_empire_max = 4
 	advanced_empire_default = 4
 	colonizable_planet_odds = 1.0
 	primitive_odds = 1.0

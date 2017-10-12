@@ -3,43 +3,36 @@
 REP3 = {
 	ship_names = {
 		generic = {
-			Lorod-Kalen Lorod-Kluven Lorod-Drexom Lorod-Kuxel Lorod-Durgal Lorod-Cadrom Lorod-Kendril Lorod-Ferad Lorod-Defer Lorod-Doxerga Lorod-Kundex Lorod-Cladet Lorod-Klonol Lorod-Rekad Lorod-Gexad Lorod-Falder Lorod-Gaclen Lorod-Celdaren Lorod-Deklor Lorod-Droxag Lorod-Nergal Lorod-Fikren Lorod-Nadlig
+			Lorodkalen Lorodkluven Loroddrexom Lorodkuxel Loroddurgal Lorodcadrom Lorodkendril Lorodferad Loroddefer Loroddoxerga Lorodkundex Lorodcladet Lorodklonol Lorodrekad Lorodgexad Lorodfalder Lorodgaclen Lorodceldaren Loroddeklor Loroddroxag Lorodnergal Lorodfikren Lorodnadlig
 		}
 
-		corvette = {
-		}
-		
-		destroyer = {
-		}
-		
-		cruiser = {
-		}
-		
-		battleship = {
-		}
-		
-		science = {
-		}
-		
-		colonizer = {
-		}
-		
-		constructor = {
-		}
-		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		science = {}
+
+		colonizer = {}
+
+		constructor = {}
+
+		mining_station = {}
+		research_station = {}
+		wormhole_station = {}
+
+		observation_station = {}
 		outpost_station = {
-			#random_names = { }
+			#random_names = {}
 			#sequential_name = "%O% Frontier Outpost"
 		}
 
 		military_station_small = {}
 		military_station_medium = {}
-		military_station_large = {}	
+		military_station_large = {}
 	}
 
 	fleet_names = {
@@ -48,25 +41,25 @@ REP3 = {
 		}
 		sequential_name = "%O% Void Skulkers"
 	}
-	
+
 	### ARMIES
-	army_names = {	
+	army_names = {
 		defense_army = {
 			sequential_name = "%O% Defense Legion"
 		}
-			
+
 		assault_army = {
 			sequential_name = "%O% Attack Legion"
 		}
-		
+
 		slave_army = {
 			sequential_name = "%O% Slave Horde"
 		}
-		
-		clone_army = { 
+
+		clone_army = {
 			sequential_name = "%O% Doppleganger Horde"
 		}
-		
+
 		robotic_army = {
 			sequential_name = "%O% Automaton Army"
 		}
@@ -74,7 +67,7 @@ REP3 = {
 		robotic_defense_army = {
 			sequential_name = "%O% Automated Defenses"
 		}
-		
+
 		android_army = {
 			sequential_name = "%O% Mimic Warriors"
 		}
@@ -82,15 +75,15 @@ REP3 = {
 		android_defense_army = {
 			sequential_name = "%O% Mimic Guardians"
 		}
-		
-		psionic_army = { 
+
+		psionic_army = {
 			sequential_name = "%O% Mind Masters"
 		}
-		
+
 		xenomorph_army = {
 			sequential_name = "%O% Chaos Changelings"
 		}
-		
+
 		gene_warrior_army = {
 			sequential_name = "%O% Enhanced Legion"
 		}
@@ -105,52 +98,43 @@ REP3 = {
 				Galan Nadex Gefarak Kutel Gulec Faradex Ralefek Gelard Derokem Dexalon Kitadul Dukalex Kluxared Dolok Gekoler Forexod Futexom Darakun Traglec Kregux
 			}
 		}
-		
+
 		pc_desert = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tropical = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arid = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_continental = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_ocean = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tundra = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arctic = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_savannah = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_alpine = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 	}
 
 	### CHARACTERS
@@ -161,19 +145,17 @@ REP3 = {
 			full_names = {
 				Faragulek Klandrax Kulegaf Ludremex Maxerdok Tredagik Rukagikex Trokaxeg Tolodem Loxodal Ropadef Frelaxod Axemekat Frolaxen Dakalenex Dronafeg Mixrodem Tidarulek Raxuked Koxurem Guferal
 			}
-			
+
 			# Always combined with a second name
-			first_names = {
-			}
-			
+			first_names = {}
+
 			# Always combined with a first name
-			second_names = {
-			}
-			
+			second_names = {}
+
 			regnal_first_names = {
 				Faragulek Klandrax Kulegaf Ludremex Maxerdok Tredagik Rukagikex Trokaxeg
 			}
-			
+
 			regnal_second_names = {
 				Raxeg
 			}

@@ -9,20 +9,20 @@
 #	leader = general
 #	leader = ruler
 #	leader = governor
-#	
+#
 #	MILITARY SHIPS
 #	shipclass_military = 1
-#	
+#
 #	CIVILIAN SHIPS
 #	shipclass_constructor = 2
 #	shipclass_science_ship = 1
 #	shipclass_colonizer = 2
-#	
+#
 #	ARMIES
 #	shipclass_transport = 1
 #	assault_armies = 2
 #	defense_armies = 1
-#	
+#
 #	STATIONS
 #	research_station = yes
 #	mining_station = yes
@@ -46,7 +46,7 @@ special_project = {
 		leader = scientist
 		skill = 2
 	}
-	
+
 	on_success = {
 		random_list = {
 			20 = { ship_event = { id = anomaly.4012 } }
@@ -153,7 +153,7 @@ special_project = {
 					NOT = {
 						has_ethic = ethic_fanatic_spiritualist
 						has_ethic = ethic_spiritualist
-					} 
+					}
 				}
 			}
 			random_list = {
@@ -167,7 +167,7 @@ special_project = {
 					OR = {
 						has_ethic = ethic_fanatic_spiritualist
 						has_ethic = ethic_spiritualist
-					} 
+					}
 				}
 			}
 			random_list = {
@@ -236,7 +236,7 @@ special_project = {
 	timelimit = 500
 	picture = GFX_evt_ship_in_orbit
 	icon = "gfx/interface/icons/situation_log/situation_log_engineering.dds"
-	
+
 	event_scope = ship_event
 
 	requirements = {
@@ -394,8 +394,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	on_success = {
 		owner = {
@@ -420,8 +419,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	on_success = {
 		owner = {
@@ -446,8 +444,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	on_success = {
 		owner = {
@@ -472,8 +469,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	on_success = {
 		owner = {
@@ -526,8 +522,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	on_success = {
 		owner = {
@@ -552,8 +547,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	on_success = {
 		root = {

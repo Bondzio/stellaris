@@ -3,7 +3,7 @@
 # Crystal Entities - Blue
 hostile_init_01 = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	#usage_odds = 2
 	usage_odds = {
@@ -17,7 +17,7 @@ hostile_init_01 = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	max_instances = 1
 	flags = { hostile_system blue_system shield_system }
 
@@ -26,22 +26,22 @@ hostile_init_01 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		size = { min = 12 max = 16 }
+		size = 16
 		has_ring = no
-		class = "pc_barren"		
+		class = "pc_barren"
 		entity = "barren_planet_01_destroyed_entity"
 
-		init_effect = { 
+		init_effect = {
 			prevent_anomaly = yes
 			orbital_deposit_tile = {
 				clear_deposits = yes
@@ -49,14 +49,14 @@ hostile_init_01 = {
 			}
 		}
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 10 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -230,7 +230,7 @@ hostile_init_01 = {
 # Crystal Entities - Blue VARIATION
 hostile_init_02 = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 4
@@ -243,7 +243,7 @@ hostile_init_02 = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system blue2_system }
 
 	planet = {
@@ -251,26 +251,26 @@ hostile_init_02 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 2 max = 10 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_crystal_country = yes
 		random_system_planet = {
@@ -308,7 +308,7 @@ hostile_init_02 = {
 						create_ship = {
 							name = ""
 							design = "NAME_Small_Crystal_Entity_Blue"
-						}						
+						}
 						create_ship = {
 							name = ""
 							design = "NAME_Small_Crystal_Entity_Blue"
@@ -389,7 +389,7 @@ hostile_init_02 = {
 						create_ship = {
 							name = ""
 							design = "NAME_Small_Crystal_Entity_Blue"
-						}						
+						}
 						create_ship = {
 							name = ""
 							design = "NAME_Small_Crystal_Entity_Blue"
@@ -473,7 +473,7 @@ hostile_init_02 = {
 # Crystal Entities - Green (Patrol)
 hostile_init_03 = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 0
@@ -496,26 +496,26 @@ hostile_init_03 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 3 max = 10 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_crystal_country = yes
 		random_system_planet = {
@@ -642,7 +642,7 @@ hostile_init_03 = {
 # Crystal Entities - Green (Patrol) VARIATION
 hostile_init_04 = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 2
@@ -655,7 +655,7 @@ hostile_init_04 = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system green2_system }
 
 	planet = {
@@ -663,26 +663,26 @@ hostile_init_04 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 3 max = 3 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 0 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_crystal_country = yes
 		random_system_planet = {
@@ -919,7 +919,7 @@ hostile_init_04 = {
 # Crystal Entities - Red
 hostile_init_05 = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 2
@@ -932,7 +932,7 @@ hostile_init_05 = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system red_system }
 
 	planet = {
@@ -940,26 +940,26 @@ hostile_init_05 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 4 max = 8 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		random_system_planet = {
 			limit = {
@@ -1187,7 +1187,7 @@ hostile_init_05 = {
 # Crystal Entities - Red VARIATION
 hostile_init_06 = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 2
@@ -1200,7 +1200,7 @@ hostile_init_06 = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	max_instances = 1
 	flags = { hostile_system red2_system }
 
@@ -1209,10 +1209,10 @@ hostile_init_06 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
 
 	planet = {
@@ -1220,23 +1220,23 @@ hostile_init_06 = {
 		orbit_distance = 25
 		class = "pc_gaia"
 		orbit_angle = { min = 90 max = 270 }
-		size = { min = 10 max = 25 }
+		size = 25
 	}
-	
+
 	planet = {
 		count = { min = 6 max = 10 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_crystal_country = yes
 		random_system_planet = {
@@ -1701,7 +1701,7 @@ hostile_init_06 = {
 hostile_init_07 = {
 
 	class = sc_pulsar
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 10
@@ -1717,30 +1717,30 @@ hostile_init_07 = {
 
 	max_instances = 1
 	spawn_chance = 100
-	
+
 	flags = { hostile_system elite_system }
-	
+
 	planet = {
 		class = star
 		orbit_distance = 0
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 2 max = 10 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_crystal_country = yes
 		random_system_planet = {
@@ -1924,7 +1924,7 @@ hostile_init_07 = {
 hostile_init_08 = {
 	class = "rl_standard_stars"
 	asteroids_distance = 95
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 4
@@ -1937,28 +1937,28 @@ hostile_init_08 = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system void_system }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 30
-	
+
 	planet = {
 		count = 2
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		class = random_asteroid
 		orbit_distance = 0
@@ -1969,21 +1969,21 @@ hostile_init_08 = {
 		orbit_distance = 0
 		orbit_angle = { min = 160 max 330 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_cloud_country = yes
 		random_system_planet = {
@@ -2020,14 +2020,14 @@ hostile_init_08 = {
 					}
 				}
 			}
-		}		
+		}
 	}
 }
 
 # Void Cloud Home System
 hostile_init_09 = {
 	class = sc_black_hole
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 2
@@ -2043,29 +2043,29 @@ hostile_init_09 = {
 
 	flags = { hostile_system void2_system }
 	max_instances = 1
-	
+
 	planet = {
 		class = star
 		orbit_distance = 0
 	}
-	
+
 	change_orbit = 60
-	
+
 	planet = {
 		count = { min = 0 max = 1 }
 		class = "pc_barren"
 		entity = "barren_planet_01_destroyed_entity"
-		size = { min = 10 max = 15 }
-		
+		size = 16
+
 		init_effect = { prevent_anomaly = yes }
 	}
-	
+
 	change_orbit = 20
-	
+
 	planet = {
 		count = { min = 0 max = 1 }
 		class = "pc_barren_cold"
-		size = { min = 10 max = 20 }
+		size = 16
 	}
 
 	init_effect = {
@@ -2139,7 +2139,7 @@ hostile_init_09 = {
 # Space Amoeba, Large pack
 hostile_init_10 = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 4
@@ -2152,7 +2152,7 @@ hostile_init_10 = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system amoeba_1_system }
 
 	planet = {
@@ -2160,26 +2160,26 @@ hostile_init_10 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 2 max = 10 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_amoeba_country = yes
 		random_system_planet = {
@@ -2218,7 +2218,7 @@ hostile_init_10 = {
 # Space Amoeba, Small pack
 hostile_init_10_small_amoeba_pack = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 4
@@ -2231,7 +2231,7 @@ hostile_init_10_small_amoeba_pack = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system amoeba_2_system }
 
 	planet = {
@@ -2239,26 +2239,26 @@ hostile_init_10_small_amoeba_pack = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 2 max = 10 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_amoeba_country = yes
 		random_system_planet = {
@@ -2296,7 +2296,7 @@ hostile_init_10_small_amoeba_pack = {
 # Space Amoeba ROAMING VARIATION
 hostile_init_11 = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 4
@@ -2309,7 +2309,7 @@ hostile_init_11 = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system amoeba_3_system }
 
 	planet = {
@@ -2317,26 +2317,26 @@ hostile_init_11 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 2 max = 10 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_amoeba_country = yes
 		random_system_planet = {
@@ -2401,7 +2401,7 @@ hostile_init_11 = {
 											is_star = yes
 										}
 										found_planet = {
-											effect = { 
+											effect = {
 												id = amoeba.2.effect.1
 												event_target:hunting_amoeba = { set_aggro_range = 500 }
 											}
@@ -2430,7 +2430,7 @@ hostile_init_11 = {
 											is_planet = event_target:grazing_grounds
 										}
 										found_planet = {
-											effect = { 
+											effect = {
 												id = amoeba.2.effect.2
 												event_target:hunting_amoeba = { set_aggro_range = 40 }
 											}
@@ -2522,7 +2522,7 @@ hostile_init_11 = {
 hostile_init_12 = {
 	class = "rl_standard_stars"
 	asteroids_distance = 95
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 4
@@ -2535,28 +2535,28 @@ hostile_init_12 = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system drone_system_1 }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 30
-	
+
 	planet = {
 		count = 2
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		class = random_asteroid
 		orbit_distance = 0
@@ -2567,25 +2567,25 @@ hostile_init_12 = {
 		orbit_distance = 0
 		orbit_angle = { min = 160 max 330 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_drone_country = yes
 		random_system_planet = {
-			limit = { 
+			limit = {
 				has_deposit_for = shipclass_mining_station
 				is_star = no
 				NOT = { is_planet_class = pc_gas_giant }
@@ -2632,7 +2632,7 @@ hostile_init_12 = {
 			create_mining_station = {
 				owner = event_target:mining_drones
 			}
-		}	
+		}
 	}
 }
 
@@ -2640,7 +2640,7 @@ hostile_init_12 = {
 hostile_init_12_mining_drones = {
 	class = "rl_standard_stars"
 	asteroids_distance = 95
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 4
@@ -2653,28 +2653,28 @@ hostile_init_12_mining_drones = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system drone_system_2 }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 30
-	
+
 	planet = {
 		count = 2
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		class = random_asteroid
 		orbit_distance = 0
@@ -2685,25 +2685,25 @@ hostile_init_12_mining_drones = {
 		orbit_distance = 0
 		orbit_angle = { min = 160 max 330 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_drone_country = yes
 		random_system_planet = {
-			limit = { 
+			limit = {
 				has_deposit_for = shipclass_mining_station
 				is_star = no
 				NOT = { is_planet_class = pc_gas_giant }
@@ -2757,7 +2757,7 @@ hostile_init_12_mining_drones = {
 			create_mining_station = {
 				owner = event_target:mining_drones
 			}
-		}	
+		}
 	}
 }
 
@@ -2765,7 +2765,7 @@ hostile_init_12_mining_drones = {
 hostile_init_12_drone_destroyer = {
 	class = "rl_standard_stars"
 	asteroids_distance = 95
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 1
@@ -2778,28 +2778,28 @@ hostile_init_12_drone_destroyer = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system drone_destroyer_system }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 30
-	
+
 	planet = {
 		count = 2
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		class = random_asteroid
 		orbit_distance = 0
@@ -2810,21 +2810,21 @@ hostile_init_12_drone_destroyer = {
 		orbit_distance = 0
 		orbit_angle = { min = 160 max 330 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		create_drone_country = yes
 		random_system_planet = {
@@ -2871,7 +2871,7 @@ hostile_init_12_drone_destroyer = {
 			create_mining_station = {
 				owner = event_target:mining_drones
 			}
-		}	
+		}
 	}
 }
 
@@ -2892,15 +2892,15 @@ hostile_init_13 = {
             has_star_flag = empire_cluster
         }
 	}
-	
+
 	flags = { hostile_system drone_system_3 }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = 30
+		size = 36
 		has_ring = no
 	}
 
@@ -2932,7 +2932,7 @@ hostile_init_13 = {
 		orbit_distance = 20
 		orbit_angle = 60
 	}
-	
+
 	planet = {
 		count = 1
 		class = pc_asteroid
@@ -2966,20 +2966,20 @@ hostile_init_13 = {
 		class = pc_gas_giant
 		orbit_distance = 30
 		orbit_angle = -160
-		size = 35
+		size = 36
 		change_orbit = 6
 
 		moon = {
 			count = 1
 			class = pc_molten
-			size = 6
+			size = 9
 			orbit_distance = 10
-			orbit_angle = 100 
+			orbit_angle = 100
 		}
 		moon = {
 			count = 1
 			class = "pc_frozen"
-			size = 6
+			size = 9
 			orbit_distance = 2.5
 			orbit_angle = 10
 			has_ring = no
@@ -2995,7 +2995,7 @@ hostile_init_13 = {
 		moon = {
 			count = 1
 			class = "pc_frozen"
-			size = 7
+			size = 9
 			orbit_distance = 2.5
 			orbit_angle = -155
 			has_ring = no
@@ -3007,14 +3007,14 @@ hostile_init_13 = {
 		class = pc_gas_giant
 		orbit_distance = 20
 		orbit_angle = 170
-		size = 30
+		size = 36
 		has_ring = yes
 		change_orbit = 7
 
 		moon = {
 			count = 1
 			class = pc_frozen
-			size = 8
+			size = 9
 			orbit_distance = 12
 			orbit_angle = 320
 		}
@@ -3025,7 +3025,7 @@ hostile_init_13 = {
 		orbit_distance = 20
 		orbit_angle = 125
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 20
@@ -3076,14 +3076,14 @@ hostile_init_13 = {
 				owner = event_target:drone_country
 			}
 		}
-	}	
+	}
 }
 
 # Mining Drone Home
 hostile_init_14 = {
 	class = "rl_standard_stars"
 	asteroids_distance = 120
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 10
@@ -3099,24 +3099,24 @@ hostile_init_14 = {
 
 	max_instances = 1
 	spawn_chance = 100
-	
+
 	flags = { hostile_system drone_home_system }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 
 		init_effect = {
 			create_drone_country = yes
 		}
 	}
-	
+
 	change_orbit = 120
-	
+
 	planet = {
 		count = 3
 		class = random_asteroid
@@ -3206,20 +3206,18 @@ hostile_init_14 = {
 			}
 		}
 	}
-	
+
 	change_orbit = -80
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		init_effect = {
-
-		}
+		init_effect = {}
 	}
-	
+
 	change_orbit = 80
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 40
@@ -3240,7 +3238,7 @@ hostile_init_14 = {
 # Tiyanki
 hostile_init_15 = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 4
@@ -3255,43 +3253,43 @@ hostile_init_15 = {
 	}
 
 	flags = { tiyanki_home_system }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 1 }
 		orbit_distance = 10
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	planet = {
 		count = { min = 1 max = 2 }
 		orbit_distance = 60
 		class = pc_gas_giant
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 1 max = 4 }
-			size = { min = 8 max = 20 }
+			size = 16
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 6
 		}
 	}
-	
+
 	change_orbit = 20
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
@@ -3385,26 +3383,26 @@ hostile_init_16 = {
 	}
 
 	flags = { pirate_system pirate_1 }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 30
-	
+
 	planet = {
 		count = 2
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = { min = 1 max = 2 }
 		class = random_asteroid
@@ -3413,7 +3411,7 @@ hostile_init_16 = {
 
 		init_effect = {
 			create_pirate_country = yes
-			
+
 			create_fleet = {
 				name = "NAME_Pirate_Hideout"
 				effect = {
@@ -3449,16 +3447,16 @@ hostile_init_16 = {
 					set_location = prev
 				}
 			}
-		}		
+		}
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -3469,7 +3467,7 @@ hostile_init_16 = {
 
 hostile_init_17 = {
 	class = "rl_standard_stars"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 4
@@ -3484,43 +3482,43 @@ hostile_init_17 = {
 	}
 
 	flags = { pirate_system pirate_2 }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 1 }
 		orbit_distance = 10
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	planet = {
 		count = { min = 1 max = 2 }
 		orbit_distance = 60
 		class = pc_gas_giant
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 1 max = 4 }
-			size = { min = 8 max = 20 }
+			size = 16
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 6
 		}
 	}
-	
+
 	change_orbit = 20
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 20
@@ -3590,14 +3588,14 @@ hostile_init_17 = {
 		}
 	}
 }
-	
+
 
 
 ### Privateer Conglomerate
 hostile_init_18 = {
 	class = random
 	asteroids_distance = 95
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 100
@@ -3621,7 +3619,7 @@ hostile_init_18 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = 25
 		has_ring = no
 
 		init_effect = {

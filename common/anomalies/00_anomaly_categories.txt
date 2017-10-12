@@ -20,16 +20,15 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_asteroid = yes
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.1 }
@@ -54,16 +53,15 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_asteroid = yes
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2 }
@@ -88,16 +86,15 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_asteroid = yes
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.3 }
@@ -122,16 +119,15 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_asteroid = yes
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4 }
@@ -156,16 +152,15 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_asteroid = yes
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.5 }
@@ -190,17 +185,16 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_asteroid = yes
 			has_any_strategic_resource = no
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.6 }
@@ -225,17 +219,16 @@ anomaly_category = {
 	picture = GFX_evt_mining_station
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_asteroid = yes
 			num_minerals > 0
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.7 }
@@ -260,16 +253,15 @@ anomaly_category = {
 	picture = GFX_evt_microscopic_life
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_asteroid = yes
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.8 }
@@ -294,16 +286,15 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_gas_giant
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.9 }
@@ -326,17 +317,16 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_gas_giant
 			has_any_strategic_resource = no
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.10 }
@@ -359,16 +349,15 @@ anomaly_category = {
 	picture = GFX_evt_microscopic_life
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_gas_giant
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.11 }
@@ -391,16 +380,15 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_gas_giant
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.12 }
@@ -423,16 +411,15 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_gas_giant
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.13 }
@@ -455,16 +442,15 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_gas_giant
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.14 }
@@ -487,16 +473,15 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_gas_giant
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.15 }
@@ -519,16 +504,15 @@ anomaly_category = {
 	picture = GFX_evt_nuclear_explosion
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.16 }
@@ -553,16 +537,15 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.17 }
@@ -587,16 +570,15 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.18 }
@@ -621,16 +603,15 @@ anomaly_category = {
 	picture = GFX_evt_asteroid_approaching_planet
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.19 }
@@ -655,8 +636,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
@@ -670,9 +651,8 @@ anomaly_category = {
 	on_spawn = {
 		from.owner = { set_country_flag = solar_sailer_spawned }
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.20 }
@@ -697,16 +677,15 @@ anomaly_category = {
 	picture = GFX_evt_microscopic_life
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_toxic
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.21 }
@@ -731,8 +710,8 @@ anomaly_category = {
 	picture = GFX_evt_microscopic_life
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_frozen
@@ -747,9 +726,8 @@ anomaly_category = {
 			}
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.21 }
@@ -774,8 +752,8 @@ anomaly_category = {
 	picture = GFX_evt_microscopic_life
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			OR = {
@@ -785,9 +763,8 @@ anomaly_category = {
 			has_any_strategic_resource = no
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.21 }
@@ -812,8 +789,8 @@ anomaly_category = {
 	picture = GFX_evt_space_station
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
@@ -822,9 +799,8 @@ anomaly_category = {
 			space_owner = { is_same_value = from.owner }
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.22 }
@@ -849,8 +825,8 @@ anomaly_category = {
 	picture = GFX_evt_small_space_battle
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
@@ -860,13 +836,12 @@ anomaly_category = {
 			from.owner = { has_country_flag = spawned_battle_uninhabitable_category }
 		}
 	}
-	
+
 	on_spawn = {
 		from.owner = { set_country_flag = spawned_battle_uninhabitable_category }
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.23 }
@@ -891,8 +866,8 @@ anomaly_category = {
 	picture = GFX_evt_space_station
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 1
 			uninhabitable_regular_planet = yes
@@ -908,9 +883,8 @@ anomaly_category = {
 	on_spawn = {
 		from.owner = { set_country_flag = automated_shipyard_found }
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.24 }
@@ -935,16 +909,15 @@ anomaly_category = {
 	picture = GFX_evt_dead_city
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_toxic
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.25 }
@@ -969,8 +942,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
@@ -984,9 +957,8 @@ anomaly_category = {
 	on_spawn = {
 		from.owner = { set_country_flag = spawned_writing_uninhabitable_category }
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.26 }
@@ -1011,17 +983,16 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
 			has_any_strategic_resource = no
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.27 }
@@ -1046,8 +1017,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 2
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
@@ -1061,9 +1032,8 @@ anomaly_category = {
 	on_spawn = {
 		from.owner = { set_country_flag = spawned_mountain_uninhabitable_category }
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.28 }
@@ -1088,8 +1058,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 3
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			uninhabitable_regular_planet = yes
@@ -1103,9 +1073,8 @@ anomaly_category = {
 	on_spawn = {
 		from.owner = { set_country_flag = spawned_object_uninhabitable_category }
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.29 }
@@ -1130,8 +1099,8 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 3
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 1
 			is_planet_class = pc_gas_giant
@@ -1149,9 +1118,8 @@ anomaly_category = {
 	on_spawn = {
 		from.owner = { set_country_flag = gas_giant_signal_spawned }
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.30 }
@@ -1174,16 +1142,15 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 3
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_gas_giant
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.31 }
@@ -1206,17 +1173,16 @@ anomaly_category = {
 	picture = GFX_evt_ship_in_orbit
 	level = 3
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			is_planet_class = pc_gas_giant
 			is_moon = no
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.32 }
@@ -1239,21 +1205,18 @@ anomaly_category = {
 	picture = GFX_evt_city_ruins
 	level = 1
 	#risk = 0
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 0
 		}
 	}
-	
-	on_success = {
-	}
 
-	on_fail = {
-	}
+	on_success = {}
 
-	on_critical_fail = {
-	}
+	on_fail = {}
+
+	on_critical_fail = {}
 }
 
 # Terraforming Candidate
@@ -1263,17 +1226,17 @@ anomaly_category = {
 	picture = GFX_evt_drilling_for_gas
 	level = 1
 	#risk = 0
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 2
 			NOT = { has_modifier = terraforming_candidate }
 			OR = {
 				is_planet_class = pc_barren
 				is_planet_class = pc_barren_cold
-			}	
+			}
 			planet_size > 9
-			planet_size < 26	
+			planet_size < 26
 			solar_system = {
 				NOR = {
 					is_star_class = sc_black_hole
@@ -1283,15 +1246,12 @@ anomaly_category = {
 			}
 		}
 	}
-	
-	on_success = {
-	}
 
-	on_fail = {
-	}
+	on_success = {}
 
-	on_critical_fail = {
-	}
+	on_fail = {}
+
+	on_critical_fail = {}
 }
 
 # Living Metal
@@ -1301,8 +1261,8 @@ anomaly_category = {
 	picture = GFX_evt_cold_barren
 	level = 3
 	#risk = 0
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 1
 			AND = {
@@ -1315,9 +1275,8 @@ anomaly_category = {
 			}
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.16 }

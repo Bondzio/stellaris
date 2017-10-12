@@ -130,12 +130,12 @@ ship_event = {
 					trigger = has_modifier
 					hazardous_weather = { text = anomaly.6660.desc.weather }
 					weak_magnetic_field = { text = anomaly.6660.desc.magnetic }
-					strong_magnetic_field = { text = anomaly.6660.desc.magnetic }
+					strong_magnetic_field = { text = anomaly.6660.des.magnetic }
 					unstable_tectonics = { text = anomaly.6660.desc.tectonic }
 					tidal_locked = { text = anomaly.6660.desc.tidal }
 					chthonian_planet = { text = anomaly.6660.desc.resources }
 					asteroid_impacts = { text = anomaly.6660.desc.impacts }
-					extensive_moon_system = { text = anomaly.6660.desc.resources }
+					extensive_moon_system = { text = anomaly.6660.descresources }
 					carbon_world = { text = anomaly.6660.desc.resources }
 					wild_storms = { text = anomaly.6660.desc.weather }
 					low_gravity = { text = anomaly.6660.desc.gravity }
@@ -199,12 +199,12 @@ ship_event = {
 					trigger = has_modifier
 					hazardous_weather = { text = anomaly.6660.desc.weather }
 					weak_magnetic_field = { text = anomaly.6660.desc.magnetic }
-					strong_magnetic_field = { text = anomaly.6660.desc.magnetic }
+					strong_magnetic_field = { text = anomaly.6660.des.magnetic }
 					unstable_tectonics = { text = anomaly.6660.desc.tectonic }
 					tidal_locked = { text = anomaly.6660.desc.tidal_mach }
 					chthonian_planet = { text = anomaly.6660.desc.resources }
 					asteroid_impacts = { text = anomaly.6660.desc.impacts }
-					extensive_moon_system = { text = anomaly.6660.desc.resources }
+					extensive_moon_system = { text = anomaly.6660.descresources }
 					carbon_world = { text = anomaly.6660.desc.resources }
 					wild_storms = { text = anomaly.6660.desc.weather }
 					low_gravity = { text = anomaly.6660.desc.gravity_mach }

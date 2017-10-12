@@ -4,9 +4,9 @@
 #EXAMPLE OF MODDED SPECIES ARCHETYPE
 #Will be able to use traits valid for BIOLOGICAL, ROBOT and BIOLOGICAL2
 #Has the exact same trait points as BIOLOGICAL
-#BIOLOGICAL2 = { 
+#BIOLOGICAL2 = {
 #	inherit_trait_points_from = BIOLOGICAL
-#	inherit_traits_from = { BIOLOGICAL ROBOT } 
+#	inherit_traits_from = { BIOLOGICAL ROBOT }
 #}
 
 @robot_trait_points = 0

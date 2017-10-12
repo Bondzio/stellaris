@@ -31,7 +31,7 @@
 #	}
 #}
 #
-#spawn_chance = { 
+#spawn_chance = {
 #	modifier = {
 #		add = 3
 #		not = {
@@ -54,8 +54,7 @@ anomaly_category = {
 	level = 2
 	#risk = 20
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
 	spawn_chance = {
 		modifier = {
@@ -64,8 +63,7 @@ anomaly_category = {
 		}
 	}
 	#Supposed to be empty, handled in anomaly_events.txt
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4000 }
@@ -80,8 +78,7 @@ anomaly_category = {
 	level = 1
 	#risk = 40
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
 	spawn_chance = {
 		modifier = {
@@ -90,8 +87,7 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4005 }
@@ -126,17 +122,16 @@ anomaly_category = {
 			from.owner = { has_authority = auth_machine_intelligence }
 		}
 	}
-	
+
 	on_spawn = {
 		from = {
 			owner = {
 				set_country_flag = GEN_DERELICT_SHIP
 			}
-		}	
+		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4010 }
@@ -160,11 +155,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4015 }
@@ -190,11 +183,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4020 }
@@ -219,12 +210,10 @@ anomaly_category = {
 			}
 		}
 	}
-	
-	on_spawn = {
-	}
 
-	on_success = {
-	}
+	on_spawn = {}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4025 }
@@ -254,11 +243,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4030 }
@@ -295,11 +282,10 @@ anomaly_category = {
 			owner = {
 				set_country_flag = SUN_RAYS
 			}
-		}	
+		}
 	}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4035 }
@@ -334,18 +320,16 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4045 }
 	}
 }
 
-# Diamond in the Rough 
+# Diamond in the Rough
 anomaly_category = {
 	key = "COLD_RESEARCH_CAT"
 	desc = "COLD_RESEARCH_DESC"
@@ -364,11 +348,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		random_list = {
@@ -399,7 +381,7 @@ anomaly_category = {
 				#is_planet_class = pc_f_star
 				#is_planet_class = pc_g_star
 			}
-			from = { 
+			from = {
 				owner = {
 					NOT = {
 						has_country_flag = SUN_TEAPOT_PROJECT
@@ -408,17 +390,16 @@ anomaly_category = {
 			}
 		}
 	}
-	
+
 	on_spawn = {
 		from = {
 			owner = {
 				set_country_flag = SUN_TEAPOT_PROJECT
 			}
-		}	
+		}
 	}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4060 }
@@ -452,11 +433,10 @@ anomaly_category = {
 			owner = {
 				set_country_flag = AST_GEAR_CAT
 			}
-		}	
+		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4005 }
@@ -481,15 +461,13 @@ anomaly_category = {
 			from.owner = {
 				has_authority = auth_machine_intelligence
 				NOT = { has_civic = civic_machine_servitor }
-			}	
+			}
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4070 }
@@ -526,11 +504,10 @@ anomaly_category = {
 			owner = {
 				set_country_flag = ABANDONED_SENSOR_ARRAY
 			}
-		}	
+		}
 	}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4080 }
@@ -586,11 +563,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		random_list = {
@@ -614,11 +589,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		random_list = {
@@ -642,11 +615,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		random_list = {
@@ -670,11 +641,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		random_list = {
@@ -717,8 +686,7 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		random_list = {
@@ -749,11 +717,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		random_list = {
@@ -778,11 +744,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {	
-	}
+	on_spawn = {}
 
-	on_success = {
-	}
+	on_success = {}
 
 	on_fail = {
 		random_list = {

@@ -1226,7 +1226,7 @@ country_event = {
 				}
 				random_owned_pop = {
 					limit = { has_pop_flag = changed_pop }
-					root = { change_dominant_species = { species = prev } }
+					root = { change_dominant_species = prev }
 				}
 			}
 		}
@@ -1276,7 +1276,7 @@ country_event = {
 			}
 			random_owned_pop = {
 				limit = { has_pop_flag = changed_pop }
-				root = { change_dominant_species = { species = prev } }
+				root = { change_dominant_species = prev }
 			}
 		}
 	}
@@ -1405,7 +1405,7 @@ country_event = {
 				}
 				random_owned_pop = {
 					limit = { has_pop_flag = changed_pop }
-					root = { change_dominant_species = { species = prev } }
+					root = { change_dominant_species = prev }
 				}
 			}
 		}
@@ -1455,7 +1455,7 @@ country_event = {
 			}
 			random_owned_pop = {
 				limit = { has_pop_flag = changed_pop }
-				root = { change_dominant_species = { species = prev } }
+				root = { change_dominant_species = prev }
 			}
 		}
 	}

@@ -1859,10 +1859,7 @@ country_event = {
 	trigger = { has_country_flag = standard_unrest_rebels }
 
 	immediate = {
-		From = { 
-			remove_planet_flag = revolt_in_progress 
-			save_event_target_as = nationalist_revolt_planet
-		}
+		From = { remove_planet_flag = revolt_in_progress }
 		create_leader = {
 			type = ruler
 			species = owner_main_species
@@ -1880,7 +1877,7 @@ country_event = {
 		}
 		from = { 
 			add_modifier = { 
-				modifier = insurgents_free
+				modifier = free_at_last 
 				days = 7200
 			}
 		}
@@ -1963,11 +1960,10 @@ country_event = {
 		}
 		hidden_effect = {
 			from = {
-				set_country_flag = silence_destroy_event
 				destroy_country = yes
 			}
 			event_target:rebelled_against = {
-				country_event = { id = unrest.4230 days = 5 } # were annexed notification
+				country_event = { id = unrest.4230 } # were annexed notification
 			}
 		}
 		fromfrom = {
@@ -2068,9 +2064,9 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		event_target:nationalist_revolt_planet = {
+		fromfromfrom = {
 			exists = controller
-			controller = { is_same_value = prev.owner }
+			controller = { is_same_value = owner }
 		}
 	}
 

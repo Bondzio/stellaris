@@ -493,7 +493,7 @@ under_bombardment = {
 		orbital_bombardment = soft
 		orbital_bombardment = limited
 		orbital_bombardment = full
-		orbital_bombardment = armageddon	
+		orbital_bombardment = armageddon
 	}
 }
 

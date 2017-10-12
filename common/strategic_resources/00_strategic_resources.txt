@@ -1,8 +1,8 @@
 ### System Resources
-# accumulative = yes					- 
-# collect_if_wrong_building = yes/no	- 
-# accumulated_by_sectors = yes/no		- 
-# tradable = yes/no						- 
+# accumulative = yes					-
+# collect_if_wrong_building = yes/no	-
+# accumulated_by_sectors = yes/no		-
+# tradable = yes/no						-
 # is_rare = yes/no						- Rare resources are shown in strategic resources view.
 # is_global = yes/no					- On orbital tiles only. Collected with station. Can have country modifiers. Aren't necessarily consumed. Can't be planet_local.
 # is_planet_local = yes/no				- On planet tiles only. Collected with building. Are consumed. Can't be global.
@@ -11,14 +11,13 @@
 # modifier_prerequisites = {}			- Must be fulfilled before resource can be used.
 #
 
-time = {
-}
+time = {}
 
 ### Basic Resources
 
 energy = {
 	accumulative = yes
-	collect_if_wrong_building = no
+	collect_if_wrong_building = yes
 	accumulated_by_sectors = yes
 	tradable = yes
 	AI_category = energy
@@ -30,7 +29,7 @@ energy = {
 
 minerals = {
 	accumulative = yes
-	collect_if_wrong_building = no
+	collect_if_wrong_building = yes
 	accumulated_by_sectors = yes
 	tradable = yes
 	AI_category = minerals
@@ -41,28 +40,28 @@ minerals = {
 food = {
 	accumulative = yes
 	tradable = yes
-	collect_if_wrong_building = no
+	collect_if_wrong_building = yes
 	max = 0
 	AI_category = food
 }
 
 physics_research = {
 	accumulative = yes
-	collect_if_wrong_building = no
+	collect_if_wrong_building = yes
 	AI_category = physics
 	base_income = 5
 }
 
 society_research = {
 	accumulative = yes
-	collect_if_wrong_building = no
+	collect_if_wrong_building = yes
 	AI_category = society
 	base_income = 5
 }
 
 engineering_research = {
 	accumulative = yes
-	collect_if_wrong_building = no
+	collect_if_wrong_building = yes
 	AI_category = engineering
 	base_income = 5
 }
@@ -70,7 +69,7 @@ engineering_research = {
 influence = {
 	accumulative = yes
 	AI_category = influence
-	max = 1000
+	max = 1500
 	sector_ignore_cost = yes
 	base_income = 2
 	tooltip_decimals = 1
@@ -78,7 +77,7 @@ influence = {
 
 unity = {
 	accumulative = yes
-	collect_if_wrong_building = no
+	collect_if_wrong_building = yes
 	AI_category = unity
 	base_income = 1
 }
@@ -93,9 +92,9 @@ sr_terraform_gases = {
 	tradable = no
 	is_rare = yes
 	is_global = yes
-	
-	modifier = {	
-		terraforming_cost_mult = -0.25
+
+	modifier = {
+		terraforming_cost_mult = -0.5
 	}
 }
 
@@ -106,8 +105,8 @@ sr_terraform_liquids = {
 	is_rare = yes
 	is_global = yes
 
-	modifier = {	
-		terraform_speed_mult = 0.25
+	modifier = {
+		terraform_speed_mult = 0.5
 	}
 }
 
@@ -126,7 +125,7 @@ sr_garanthium = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
+
 	modifier = {
 		ship_hitpoints_mult = 0.10
 	}
@@ -139,7 +138,7 @@ sr_lythuric = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
+
 	modifier = {
 		ship_shield_hp_mult = 0.20
 	}
@@ -152,7 +151,7 @@ sr_teldar = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
+
 	modifier = {
 		weapon_type_kinetic_weapon_damage_mult = 0.15
 	}
@@ -165,7 +164,7 @@ sr_yuranic = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
+
 	modifier = {
 		weapon_type_energy_weapon_damage_mult = 0.15
 	}
@@ -178,7 +177,7 @@ sr_orillium = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
+
 	modifier = {
 		weapon_type_explosive_weapon_damage_mult = 0.15
 	}
@@ -191,7 +190,7 @@ sr_pitharan = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
+
 	modifier = {
 		country_resource_food_mult = 0.10
 	}
@@ -204,7 +203,7 @@ sr_engos = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
+
 	modifier = {
 		pop_environment_tolerance = 0.05
 	}
@@ -221,7 +220,7 @@ sr_neutronium = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
+
 	modifier = {
 		ship_armor_mult = 0.20
 	}
@@ -234,10 +233,10 @@ sr_living_metal = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
+
 	modifier = {
 		megastructure_build_speed_mult = 0.3
-		ship_auto_repair_add = 0.02
+		ship_auto_repair_add = 0.2
 	}
 }
 
@@ -248,7 +247,7 @@ sr_zro = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
+
 	modifier = {
 		ship_interstellar_speed_mult = 0.50
 		ship_sensor_range_mult = 1.00
@@ -262,8 +261,8 @@ sr_dark_matter = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
-	modifier = {		
+
+	modifier = {
 		country_resource_physics_research_mult = 0.20
 	}
 }
@@ -275,7 +274,7 @@ sr_dark_matter = {
 #	tradable = yes
 #	is_rare = yes
 #	is_global = yes
-#	
+#
 #	modifier = {
 #		tile_resource_energy_mult = 0.10
 #	}
@@ -292,8 +291,8 @@ sr_satramene = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
-	modifier = {		
+
+	modifier = {
 		pop_government_ethic_attraction = 0.10
 	}
 }
@@ -326,8 +325,8 @@ sr_riggan = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
-	modifier = {		
+
+	modifier = {
 		pop_citizen_happiness = 0.05
 	}
 }
@@ -337,9 +336,9 @@ sr_xuran = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
-	modifier = {	
-		pop_environment_tolerance = 0.05		
+
+	modifier = {
+		pop_environment_tolerance = 0.05
 	}
 }
 
@@ -348,8 +347,8 @@ sr_muutagan = {
 	tradable = yes
 	is_rare = yes
 	is_global = yes
-	
-	modifier = {		
+
+	modifier = {
 		pop_government_ethic_attraction = 0.1
 	}
 }

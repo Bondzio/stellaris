@@ -44,14 +44,14 @@ tech_akx_worm_1 = {
 	is_rare = yes
 	tier = 3
 	category = { industry }
-	#ai_update_type = all	
-	prerequisites = { }
+	#ai_update_type = all
+	prerequisites = {}
 	weight = 0
-		
+
 	modifier = {
 		#science_ship_survey_speed = 0.05
 	}
-	
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -60,12 +60,12 @@ tech_akx_worm_1 = {
 				has_trait = "leader_trait_expertise_voidcraft"
 			}
 		}
-	}	
-	
+	}
+
 	ai_weight = {
 		factor = 0
 	}
-	
+
 	prereqfor_desc = {
 		component = {
 			title = "TECH_UNLOCK_AKX_WORM_3_TITLE"
@@ -81,14 +81,14 @@ tech_akx_worm_2 = {
 	is_rare = yes
 	tier = 3
 	category = { statecraft }
-	#ai_update_type = all	
-	prerequisites = { }
+	#ai_update_type = all
+	prerequisites = {}
 	weight = 0
-		
+
 	modifier = {
 		#science_ship_survey_speed = 0.05
 	}
-	
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -97,12 +97,12 @@ tech_akx_worm_2 = {
 				has_trait = "leader_trait_expertise_voidcraft"
 			}
 		}
-	}	
-	
+	}
+
 	ai_weight = {
 		factor = 0
 	}
-	
+
 	prereqfor_desc = {
 		component = {
 			title = "TECH_UNLOCK_AKX_WORM_3_TITLE"
@@ -118,14 +118,14 @@ tech_akx_worm_3 = {
 	is_rare = yes
 	tier = 3
 	category = { voidcraft }
-	#ai_update_type = all	
+	#ai_update_type = all
 	prerequisites = { "tech_akx_worm_1" "tech_akx_worm_2" }
 	weight = 1
-		
+
 	modifier = {
 		#science_ship_survey_speed = 0.05
 	}
-	
+
 	weight_modifier = {
 		modifier = {
 			add = 60
@@ -133,11 +133,11 @@ tech_akx_worm_3 = {
 			has_technology = tech_akx_worm_2
 		}
 	}
-	
+
 	ai_weight = {
 		factor = 0
 	}
-	
+
 	prereqfor_desc = {
 		component = {
 			title = "TECH_UNLOCK_AKX_WORM_3_TITLE"

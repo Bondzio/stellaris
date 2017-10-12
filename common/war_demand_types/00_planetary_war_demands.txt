@@ -690,7 +690,7 @@ liberate_planet = {
 				}
 			}						
 			else = {
-				parameter:planet = {	
+				parameter:planet = {		
 					create_country = {
 						name = random
 						authority = event_target:new_country_authority	# generates an error log if the liberator is Machine

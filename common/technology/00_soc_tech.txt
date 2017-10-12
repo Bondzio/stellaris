@@ -2308,7 +2308,7 @@ tech_glandular_acclimation = {
 		modifier = {
 			factor = 0
 			AND = {
-				has_authority = auth_machine_intelligence
+			has_authority = auth_machine_intelligence
 				NOT = { has_civic = civic_machine_assimilator }
 			}
 		}
@@ -2386,7 +2386,7 @@ tech_gene_expressions = {
 		modifier = {
 			factor = 0
 			AND = {
-				has_authority = auth_machine_intelligence
+			has_authority = auth_machine_intelligence
 				NOT = { has_civic = civic_machine_assimilator }
 			}
 		}
@@ -2516,7 +2516,7 @@ tech_capacity_boosters = {
 		modifier = {
 			factor = 0
 			AND = {
-				has_authority = auth_machine_intelligence
+			has_authority = auth_machine_intelligence
 				NOT = { has_civic = civic_machine_assimilator }
 			}
 		}

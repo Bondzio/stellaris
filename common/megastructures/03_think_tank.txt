@@ -24,18 +24,18 @@ think_tank_0 = {
 	maintenance = {
 		energy = 5
 	}
-	
+
 	potential = {
 		has_ascension_perk = ap_galactic_wonders
 	}
-	
+
 	possible = {
 		custom_tooltip = {
 			fail_text = "requires_inside_border"
 			is_inside_border = from
 		}
 	}
-	
+
 	placement_rules = {
 		planet_possible = {
 			custom_tooltip = {
@@ -50,7 +50,7 @@ think_tank_0 = {
 			custom_tooltip = {
 				fail_text = "requires_no_existing_think_tank"
 				from = { NOT = { has_country_flag = built_think_tank } }
-			}			
+			}
 			custom_tooltip = {
 				fail_text = "requires_survey_not_habitable"
 				is_surveyed = {			# prevent leaking habitability information
@@ -82,7 +82,7 @@ think_tank_0 = {
 			}
 		} # use these for all non-star megastructures
 	}
-	
+
 	ai_weight = {
 		factor = 10
 		modifier = {
@@ -92,12 +92,12 @@ think_tank_0 = {
 				has_ethic = ethic_fanatic_materialist
 			}
 		}
-		
+
 		modifier = {
 			factor = 0.1
 			has_any_megastructure_in_empire = yes
 		}
-		
+
 		modifier = {
 			factor = 0
 			any_system_within_border = {
@@ -110,7 +110,7 @@ think_tank_0 = {
 			}
 		}
 	}
-	
+
 	on_build_start = {}
 	on_build_cancel = {}
 	on_build_complete = {
@@ -126,10 +126,10 @@ think_tank_1 = {
 	entity = "thinktank_phase_01_entity"
 	construction_entity = "thinktank_phase_01_entity"
 	portrait = "GFX_megastructure_construction_background"
-	
+
 	place_entity_on_planet_plane = no
 	entity_offset = { x = @entity_x y = @entity_y }
-	
+
 	upgrade_from = {
 		think_tank_0
 	}
@@ -138,7 +138,7 @@ think_tank_1 = {
 	build_cost = {
 		minerals = 30000
 	}
-	
+
 	possible = {
 		from = { has_ascension_perk = ap_galactic_wonders }
 	}
@@ -161,7 +161,7 @@ think_tank_2 = {
 
 	place_entity_on_planet_plane = no
 	entity_offset = { x = @entity_x y = @entity_y }
-	
+
 	upgrade_from = {
 		think_tank_1
 	}
@@ -170,11 +170,11 @@ think_tank_2 = {
 	build_cost = {
 		minerals = 30000
 	}
-	
+
 	possible = {
 		from = { has_ascension_perk = ap_galactic_wonders }
 	}
-	
+
 	monthly_production = {
 		society_research = @stage_2_research_bonus
 		engineering_research = @stage_2_research_bonus
@@ -193,7 +193,7 @@ think_tank_3 = {
 
 	place_entity_on_planet_plane = no
 	entity_offset = { x = @entity_x y = @entity_y }
-	
+
 	upgrade_from = {
 		think_tank_2
 	}
@@ -202,11 +202,11 @@ think_tank_3 = {
 	build_cost = {
 		minerals = 30000
 	}
-	
+
 	possible = {
 		from = { has_ascension_perk = ap_galactic_wonders }
 	}
-	
+
 	monthly_production = {
 		society_research = @stage_3_research_bonus
 		engineering_research = @stage_3_research_bonus
@@ -229,13 +229,13 @@ think_tank_4 = {
 	# used from script only
 	upgrade_desc = hide
 	potential = { always = no }
-	
+
 	upgrade_from = {
 		think_tank_3
 	}
 
 	build_time = 20
-	
+
 	monthly_production = {
 		society_research = @stage_4_research_bonus
 		engineering_research = @stage_4_research_bonus
@@ -284,7 +284,7 @@ think_tank_restored = {
 	}
 
 	possible = {
-		from = { has_technology = tech_mega_engineering }	
+		from = { has_technology = tech_mega_engineering }
 	}
 
 	on_build_start = {

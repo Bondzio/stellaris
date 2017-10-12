@@ -5,7 +5,7 @@ mandate_orbital_researcher = {
 		owner = { has_technology = tech_space_construction }
 	}
 	parameters = {}
-	
+
 	on_term_started = {
 		owner = {
 			if = {

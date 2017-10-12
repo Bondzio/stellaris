@@ -2585,7 +2585,14 @@ ship_event = {
 ship_event = {
 	id = anomaly.233
 	title = anomaly.233.name
-	desc = anomaly.233.desc
+	desc = {
+		trigger = { owner = { NOT = { has_authority = auth_machine_intelligence } } }
+		text = anomaly.233.desc
+	}
+	desc = {
+		trigger = { owner = { has_authority = auth_machine_intelligence} }
+		text = anomaly.233.desc.mach
+	}
 	picture = GFX_evt_physics_research
 	show_sound = event_mystic_reveal
 	location = fromfrom
@@ -2593,9 +2600,22 @@ ship_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		fromfrom = {
-			change_pc = pc_arid
-			reset_planet = yes
+		owner = {
+			if = {
+				limit = {
+					NOT = { has_authority = auth_machine_intelligence }
+				}
+				fromfrom = {
+					change_pc = pc_arid
+					reset_planet = yes
+				}
+				else = {
+					fromfrom = {
+						change_pc = pc_machine
+						reset_planet = yes
+					}
+				}
+			}
 		}
 	}
 

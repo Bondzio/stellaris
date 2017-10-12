@@ -10,25 +10,25 @@
 #	entity_scale = 8.0
 #
 #	picture = pc_tropical	# Use tropical portrait art instead of gaia
-#	
+#
 #	atmosphere_color 		= hsv { 0.58	0.3 0.7 }
 #	atmosphere_intensity 	= 1.0
 #	atmosphere_width 		= 0.5
-#	
+#
 #	city_color_lut = "gfx/portraits/misc/colorcorrection_neutral.tga"
 #
 #	min_distance_from_sun = 60
 #	max_distance_from_sun = 80
 #	spawn_odds = 10
-#	
+#
 #	extra_orbit_size = 0
 #	extra_planet_count = 0
-#	
+#
 #	chance_of_ring = 0.2
 #
-#	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
+#	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
 #	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-#	
+#
 #	colonizable = yes
 #	#colonization_tech = { "tech_tropical_colonization@1" }
 #}
@@ -39,12 +39,13 @@
 
 @planet_standard_scale = 11
 @habitable_planet_max_size = 25
-@habitable_planet_min_size = 12
-@habitable_moon_max_size = 15
-@habitable_moon_min_size = 10
+@habitable_planet_min_size = 25
+@habitable_moon_max_size = 16
+@habitable_moon_min_size = 16
 @habitable_min_distance = 60
 @habitable_max_distance = 100
 @habitable_spawn_odds = 0.5
+@chance_of_ring = 0.5
 
 # ###########
 # Habitable Planets
@@ -54,11 +55,11 @@
 pc_desert = {
 	entity = "desert_planet"
 	icon_frame = 1
-	
+
 	climate = "dry"
 
 	entity_scale = @planet_standard_scale
-	
+
 	atmosphere_color 		= hsv { 0.50 0.2 0.8 }		#DONE
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
@@ -66,19 +67,19 @@ pc_desert = {
 	min_distance_from_sun = @habitable_min_distance
 	max_distance_from_sun = @habitable_max_distance
 	spawn_odds = @habitable_spawn_odds
-	
+
 	city_color_lut = "gfx/portraits/misc/colorcorrection_desert.dds"
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	production_spawn_chance = 0.4
-	
+
 	colonizable = yes
 }
 
@@ -86,7 +87,7 @@ pc_arid = {
 	entity = "arid_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 2
-	
+
 	climate = "dry"
 
 	atmosphere_color 		= hsv { 0.50 0.3 0.7 }		#DONE
@@ -96,17 +97,17 @@ pc_arid = {
 	min_distance_from_sun = @habitable_min_distance
 	max_distance_from_sun = @habitable_max_distance
 	spawn_odds = @habitable_spawn_odds
-	
+
 	city_color_lut = "gfx/portraits/misc/colorcorrection_arid.dds"
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = yes
 }
 
@@ -114,7 +115,7 @@ pc_savannah = {
 	entity = "savannah_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 20
-	
+
 	climate = "dry"
 
 	atmosphere_color 		= hsv { 0.50 0.3 0.7 }		#DONE
@@ -124,17 +125,17 @@ pc_savannah = {
 	min_distance_from_sun = @habitable_min_distance
 	max_distance_from_sun = @habitable_max_distance
 	spawn_odds = @habitable_spawn_odds
-	
+
 	city_color_lut = "gfx/portraits/misc/colorcorrection_savannah.dds"
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = yes
 }
 
@@ -143,27 +144,27 @@ pc_tropical = {
 	entity = "tropical_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 5
-	
+
 	climate = "wet"
-	
-	atmosphere_color 		= hsv { 0.58	0.3 0.7 }
+
+	atmosphere_color 		= hsv { 0.58 0.3 0.7 }
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
-	
+
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
 
 	min_distance_from_sun = @habitable_min_distance
 	max_distance_from_sun = @habitable_max_distance
 	spawn_odds = @habitable_spawn_odds
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = yes
 }
 
@@ -171,7 +172,7 @@ pc_continental = {
 	entity = "continental_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
-	
+
 	climate = "wet"
 
 	atmosphere_color 		= hsv { 0.59 0.45 0.95 }		#DONE
@@ -179,20 +180,20 @@ pc_continental = {
 	atmosphere_width 		= 0.5
 
 	city_color_lut = "gfx/portraits/misc/colorcorrection_continental.dds"
-	
-	
+
+
 	min_distance_from_sun = @habitable_min_distance
 	max_distance_from_sun = @habitable_max_distance
 	spawn_odds = @habitable_spawn_odds
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = yes
 }
 
@@ -200,27 +201,27 @@ pc_ocean = {
 	entity = "ocean_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 6
-	
+
 	climate = "wet"
-	
+
 	atmosphere_color 		= hsv { 0.58 0.5 0.9 }		#DONE
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
 
 	city_color_lut = "gfx/portraits/misc/colorcorrection_ocean.dds"
-	
+
 	min_distance_from_sun = @habitable_min_distance
 	max_distance_from_sun = @habitable_max_distance
 	spawn_odds = @habitable_spawn_odds
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = yes
 	#colonization_tech = { "tech_ocean_colonization" }
 }
@@ -230,27 +231,27 @@ pc_tundra = {
 	entity = "tundra_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 3
-	
+
 	climate = "cold"
-	
+
 	atmosphere_color 		= hsv { 0.58 0.3 0.8 }		#DONE
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
 
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tundra.dds"
-	
+
 	min_distance_from_sun = @habitable_min_distance
 	max_distance_from_sun = @habitable_max_distance
 	spawn_odds = @habitable_spawn_odds
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = yes
 }
 
@@ -258,27 +259,27 @@ pc_arctic = {
 	entity = "arctic_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 7
-	
+
 	climate = "cold"
-	
+
 	atmosphere_color 		= hsv { 0.48 0.15 0.8 }		#DONE
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
-	
+
 	city_color_lut = "gfx/portraits/misc/colorcorrection_arctic.dds"
 
 	min_distance_from_sun = @habitable_min_distance
 	max_distance_from_sun = @habitable_max_distance
 	spawn_odds = @habitable_spawn_odds
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = yes
 }
 
@@ -286,27 +287,27 @@ pc_alpine = {
 	entity = "alpine_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 19
-	
+
 	climate = "cold"
-	
+
 	atmosphere_color 		= hsv { 0.48 0.15 0.8 }		#DONE
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
-	
+
 	city_color_lut = "gfx/portraits/misc/colorcorrection_alpine.dds"
 
 	min_distance_from_sun = @habitable_min_distance
 	max_distance_from_sun = @habitable_max_distance
 	spawn_odds = @habitable_spawn_odds
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = yes
 }
 
@@ -318,24 +319,24 @@ pc_gas_giant = {
 	entity = "gas_giant"
 	entity_scale = 14
 	icon_frame = 14
-	
+
 	atmosphere_color 		= hsv { 0.1 0.15 1.1 }		#DONE
 	atmosphere_intensity 	= 1.1
 	atmosphere_width 		= 0.5
-	
+
 	min_distance_from_sun = 40
 	max_distance_from_sun = 1000
-	
+
 	spawn_odds = 6
 	extra_orbit_size = 1
 	extra_planet_count = 2
-	
+
 	can_be_moon = no
 	chance_of_ring = 0.6
-	
-	planet_size = { min = 20 max = 30 }
-	moon_size = { min = 8 max = 15 }
-	
+
+	planet_size = { min = 26 max = 37 }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	production_spawn_chance = 0.5
 
 	colonizable = no
@@ -345,18 +346,18 @@ pc_asteroid = {
 	entity = "asteroid"
 	entity_scale = 1.5
 	icon_frame = 18
-	
+
 	asteroid = yes
-	
+
 	spawn_odds = 10
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
+
 	planet_size = 5
-	
+
 	colonizable = no
 	survey_time_factor = 0.5
 }
@@ -365,7 +366,7 @@ pc_molten = {
 	entity = "molten_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 12
-	
+
 	atmosphere_color 		= hsv { 0.05 0.65 1.4 }		#DONE
 	atmosphere_intensity 	= 0.05
 	atmosphere_width 		= 1.0
@@ -373,15 +374,15 @@ pc_molten = {
 	min_distance_from_sun = 0
 	max_distance_from_sun = 60
 	spawn_odds = 10
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 14 max = 30 }
-	moon_size = { min = 6 max = 12 }
-	
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = no
 }
 
@@ -389,7 +390,7 @@ pc_barren = {
 	entity = "barren_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 10
-	
+
 	atmosphere_color 		= hsv { 0.1 0.4 0.7 }		#DONE
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
@@ -397,15 +398,15 @@ pc_barren = {
 	min_distance_from_sun = 40
 	max_distance_from_sun = 200
 	spawn_odds = 10
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = 12 max = 30 }
-	moon_size = { min = 6 max = 10 }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = no
 }
 
@@ -413,7 +414,7 @@ pc_barren_cold = {
 	entity = "cold_barren_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 9
-	
+
 	atmosphere_color 		= hsv { 0.55 0.3 0.75 }		#DONE
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
@@ -421,15 +422,15 @@ pc_barren_cold = {
 	min_distance_from_sun = 40
 	max_distance_from_sun = 200
 	spawn_odds = 10
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = 12 max = 30 }
-	moon_size = { min = 6 max = 10 }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = no
 }
 
@@ -441,20 +442,20 @@ pc_toxic = {
 	atmosphere_color 		= hsv { 0.19 0.45 0.9 }		#DONE
 	atmosphere_intensity 	= 0.1
 	atmosphere_width 		= 1.2
-	
+
 	min_distance_from_sun = 60
 	max_distance_from_sun = 110
-	
+
 	spawn_odds = 10
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = 12 max = 25 }
-	moon_size = { min = 6 max = 10 }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = no
 }
 
@@ -462,7 +463,7 @@ pc_frozen = {
 	entity = "frozen_planet"		#DONE
 	entity_scale = @planet_standard_scale
 	icon_frame = 13
-	
+
 	atmosphere_color 		= hsv { 0.55 0.15 0.7 }
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
@@ -470,15 +471,15 @@ pc_frozen = {
 	min_distance_from_sun = 120
 	max_distance_from_sun = 1000
 	spawn_odds = 10
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 10 max = 25 }
-	moon_size = { min = 6 max = 10 }
-	
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = no
 }
 
@@ -493,7 +494,7 @@ pc_nuked = {
 	entity_scale = @planet_standard_scale
 	icon_frame = 17
 
-	
+
 	atmosphere_color 		= hsv { 0.6 0.4 0.5 }		#DONE
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.85
@@ -501,15 +502,15 @@ pc_nuked = {
 	min_distance_from_sun = 60
 	max_distance_from_sun = 110
 	spawn_odds = 0.15
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	starting_planet = no
 	colonizable = yes
 	#colonization_tech = { "tech_atmospheric_manipulation" }
@@ -520,35 +521,35 @@ pc_machine = {
 	entity_scale = @planet_standard_scale
 	picture = pc_ai
 	tile_set = pc_ai
-	
+
 	icon_frame = 15
-	
-	atmosphere_color 		= hsv { 0.09 0.8 0.7 }		
+
+	atmosphere_color 		= hsv { 0.09 0.8 0.7 }
 	atmosphere_intensity 	= 0.4
 	atmosphere_width 		= 1.0
 
 	city_color_lut = "gfx/portraits/misc/colorcorrection_neutral.dds"
-	
+
 	min_distance_from_sun = 40
 	max_distance_from_sun = 1000
-	
+
 	modifier = {
-		pop_robot_production_output = 0.25
+		pop_robot_production_output = 0.15
 	}
-	
+
 	spawn_odds = 0
 	extra_orbit_size = 1
 	extra_planet_count = 2
-	
+
 	can_be_moon = no
 	chance_of_ring = 0.0
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	# Non-allowed species classes have 0% habitability
-	allowed_archetypes = { MACHINE ROBOT }
-	
+	allowed_classes = { MACHINE ROBOT }
+
 	colonizable = yes
 	starting_planet = no
 	show_city = no
@@ -557,9 +558,9 @@ pc_machine = {
 pc_shielded = {
 	entity = "shielded_planet"
 	icon_frame = 1
-	
+
 	entity_scale = @planet_standard_scale
-	
+
 	atmosphere_color 		= hsv { 0.25 0.9 0.8 }		#DONE
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 1.2
@@ -567,19 +568,19 @@ pc_shielded = {
 	min_distance_from_sun = 60
 	max_distance_from_sun = 80
 	spawn_odds = 0
-	
+
 	city_color_lut = "gfx/portraits/misc/colorcorrection_desert.dds"
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	production_spawn_chance = 0.4
-	
+
 	colonizable = no
 	starting_planet = no
 }
@@ -588,28 +589,28 @@ pc_ai = {
 	entity = "ai_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 15
-	
-	atmosphere_color 		= hsv { 0.09 0.8 0.7 }		
+
+	atmosphere_color 		= hsv { 0.09 0.8 0.7 }
 	atmosphere_intensity 	= 0.4
 	atmosphere_width 		= 1.0
 
 	city_color_lut = "gfx/portraits/misc/colorcorrection_neutral.dds"
-	
+
 	min_distance_from_sun = 40
 	max_distance_from_sun = 1000
-	
+
 	spawn_odds = 0
 	extra_orbit_size = 1
 	extra_planet_count = 2
-	
+
 	can_be_moon = no
 	chance_of_ring = 0.0
-	
+
 	can_be_invaded = no
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = no
 	show_city = no
 }
@@ -619,30 +620,30 @@ pc_infested = {
 	picture = pc_infested
 	entity_scale = @planet_standard_scale
 	icon_frame = 16
-	
+
 	atmosphere_color 		= hsv { 0.75 0.2 0.7 }
 	atmosphere_intensity 	= 0.1
 	atmosphere_width 		= 1.2
-	
+
 	# Should not really be needed, because swarm should not have cities, but they do currently, and if this is not here, you get lots of errors
 	city_color_lut = "gfx/portraits/misc/colorcorrection_neutral.dds"
-	
+
 	min_distance_from_sun = 120
 	max_distance_from_sun = 1000
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
+
 	can_be_invaded = no
-	
-	planet_size = { min = 12 max = 25 }
-	moon_size = { min = 7 max = 12 }
-	
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = no
-	
+
 	show_city = no
 }
 
@@ -650,13 +651,13 @@ pc_gaia = {
 	entity = "gaia_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
-	
+
 	atmosphere_color 		= hsv { 0.58	0.3 0.7 }
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
-	
+
 	city_color_lut = "gfx/portraits/misc/colorcorrection_tropical.dds"
-	
+
 	modifier = {
 		biological_pop_happiness = 0.05
 		tile_resource_unity_mult = 0.15
@@ -665,15 +666,15 @@ pc_gaia = {
 	min_distance_from_sun = 60
 	max_distance_from_sun = 95
 	spawn_odds = 0.05
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	chance_of_ring = 0.2
-	
-	planet_size = { min = @habitable_planet_min_size max = @habitable_planet_max_size }
-	moon_size = { min = @habitable_moon_min_size max = @habitable_moon_max_size }
-	
+
+	chance_of_ring = @chance_of_ring
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = yes
 	ideal = yes
 	starting_planet = no
@@ -694,7 +695,7 @@ pc_cybrex = {
 	extra_orbit_size = 0
 	extra_planet_count = 0
 	chance_of_ring = 0.0
-	planet_size = 25
+	planet_size = 10
 	moon_size = 1
 	colonizable = no
 	show_city = no
@@ -713,22 +714,22 @@ pc_b_star = {
 
 	atmosphere_color 		= hsv { 0.71 0.6 0.7 }
 	atmosphere_intensity 	= 0.8
-	atmosphere_width 		= 1.4	
+	atmosphere_width 		= 1.4
 
 
 	star = yes
-	
+
 	min_distance_from_sun = 0
 	max_distance_from_sun = 0
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 20 max = 35 }
-	
+
+	planet_size = { min = 26 max = 37 }
+
 	colonizable = no
 }
 
@@ -740,20 +741,20 @@ pc_a_star = {
 	atmosphere_color 		= hsv { 0.56 0.4 0.7 }
 	atmosphere_intensity 	= 0.5
 	atmosphere_width 		= 1.2
-	
+
 	star = yes
-	
+
 	min_distance_from_sun = 0
 	max_distance_from_sun = 0
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 20 max = 35 }
-	
+
+	planet_size = { min = 26 max = 37 }
+
 	colonizable = no
 }
 
@@ -764,21 +765,21 @@ pc_f_star = {
 
 	atmosphere_color 		= hsv { 0.6 0.3 0.6 }
 	atmosphere_intensity 	= 1.0
-	atmosphere_width 		= 0.5	
-	
+	atmosphere_width 		= 0.5
+
 	star = yes
-	
+
 	min_distance_from_sun = 0
 	max_distance_from_sun = 0
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 20 max = 35 }
-	
+
+	planet_size = { min = 26 max = 37 }
+
 	colonizable = no
 }
 
@@ -789,21 +790,21 @@ pc_g_star = {
 
 	atmosphere_color 		= hsv { 0.09 0.7 0.7 }
 	atmosphere_intensity 	= 0.5
-	atmosphere_width 		= 1.9	
-	
+	atmosphere_width 		= 1.9
+
 	star = yes
-	
+
 	min_distance_from_sun = 0
 	max_distance_from_sun = 0
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 20 max = 35 }
-	
+
+	planet_size = { min = 26 max = 37 }
+
 	colonizable = no
 }
 
@@ -815,20 +816,20 @@ pc_k_star = {
 	atmosphere_color 		= hsv { 0.06 0.65 0.7 }
 	atmosphere_intensity 	= 0.6
 	atmosphere_width 		= 1.25
-	
+
 	star = yes
-	
+
 	min_distance_from_sun = 0
 	max_distance_from_sun = 0
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 20 max = 35 }
-	
+
+	planet_size = { min = 26 max = 37 }
+
 	colonizable = no
 }
 
@@ -839,46 +840,46 @@ pc_m_star = {
 
 	atmosphere_color 		= hsv { 0.01 0.9 0.6 }
 	atmosphere_intensity 	= 0.10
-	atmosphere_width 		= 1.0	
-	
+	atmosphere_width 		= 1.0
+
 	star = yes
-	
+
 	min_distance_from_sun = 0
 	max_distance_from_sun = 0
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 20 max = 35 }
-	
+
+	planet_size = { min = 26 max = 37 }
+
 	colonizable = no
 }
 
 pc_black_hole = {
 	entity = "black_hole_entity"
 	entity_scale = 20.0
-	
+
 	atmosphere_color 		= hsv { 0.075 0.13 1.5 }
 	atmosphere_intensity 	= 1.0
-	atmosphere_width 		= 1.0	
+	atmosphere_width 		= 1.0
 
 	star = yes
-	
+
 	min_distance_from_sun = 0
 	max_distance_from_sun = 0
-	
+
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 20 max = 35 }
-	
+
+	planet_size = { min = 26 max = 37 }
+
 	colonizable = no
 }
 
@@ -887,18 +888,18 @@ pc_neutron_star = {
 	entity_scale = 20.0
 
 	star = yes
-	
+
 	min_distance_from_sun = 0
 	max_distance_from_sun = 0
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 20 max = 35 }
-	
+
+	planet_size = { min = 26 max = 37 }
+
 	colonizable = no
 }
 
@@ -909,22 +910,22 @@ pc_pulsar = {
 	atmosphere_color 		= hsv { 0.58 0.35 0.7 }
 	atmosphere_intensity 	= 1.0
 	atmosphere_width 		= 0.5
-	
-	
+
+
 
 	star = yes
-	
+
 	min_distance_from_sun = 0
 	max_distance_from_sun = 0
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
+
 	chance_of_ring = 0
-	
-	planet_size = { min = 20 max = 35 }
-	
+
+	planet_size = { min = 26 max = 37 }
+
 	colonizable = no
 }
 
@@ -1100,15 +1101,15 @@ pc_shrouded = {
 	atmosphere_color 		= hsv { 0.0 0.9 0.45	}		#DONE
 	atmosphere_intensity 	= 0.5
 	atmosphere_width 		= 1.5
-	
+
 	spawn_odds = 0
-	
+
 	extra_orbit_size = 0
 	extra_planet_count = 0
-	
-	planet_size = { min = 10 max = 25 }
-	moon_size = { min = 6 max = 10 }
-	
+
+	planet_size = 25 #{ min = @habitable_planet_min_size max = @habitable_planet_max_size }
+	moon_size   = 16 #{ min = @habitable_moon_min_size   max = @habitable_moon_max_size   }
+
 	colonizable = no
 }
 
@@ -1177,4 +1178,4 @@ random_list = {
 		"pc_gaia"
 	}
 }
-				
+

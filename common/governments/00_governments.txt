@@ -10,7 +10,7 @@
 #	heir_title_female = HT_CROWN_PRINCESS	# translation tag for female heir's title
 #	use_regnal_names = yes / no				# default: no
 #	dynastic_last_names = yes / no			# default: no
-#	
+#
 #	election_candidates = {					# scriptable value to weight election candidates for oligarchic elections, scope: leader
 #		modifier = {
 #			add = 100
@@ -100,7 +100,7 @@ gov_theocratic_monarchy = {
 		has_authority = auth_imperial
 		OR = {
 			has_ethic = ethic_spiritualist
-			has_ethic = ethic_fanatic_spiritualist			
+			has_ethic = ethic_fanatic_spiritualist
 		}
 	}
 
@@ -129,7 +129,7 @@ gov_theocratic_dictatorship = {
 		has_authority = auth_dictatorial
 		OR = {
 			has_ethic = ethic_spiritualist
-			has_ethic = ethic_fanatic_spiritualist			
+			has_ethic = ethic_fanatic_spiritualist
 		}
 	}
 
@@ -158,7 +158,7 @@ gov_theocratic_oligarchy = {
 		has_authority = auth_oligarchic
 		OR = {
 			has_ethic = ethic_spiritualist
-			has_ethic = ethic_fanatic_spiritualist			
+			has_ethic = ethic_fanatic_spiritualist
 		}
 	}
 
@@ -176,7 +176,7 @@ gov_theocratic_republic = {
 		has_authority = auth_democratic
 		OR = {
 			has_ethic = ethic_spiritualist
-			has_ethic = ethic_fanatic_spiritualist			
+			has_ethic = ethic_fanatic_spiritualist
 		}
 	}
 
@@ -361,7 +361,7 @@ gov_military_junta = {
 		OR = {
 			has_ethic = ethic_militarist
 			has_ethic = ethic_fanatic_militarist
-		}		
+		}
 	}
 
 	weight = {
@@ -372,7 +372,7 @@ gov_military_junta = {
 		}
 		modifier = {
 			factor = 1.10
-			OR = {			
+			OR = {
 				has_valid_civic = civic_distinguished_admiralty
 				has_valid_civic = civic_nationalistic_zeal
 			}
@@ -420,7 +420,7 @@ gov_military_commissariat = {
 		}
 		modifier = {
 			factor = 1.10
-			OR = {			
+			OR = {
 				has_valid_civic = civic_distinguished_admiralty
 				has_valid_civic = civic_nationalistic_zeal
 			}
@@ -1111,7 +1111,7 @@ gov_megacorporation = {
 				has_ethic = ethic_fanatic_egalitarian
 				has_ethic = ethic_pacifist
 				has_ethic = ethic_fanatic_pacifist
-			}			
+			}
 		}
 		has_valid_civic = civic_corporate_dominion
 	}
@@ -1141,14 +1141,14 @@ gov_trade_league = {
 		has_authority = auth_oligarchic
 		NOR = {
 			has_ethic = ethic_authoritarian
-			has_ethic = ethic_fanatic_authoritarian		
+			has_ethic = ethic_fanatic_authoritarian
 		}
 		OR = {
 			has_ethic = ethic_egalitarian
 			has_ethic = ethic_fanatic_egalitarian
 			has_ethic = ethic_pacifist
 			has_ethic = ethic_fanatic_pacifist
-		}		
+		}
 		has_valid_civic = civic_corporate_dominion
 	}
 
@@ -1289,7 +1289,7 @@ gov_machine_research = {
 	weight = {
 		base = 2
 		modifier = {
-			factor = 10		
+			factor = 10
 			has_valid_civic = civic_machine_introspective
 			NOT = {
 				OR = {
@@ -1300,7 +1300,7 @@ gov_machine_research = {
 			}
 		}
 		modifier = {
-			factor = 10		
+			factor = 10
 			has_valid_civic = civic_machine_delegated_functions
 			NOT = {
 				OR = {
@@ -1311,7 +1311,7 @@ gov_machine_research = {
 			}
 		}
 		modifier = {
-			factor = 10		
+			factor = 10
 			has_valid_civic = civic_machine_predictive_analysis
 			NOT = {
 				OR = {
@@ -1335,7 +1335,7 @@ gov_machine_industrial = {
 	weight = {
 		base = 2
 		modifier = {
-			factor = 10		
+			factor = 10
 			has_valid_civic = civic_machine_rockbreakers
 			NOT = {
 				OR = {
@@ -1346,7 +1346,7 @@ gov_machine_industrial = {
 			}
 		}
 		modifier = {
-			factor = 10		
+			factor = 10
 			has_valid_civic = civic_machine_builder
 			NOT = {
 				OR = {
@@ -1357,7 +1357,7 @@ gov_machine_industrial = {
 			}
 		}
 		modifier = {
-			factor = 10		
+			factor = 10
 			has_valid_civic = civic_machine_replication
 			NOT = {
 				OR = {

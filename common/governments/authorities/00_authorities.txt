@@ -38,7 +38,7 @@ auth_democratic = {
 			}
 		}
 	}
-	
+
 	tags = {
 		AUTHORITY_ELECTION_DEMOCRATIC
 	}
@@ -52,7 +52,7 @@ auth_oligarchic = {
 	max_election_candidates = 4
 
 	has_agendas = yes
-	
+
 	possible = {
 		ethics = {
 			NOR = {
@@ -62,7 +62,7 @@ auth_oligarchic = {
 			}
 		}
 	}
-	
+
 	tags = {
 		AUTHORITY_ELECTION_OLIGARCHIC
 	}
@@ -73,7 +73,7 @@ auth_dictatorial = {
 	max_election_candidates = 4
 
 	has_agendas = yes
-	
+
 	possible = {
 		ethics = {
 			NOR = {
@@ -83,7 +83,7 @@ auth_dictatorial = {
 			}
 		}
 	}
-	
+
 	tags = {
 		AUTHORITY_ELECTION_ON_RULER_DEATH
 	}
@@ -93,7 +93,7 @@ auth_imperial = {
 	has_heir = yes
 
 	has_agendas = yes
-	
+
 	possible = {
 		ethics = {
 			NOR = {
@@ -103,7 +103,7 @@ auth_imperial = {
 			}
 		}
 	}
-	
+
 	tags = {
 		AUTHORITY_HAS_HEIR
 	}
@@ -115,9 +115,9 @@ auth_hive_mind = {
 	has_factions = no
 	can_reform = no
 	localization_postfix = hive_mind
-	
+
 	valid_for_released_vassal = no
-	
+
 	playable = { host_has_dlc = "Utopia" }
 	possible = {
 		ethics = {
@@ -139,7 +139,7 @@ auth_hive_mind = {
 		pop_growth_speed = 0.25
 		pop_resettlement_cost_mult = -0.5
 	}
-	
+
 	tags = {
 		#AUTHORITY_HIVE_MIND
 		AUTH_HIVE_MIND_AI_RESTRICTIONS
@@ -155,7 +155,7 @@ auth_machine_intelligence = {
 	has_factions = no
 	can_reform = no
 	localization_postfix = machine_intelligence
-	
+
 	valid_for_released_vassal = no
 
 	playable = {
@@ -196,10 +196,10 @@ auth_ancient_machine_intelligence = {
 	has_heir = no
 	election_type = none
 	can_reform = no
-	
+
 	valid_for_released_vassal = no
 
 	icon = "gfx/interface/icons/governments/authorities/auth_hive_mind.dds"
-	
+
 	potential = { country_type = { value = ai_empire } }
 }

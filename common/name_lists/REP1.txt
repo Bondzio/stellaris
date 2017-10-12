@@ -5,77 +5,70 @@ REP1 = {
 	ship_names = {
 
 		generic = {
-			Trum'Pakh Trum'Dolon Trum'Sarim Trum'Doloss Trum'Rokh Trum'Vakhna Trum'Kariss Trum'Poffon Trum'Hariss Trum'Soyob Trum'Dakhan
-			Trum'Voim Trum'Dukh Trum'Vassk Trum'Esam Trum'Cassthar Trum'Barkan Trum'Lampan Trum'Rokba Trum'Histan Trum'Oloman Trum'Okran
-			Trum'Fokin Trum'Farass Trum'Iomath Trum'Mothon Trum'Dialom Trum'Bodnok Trum'Bathnor Trum'Zoyom Trum'Abnar Trum'Reeken
-			Alam'Bissna Alam'Turom Alam'Taratha Alam'Tisska Alam'Purim Alam'Shuss Alam'Parathnak Alam'Gioshum Alam'Korob Alam'Hinthab
-			Alam'Kulom Alam'Avintok Alam'Tannek Alam'Sior Alam'Rossul Alam'Bebinna Alam'Fethon Alam'Polluner Alam'Rastram Alam'Treesk
-			Alam'Enerpul Alam'Buskat Pob'Tirin Pob'Kassh Pob'Onor Pob'Greefad Pob'Minisk Pob'Sumath Pob'Ereesim Pob'Kreedak Pob'Duthur
-			Pob'Hialash Pob'Vermeb Pob'Badram Pob'Buvdar Pob'Tharat Pob'Illith Pob'Vikham Pob'Thorok Pob'Rumber Pob'Ikath
+			Trumpakh Trumdolon Trumsarim Trumdoloss Trumrokh Trumvakhna Trumkariss Trumpoffon Trumhariss Trumsoyob Trumdakhan
+			Trumvoim Trumdukh Trumvassk Trumesam Trumcassthar Trumbarkan Trumlampan Trumrokba Trumhistan Trumoloman Trumokran
+			Trumfokin Trumfarass Trumiomath Trummothon Trumdialom Trumbodnok Trumbathnor Trumzoyom Trumabnar Trumreeken
+			Alambissna Alamturom Alamtaratha Alamtisska Alampurim Alamshuss Alamparathnak Alamgioshum Alamkorob Alamhinthab
+			Alamkulom Alamavintok Alamtannek Alamsior Alamrossul Alambebinna Alamfethon Alampolluner Alamrastram Alamtreesk
+			Alamenerpul Alambuskat Pobtirin Pobkassh Pobonor Pobgreefad Pobminisk Pobsumath Pobereesim Pobkreedak Pobduthur
+			Pobhialash Pobvermeb Pobbadram Pobbuvdar Pobtharat Pobillith Pobvikham Pobthorok Pobrumber Pobikath
 		}
 
-		corvette = {
-		}
-		
-		destroyer = {
-		}
-		
-		cruiser = {
-		}
-		
-		battleship = {
-		}
-		
-		science = {
-		}
-		
-		colonizer = {
-		}
-		
-		constructor = {
-		}
-		
-		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		science = {}
+
+		colonizer = {}
+
+		constructor = {}
+
+
+		mining_station = {}
+		research_station = {}
+		wormhole_station = {}
+
+		observation_station = {}
 		outpost_station = {
-			#random_names = { }
+			#random_names = {}
 			#sequential_name = "%O% Frontier Outpost"
 		}
-		
+
 		military_station_small = {}
 		military_station_medium = {}
-		military_station_large = {}	
+		military_station_large = {}
 	}
 
 	fleet_names = {
 		random_names = {
-			"Lav'Tissha Battle Group" "Alak'Ssaral Battle Group" "Hiri'Gasska Battle Group" "Kur'Freega Battle Group" "Mak'Tissam Battle Group"
+			"Lavtissha Battle Group" "Alakssaral Battle Group" "Hirigasska Battle Group" "Kurfreega Battle Group" "Maktissam Battle Group"
 		}
 		sequential_name = "%O% Battle Group"
 	}
-	
+
 	army_names = {
-	
+
 		defense_army = {
 			sequential_name = "%O% Surface Guard"
 		}
-			
+
 		assault_army = {
 			sequential_name = "%O% Claw"
 		}
-		
+
 		slave_army = {
 			sequential_name = "%O% Bondservants"
 		}
-		
+
 		clone_army = {
 			sequential_name = "%O% Replica Legion"
 		}
-		
+
 		robotic_army = {
 			sequential_name = "%O% Assault Nexus"
 		}
@@ -83,7 +76,7 @@ REP1 = {
 		robotic_defense_army = {
 			sequential_name = "%O% Defense Nexus"
 		}
-		
+
 		android_army = {
 			sequential_name = "%O% Synthetic Warriors"
 		}
@@ -91,20 +84,20 @@ REP1 = {
 		android_defense_army = {
 			sequential_name = "%O% Synthetic Guard"
 		}
-		
-		psionic_army = { 
+
+		psionic_army = {
 			sequential_name = "%O% Thought Watchers"
 		}
-		
+
 		xenomorph_army = {
 			sequential_name = "%O% War Hive"
 		}
-		
+
 		gene_warrior_army = {
 			sequential_name = "%O% Warrior Order"
 		}
 	}
-		
+
 
 	### PLANETS
 
@@ -112,55 +105,46 @@ REP1 = {
 
 		generic = {
 			names = {
-				Na'Tirgir Na'Dall Bid'Jossk Bid'Rissim Ata'Virisch Ata'Podossa Pan'Dassak Pan'Kischa Fal'Taram Fal'Kaboss Mil'Susska Mil'Feldrak Ra'Targass Ra'Bothnor Gal'Suposk Gal'Karaska Shi'Tanask Shi'Poltan Ro'Doman Ro'Eseek Ka'Tanab Ka'Salosch Ira'Monosk Ira'Obass
+				Natirgir Nadall Bidjossk Bidrissim Atavirisch Atapodossa Pandassak Pankischa Faltaram Falkaboss Milsusska Milfeldrak Ratargass Rabothnor Galsuposk Galkaraska Shitanask Shipoltan Rodoman Roeseek Katanab Kasalosch Iramonosk Iraobass
 			}
 		}
-		
+
 		pc_desert = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tropical = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arid = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_continental = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_ocean = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tundra = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arctic = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_savannah = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_alpine = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 	}
 
 	### CHARACTERS
@@ -169,21 +153,19 @@ REP1 = {
 		default = {
 			# A complete name
 			full_names = {
-				Hask'Valgam Hask'Zumon Hask'Teragg Hask'Sornas Hask'Pagram Hask'Jonnot Hask'Gentar Hask'Birim Hask'Endek Hask'Kalass Torba'Inrab Torba'Keldi Torba'Varass Torba'Namta Torba'Gandar Torba'Daggasch Torba'Finnrak Torba'Hassadra Torba'Malas Torba'Patar
+				Haskvalgam Haskzumon Haskteragg Hasksornas Haskpagram Haskjonnot Haskgentar Haskbirim Haskendek Haskkalass Torbainrab Torbakeldi Torbavarass Torbanamta Torbagandar Torbadaggasch Torbafinnrak Torbahassadra Torbamalas Torbapatar
 			}
-			
+
 			# Always combined with a second name
-			first_names = {
-			}
-			
+			first_names = {}
+
 			# Always combined with a first name
-			second_names = {
-			}
-			
+			second_names = {}
+
 			regnal_first_names = {
-				Hask'Valgam Hask'Zumon Hask'Teragg Hask'Sornas Hask'Pagram Hask'Jonnot Hask'Gentar Hask'Birim
+				Haskvalgam Haskzumon Haskteragg Hasksornas Haskpagram Haskjonnot Haskgentar Haskbirim
 			}
-			
+
 			regnal_second_names = {
 				Mezak
 			}

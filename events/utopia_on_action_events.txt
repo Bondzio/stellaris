@@ -224,7 +224,6 @@ country_event = {
 		every_owned_pop = {
 			limit = { is_same_species = event_target:target_species }
 			change_species = last_created
-			species = { save_event_target_as = target_species_2 }
 		}
 		every_owned_leader = {
 			limit = { is_same_species = event_target:target_species }
@@ -282,7 +281,7 @@ country_event = {
 				}
 				is_sapient = yes
 				has_trait = trait_latent_psionic
-				is_same_species = event_target:target_species_2
+				is_same_species = event_target:target_species
 			}
 		}
 	}
@@ -307,7 +306,7 @@ country_event = {
 					}
 					is_sapient = yes
 					has_trait = trait_latent_psionic
-					is_same_species = event_target:target_species_2
+					is_same_species = event_target:target_species 
 				}
 				create_species = {
 					is_mod = yes
@@ -328,15 +327,15 @@ country_event = {
 				change_scoped_species = no
 			}
 			every_owned_pop = {
-				limit = { is_same_species = event_target:target_species_2 }
+				limit = { is_same_species = event_target:target_species }
 				change_species = last_created
 			}
 			every_owned_leader = {
-				limit = { is_same_species = event_target:target_species_2 }
+				limit = { is_same_species = event_target:target_species }
 				change_species = last_created
 			}
 			every_pool_leader = {
-				limit = { is_same_species = event_target:target_species_2 }
+				limit = { is_same_species = event_target:target_species }
 				change_species = last_created
 			}	
 		
@@ -750,7 +749,7 @@ country_event = {
 			limit = { is_same_species = root }
 			create_cybernetic_species_mod = yes
 		}
-		change_dominant_species = { species = last_created }
+		change_dominant_species = last_created
 		
 		while = {
 			limit = {
@@ -1293,7 +1292,7 @@ country_event = {
 			change_species = last_created
 			change_leader_portrait = species
 		}
-		change_dominant_species = { species = last_created }
+		change_dominant_species = last_created
 		
 		every_owned_leader = {
 			limit = {
@@ -1681,28 +1680,6 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	immediate = {
-		every_owned_pop = {
-			limit = {
-				is_same_species = root
-				NOT = { species = { has_trait = trait_latent_psionic } }
-			}
-			modify_species = {
-				species = this
-				add_trait = trait_latent_psionic
-			}
-		}
-		every_country = {
-			limit = { 
-				is_ai = no
-				has_communications = root
-				NOT = { is_same_value = root }
-			}
-			country_event = { id = utopia.2602 }
-		}
-		change_dominant_species = { species = last_created change_all = yes }
-	}
-	
 	option = {
 		name = "utopia.2600.a"
 		tooltip = {
@@ -1713,6 +1690,26 @@ country_event = {
 		}
 		custom_tooltip = ALLOW_PSI_CORPS
 		custom_tooltip = ALLOW_PSI_ARMIES
+		hidden_effect = {
+			every_owned_pop = {
+				limit = {
+					is_same_species = root
+					NOT = { species = { has_trait = trait_latent_psionic } }
+				}
+				modify_species = {
+					species = this
+					add_trait = trait_latent_psionic
+				}
+			}
+			every_country = {
+				limit = { 
+					is_ai = no
+					has_communications = root
+					NOT = { is_same_value = root }
+				}
+				country_event = { id = utopia.2602 }
+			}
+		}
 	}
 }
 
@@ -1949,7 +1946,6 @@ country_event = {
 			}
 			#owner_species = { save_event_target_as = psionic_species }
 		}
-		change_dominant_species = { species = last_created change_all = yes }
 	}
 	
 	option = {

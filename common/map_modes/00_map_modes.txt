@@ -7,7 +7,7 @@
 #	hardcoded_tooltip = opinion -- override tooltip generation with a hardcoded method. Currently supported: opinion
 #	can_change_point_of_view = yes	-- can the player click on other empires to see the map mode from their point of view?
 #	enable_terra_incognita = yes	-- should terra incognita be rendered when this map mode is active?
-#	
+#
 #	color = {						-- the bread and butter of the map modes. A country will be colored with the first color block who's condition is met
 #		value = rgb { 1.0 0.0 0.0 1.0 }	-- you can also use hsv {...}
 #		custom_tooltip = "SOME_STRING"	-- Tooltip to be shown if this is the selected color. suports [This.GetName] etc
@@ -34,7 +34,7 @@ diplomatic_map_mode = {
 	icon = "GFX_map_mode_diplomatic"
 	enable_terra_incognita = yes
 	shortcut = "CTRL+x"
-	
+
 	color = { value = hsv { 0.0 0.0 0.8 0.7 } condition = { NOT = { exists = FROM } } custom_tooltip = "MAP_MODE_OBSERVER" }
 	color = {
         value = hsv { 0.0 0.0 0.8 0.7 }
@@ -128,7 +128,7 @@ diplomatic_map_mode = {
 		value hsv { 0.6 0.5 1.0 1.0 }
 		custom_tooltip = "DIPLOMATIC_MAP_MODE_MIGRATION_PACT"
 		condition = {
-			has_migration_access = FROM			
+			has_migration_access = FROM
 		}
 	}
 }
@@ -136,11 +136,11 @@ diplomatic_map_mode = {
 opinion_map_mode = {
 	icon = "GFX_map_mode_opinion"
 	enable_terra_incognita = yes
-	shortcut = "CTRL+c"	
-	
+	shortcut = "CTRL+c"
+
 	color = { value = hsv { 0.0 0.0 0.8 0.7 } condition = { NOT = { exists = FROM } } custom_tooltip = "MAP_MODE_OBSERVER" }
 	color = { value = hsv { 0.580 1.0 0.8 1.0 } condition = { is_same_empire = FROM } }
-	
+
 	color = { value = hsv { 0.300 1.0 0.9 1.0 } condition = { opinion = { who = FROM value = 140 } } hardcoded_tooltip = opinion }
 	color = { value = hsv { 0.300 1.0 0.9 1.0 } condition = { opinion = { who = FROM value = 100 } } hardcoded_tooltip = opinion }
 	color = { value = hsv { 0.255 1.0 0.9 1.0 } condition = { opinion = { who = FROM value = 080 } } hardcoded_tooltip = opinion }
@@ -168,7 +168,7 @@ attitude_map_mode = {
     icon = "GFX_map_mode_attitude"
 	enable_terra_incognita = yes
 	shortcut = "CTRL+v"
-    
+
 	color = { value = hsv { 0.0 0.0 0.8 0.7 } condition = { NOT = { exists = FROM } } custom_tooltip = "MAP_MODE_OBSERVER" }
     color = {
         value = hsv { 0.580 1.0 0.8 1.0 }
@@ -177,7 +177,7 @@ attitude_map_mode = {
             is_same_empire = from
         }
     }
-    
+
     color = {
         value = hsv { 0.0 0.0 0.8 0.7 }
         custom_tooltip = "MAP_MODE_NO_CONTACT"
@@ -186,7 +186,7 @@ attitude_map_mode = {
             #always = no
         }
     }
-    
+
     # Positive attitudes
     color = {
         value = hsv { 0.25 1 0.6 1.0 }
@@ -208,13 +208,13 @@ attitude_map_mode = {
         value = hsv { 0.2 0.8 0.75 1.0 }
         condition = { is_cordial_to = FROM }
     }
-    
+
     # Neutral attitudes
     color = {
         value = hsv { 0.14 0.4 0.9 1.0 }
         condition = { is_dismissive_to  = FROM }
     }
-    
+
     color = {
         value = hsv { 0.16 0.2 0.8 1.0 }
         condition = { is_neutral_to = FROM }
@@ -244,7 +244,7 @@ attitude_map_mode = {
         value = hsv { 0.8 0.7 0.6 1.0 }
         condition = { is_domineering_to = FROM }
     }
-    
+
     color = {
         value = hsv { 0.6 0.3 0.85 1.0 }
         condition = { is_overlord_to = FROM }
@@ -274,7 +274,7 @@ neighbor_map_mode = {
 		value = hsv { 0.3 1.0 0.6 1.0 }
 		custom_tooltip = "MAP_MODE_NEIGHBOR"
 		condition = {
-            is_neighbor_of = from			
+            is_neighbor_of = from
 		}
 	}
 }

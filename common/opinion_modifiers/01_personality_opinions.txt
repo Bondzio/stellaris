@@ -6,12 +6,12 @@ opinion_from_personality = {
 	opinion = {
 		modifier = {
 			add = -1000
-			has_ai_personality = metalhead
-		}
+			has_ai_personality = metalhead	
+		}	
 		modifier = {
 			add = 100
 			has_ai_personality = fanatic_befrienders
-		}
+		}	
 	}
 }
 
@@ -19,14 +19,14 @@ opinion_devouring_swarm = {
 	opinion = {
 		modifier = {
 			add = -1000	
-			is_country_type = default
-			OR = {
-				has_valid_civic = "civic_hive_devouring_swarm"
-				AND = {			
-					from = { has_valid_civic = "civic_hive_devouring_swarm" }
-					NOT = { has_valid_civic = civic_fanatic_purifiers }
-				}			
+		is_country_type = default
+		OR = {
+			has_valid_civic = "civic_hive_devouring_swarm"
+			AND = {			
+				from = { has_valid_civic = "civic_hive_devouring_swarm" }
+				NOT = { has_valid_civic = civic_fanatic_purifiers }
 			}			
+		}
 		}		
 	}
 }

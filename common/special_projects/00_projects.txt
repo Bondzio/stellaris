@@ -9,20 +9,20 @@
 #	leader = general
 #	leader = ruler
 #	leader = governor
-#	
+#
 #	MILITARY SHIPS
 #	shipclass_military = 1
-#	
+#
 #	CIVILIAN SHIPS
 #	shipclass_constructor = 2
 #	shipclass_science_ship = 1
 #	shipclass_colonizer = 2
-#	
+#
 #	ARMIES
 #	shipclass_transport = 1
 #	assault_armies = 2
 #	defense_armies = 1
-#	
+#
 #	STATIONS
 #	research_station = yes
 #	mining_station = yes
@@ -33,11 +33,11 @@
 #	this = country (project owner)
 #	from = event scope (planet or ship, MIGHT NOT EXIST)
 #	fromfrom = project creation scope (usually equals location)
-#	
+#
 #	on_success
 #	this = event scope (ship or planet)
 #	from = project creation scope (usually equals location)
-#	
+#
 #	on_fail
 #	this = country (project owner)
 #	from = project creation scope (usually equals location)
@@ -56,13 +56,12 @@ special_project = {
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = anomaly.2501 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -71,15 +70,15 @@ special_project = {
 	days_to_research = 180
 	tech_department = society_technology
 	picture = GFX_evt_microscopic_life
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		random_list = {
 			50 = {
@@ -90,9 +89,8 @@ special_project = {
 			}
 		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -100,15 +98,15 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = physics_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		random_list = {
 			50 = {
@@ -119,9 +117,8 @@ special_project = {
 			}
 		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -129,15 +126,15 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = engineering_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		random_list = {
 			50 = {
@@ -148,9 +145,8 @@ special_project = {
 			}
 		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -160,9 +156,9 @@ special_project = {
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_alien_nature
-	
+
 	event_scope = planet_event
-	
+
 	on_success = {
 		random_list = {
 			25 = {
@@ -180,9 +176,8 @@ special_project = {
 		}
 		owner = { end_event_chain = "abandoned_terraforming_chain" }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -192,18 +187,17 @@ special_project = {
 	tech_department = engineering_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_debris.dds"
 	picture = GFX_evt_archaeological_dig
-	
+
 	same_option_group_as = { ABANDONED_TERRAFORMING_1_PROJECT }
-	
+
 	event_scope = planet_event
-	
+
 	on_success = {
 		planet_event = { id = colony.101 }
 		owner = { end_event_chain = "abandoned_terraforming_chain" }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -213,17 +207,17 @@ special_project = {
 	timelimit = 730
 	icon = "gfx/interface/icons/situation_log/situation_log_combat.dds"
 	picture = GFX_evt_colony_settlement
-	
+
 	event_scope = planet_event
-	
+
 	requirements = {
 		assault_armies = 2 # Need a generic army trigger - should work with any armies
 	}
-	
+
 	on_success = {
 		planet_event = { id = colony.110 }
 	}
-	
+
 	on_fail = {
 		random_list = {
 			50 = {
@@ -241,15 +235,15 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 1
 	}
-	
+
 	on_success = {
 		random_list = {
 			50 = {
@@ -260,9 +254,8 @@ special_project = {
 			}
 		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -272,13 +265,13 @@ special_project = {
 	timelimit = 200
 	picture = GFX_evt_colony_settlement
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
-	
+
 	event_scope = planet_event
-	
+
 	on_success = {
 		planet_event = { id = colony.156 }
 	}
-	
+
 	on_fail = {
 		FROM = { planet_event = { id = colony.157 } }
 	}
@@ -289,16 +282,15 @@ special_project = {
 	event_chain = "migrating_forests_chain"
 	cost = 500
 	tech_department = society_technology
-	
+
 	event_scope = planet_event
-	
+
 	on_success = {
 		planet_event = { id = colony.2 }
 		owner = { end_event_chain = "migrating_forests_chain" }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -306,18 +298,17 @@ special_project = {
 	event_chain = "migrating_forests_chain"
 	cost = 500
 	tech_department = engineering_technology
-	
+
 	same_option_group_as = { MIGRATING_FORESTS_1_PROJECT }
-	
+
 	event_scope = planet_event
-	
+
 	on_success = {
 		planet_event = { id = colony.3 }
 		owner = { end_event_chain = "migrating_forests_chain" }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -327,14 +318,14 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_underground_civilization
 	timelimit = 360
-	
+
 	event_scope = planet_event
-	
+
 	on_success = {
 		planet_event = { id = colony.51 }
 		owner = { end_event_chain = "subterranean_civilization_chain" }
 	}
-	
+
 	on_fail = {
 		end_event_chain = "subterranean_civilization_chain"
 		random_list = {
@@ -355,18 +346,17 @@ special_project = {
 	tech_department = engineering_technology
 	picture = GFX_evt_nuclear_explosion
 	timelimit = 360
-	
+
 	same_option_group_as = { SEISMIC_DISTURBANCE_1_PROJECT }
-	
+
 	event_scope = planet_event
-	
+
 	on_success = {
 		planet_event = { id = colony.52 }
 		owner = { end_event_chain = "subterranean_civilization_chain" }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -374,15 +364,14 @@ special_project = {
 	cost = 200
 	tech_department = engineering_technology
 	picture = GFX_evt_nuclear_explosion
-	
+
 	event_scope = planet_event
-	
+
 	on_success = {
 		planet_event = { id = colony.52 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -391,9 +380,9 @@ special_project = {
 	tech_department = engineering_technology
 	picture = GFX_evt_underground_civilization
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = planet_event
-	
+
 	on_success = {
 		if = {
 			limit = {
@@ -413,11 +402,10 @@ special_project = {
 				50 = { planet_event = { id = colony.151 } }
 				50 = { planet_event = { id = colony.153 } }
 			}
-		}		
+		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -426,22 +414,21 @@ special_project = {
 	tech_department = engineering_technology
 	picture = GFX_evt_satellite_in_orbit
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
-	
+
 	event_scope = planet_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 	}
-	
+
 	on_success = {
 		random_list = {
 			50 = { planet_event = { id = colony.173 } }
 			50 = { planet_event = { id = colony.174 } }
 		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 #special_project = {
@@ -449,13 +436,13 @@ special_project = {
 #	cost = 1000
 #	tech_department = society_technology
 #	timelimit = 365 # in days
-#	
+#
 #	event_scope = planet_event
-#	
+#
 #	on_success = {
 #		planet_event = { id = colony.301 }
 #	}
-#	
+#
 #	on_fail = {
 #		FROM = { planet_event = { id = colony.302 } }
 #	}
@@ -466,13 +453,13 @@ special_project = {
 #	cost = 1000
 #	tech_department = society_technology
 #	timelimit = 365 # in days
-#	
+#
 #	event_scope = planet_event
-#	
+#
 #	on_success = {
 #		planet_event = { id = colony.401 }
 #	}
-#	
+#
 #	on_fail = {
 #	}
 #}
@@ -482,13 +469,13 @@ special_project = {
 #	cost = 1000
 #	tech_department = society_technology
 #	timelimit = 365 # in days
-#	
+#
 #	event_scope = planet_event
-#	
+#
 #	on_success = {
 #		planet_event = { id = colony.451 }
 #	}
-#	
+#
 #	on_fail = {
 #	}
 #}
@@ -498,15 +485,15 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = engineering_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		random_list = {
 			50 = {
@@ -517,9 +504,8 @@ special_project = {
 			}
 		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -527,15 +513,15 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = engineering_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		skill = 3
 		leader = scientist
 	}
-	
+
 	on_success = {
 		random_list = {
 			70 = {
@@ -546,9 +532,8 @@ special_project = {
 			}
 		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -557,19 +542,19 @@ special_project = {
 	days_to_research = 180
 	tech_department = physics_technology
 	timelimit = 730
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = anomaly.2571 }
 	}
-	
+
 	on_fail = { ######################################### FIX THIS LATER
 		#ship_event = { id = anomaly.2572 }
 	}
@@ -582,19 +567,19 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_gas_giant
 	timelimit = 360 # in days
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = anomaly.5001 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = anomaly.5002 }
 	}
@@ -607,19 +592,19 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_gas_giant
 	timelimit = 730 # in days
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = anomaly.5004 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = anomaly.5005 }
 	}
@@ -631,21 +616,20 @@ special_project = {
 	days_to_research = 180
 	tech_department = society_technology
 	picture = GFX_evt_gas_giant
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = anomaly.5008 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -654,21 +638,20 @@ special_project = {
 	days_to_research = 180
 	tech_department = society_technology
 	picture = GFX_evt_gas_giant
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = anomaly.5012 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -677,21 +660,20 @@ special_project = {
 	days_to_research = 180
 	tech_department = society_technology
 	picture = GFX_evt_gas_giant
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = anomaly.5015 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -700,21 +682,20 @@ special_project = {
 	days_to_research = 180
 	tech_department = society_technology
 	picture = GFX_evt_gas_giant
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = anomaly.5020 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -723,21 +704,20 @@ special_project = {
 	days_to_research = 180
 	tech_department = society_technology
 	picture = GFX_evt_gas_giant
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = anomaly.5010 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 special_project = {
@@ -746,19 +726,19 @@ special_project = {
 	days_to_research = 180
 	tech_department = society_technology
 	timelimit = 730 # in days
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = observation.37 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = observation.38 }
 	}
@@ -770,17 +750,17 @@ special_project = {
 	days_to_research = 180
 	tech_department = society_technology
 	timelimit = 730 # in days
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_transport = 2
 	}
-	
+
 	on_success = {
 		ship_event = { id = observation.20 }
 	}
-	
+
 	on_fail = {
 		owner = {
 			country_event = { id = observation.30 }
@@ -793,21 +773,20 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = primitive.172 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 
@@ -822,21 +801,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.6 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Vultaum Observatory
@@ -848,21 +826,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.11 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Vultaum Colony 1
@@ -874,21 +851,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.16 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Vultaum Colony 2
@@ -900,21 +876,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.21 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Vultaum Colony 3
@@ -926,21 +901,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.26 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Vultaum Gas Giant Base
@@ -952,21 +926,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.31 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Vultaum Trade Post
@@ -978,21 +951,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.36 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Vultaum Satellite
@@ -1004,21 +976,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.41 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Vultaum Splinter Colony
@@ -1030,21 +1001,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.46 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Vultaum Virtual Reality Center
@@ -1056,21 +1026,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.51 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Vultaum Asteroid Mining Base
@@ -1082,21 +1051,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.56 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 ### YUHT ARCHEOLOGICAL PROJECTS
@@ -1110,21 +1078,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.506 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Yuht Listening Post
@@ -1136,21 +1103,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.511 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Yuht Colony 1
@@ -1162,21 +1128,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.516 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Yuht Colony 2
@@ -1188,21 +1153,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.521 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Yuht Colony 3
@@ -1214,21 +1178,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.526 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Yuht Satellite
@@ -1240,21 +1203,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.531 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Yuht Cruiser
@@ -1266,21 +1228,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.536 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Yuht Colony Ship
@@ -1292,21 +1253,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.541 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Yuht Asteroid Hermit
@@ -1318,21 +1278,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.546 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 ### FIRST LEAGUE ARCHEOLOGICAL PROJECTS
@@ -1346,21 +1305,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1006 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # League Cruiser
@@ -1372,21 +1330,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1011 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Khamdai Homeworld
@@ -1398,21 +1355,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1016 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Chassago Homeworld
@@ -1424,21 +1380,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1021 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Migir-Yan Homeworld
@@ -1450,21 +1405,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1026 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # V'ropak Homeworld
@@ -1476,21 +1430,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1031 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # League Science Base
@@ -1502,21 +1455,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1036 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Joint League Colony
@@ -1528,21 +1480,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1041 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # League Trade Center
@@ -1554,21 +1505,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1046 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Battle Wreckage
@@ -1580,21 +1530,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1051 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Prison Complex
@@ -1606,21 +1555,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1056 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Protected Primitive World
@@ -1632,21 +1580,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1061 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Blockaded World
@@ -1658,21 +1605,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1066 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Smuggler Asteroid
@@ -1684,21 +1630,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1071 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 ### IRASSIAN ARCHEOLOGICAL PROJECTS
@@ -1712,21 +1657,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1506 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Purified World
@@ -1738,21 +1682,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1511 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Scheming Client Race
@@ -1764,21 +1707,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1516 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Destroyed Client Race
@@ -1790,21 +1732,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1521 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Dead Colony
@@ -1816,21 +1757,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1526 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Dead Mining Base
@@ -1842,21 +1782,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1531 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Point of Outbreak
@@ -1868,21 +1807,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1536 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Derelict Ship
@@ -1894,21 +1832,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1541 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Disease Control Base
@@ -1920,21 +1857,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1546 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Asteroid Listening Post
@@ -1946,21 +1882,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1551 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Gas Giant Science Station
@@ -1972,21 +1907,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.1556 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 ### CYBREX ARCHEOLOGICAL PROJECTS
@@ -2000,21 +1934,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2006 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Indimak Homeworld
@@ -2026,21 +1959,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2011 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Broken Cybrex Warforms
@@ -2052,21 +1984,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2016 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Cybrex Invasion
@@ -2078,21 +2009,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2021 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Cybrex Ruins
@@ -2104,21 +2034,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2026 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Cybrex Listening Post
@@ -2130,21 +2059,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2031 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Cybrex Refinery
@@ -2156,21 +2084,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2036 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Battle Debris
@@ -2182,21 +2109,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 4
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2041 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Ancient Cybrex Base
@@ -2208,21 +2134,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2046 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Organic Remains
@@ -2234,21 +2159,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2051 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Cybrex Research Station
@@ -2260,21 +2184,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_archaeological_dig
 	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 5
 	}
-	
+
 	on_success = {
 		ship_event = { id = precursor.2056 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 ### SPECIMEN PROCUREMENT
@@ -2286,21 +2209,20 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = country.54 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # The Mighty Tassargoid
@@ -2310,21 +2232,20 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = country.55 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # The Vile Orinthi
@@ -2334,21 +2255,20 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = country.56 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # The Insidious Sniran
@@ -2358,21 +2278,20 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = country.57 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # The Malleable Goolantha
@@ -2382,21 +2301,20 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = country.58 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # The Wily Uddloran
@@ -2406,21 +2324,20 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = country.59 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # The Ravenous Zulcor
@@ -2430,21 +2347,20 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 3
 	}
-	
+
 	on_success = {
 		ship_event = { id = country.60 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Recover Sublight Space Probe
@@ -2454,21 +2370,20 @@ special_project = {
 	cost = 0
 	days_to_research = 180
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		skill = 2
 	}
-	
+
 	on_success = {
 		ship_event = { id = country.4 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Board Cult Ship 1
@@ -2478,19 +2393,18 @@ special_project = {
 	cost = 0
 	days_to_research = 60
 	tech_department = engineering_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_military = 1
 	}
-	
+
 	on_success = {
 		ship_event = { id = country.203 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Board Cult Ship 2
@@ -2500,19 +2414,18 @@ special_project = {
 	cost = 0
 	days_to_research = 60
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_transport = 1
 	}
-	
+
 	on_success = {
 		owner = { country_event = { id = country.214 } }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Research Cult debris
@@ -2522,20 +2435,19 @@ special_project = {
 	cost = 0
 	days_to_research = 60
 	tech_department = society_technology
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 	}
-	
+
 	on_success = {
 		#ship_event = { id = country.208 }
 		owner = { country_event = { id = country.208 } }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Smuggler Raid
@@ -2546,17 +2458,17 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_smugglers_in_bar
 	timelimit = 720
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_transport = 1
 	}
-	
+
 	on_success = {
 		ship_event = { id = observation.52 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = observation.53 }
 	}
@@ -2570,17 +2482,17 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_smugglers_in_bar
 	timelimit = 720
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_military = 1
 	}
-	
+
 	on_success = {
 		ship_event = { id = observation.3114 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = observation.3113 }
 	}
@@ -2594,17 +2506,17 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_smugglers_in_bar
 	timelimit = 720
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 	}
-	
+
 	on_success = {
 		ship_event = { id = observation.3133 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = observation.3132 }
 	}
@@ -2616,13 +2528,13 @@ special_project = {
 	days_to_research = 730
 	tech_department = physics_technology
 	picture = GFX_evt_ship_in_orbit
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 	}
-	
+
 	on_success = {
 		random_list = {
 			25 = { ship_event = { id = galactic_features.301 } }
@@ -2631,16 +2543,15 @@ special_project = {
 					owner = { has_ethic = ethic_gestalt_consciousness }
 					factor = 0
 				}
-				ship_event = { id = galactic_features.302 } 
+				ship_event = { id = galactic_features.302 }
 			}
 			25 = { ship_event = { id = galactic_features.303 } }
 			25 = { ship_event = { id = galactic_features.305 } }
 		}
 		owner = { set_country_flag = shielded_world_opened }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Test Project
@@ -2651,20 +2562,20 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_smugglers_in_bar
 	timelimit = 10
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 		leader = scientist
 		is_founder_species = yes
 		has_trait = leader_trait_expertise_voidcraft
 	}
-	
+
 	on_success = {
 		ship_event = { id = henrik.252 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = henrik.253 }
 	}
@@ -2745,7 +2656,7 @@ special_project = {
 				has_ethic = ethic_militarist
 				has_ethic = ethic_fanatic_militarist
 			}
-		}			
+		}
 	}
 
 	event_scope = planet_event
@@ -2767,8 +2678,7 @@ special_project = {
 		owner = { establish_communications = FROM }
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }
 
 # Investigate Space Amoeba
@@ -2785,8 +2695,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	abort_trigger = {
 		#OR = {
@@ -2803,8 +2712,7 @@ special_project = {
 		}
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }
 
 # Investigate Crystals
@@ -2821,8 +2729,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	abort_trigger = {
 		#OR = {
@@ -2839,8 +2746,7 @@ special_project = {
 		}
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }
 
 # Investigate Drones
@@ -2857,8 +2763,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	abort_trigger = {
 		#OR = {
@@ -2875,8 +2780,7 @@ special_project = {
 		}
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }
 
 # Investigate Void Clouds
@@ -2893,8 +2797,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	abort_trigger = {
 		#OR = {
@@ -2911,8 +2814,7 @@ special_project = {
 		}
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }
 
 # Investigate Tiyanki
@@ -2929,8 +2831,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	abort_trigger = {
 		#OR = {
@@ -2947,8 +2848,7 @@ special_project = {
 		}
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }
 
 # Investigate Pirates
@@ -2965,8 +2865,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	abort_trigger = {
 		#OR = {
@@ -2983,8 +2882,7 @@ special_project = {
 		}
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }
 
 # Board Hyacinth
@@ -2995,19 +2893,18 @@ special_project = {
 	days_to_research = 60
 	tech_department = society_technology
 	picture = GFX_evt_hangar_bay
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 	}
-	
+
 	on_success = {
 		ship_event = { id = country.255 }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Abduct Scientist
@@ -3017,22 +2914,21 @@ special_project = {
 	days_to_research = 60
 	tech_department = society_technology
 	picture = GFX_evt_society_research
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 	}
-	
+
 	on_success = {
 		random_list = {
 			75 = { ship_event = { id = observation.1002 } }
 			25 = { ship_event = { id = observation.1003 } }
 		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Implant Malfunctions
@@ -3043,17 +2939,17 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_cybernetics
 	timelimit = 720
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 	}
-	
+
 	on_success = {
 		ship_event = { id = observation.1012 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = observation.1013 }
 	}
@@ -3066,22 +2962,21 @@ special_project = {
 	days_to_research = 60
 	tech_department = society_technology
 	picture = GFX_evt_outpost
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_transport = 1
 	}
-	
+
 	on_success = {
 		random_list = {
 			70 = { ship_event = { id = observation.1028 } }
 			30 = { ship_event = { id = observation.1029 } }
 		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Synth Infiltration Project
@@ -3092,20 +2987,18 @@ special_project = {
 	picture = GFX_evt_robot_assembly_plant
 	location = no
 	timelimit = -1
-	
+
 	event_scope = planet_event
-	
-	requirements = {
-	}
-	
+
+	requirements = {}
+
 	on_success = {
 		owner = {
 			country_event = { id = crisis.2203 }
 		}
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Capture Swarm Queen
@@ -3116,9 +3009,9 @@ special_project = {
 	days_to_research = 60
 	tech_department = society_technology
 	picture = GFX_evt_society_research
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		shipclass_science_ship = 1
 	}
@@ -3126,14 +3019,13 @@ special_project = {
 	abort_trigger = {
 		has_country_flag = queen_snatched
 	}
-	
+
 	on_success = {
 		ship_event = { id = crisis.105 }
 	}
-	
-	on_fail = {
-	}
-	
+
+	on_fail = {}
+
 	AI_wait_days = {
 		weight = 180
 		modifier = {
@@ -3183,35 +3075,33 @@ special_project = {
 	picture = GFX_evt_unknown_ships
 	icon = "gfx/interface/icons/situation_log/situation_log_ship.dds"
 	timelimit = 1080
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		fleet_power = 8000
 		leader = admiral
 	}
-	
+
 	on_success = {
 		ship_event = { id = diplomatic.1025 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = diplomatic.1001 }
 	}
-	
+
 	on_start = {
 		ship_event = { id = diplomatic.1005 }
 	}
-	
-	on_progress_25 = {
-	}
-	
+
+	on_progress_25 = {}
+
 	on_progress_50 = {
 		ship_event = { id = diplomatic.1010 }
 	}
-	
-	on_progress_75 = {
-	}
+
+	on_progress_75 = {}
 }
 
 # Fleet Maneuvers II
@@ -3223,35 +3113,33 @@ special_project = {
 	picture = GFX_evt_unknown_ships
 	icon = "gfx/interface/icons/situation_log/situation_log_ship.dds"
 	timelimit = 1080
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		fleet_power = 20000
 		leader = admiral
 	}
-	
+
 	on_success = {
 		ship_event = { id = diplomatic.1025 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = diplomatic.1001 }
 	}
-	
+
 	on_start = {
 		ship_event = { id = diplomatic.1005 }
 	}
-	
-	on_progress_25 = {
-	}
-	
+
+	on_progress_25 = {}
+
 	on_progress_50 = {
 		ship_event = { id = diplomatic.1010 }
 	}
-	
-	on_progress_75 = {
-	}
+
+	on_progress_75 = {}
 }
 
 # Fleet Maneuvers III
@@ -3263,35 +3151,33 @@ special_project = {
 	picture = GFX_evt_unknown_ships
 	icon = "gfx/interface/icons/situation_log/situation_log_ship.dds"
 	timelimit = 1080
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		fleet_power = 50000
 		leader = admiral
 	}
-	
+
 	on_success = {
 		ship_event = { id = diplomatic.1025 }
 	}
-	
+
 	on_fail = {
 		country_event = { id = diplomatic.1001 }
 	}
-	
+
 	on_start = {
 		ship_event = { id = diplomatic.1005 }
 	}
-	
-	on_progress_25 = {
-	}
-	
+
+	on_progress_25 = {}
+
 	on_progress_50 = {
 		ship_event = { id = diplomatic.1010 }
 	}
-	
-	on_progress_75 = {
-	}
+
+	on_progress_75 = {}
 }
 
 # AI Crisis Machine Empire Project
@@ -3301,8 +3187,7 @@ special_project = {
 	cost = {
 		base = 600
 		scaled_modifier = {
-			limit = {
-			}
+			limit = {}
 			scope = this
 			add = 100
 			calc = pop_count
@@ -3313,15 +3198,13 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
-	
+	requirements = {}
+
 	on_success = {
 		owner = { country_event = { id = crisis.2510 } }
 	}
-	
-	on_fail = {
-	}
+
+	on_fail = {}
 }
 
 # Test Project (To be removed)
@@ -3332,17 +3215,15 @@ special_project = {
 	tech_department = society_technology
 	picture = GFX_evt_unknown_ships
 	icon = "gfx/interface/icons/situation_log/situation_log_ship.dds"
-	
+
 	event_scope = ship_event
-	
+
 	requirements = {
 		#fleet_power = 8000
 		shipclass_colonizer = 1
 	}
-	
-	on_success = {
-	}
-	
-	on_fail = {
-	}
+
+	on_success = {}
+
+	on_fail = {}
 }

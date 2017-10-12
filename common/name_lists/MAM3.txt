@@ -5,44 +5,37 @@ MAM3 = {
 	ship_names = {
 
 		generic = {
-			Seper'Elegion Seper'Setnassel Seper'Hundramel Seper'Grenalion Seper'Fundroleth Seper'Sagredioth Seper'Curenrod Seper'Tulethendral Seper'Huvendrog Seper'Vyliged Seper'Tarudog Seper'Calendol Seper'Essunad Seper'Hugaderol Seper'Aldinor Seper'Cerunthon Seper'Massagreth Seper'Tuandok Seper'Nossundem Seper'Duacedron
+			Seperelegion Sepersetnassel Seperhundramel Sepergrenalion Seperfundroleth Sepersagredioth Sepercurenrod Sepertulethendral Seperhuvendrog Sepervyliged Sepertarudog Sepercalendol Seperessunad Seperhugaderol Seperaldinor Sepercerunthon Sepermassagreth Sepertuandok Sepernossundem Seperduacedron
 		}
 
-		corvette = {
-		}
-		
-		destroyer = {
-		}
-		
-		cruiser = {
-		}
-		
-		battleship = {
-		}
-		
-		science = {
-		}
-		
-		colonizer = {
-		}
-		
-		constructor = {
-		}
-		
-		
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		science = {}
+
+		colonizer = {}
+
+		constructor = {}
+
+
+		mining_station = {}
+		research_station = {}
+		wormhole_station = {}
+
+		observation_station = {}
 		outpost_station = {
-			#random_names = { }
+			#random_names = {}
 			#sequential_name = "%O% Frontier Outpost"
 		}
 
 		military_station_small = {}
 		military_station_medium = {}
-		military_station_large = {}	
+		military_station_large = {}
 	}
 
 	fleet_names = {
@@ -51,25 +44,25 @@ MAM3 = {
 		}
 		sequential_name = "%O% Extraorbital Corps"
 	}
-	
+
 	### ARMIES
 	army_names = {
 		defense_army = {
 			sequential_name = "%O% Defense Army"
 		}
-			
+
 		assault_army = {
 			sequential_name = "%O% Assault Army"
 		}
-		
+
 		slave_army = {
 			sequential_name = "%O% Slave Army"
 		}
-		
-		clone_army = { 
+
+		clone_army = {
 			sequential_name = "%O% Clone Division"
 		}
-		
+
 		robotic_army = {
 			sequential_name = "%O% Robot Division"
 		}
@@ -77,7 +70,7 @@ MAM3 = {
 		robotic_defense_army = {
 			sequential_name = "%O% Robot Garrison"
 		}
-		
+
 		android_army = {
 			sequential_name = "%O% Android Division"
 		}
@@ -85,15 +78,15 @@ MAM3 = {
 		android_defense_army = {
 			sequential_name = "%O% Android Garrison"
 		}
-		
-		psionic_army = { 
+
+		psionic_army = {
 			sequential_name = "%O% Psionic Army"
 		}
-		
+
 		xenomorph_army = {
 			sequential_name = "%O% Xenomorph Division"
 		}
-		
+
 		gene_warrior_army = {
 			sequential_name = "%O% Gene-Warrior Division"
 		}
@@ -108,52 +101,43 @@ MAM3 = {
 				Safalon Lancord Drogena Yoergen Pendalor Tyntregal Camburen Cemlanth Suboramon Cumelod Condeus Genith Belores Agstur Fridgalen Annuend Sadolic Talienoc Angleruth Cranodeth
 			}
 		}
-		
+
 		pc_desert = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tropical = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arid = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_continental = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_ocean = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tundra = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arctic = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_savannah = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_alpine = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 	}
 
 	### CHARACTERS
@@ -161,26 +145,24 @@ MAM3 = {
 	character_names = {
 		default = {
 			# A complete name
-			full_names = {
-			
-			}
-			
+			full_names = {}
+
 			# Always combined with a second name
 			first_names = {
 				Lifres Gestith Regolid Sacoterum Murgaud Seifeth Gorlife Codrales Suclien Ganarth Thoraul Merould Galedur Sassodem Cluthar Guldorn Yodegud Sassomun Colaut Derom
 			}
-			
+
 			# Always combined with a first name
 			second_names = {
-				"cur'Padarn" "cur'Vandom" "cur'Hussel" "cur'Yuhal" "cur'Fargeth" "cur'Yalim" "dol'Fulm" "dol'Luch" "dol'Gath" "dol'Harne" "dol'Gilue" "dol'Thrad" "had'Tond" "had'Sald" "had'Marn" "had'Ugrit" "had'Fuleth" "had'Rolunt" "ov'Dren" "ov'Gut"
+				Curpadarn Curvandom Curhussel Curyuhal Curfargeth Curyalim Dolfulm Dolluch Dolgath Dolharne Dolgilue Dolthrad Hadtond Hadsald Hadmarn Hadugrit Hadfuleth Hadrolunt Ovdren Ovgut
 			}
-			
+
 			regnal_first_names = {
 				Lifres Gestith Regolid Sacoterum Murgaud Seifeth Gorlife Codrales
 			}
-			
+
 			regnal_second_names = {
-				cur'Padarn
+				Curpadarn
 			}
 		}
 	}

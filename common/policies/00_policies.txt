@@ -16,18 +16,18 @@ war_philosophy = {
 	potential = {
 		always = yes   # only normal Empires should have this policy
 	}
-	
+
 	allow = {
 		is_at_war = no # Not allowed to change policies in this group while at war
 	}
-	
+
 	option = {
 		name = "unrestricted_wars"
-		
+
 		policy_flags = {
 			unrestricted_wars
 		}
-		
+
 		valid = {
 			NOR = {
 				has_ethic = "ethic_pacifist"
@@ -35,7 +35,7 @@ war_philosophy = {
 				has_valid_civic = "civic_inwards_perfection"
 			}
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 10
@@ -67,14 +67,14 @@ war_philosophy = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "liberation_wars"
-		
+
 		policy_flags = {
 			liberation_wars
 		}
-		
+
 		valid = {
 			NOR = {
 				has_ethic = "ethic_fanatic_pacifist"
@@ -83,7 +83,7 @@ war_philosophy = {
 				has_valid_civic = "civic_machine_terminator"
 			}
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 2
@@ -105,10 +105,10 @@ war_philosophy = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "no_wars"
-		
+
 		policy_flags = {
 			no_wars
 		}
@@ -121,7 +121,7 @@ war_philosophy = {
 				has_valid_civic = "civic_machine_terminator"
 			}
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 5
@@ -168,15 +168,15 @@ food_stockpiling = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "food_stockpiling_1"
-		
+
 		policy_flags = {}
 		modifier = {
 			max_food = 200
 		}
-		
+
 		valid = {
 			custom_tooltip = {
 				fail_text = ONLY_SERVITORS_STOCKPILE_FOOD
@@ -186,7 +186,7 @@ food_stockpiling = {
 				}
 			}
 		}
-		
+
 		AI_weight = {
 			factor = 10
 			modifier = {
@@ -194,14 +194,14 @@ food_stockpiling = {
 				OR = {
 					num_pops > 20
 					NOT = { is_country_type = default }
-				}				
+				}
 			}
 		}
-	}	
-	
+	}
+
 	option = {
 		name = "food_stockpiling_2"
-		
+
 		policy_flags = {}
 		modifier = {
 			max_food = 1000
@@ -210,11 +210,11 @@ food_stockpiling = {
 		potential = {
 			NOT = { has_authority = auth_machine_intelligence }
 		}
-		
+
 		valid = {
 			always = yes
 		}
-		
+
 		AI_weight = {
 			factor = 5
 			modifier = {
@@ -222,14 +222,14 @@ food_stockpiling = {
 				OR = {
 					num_pops > 100
 					NOT = { is_country_type = default }
-				}	
+				}
 			}
 		}
 	}
-	
+
 	option = {
 		name = "food_stockpiling_3"
-		
+
 		policy_flags = {}
 		modifier = {
 			max_food = 5000
@@ -238,11 +238,11 @@ food_stockpiling = {
 		potential = {
 			NOT = { has_authority = auth_machine_intelligence }
 		}
-		
+
 		valid = {
 			always = yes
 		}
-		
+
 		AI_weight = {
 			factor = 1
 		}
@@ -254,18 +254,18 @@ orbital_bombardment = {
 	potential = {
 		always = yes
 	}
-	
+
 	option = {
 		name = "orbital_bombardment_light"
-		
+
 		policy_flags = {
 			allow_orbital_bombardment_light
 		}
-		
+
 		on_enabled = {
 			# custom_tooltip = "policy_allow_slavery_effect_disable"
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 4
@@ -278,17 +278,17 @@ orbital_bombardment = {
 	}
 	option = {
 		name = "orbital_bombardment_limited"
-		
+
 		policy_flags = {
 			allow_orbital_bombardment_light
 			allow_orbital_bombardment_limited
 		}
 		modifier = {}
-		
+
 		valid = {
 			NOT = {	has_ethic = "ethic_fanatic_pacifist" }
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 2
@@ -301,10 +301,9 @@ orbital_bombardment = {
 	}
 	option = {
 		name = "orbital_bombardment_full"
-		
-		potential = {
-		}
-		
+
+		potential = {}
+
 		valid = {
 			OR = {
 				has_ethic = "ethic_militarist"
@@ -313,17 +312,17 @@ orbital_bombardment = {
 				custom_tooltip_success = {
 					text = TRIGGER_FANATIC_PURIFIERS
 					has_valid_civic = "civic_fanatic_purifiers"
-				}			
+				}
 			}
 		}
-		
+
 		policy_flags = {
 			allow_orbital_bombardment_light
 			allow_orbital_bombardment_limited
 			allow_orbital_bombardment_full
 		}
 		modifier = {}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 4
@@ -337,18 +336,18 @@ orbital_bombardment = {
 	}
 	option = {
 		name = "orbital_bombardment_armageddon"
-		
+
 		potential = {
 			OR = {
 				has_valid_civic = civic_fanatic_purifiers
 				has_valid_civic = civic_machine_terminator
 			}
 		}
-		
+
 		valid = {
 			always = yes
 		}
-		
+
 		policy_flags = {
 			allow_orbital_bombardment_light
 			allow_orbital_bombardment_limited
@@ -356,7 +355,7 @@ orbital_bombardment = {
 			allow_orbital_bombardment_armageddon
 		}
 		modifier = {}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 10
@@ -380,18 +379,18 @@ interference = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "interference_passive"
-		
+
 		policy_flags = {
 			interference_passive
 		}
-		
+
 		on_enabled = {
 			# custom_tooltip = "policy_allow_slavery_effect_disable"
 		}
-		
+
 		valid = {
 			OR = {
 				is_subject_type = signatory
@@ -404,23 +403,23 @@ interference = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "interference_active"
-		
+
 		policy_flags = {
 			interference_active
 		}
 		modifier = {}
-		
+
 		valid = {
 			NOR = {
-				is_subject_type = signatory				
+				is_subject_type = signatory
 				has_valid_civic = "civic_fanatic_purifiers"
 				has_valid_civic = "civic_hive_devouring_swarm"
 			}
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 2
@@ -442,9 +441,8 @@ interference = {
 	}
 	option = {
 		name = "interference_full"
-		
-		potential = {
-		}
+
+		potential = {}
 		valid = {
 			NOT = { is_subject_type = signatory }
 			NOR = {
@@ -499,14 +497,14 @@ enlightenment = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "enlightenment_not_allowed"
-		
+
 		policy_flags = {
 			enlightenment_not_allowed
 		}
-		
+
 		on_enabled = {
 			# custom_tooltip = "policy_allow_slavery_effect_disable"
 		}
@@ -514,24 +512,24 @@ enlightenment = {
 			weight = 1
 		}
 	}
-	
+
 	option = {
 		name = "enlightenment_allowed"
-		
+
 		policy_flags = {
 			enlightenment_allowed
 		}
 		modifier = {}
-		
+
 		valid = {
 			NOR = {
-				has_ethic = "ethic_fanatic_xenophobe"				
+				has_ethic = "ethic_fanatic_xenophobe"
 				has_valid_civic = "civic_fanatic_purifiers"
 				has_valid_civic = "civic_hive_devouring_swarm"
 				has_valid_civic = "civic_machine_terminator"
 			}
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 2
@@ -558,29 +556,29 @@ resettlement = {
 	potential = {
 		NOT = { has_ethic = "ethic_gestalt_consciousness" }
 	}
-	
+
 	option = {
 		name = "resettlement_not_allowed"
-		
+
 		policy_flags = {
 			resettlement_not_allowed
 		}
 	}
-	
+
 	option = {
 		name = "resettlement_allowed"
-		
+
 		policy_flags = {
 			resettlement_allowed
 		}
 		modifier = {}
-		
+
 		AI_weight = {
 			factor = 10
 			modifier = {
 				factor = 0
 				OR = {
-					has_ethic = ethic_egalitarian 
+					has_ethic = ethic_egalitarian
 					has_ethic = ethic_fanatic_egalitarian
 				}
 			}
@@ -590,19 +588,19 @@ resettlement = {
 
 appropriation = {
 	potential = {
-		any_relation = {	
+		any_relation = {
 			has_communications = root
 		}
 		NOT = { has_ethic = ethic_gestalt_consciousness }
 	}
-	
+
 	option = {
 		name = "appropriation_not_allowed"
-		
+
 		policy_flags = {
 			appropriation_not_allowed
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 10
@@ -610,15 +608,15 @@ appropriation = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "appropriation_allowed"
-		
+
 		policy_flags = {
 			appropriation_allowed
 		}
 		modifier = {}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 10
@@ -633,25 +631,25 @@ leader_enhancement = {
 	potential = {
 		has_technology = tech_selected_lineages
 	}
-	
+
 	option = {
 		name = "leader_enhancement_natural_selection"
-		
+
 		policy_flags = {
 			leader_enhancement_natural_selection
 		}
-		
+
 		on_enabled = {
 			# custom_tooltip = "policy_allow_slavery_effect_disable"
 		}
-		
+
 		modifier = {}
-		
+
 	}
-	
+
 	option = {
 		name = "leader_enhancement_selected_lineages"
-		
+
 		policy_flags = {
 			leader_enhancement_selected_lineages
 		}
@@ -660,11 +658,11 @@ leader_enhancement = {
 			leader_age = 10
 			leader_influence_cost = 0.5
 		}
-		
+
 		valid = {
 			NOT = { has_ethic = "ethic_fanatic_egalitarian" }
 		}
-		
+
 		AI_weight = {
 			factor = 2
 			modifier = {
@@ -672,16 +670,16 @@ leader_enhancement = {
 				OR = {
 					has_ethic = "ethic_egalitarian"
 					has_ethic = "ethic_fanatic_egalitarian"
-				}				
+				}
 			}
 		}
-		
+
 		prerequisites = { tech_selected_lineages }
 	}
-	
+
 	option = {
 		name = "leader_enhancement_capacity_boosters"
-		
+
 		policy_flags = {
 			leader_enhancement_capacity_boosters
 		}
@@ -690,16 +688,16 @@ leader_enhancement = {
 			leader_age = 20
 			leader_influence_cost = 1
 		}
-		
+
 		valid = {
 			NOR = {
 				has_ethic = "ethic_egalitarian"
 				has_ethic = "ethic_fanatic_egalitarian"
 			}
 		}
-		
+
 		prerequisites = { tech_capacity_boosters }
-		
+
 		AI_weight = {
 			factor = 3
 		}
@@ -711,18 +709,18 @@ first_contact_protocol = {
 	potential = {
 		always = yes
 	}
-	
+
 	option = {
 		name = "first_contact_attack_not_allowed"
-		
+
 		policy_flags = {
 			first_contact_attack_not_allowed
 		}
-		
+
 		on_enabled = {
 			# custom_tooltip = "policy_allow_slavery_effect_disable"
 		}
-		
+
 		valid = {
 			NOR = {
 				has_valid_civic = "civic_fanatic_purifiers"
@@ -731,15 +729,15 @@ first_contact_protocol = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "first_contact_attack_allowed"
-		
+
 		policy_flags = {
 			first_contact_attack_allowed
 		}
 		modifier = {}
-		
+
 		valid = {
 			OR = {
 				has_ethic = ethic_xenophobe
@@ -752,8 +750,8 @@ first_contact_protocol = {
 				}
 			}
 		}
-		
-		
+
+
 		AI_weight = {
 			modifier = {
 				factor = 2
@@ -778,62 +776,62 @@ border_policy = {
 	potential = {
 		always = yes
 	}
-	
+
 	option = {
 		name = "border_policy_open"
-		
+
 		policy_flags = {
 			border_policy_open
 		}
-		
+
 		valid = {
 			is_country_type = default
 		}
 	}
-	
+
 	option = {
 		name = "border_policy_closed"
-		
+
 		policy_flags = {
 			border_policy_closed
 		}
 		modifier = {}
-		
+
 		valid = {
 			always = yes
 		}
-		
+
 		AI_weight = {
 			factor = 10
 			modifier = {
 				factor = 0
 				has_valid_ai_personality = yes
-				NOR = { 
-					has_ai_personality_behaviour = isolationist 
+				NOR = {
+					has_ai_personality_behaviour = isolationist
 					has_ai_personality_behaviour = attack_neutrals
 				}
 			}
 			modifier = {
 				factor = 0
 				has_valid_ai_personality = no
-				NOR = { 
+				NOR = {
 					has_ethic = ethic_xenophobe
 					has_ethic = ethic_fanatic_xenophobe
 				}
-			}			
+			}
 		}
 	}
 }
 
 artificial_intelligence_policy = {
 
-	potential = {	
+	potential = {
 		NOT = { has_ethic = ethic_gestalt_consciousness }
 		is_mechanical_empire = no
 		OR = {
 			has_technology = tech_synthetic_workers
 			has_technology = tech_sapient_ai
-			any_relation = {	
+			any_relation = {
 				has_communications = root
 				OR = {
 					has_technology = tech_synthetic_workers
@@ -848,7 +846,7 @@ artificial_intelligence_policy = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "ai_outlawed"
 
@@ -856,13 +854,13 @@ artificial_intelligence_policy = {
 			NOR = {
 				has_ethic = "ethic_materialist"
 				has_ethic = "ethic_fanatic_materialist"
-			}			
+			}
 		}
-		
+
 		policy_flags = {
 			ai_outlawed
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 0
@@ -880,29 +878,29 @@ artificial_intelligence_policy = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "ai_servitude"
 
 		valid = {
 			always = yes
 		}
-		
+
 		policy_flags = {
 			ai_servitude
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 5
 				has_valid_ai_personality = yes
 				has_ai_personality_behaviour = robot_exploiter
-			}	
+			}
 			modifier = {
 				factor = 2
 				has_valid_ai_personality = yes
 				has_ai_personality_behaviour = robot_liberator
-			}				
+			}
 			modifier = {
 				factor = 0
 				OR = {
@@ -912,7 +910,7 @@ artificial_intelligence_policy = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "ai_full_rights"
 
@@ -923,19 +921,19 @@ artificial_intelligence_policy = {
 			}
 			NOT = { has_policy_flag = robots_outlawed }
 		}
-		
+
 		policy_flags = {
 			ai_full_rights
 		}
-		
+
 		modifier = {}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 5
 				has_valid_ai_personality = yes
 				has_ai_personality_behaviour = robot_liberator
-			}		
+			}
 			modifier = {
 				factor = 0
 				OR = {
@@ -949,13 +947,13 @@ artificial_intelligence_policy = {
 
 robot_pop_policy = {
 
-	potential = {	
+	potential = {
 		NOT = { has_ethic = ethic_gestalt_consciousness }
 		is_mechanical_empire = no
 		OR = {
 			has_civic = civic_mechanists
 			has_technology = tech_robotic_workers
-			any_relation = {	
+			any_relation = {
 				has_communications = root
 				OR = {
 					has_technology = tech_robotic_workers
@@ -969,7 +967,7 @@ robot_pop_policy = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "robot_pops_outlawed"
 
@@ -977,14 +975,14 @@ robot_pop_policy = {
 			NOR = {
 				has_ethic = "ethic_materialist"
 				has_ethic = "ethic_fanatic_materialist"
-			}				
+			}
 			NOT = { has_policy_flag = ai_full_rights }
 		}
-		
+
 		policy_flags = {
 			robots_outlawed
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 0
@@ -1003,56 +1001,56 @@ robot_pop_policy = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = "robot_pops_allowed"
-		
+
 		policy_flags = {
 			robots_allowed
 		}
-		
+
 		AI_weight = {
 			modifier = {
 				factor = 5
 				has_valid_ai_personality = yes
 				has_ai_personality_behaviour = robot_exploiter
-			}	
+			}
 			modifier = {
 				factor = 2
 				has_valid_ai_personality = yes
 				has_ai_personality_behaviour = robot_liberator
-			}				
+			}
 		}
 	}
 }
 
 pre_sapients = {
-	potential = {	
+	potential = {
 		OR = {
 			has_country_flag = found_presapients
 			any_planet_within_border = {
 				any_pop = {
 					is_sapient = no
 				}
-			}			
+			}
 		}
 	}
-	
+
 	option = {
 		name = "pre_sapients_protect"
-		
+
 		potential = {
 			NOR = {
 				has_valid_civic = civic_machine_terminator
 				has_valid_civic = civic_hive_devouring_swarm
 				has_valid_civic = civic_fanatic_purifiers
-			}		
+			}
 		}
-		
+
 		policy_flags = {
 			pre_sapients_protect
 		}
-		
+
 		AI_weight = {
 			factor = 2
 			modifier = {
@@ -1060,31 +1058,31 @@ pre_sapients = {
 				NOT = { has_ai_personality_behaviour = multispecies }
 			}
 		}
-	}	
-	
+	}
+
 	option = {
 		name = "pre_sapients_allow"
-		
+
 		potential = {
 			NOR = {
 				has_valid_civic = civic_machine_terminator
 				has_valid_civic = civic_hive_devouring_swarm
 				has_valid_civic = civic_fanatic_purifiers
-			}		
+			}
 		}
-		
+
 		policy_flags = {
 			pre_sapients_allow
 		}
-		
+
 		AI_weight = {
 			factor = 1
 		}
 	}
-	
+
 	option = {
 		name = "pre_sapients_eat"
-		
+
 		potential = {
 			host_has_dlc = "Utopia"
 			is_synthetic_empire = no
@@ -1093,20 +1091,20 @@ pre_sapients = {
 				has_valid_civic = civic_fanatic_purifiers
 			}
 		}
-		
+
 		valid = {
 			NOR = {
 				has_ethic = "ethic_xenophile"
 				has_ethic = "ethic_fanatic_xenophile"
 			}
 		}
-		
+
 		policy_flags = {
 			pre_sapients_eat
 		}
-		
+
 		modifier = {}
-		
+
 		AI_weight = {
 			factor = 10
 			modifier = {
@@ -1114,24 +1112,24 @@ pre_sapients = {
 				NOT = { has_authority = auth_hive_mind }
 			}
 		}
-	}	
-	
+	}
+
 	option = {
 		name = "pre_sapients_purge"
-		
+
 		valid = {
 			NOR = {
 				has_ethic = "ethic_xenophile"
 				has_ethic = "ethic_fanatic_xenophile"
 			}
 		}
-		
+
 		policy_flags = {
 			pre_sapients_purge
 		}
-		
+
 		modifier = {}
-		
+
 		AI_weight = {
 			factor = 5
 			modifier = {
@@ -1158,26 +1156,26 @@ core_worlds = {
 		has_encountered_other_species = yes
 		NOT = { has_ethic = "ethic_gestalt_consciousness" }
 	}
-	
+
 	option = {
 		name = "core_worlds_all"
-		
+
 		policy_flags = {
 			core_worlds_all
 		}
-		
+
 		valid = {
 			always = yes
 		}
 	}
-	
+
 	option = {
 		name = "core_worlds_citizens_and_slaves"
-		
+
 		policy_flags = {
 			core_worlds_citizens_and_slaves
 		}
-		
+
 		valid = {
 			allows_slavery = yes
 			NOR = {
@@ -1199,23 +1197,23 @@ core_worlds = {
 					}
 				}
 			}
-		}		
-	}	
-	
+		}
+	}
+
 	option = {
 		name = "core_worlds_citizens_only"
-		
+
 		policy_flags = {
 			core_worlds_citizens_only
 		}
-		
+
 		valid = {
 			NOR = {
 				has_ethic = ethic_xenophile
 				has_ethic = ethic_fanatic_xenophile
-			}	
-		}	
-		
+			}
+		}
+
 		AI_weight = {
 			factor = 5
 			modifier = {
@@ -1228,13 +1226,13 @@ core_worlds = {
 						num_owned_planets > 10
 					}
 				}
-			}	
+			}
 			modifier = {
 				factor = 0
 				has_civic = civic_syncretic_evolution
-			}			
-		}			
-	}	
+			}
+		}
+	}
 }
 
 refugees = {
@@ -1244,60 +1242,60 @@ refugees = {
 		OR = {
 			NOT = { has_ethic = "ethic_gestalt_consciousness" }
 			has_valid_civic = civic_machine_servitor
-		}	
+		}
 	}
-	
+
 	option = {
 		name = "refugees_not_allowed"
-		
+
 		valid = {
-			NOR = { 
-				has_ethic = "ethic_xenophile" 
-				has_ethic = "ethic_fanatic_xenophile" 
+			NOR = {
+				has_ethic = "ethic_xenophile"
+				has_ethic = "ethic_fanatic_xenophile"
 			}
 		}
-		
+
 		policy_flags = {
 			refugees_not_allowed
-		}	
+		}
 	}
-	
+
 	option = {
 		name = "refugees_only_citizens"
-		
+
 		potential = {
 			NOT = { has_ethic = "ethic_gestalt_consciousness" }
 		}
-		
+
 		policy_flags = {
 			refugees_only_citizens
 		}
-		
+
 		valid = {
 			NOT = {
 				has_authority = auth_hive_mind
 			}
 		}
-		
+
 		AI_weight = {
 			factor = 5
 		}
 	}
-	
+
 	option = {
 		name = "refugees_allowed"
-		
+
 		policy_flags = {
 			refugees_allowed
 		}
-		
+
 		valid = {
-			NOR = { 
-				has_ethic = "ethic_xenophobe" 
-				has_ethic = "ethic_fanatic_xenophobe" 
+			NOR = {
+				has_ethic = "ethic_xenophobe"
+				has_ethic = "ethic_fanatic_xenophobe"
 			}
 		}
-		
+
 		AI_weight = {
 			factor = 10
 			modifier = {
@@ -1308,7 +1306,7 @@ refugees = {
 					has_valid_civic = civic_machine_servitor
 					AND = {
 						has_valid_ai_personality = yes
-						NOT = { has_ai_personality_behaviour = multispecies }					
+						NOT = { has_ai_personality_behaviour = multispecies }
 					}
 				}
 			}
@@ -1320,18 +1318,18 @@ slavery = {
 	potential = {
 		NOT = { has_ethic = "ethic_gestalt_consciousness" }
 	}
-	
+
 	option = {
 		name = "slavery_not_allowed"
-		
+
 		policy_flags = {
 			slavery_not_allowed
 		}
 	}
-	
+
 	option = {
 		name = "slavery_allowed"
-		
+
 		valid = {
 			NOT = { is_subject_type = signatory }
 			OR = {
@@ -1341,12 +1339,12 @@ slavery = {
 				has_ethic = ethic_fanatic_xenophobe
 			}
 		}
-		
+
 		policy_flags = {
 			slavery_allowed
 		}
 		modifier = {}
-		
+
 		AI_weight = {
 			factor = 10
 			modifier = {
@@ -1373,7 +1371,7 @@ slavery = {
 					has_ethic = "ethic_xenophobe"
 					has_ethic = "ethic_fanatic_xenophobe"
 					has_ethic = "ethic_militarist"
-					has_ethic = "ethic_fanatic_militarist"	
+					has_ethic = "ethic_fanatic_militarist"
 				}
 				OR = {
 					has_ethic = "ethic_pacifist"
@@ -1388,8 +1386,8 @@ slavery = {
 				NOR = {
 					has_valid_civic = "civic_slaver_guilds"
 					has_trait = "trait_decadent"
-				}				
-			}			
+				}
+			}
 		}
 	}
 }
@@ -1398,37 +1396,37 @@ purge = {
 	potential = {
 		NOT = { has_ethic = "ethic_gestalt_consciousness" }
 	}
-	
+
 	option = {
 		name = "purge_not_allowed"
-		
+
 		valid = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
-		
+
 		policy_flags = {
 			purge_not_allowed
 		}
 	}
-	
+
 	option = {
 		name = "purge_displacement_only"
-		
+
 		policy_flags = {
 			purge_displacement_only
 		}
 
 		modifier = {}
-		
+
 		valid = {
-			NOR = { 
+			NOR = {
 				is_subject_type = signatory
 				has_ethic = ethic_gestalt_consciousness
 				has_ethic = ethic_xenophile
 				has_ethic = ethic_fanatic_xenophile
 			}
 		}
-		
+
 		AI_weight = {
 			factor = 5
 			modifier = {
@@ -1437,17 +1435,17 @@ purge = {
 				has_ai_personality_behaviour = multispecies
 			}
 		}
-	}	
-	
+	}
+
 	option = {
 		name = "purge_allowed"
-		
+
 		policy_flags = {
 			purge_allowed
 		}
 		modifier = {}
-		
-		valid = {		
+
+		valid = {
 			NOT = { is_subject_type = signatory }
 			OR = {
 				has_ethic = ethic_gestalt_consciousness
@@ -1455,7 +1453,7 @@ purge = {
 				has_ethic = ethic_fanatic_xenophobe
 			}
 		}
-		
+
 		AI_weight = {
 			factor = 10
 			modifier = {

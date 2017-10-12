@@ -1402,10 +1402,6 @@ country_event = {
 			}
 			country_event = { id = crisis.1110 days = 1 }
 		}
-		random_country = {
-			limit = { is_country_type = extradimensional_2 }
-			establish_communications_no_message = root
-		}
 	}
 }
 
@@ -1931,7 +1927,6 @@ country_event = {
 					}
 				}
 			}
-			establish_communications_no_message = event_target:extradimensional_trespassers
 		}
 		every_country = {
 			limit = {
@@ -1943,7 +1938,6 @@ country_event = {
 			}
 			country_event = { id = crisis.1210 days = 1 }
 		}
-		establish_communications_no_message = event_target:extradimensional_trespassers
 	}
 }
 
@@ -2369,7 +2363,20 @@ country_event = {
 		# If at fleet cap
 		if = {
 			limit = {
-				num_ships > 2000
+				OR = {
+					AND = {
+						is_difficulty = 0 # Normal
+						fleet_power > 1000000
+					}
+					AND = {
+						is_difficulty = 1 # Hard
+						fleet_power > 1500000
+					}
+					AND = {
+						is_difficulty = 2 # Insane
+						fleet_power > 2000000
+					}
+				}
 			}
 			country_event = { id = crisis.1260 days = 600 random = 200 } # Check again later
 			break = yes
@@ -2932,7 +2939,20 @@ ship_event = {
 				is_country_type = extradimensional_2
 				is_country_type = extradimensional_3
 			}
-			num_ships < 2001
+			OR = {
+				AND = {
+					is_difficulty = 0 # Normal
+					fleet_power < 1000000
+				}
+				AND = {
+					is_difficulty = 1 # Hard
+					fleet_power < 1500000
+				}
+				AND = {
+					is_difficulty = 2 # Insane
+					fleet_power < 2000000
+				}
+			}
 		}
 	}
 	

@@ -4,50 +4,43 @@
 ART3 = {
 	ship_names = {
 		generic = {
-			"Hulkrab Muxi" "Inklac Muxi" "Opalc Muxi" "Xactiz Muxi" "Knak Muxi" "Hulkrab Spectrac" "Inklac Spectrac" "Opalc Spectrac" "Xactiz Spectrac" "Knak Spectrac" "Hulkrab Nixpac" "Inklac Nixpac" "Opalc Nixpac" "Xactiz Nixpac" "Knak Nixpac" "Hulkrab Trobbjax" "Inklac Trobbjax" "Opalc Trobbjax" "Xactiz Trobbjax" "Knak Trobbjax" "Hulkrab Maqtrac" "Inklac Maqtrac" "Opalc Maqtrac" "Xactiz Maqtrac" "Knak Maqtrac" "Hulkrab Krabblax" "Inklac Krabblax" "Opalc Krabblax" "Xactiz Krabblax" "Knak Krabblax" "Hulkrab Upcix" "Inklac Upcix" "Opalc Upcix" "Xactiz Upcix" "Knak Upcix" "Hulkrab Ybbax" "Inklac Ybbax" "Opalc Ybbax" "Xactiz Ybbax" "Knak Ybbax" "Hulkrab Lobball" "Inklac Lobball" "Opalc Lobball" "Xactiz Lobball" "Knak Lobball" "Hulkrab Mezotix" "Inklac Mezotix" "Opalc Mezotix" "Xactiz Mezotix" "Knak Mezotix" "Hulkrab Polljac" "Inklac Polljac" "Opalc Polljac" "Xactiz Polljac" "Knak Polljac" "Hulkrab Betklox" "Inklac Betklox" "Opalc Betklox" "Xactiz Betklox" "Knak Betklox" "Hulkrab Vicopoc" "Inklac Vicopoc" "Opalc Vicopoc" "Xactiz Vicopoc" "Knak Vicopoc" "Hulkrab Blatox" "Inklac Blatox" "Opalc Blatox" "Xactiz Blatox" "Knak Blatox" "Hulkrab Dunybb" "Inklac Dunybb" "Opalc Dunybb" "Xactiz Dunybb" "Knak Dunybb" "Hulkrab Stroxtan" "Inklac Stroxtan" "Opalc Stroxtan" "Xactiz Stroxtan" "Knak Stroxtan"
+			Hulkrabmuxi Inklacmuxi Opalcmuxi Xactizmuxi Knakmuxi Hulkrabspectrac Inklacspectrac Opalcspectrac Xactizspectrac Knakspectrac Hulkrabnixpac Inklacnixpac Opalcnixpac Xactiznixpac Knaknixpac Hulkrabtrobbjax Inklactrobbjax Opalctrobbjax Xactiztrobbjax Knaktrobbjax Hulkrabmaqtrac Inklacmaqtrac Opalcmaqtrac Xactizmaqtrac Knakmaqtrac Hulkrabkrabblax Inklackrabblax Opalckrabblax Xactizkrabblax Knakkrabblax Hulkrabupcix Inklacupcix Opalcupcix Xactizupcix Knakupcix Hulkrabybbax Inklacybbax Opalcybbax Xactizybbax Knakybbax Hulkrablobball Inklaclobball Opalclobball Xactizlobball Knaklobball Hulkrabmezotix Inklacmezotix Opalcmezotix Xactizmezotix Knakmezotix Hulkrabpolljac Inklacpolljac Opalcpolljac Xactizpolljac Knakpolljac Hulkrabbetklox Inklacbetklox Opalcbetklox Xactizbetklox Knakbetklox Hulkrabvicopoc Inklacvicopoc Opalcvicopoc Xactizvicopoc Knakvicopoc Hulkrabblatox Inklacblatox Opalcblatox Xactizblatox Knakblatox Hulkrabdunybb Inklacdunybb Opalcdunybb Xactizdunybb Knakdunybb Hulkrabstroxtan Inklacstroxtan Opalcstroxtan Xactizstroxtan Knakstroxtan
 		}
-	
-		corvette = {
-		}
-		
-		destroyer = {
-		}
-		
-		cruiser = {
-		}
-		
-		battleship = {
-		}
-		
-		science = {
-		}
-		
-		colonizer = {
-		}
-		
-		constructor = {
-		}
-		
-		orbital_station = { }
-		mining_station = { }
-		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
-		observation_station = { }
+
+		corvette = {}
+
+		destroyer = {}
+
+		cruiser = {}
+
+		battleship = {}
+
+		science = {}
+
+		colonizer = {}
+
+		constructor = {}
+
+		orbital_station = {}
+		mining_station = {}
+		research_station = {}
+		wormhole_station = {}
+
+		observation_station = {}
 		outpost_station = {
 			#random_names = {
 				"Mecinfic Outpost" "Huxinfic Outpost" "Ytranfic Outpost" "Cabbinfic Outpost" "Lopinfic Outpost" "Draxinfic Outpost" "Ekerinfic Outpost" "Xapinfic Outpost"
 			#}
 			#sequential_name = "%O% Frontier Outpost"
 		}
-	
+
 		military_station_small = {}
-	
+
 		military_station_medium = {}
-	
-		military_station_large = {}	
+
+		military_station_large = {}
 	}
-	
+
 	fleet_names = {
 		random_names = {
 			"Baktax Husk Squadron" "Kabbloc Husk Squadron" "Vactix Husk Squadron" "Polatricall Husk Squadron" "Jaktox Husk Squadron" "Mekadanc Husk Squadron" "Lutkrac Husk Squadron" "Plattryc Husk Squadron" "Sekadex Husk Squadron"
@@ -57,131 +50,121 @@ ART3 = {
 
 	###ARMIES
 	army_names = {
-	
+
 		defense_army = {
 			sequential_name = "%O% Defensive Cast"
 		}
-			
+
 		assault_army = {
 			sequential_name = "%O% Offensive Cast"
 		}
-		
+
 		slave_army = {
 			sequential_name = "%O% Servitude Swarm"
 		}
-		
+
 		clone_army = {
 			sequential_name = "%O% Clone Swarm"
 		}
-		
+
 		robotic_army = {
 			sequential_name = "%O% Robo-Ticks"
 		}
-		
+
 		robotic_defense_army = {
 			sequential_name = "%O% Robo-Emplacements"
 		}
-		
+
 		android_army = {
 			sequential_name = "%O% Construct Cast"
 		}
-		
+
 		android_defense_army = {
 			sequential_name = "%O% Construct Bulwark"
 		}
-		
+
 		psionic_army = {
 			sequential_name = "%O% Sorcerers"
 		}
-		
+
 		xenomorph_army = {
 			sequential_name = "%O% Xeno Cast"
 		}
-		
+
 		gene_warrior_army = {
 			sequential_name = "%O% Brutes"
 		}
 	}
-	
+
 	### PLANETS
-	
+
 	planet_names = {
-	
+
 		generic = {
 			names = {
-				"Pulklac Ovoc" "Swak Ovoc" "Xant Ovoc" "Zuppox Ovoc" "Avlik Zajkax" "Utpol Zajkax" "Zaktic Zajkax" "Kolkex Zajkax" "Wekyp Ypacibb" "Aklac Ypacibb" "Qwilk Ypacibb" "Omax Ypacibb" "Pomic Krac" "Anacin Krac" "Xazibb Krac" "Moc Krac" "Allox Haxizabb" "Cixiv Haxizabb" "Hajpoc Haxizabb" "Waxop Haxizabb" "Bakirix Laxtric" "Nobhax Laxtric" "Spectocax Laxtric" "Bobbic Laxtric" "Trabbxol Tymcrix" "Awixall Tymcrix" "Pobbnic Tymcrix" "Buktryx Tymcrix" "Moxfroc Oxocodolf" "Hullpax Oxocodolf" "Raxibb Oxocodolf" "Zalibbac Oxocodolf"
+				Pulklacovoc Swakovoc Xantovoc Zuppoxovoc Avlikzajkax Utpolzajkax Zakticzajkax Kolkexzajkax Wekypypacibb Aklacypacibb Qwilkypacibb Omaxypacibb Pomickrac Anacinkrac Xazibbkrac Mockrac Alloxhaxizabb Cixivhaxizabb Hajpochaxizabb Waxophaxizabb Bakirixlaxtric Nobhaxlaxtric Spectocaxlaxtric Bobbiclaxtric Trabbxoltymcrix Awixalltymcrix Pobbnictymcrix Buktryxtymcrix Moxfrocoxocodolf Hullpaxoxocodolf Raxibboxocodolf Zalibbacoxocodolf
 			}
 		}
-		
+
 		pc_desert = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tropical = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arid = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_continental = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_ocean = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_tundra = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 		pc_arctic = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_savannah = {
-			names = {
-			}
+			names = {}
 		}
 
 		pc_alpine = {
-			names = {
-			}
+			names = {}
 		}
-		
+
 	}
-	
+
 	### CHARACTERS
-	
+
 	character_names = {
 		default = {
 			# A complete name
-			full_names = {
-			}
-			
+			full_names = {}
+
 			# Always combined with a second name
 			first_names = {
-				Luk Ytella Pilax Xybber Inic Zukir Fattic Kibin Rakex Pallyt Frakir Cilxin Ibbac Ztykatt Lobbuk Knav Klobbax Axan Apinix Lop Inax Xalin Unipak Bokall Zaox Krytic Xaspec Xumlobb Pokbatt Crumklac Polfukir Lertrak Ekir Yprak Salklon Valknek Utynik Trobhak Xyp 
+				Luk Ytella Pilax Xybber Inic Zukir Fattic Kibin Rakex Pallyt Frakir Cilxin Ibbac Ztykatt Lobbuk Knav Klobbax Axan Apinix Lop Inax Xalin Unipak Bokall Zaox Krytic Xaspec Xumlobb Pokbatt Crumklac Polfukir Lertrak Ekir Yprak Salklon Valknek Utynik Trobhak Xyp
 			}
-			
+
 			# Always combined with a first name
 			second_names = {
 				Kabanaca Vartinaca Aspinaca Ytanaca Upiverta Xabbaverta Farkiverta Inaverta Poxinirkis Inaxinirkis Lobbinirkis Utinirkis Lopetkin Huketkin Ekbokin Xankikin Crumtika Yptika Lobbtika Qatika Umlatika
 			}
-			
+
 			regnal_first_names = {
-				Pan'dolf Xan'dolf Lan'dolf Xyp'dolf Typ'dolf Cixi'dolf Lop'dolf Kol'dolf
+				Pandolf Xandolf Landolf Xypdolf Typdolf Cixidolf Lopdolf Koldolf
 			}
-			
+
 			regnal_second_names = {
 				Leexidanaca Zaapritanaca Omaakixanaca Klobbaxanaca
 			}

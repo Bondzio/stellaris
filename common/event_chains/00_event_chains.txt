@@ -182,16 +182,11 @@ ai_crisis_chain = {
 	icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
 	picture = GFX_evt_sapient_AI
 	counter = {
-		assimilated_worlds = {
-		}
-		active_machine_worlds = {
-		}
-		contingency_kills_us = {
-		}
-		contingency_kills_others = {
-		}
-		contingency_victims = {
-		}
+		assimilated_worlds = {}
+		active_machine_worlds = {}
+		contingency_kills_us = {}
+		contingency_kills_others = {}
+		contingency_victims = {}
 	}
 }
 
@@ -199,16 +194,11 @@ prethoryn_scourge_chain = {
 	icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
 	picture = GFX_evt_throne_room
 	counter = {
-		infested_worlds = {
-		}
-		infested_worlds_cleansed = {
-		}
-		prethoryn_kills_us = {
-		}
-		prethoryn_kills_others = {
-		}
-		prethoryn_victims = {
-		}
+		infested_worlds = {}
+		infested_worlds_cleansed = {}
+		prethoryn_kills_us = {}
+		prethoryn_kills_others = {}
+		prethoryn_victims = {}
 	}
 }
 
@@ -216,16 +206,11 @@ extradimensional_invasion_chain = {
 	icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
 	picture = GFX_evt_wormhole
 	counter = {
-		dimensional_anchors_1 = {
-		}
-		extradimensional_kills_us_1 = {
-		}
-		extradimensional_kills_others_1 = {
-		}
-		extradimensional_victims_1 = {
-		}
-		extradimensional_planets_1 = {
-		}
+		dimensional_anchors_1 = {}
+		extradimensional_kills_us_1 = {}
+		extradimensional_kills_others_1 = {}
+		extradimensional_victims_1 = {}
+		extradimensional_planets_1 = {}
 	}
 }
 
@@ -233,16 +218,11 @@ extradimensional_invasion_chain_2 = {
 	icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
 	picture = GFX_evt_wormhole
 	counter = {
-		dimensional_anchors_2 = {
-		}
-		extradimensional_kills_us_2 = {
-		}
-		extradimensional_kills_others_2 = {
-		}
-		extradimensional_victims_2 = {
-		}
-		extradimensional_planets_2 = {
-		}
+		dimensional_anchors_2 = {}
+		extradimensional_kills_us_2 = {}
+		extradimensional_kills_others_2 = {}
+		extradimensional_victims_2 = {}
+		extradimensional_planets_2 = {}
 	}
 }
 
@@ -250,16 +230,11 @@ extradimensional_invasion_chain_3 = {
 	icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
 	picture = GFX_evt_wormhole
 	counter = {
-		dimensional_anchors_3 = {
-		}
-		extradimensional_kills_us_3 = {
-		}
-		extradimensional_kills_others_3 = {
-		}
-		extradimensional_victims_3 = {
-		}
-		extradimensional_planets_3 = {
-		}
+		dimensional_anchors_3 = {}
+		extradimensional_kills_us_3 = {}
+		extradimensional_kills_others_3 = {}
+		extradimensional_victims_3 = {}
+		extradimensional_planets_3 = {}
 	}
 }
 

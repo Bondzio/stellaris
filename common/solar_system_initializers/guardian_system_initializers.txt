@@ -30,34 +30,34 @@ guardians_artist_init_01 = {
 	max_instances = 1
 	spawn_chance = 100
 	#scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	flags = { guardians_artists_system enclave }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = 1
 		class = pc_barren
 		size = 25
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 30
 		class = rl_unhabitable_planets
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
-		
+
 		init_effect = {
 			set_planet_flag = guardians_artists_planet
 			create_species = {
@@ -169,9 +169,9 @@ guardians_artist_init_01 = {
 			}
 		}
 	}
-	
+
 	change_orbit = 10
-	
+
 	planet = {
 		orbit_distance = 20
 		class = pc_molten
@@ -183,15 +183,15 @@ guardians_artist_init_01 = {
 		orbit_distance = 40
 		class = pc_gas_giant
 		orbit_angle = { min = 90 max = 270 }
-		size = 60
+		size = 64
 	}
-	
+
 	init_effect = {
 		###
 	}
 }
 
-# Artists II 
+# Artists II
 guardians_artist_init_02 = {
 	class = random
 	asteroids_distance = { min = 40 max = 60 }
@@ -215,34 +215,34 @@ guardians_artist_init_02 = {
 	max_instances = 1
 	#spawn_chance = 100
 	scaled_spawn_chance = 16	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	flags = { guardians_artists_system enclave }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = 1
 		class = pc_barren
 		size = 25
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 30
 		class = rl_unhabitable_planets
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
-		
+
 		init_effect = {
 			set_planet_flag = guardians_artists_planet
 			create_species = {
@@ -354,9 +354,9 @@ guardians_artist_init_02 = {
 			}
 		}
 	}
-	
+
 	change_orbit = 10
-	
+
 	planet = {
 		orbit_distance = 20
 		class = pc_molten
@@ -368,9 +368,9 @@ guardians_artist_init_02 = {
 		orbit_distance = 40
 		class = pc_gas_giant
 		orbit_angle = { min = 90 max = 270 }
-		size = 60
+		size = 64
 	}
-	
+
 	init_effect = {
 		###
 	}
@@ -399,34 +399,34 @@ guardians_artist_init_03 = {
 
 	max_instances = 1
 	scaled_spawn_chance = 12	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	flags = { guardians_artists_system enclave }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = 1
 		class = pc_barren
 		size = 25
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 30
 		class = rl_unhabitable_planets
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
-		
+
 		init_effect = {
 			set_planet_flag = guardians_artists_planet
 			create_species = {
@@ -538,9 +538,9 @@ guardians_artist_init_03 = {
 			}
 		}
 	}
-	
+
 	change_orbit = 10
-	
+
 	planet = {
 		orbit_distance = 20
 		class = pc_molten
@@ -552,9 +552,9 @@ guardians_artist_init_03 = {
 		orbit_distance = 40
 		class = pc_gas_giant
 		orbit_angle = { min = 90 max = 270 }
-		size = 60
+		size = 64
 	}
-	
+
 	init_effect = {
 		###
 	}
@@ -564,7 +564,7 @@ guardians_artist_init_03 = {
 guardians_curator_init_01 = {
 	class = "rl_standard_stars"
 	usage = misc_system_init
-	
+
 	usage_odds = {
 		base = 0
 		modifier = {
@@ -585,13 +585,13 @@ guardians_curator_init_01 = {
 	#spawn_chance = 100
 	#sigma (2) always spawns
 	scaled_spawn_chance = 12	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	flags = { guardians_curators_system enclave }
-	
+
 	planet = {
 		class = star
 		orbit_distance = 0
-		
+
 		init_effect = {
 			create_species = {
 				name = random
@@ -664,7 +664,7 @@ guardians_curator_init_01 = {
 			}
 		}
 	}
-	
+
 	change_orbit = 60
 
 	planet = {
@@ -672,7 +672,7 @@ guardians_curator_init_01 = {
 		orbit_distance = 25
 		class = "rl_unhabitable_planets"
 		orbit_angle = { min = 90 max = 270 }
-		size = { min = 10 max = 25 }
+		size = 25
 	}
 }
 
@@ -680,7 +680,7 @@ guardians_curator_init_01 = {
 guardians_curator_init_02 = {
 	class = sc_black_hole
 	usage = misc_system_init
-	
+
 	usage_odds = {
 		base = 0
 		modifier = {
@@ -700,17 +700,17 @@ guardians_curator_init_02 = {
 	max_instances = 1
 	spawn_chance = 100
 	#scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	flags = { guardians_curators_system enclave }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = 30
+		size = 36
 		has_ring = no
-		
+
 		init_effect = {
 			create_species = {
 				name = random
@@ -769,7 +769,7 @@ guardians_curator_init_02 = {
 						save_event_target_as = CustomCapital
 						prev = {
 							set_custom_capital_location = event_target:CustomCapital
-						}	
+						}
 					}
 				}
 				create_leader = {
@@ -788,7 +788,7 @@ guardians_curator_init_02 = {
 guardians_curator_init_03 = {
 	class = sc_pulsar
 	usage = misc_system_init
-	
+
 	usage_odds = {
 		base = 0
 		modifier = {
@@ -808,17 +808,17 @@ guardians_curator_init_03 = {
 	max_instances = 1
 	#spawn_chance = 100
 	scaled_spawn_chance = 16	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	flags = { guardians_curators_system enclave }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = 30
+		size = 36
 		has_ring = no
-		
+
 		init_effect = {
 			create_species = {
 				name = random
@@ -891,27 +891,27 @@ guardians_curator_init_03 = {
 			}
 		}
 	}
-	
+
 	change_orbit = 60
-	
+
 	planet = {
 		count = 1
 		class = pc_barren
 		entity = "barren_planet_01_destroyed_entity"
-		size = { min = 15 max = 25 }
+		size = 25
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		init_effect = { prevent_anomaly = yes }
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 40
 		class = pc_barren
 		entity = "barren_planet_01_destroyed_entity"
 		orbit_angle = { min = 90 max = 270 }
-		size = { min = 15 max = 25 }
-		
+		size = 25
+
 		init_effect = { prevent_anomaly = yes }
 	}
 
@@ -919,14 +919,14 @@ guardians_curator_init_03 = {
 		orbit_distance = 40
 		class = pc_gas_giant
 		orbit_angle = { min = 90 max = 270 }
-		size = 60
+		size = 64
 	}
 }
 
 # Traders
 guardians_trader_init_01 = {
 	class = random
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 0
@@ -954,19 +954,19 @@ guardians_trader_init_01 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -1063,7 +1063,7 @@ guardians_trader_init_01 = {
 # Traders
 guardians_trader_init_02 = {
 	class = random
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 0
@@ -1092,19 +1092,19 @@ guardians_trader_init_02 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -1202,7 +1202,7 @@ guardians_trader_init_02 = {
 # Traders
 guardians_trader_init_03 = {
 	class = random
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 0
@@ -1231,19 +1231,19 @@ guardians_trader_init_03 = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
@@ -1366,33 +1366,33 @@ guardians_init_stellarites = {
 
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	flags = { guardians_stellarite_system guardian hostile_system }
-	
+
 	asteroids_distance = { min = 30 max = 120 }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 1 max = 2 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		size = { min = 10 max = 25 }
+		size = 25
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
-			size = { min = 10 max = 14 }
+			size = 16
 			orbit_distance = 5
 		}
 	}
@@ -1401,7 +1401,7 @@ guardians_init_stellarites = {
 		class = pc_frozen
 		count = { min = 1 max = 1 }
 		orbit_distance = 20
-		size = { min = 15 max = 25 }
+		size = 25
 		orbit_angle = { min = 90 max = 270 }
 	}
 
@@ -1409,17 +1409,17 @@ guardians_init_stellarites = {
 		count = { min = 1 max = 2 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		size = { min = 10 max = 25 }
+		size = 25
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
-			size = { min = 10 max = 14 }
+			size = 16
 			orbit_distance = 5
 		}
 	}
-	
+
 	init_effect = {
 		random_system_planet = {
 			limit = {
@@ -1433,7 +1433,7 @@ guardians_init_stellarites = {
 ### Ether Drake
 guardians_init_dragon = {
 	class = sc_k
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 0
@@ -1464,10 +1464,10 @@ guardians_init_dragon = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 10
 
 	# Hoard
@@ -1475,7 +1475,7 @@ guardians_init_dragon = {
 		count = 1
 		orbit_distance = 20
 		orbit_angle = 20
-		size = 5
+		size = 9
 		has_ring = no
 
 		init_effect = {
@@ -1496,7 +1496,7 @@ guardians_init_dragon = {
 						category = "zoological"
 						file = "flag_zoological_5.dds"
 					}
-					background= {
+					background = {
 						category = "backgrounds"
 						file = "00_solid.dds"
 					}
@@ -1586,22 +1586,21 @@ guardians_init_dragon = {
 	}
 
 	change_orbit = 15
-	
+
 	planet = {
 		count = { min = 1 max = 4 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 
-		init_effect = {
-		}
+		init_effect = {}
 	}
 }
 
@@ -1609,9 +1608,9 @@ guardians_init_dragon = {
 guardians_init_horror = {
 	class = "sc_black_hole"
 	usage = misc_system_init
-	
+
 	flags = { guardians_horror_system guardian hostile_system }
-	
+
 	usage_odds = {
 		base = 0
 		modifier = {
@@ -1633,13 +1632,13 @@ guardians_init_horror = {
 
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 	}
 }
@@ -1649,9 +1648,9 @@ guardians_init_dreadnought = {
 	class = "rl_standard_stars"
 	usage = misc_system_init
 	asteroids_distance = 50
-	
+
 	flags = { guardians_dreadnought_system guardian hostile_system }
-	
+
 	usage_odds = {
 		base = 0
 		modifier = {
@@ -1673,16 +1672,16 @@ guardians_init_dreadnought = {
 
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 		flags = { patrol_1 }
-		
+
 		init_effect = {
 			save_event_target_as = dreadnought_sun
 			create_country = {
@@ -1716,7 +1715,7 @@ guardians_init_dreadnought = {
 						modifier = dreadnought_power
 						days = -1
 					}
-				}					
+				}
 				guardian_difficulty = yes
 				save_global_event_target_as = automated_dreadnought_country
 				set_country_flag = automated_dreadnought_country
@@ -1743,7 +1742,7 @@ guardians_init_dreadnought = {
 					set_fleet_stance = aggressive
 					set_aggro_range_measure_from = return_point
 					set_aggro_range = 350
-					
+
 					queue_actions = {
 						repeat = {
 							find_closest_planet = {
@@ -1856,29 +1855,29 @@ guardians_init_dreadnought = {
 			}
 		}
 	}
-	
+
 	change_orbit = 50
-	
+
 	planet = {
 		count = 2
 		class = random_asteroid
 		orbit_distance = 0
 		orbit_angle = { min = 90 max = 270 }
 	}
-	
+
 	change_orbit = 30
-	
+
 	planet = {
 		class = "pc_molten"
 		orbit_distance = 0
 		orbit_angle = 85
-		size = 15
+		size = 16
 		has_ring = no
 		flags = { patrol_2 }
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		class = "rl_habitable_normal"
 		orbit_distance = 0
@@ -1886,78 +1885,78 @@ guardians_init_dreadnought = {
 		size = 16
 		has_ring = no
 		flags = { patrol_3 }
-		
+
 		init_effect = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_vast_engineering_deposit					
+				set_deposit = d_vast_engineering_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_vast_society_deposit				
+				set_deposit = d_vast_society_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_vast_physics_deposit					
+				set_deposit = d_vast_physics_deposit
 			}
 		}
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			class = "pc_toxic"
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		class = "rl_habitable_normal"
 		orbit_distance = 0
 		orbit_angle = 85
-		size = 20
+		size = 25
 		has_ring = yes
 		flags = { patrol_4 }
-		
+
 		init_effect = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_vast_engineering_deposit					
+				set_deposit = d_vast_engineering_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_vast_society_deposit				
+				set_deposit = d_vast_society_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_vast_physics_deposit					
+				set_deposit = d_vast_physics_deposit
 			}
 		}
 	}
-	
+
 	planet = {
 		class = "pc_barren"
 		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
 		flags = { patrol_5 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			class = "pc_barren_cold"
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		class = "pc_gas_giant"
 		orbit_distance = 30
@@ -1966,23 +1965,23 @@ guardians_init_dreadnought = {
 		has_ring = yes
 		flags = { patrol_6 }
 	}
-	
+
 	planet = {
 		class = "pc_gas_giant"
 		orbit_distance = 30
 		orbit_angle = { min = 90 max = 270 }
-		size = 35
+		size = 36
 		has_ring = no
 		flags = { patrol_7 }
-		
+
 		moon = {
-			size = 6
+			size = 9
 			orbit_distance = 10
 			orbit_angle = 115
 			has_ring = no
 		}
 		moon = {
-			size = 6
+			size = 9
 			orbit_distance = 2.5
 			orbit_angle = 35
 			has_ring = no
@@ -1994,12 +1993,12 @@ guardians_init_dreadnought = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		class = "pc_frozen"
 		orbit_distance = 35
 		orbit_angle = { min = 90 max = 270 }
-		size = 8
+		size = 9
 		flags = { patrol_8 }
 	}
 }
@@ -2009,9 +2008,9 @@ guardians_init_hive = {
 	class = "rl_standard_stars"
 	usage = misc_system_init
 	asteroids_distance = 160
-	
+
 	flags = { guardians_hive_system guardian hostile_system }
-	
+
 	usage_odds = {
 		base = 0
 		modifier = {
@@ -2033,15 +2032,15 @@ guardians_init_hive = {
 
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
-		
+
 		init_effect = {
 			create_ambient_object = {
 				type = "dormant_hive_base_object"
@@ -2111,15 +2110,15 @@ guardians_init_hive = {
 			}
 		}
 	}
-	
+
 	change_orbit = 160
-	
+
 	planet = {
 		class = pc_crystal_asteroid
 		orbit_distance = 0
 		orbit_angle = 75
 		flags = { hiver_asteroid_1 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 			orbital_deposit_tile = {
@@ -2132,7 +2131,7 @@ guardians_init_hive = {
 		orbit_distance = 0
 		orbit_angle = 75
 		flags = { hiver_asteroid_2 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 			orbital_deposit_tile = {
@@ -2145,7 +2144,7 @@ guardians_init_hive = {
 		orbit_distance = 0
 		orbit_angle = 75
 		flags = { hiver_asteroid_3 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 			orbital_deposit_tile = {
@@ -2158,7 +2157,7 @@ guardians_init_hive = {
 		orbit_distance = 0
 		orbit_angle = 75
 		flags = { hiver_asteroid_4 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 			orbital_deposit_tile = {
@@ -2171,7 +2170,7 @@ guardians_init_hive = {
 		orbit_distance = 0
 		orbit_angle = 70
 		flags = { hiver_asteroid_5 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 			orbital_deposit_tile = {
@@ -2179,9 +2178,9 @@ guardians_init_hive = {
 			}
 		}
 	}
-	
+
 	change_orbit = 40
-	
+
 	planet = {
 		class = "pc_gas_giant"
 		count = { min = 1 max = 3 }
@@ -2216,15 +2215,15 @@ guardians_init_technosphere = {
 
 	max_instances = 1
 	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
-	
+
 	flags = { guardians_technosphere_system guardian hostile_system }
-	
+
 	planet = {
 		count = 1
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = 35
+		size = 36
 		has_ring = no
 
 		init_effect = {
@@ -2233,7 +2232,7 @@ guardians_init_technosphere = {
 			prevent_anomaly = yes
 		}
 	}
-	
+
 	init_effect = {
 		random_system_planet = {
 			limit = {
@@ -2273,7 +2272,7 @@ guardians_init_technosphere = {
 						modifier = technosphere_power
 						days = -1
 					}
-				}			
+				}
 				set_graphical_culture = techno
 				create_fleet = {
 					name = "NAME_The_Infinity_Machine"
@@ -2307,7 +2306,7 @@ guardians_init_technosphere = {
 ### Enigmatic Fortress
 guardians_init_fortress = {
 	class = sc_a
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 0
@@ -2338,7 +2337,7 @@ guardians_init_fortress = {
 		class = star
 		orbit_distance = 0
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 26 max = 37 }
 		has_ring = no
 
 		init_effect = {
@@ -2368,7 +2367,7 @@ guardians_init_fortress = {
 					effect = {
 						guardian_difficulty = yes
 						save_global_event_target_as = fortress_country
-						set_country_flag = fortress_country					
+						set_country_flag = fortress_country
 						if = {
 							limit = {
 								NOT = {
@@ -2396,7 +2395,7 @@ guardians_init_fortress = {
 								name = ""
 								design = "NAME_Ancient_Vault"
 								graphical_culture = "ancient"
-								
+
 								effect = {
 									set_ship_flag = fortress_vault
 									set_disable_at_health = 0.05
@@ -2407,7 +2406,7 @@ guardians_init_fortress = {
 								name = ""
 								design = "NAME_Ancient_Guardian"
 								graphical_culture = "ancient"
-							}			
+							}
 							create_ship = {
 								name = ""
 								design = "NAME_Ancient_Guardian"
@@ -2499,7 +2498,7 @@ guardians_init_fortress = {
 							position = { x = 3.0	y = 8.0		} #6
 							position = { x = -4.3	y = -7.0	} #5
 							position = { x = 8.0	y = 9.0		} #4
-							position = { x = -4.0	y = 7.3		} #3 
+							position = { x = -4.0	y = 7.3		} #3
 							position = { x = 7.5	y = -10.5	} #2
 							position = { x = 0.0	y = 0.0		} #1
 						}
@@ -2516,7 +2515,7 @@ guardians_init_fortress = {
 			}
 		}
 	}
-	
+
 	change_orbit = 25
 
 	planet = {
@@ -2524,17 +2523,17 @@ guardians_init_fortress = {
 		orbit_distance = 15
 		class = "rl_habitable_normal"
 		orbit_angle = { min = 270 max = 359 }
-		size = { min = 8 max = 20 }
+		size = 16
 	}
-	
+
 	planet = {
 		count = { min = 1 max = 5 }
 		orbit_distance = 20
 		class = "rl_unhabitable_planets"
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			class = "rl_unhabitable_planets"
@@ -2549,7 +2548,7 @@ guardians_init_fortress = {
 # Wraith
 guardians_init_wraith = {
 	class = "sc_pulsar"
-	
+
 	usage = misc_system_init
 	usage_odds = {
 		base = 0
@@ -2583,16 +2582,16 @@ guardians_init_wraith = {
 		has_ring = no
 		flags = { guardians_wraith_pulsar }
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 2 max = 10 }
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_angle = { min = 90 max = 270 }

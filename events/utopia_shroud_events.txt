@@ -290,21 +290,21 @@ country_event = {
 						else = { country_event = { id = utopia.3200 } }
 					}
 				}
-				10 = {
+				5 = {
 					if = {
 						limit = { NOT = { has_technology = tech_precognition_interface } }
 						country_event = { id = utopia.3180 }
 						else = { country_event = { id = utopia.3200 } }
 					}
 				}
-				10 = {
+				5 = {
 					if = {
 						limit = { NOT = { has_technology = tech_psi_jump_drive_1 } }
 						country_event = { id = utopia.3160 }
 						else = { country_event = { id = utopia.3200 } }
 					}
 				}				
-				10 = {
+				5 = {
 					if = {
 						limit = { 
 							NOT = { 
@@ -323,7 +323,7 @@ country_event = {
 						else = { country_event = { id = utopia.3200 } }
 					}
 				}
-				20 = {
+				5 = {
 					if = {
 						limit = { 
 							NOT = { 
@@ -5297,19 +5297,13 @@ fleet_event = {
 		is_fleet_idle = yes
 		any_system = {
 			any_planet = {
-				OR = {
-					is_colonizable = yes
-					has_owner = yes
-				}
+				is_colonizable = yes
 				OR = {
 					NOT = { has_planet_flag = exile_planet }
 					NOT = {
 						any_system = {
 							any_planet = {
-								OR = {
-									is_colonizable = yes
-									has_owner = yes
-								}
+								is_colonizable = yes
 								NOT = { has_planet_flag = exile_planet }
 							}
 						}
@@ -5327,19 +5321,13 @@ fleet_event = {
 		set_timed_global_flag = { flag = end_of_the_cycle_orders_cooldown days = 30 }
 		random_planet = {
 			limit = {
-				OR = {
-					is_colonizable = yes
-					has_owner = yes
-				}
+				is_colonizable = yes	
 				OR = {
 					NOT = { has_planet_flag = exile_planet }
 					NOT = {
 						any_system = {
 							any_planet = {
-								OR = {
-									is_colonizable = yes
-									has_owner = yes
-								}
+								is_colonizable = yes
 								NOT = { has_planet_flag = exile_planet }
 							}
 						}

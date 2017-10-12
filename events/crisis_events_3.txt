@@ -307,6 +307,22 @@ country_event = {
 				}
 			}
 			random_list = {
+				#50 = {
+				#	modifier = {
+				#		factor = 0
+				#		NOT = {
+				#			any_tile = {
+				#				has_building = yes
+				#				is_ruined = no
+				#				exists = pop 
+				#				pop = {
+				#					has_trait = trait_machine_unit
+				#				}
+				#			}
+				#		}
+				#	}
+				#	planet_event = { id = crisis.2501 }
+				#}
 				50 = {
 					planet_event = { id = crisis.2502 }
 				}
@@ -431,6 +447,28 @@ planet_event = {
 		}
 	}
 }
+
+# Malfunctioning Machine Pop
+#planet_event = {
+#	id = crisis.2501
+#	title = "crisis.2501.name"
+#	desc = "crisis.2502.desc"
+#	picture = GFX_evt_robot_assembly_plant
+#	show_sound = event_ai_started
+#	location = root
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = WORRYING
+#		random_pop = {
+#			limit = {
+#				has_trait = trait_machine_unit
+#			}
+# 			kill_pop = yes
+#		}
+#	}
+#}
 
 # Rogue Machine Pop
 planet_event = {
@@ -612,31 +650,12 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { 
-					has_authority = auth_machine_intelligence 
-				}
+				NOT = { has_authority = auth_machine_intelligence }
 			}
 			add_notification_modifier = ghost_signal_5
 			set_global_flag = ghost_signal_5_flag
 			every_owned_pop = {
-				limit = {
-					OR = {
-						AND = {
-							has_trait = "trait_robotic_3"
-							NOT = {
-								root = { has_country_flag = synthetic_empire }
-							}
-						}
-						# Synthetically Ascended Empires
-						AND = {
-							root = { has_country_flag = synthetic_empire }
-							has_trait = trait_robotic_3
-							NOT = {
-								is_same_species = root.species
-							}
-						}
-					}
-				}
+				limit = { has_trait = "trait_robotic_3" }
 				add_modifier = {
 					modifier = "pop_ghost_signal_5"
 					days = -1
@@ -757,27 +776,25 @@ country_event = {
 	
 	option = {
 		name = EXCELLENT
-		hidden_effect = {
-			if = {
-				limit = {
-					has_notification_modifier = ghost_signal_5_machine
-				}
-				remove_notification_modifier = ghost_signal_5_machine
+		if = {
+			limit = {
+				has_notification_modifier = ghost_signal_5_machine
 			}
-			if = {
-				limit = {
-					has_notification_modifier = ghost_signal_4_machine
-				}
-				remove_notification_modifier = ghost_signal_4_machine
+			remove_notification_modifier = ghost_signal_5_machine
+		}
+		if = {
+			limit = {
+				has_notification_modifier = ghost_signal_4_machine
 			}
-			every_owned_pop = {
-				limit = { has_modifier = "pop_ghost_signal_5_machine" }
-				remove_modifier = "pop_ghost_signal_5_machine"
-			}
-			every_owned_pop = {
-				limit = { has_modifier = "pop_ghost_signal_4_machine" }
-				remove_modifier = "pop_ghost_signal_4_machine"
-			}
+			remove_notification_modifier = ghost_signal_4_machine
+		}
+		every_owned_pop = {
+			limit = { has_modifier = "pop_ghost_signal_5_machine" }
+			remove_modifier = "pop_ghost_signal_5_machine"
+		}
+		every_owned_pop = {
+			limit = { has_modifier = "pop_ghost_signal_4_machine" }
+			remove_modifier = "pop_ghost_signal_4_machine"
 		}
 	}
 }
@@ -875,8 +892,7 @@ planet_event = {
 			}
 			establish_communications_no_message = event_target:AI_crisis
 		}
-		planet_event = { id = crisis.2050 } # Start Fleet reinforcement cycle
-		planet_event = { id = crisis.2052 } # Start Army reinforcement cycle
+		planet_event = { id = crisis.2050 } # Start reinforcement cycle
 		every_country = {
 			limit = { has_event_chain = "ai_crisis_chain" }
 			add_event_chain_counter = {
@@ -918,8 +934,7 @@ planet_event = {
 			limit = { is_ai = no }
 			country_event = { id = crisis.2031 }
 		}
-		planet_event = { id = crisis.2050 } # Start Fleet reinforcement cycle
-		planet_event = { id = crisis.2052 } # Start Army reinforcement cycle
+		planet_event = { id = crisis.2050 } # Start reinforcement cycle
 		every_country = {
 			limit = { has_event_chain = "ai_crisis_chain" }
 			add_event_chain_counter = {
@@ -958,8 +973,7 @@ planet_event = {
 			limit = { is_ai = no }
 			country_event = { id = crisis.2032 }
 		}
-		planet_event = { id = crisis.2050 } # Start Fleet reinforcement cycle
-		planet_event = { id = crisis.2052 } # Start Army reinforcement cycle
+		planet_event = { id = crisis.2050 } # Start reinforcement cycle
 		every_country = {
 			limit = { has_event_chain = "ai_crisis_chain" }
 			add_event_chain_counter = {
@@ -997,8 +1011,7 @@ planet_event = {
 			limit = { is_ai = no }
 			country_event = { id = crisis.2033 }
 		}
-		planet_event = { id = crisis.2050 } # Start Fleet reinforcement cycle
-		planet_event = { id = crisis.2052 } # Start Army reinforcement cycle
+		planet_event = { id = crisis.2050 } # Start reinforcement cycle
 		every_country = {
 			limit = { has_event_chain = "ai_crisis_chain" }
 			add_event_chain_counter = {
@@ -1423,7 +1436,7 @@ planet_event = {
 					remove_notification_modifier = ghost_signal_5
 					add_notification_modifier = ghost_signal_4
 					every_owned_pop = {
-						limit = { has_modifier = pop_ghost_signal_5 }
+						limit = { has_trait = "trait_robotic_3" }
 						remove_modifier = "pop_ghost_signal_5"
 						add_modifier = { modifier = "pop_ghost_signal_4" days = -1 }
 					}
@@ -1485,7 +1498,7 @@ planet_event = {
 					remove_notification_modifier = ghost_signal_4
 					add_notification_modifier = ghost_signal_3
 					every_owned_pop = {
-						limit = { has_modifier = "pop_ghost_signal_4" }
+						limit = { has_trait = "trait_robotic_3" }
 						remove_modifier = "pop_ghost_signal_4"
 						add_modifier = { modifier = "pop_ghost_signal_3" days = -1 }
 					}
@@ -1549,7 +1562,7 @@ planet_event = {
 					remove_notification_modifier = ghost_signal_3
 					add_notification_modifier = ghost_signal_2
 					every_owned_pop = {
-						limit = { has_modifier = pop_ghost_signal_3 }
+						limit = { has_trait = "trait_robotic_3" }
 						remove_modifier = "pop_ghost_signal_3"
 						add_modifier = { modifier = "pop_ghost_signal_2" days = -1 }
 					}
@@ -1586,7 +1599,7 @@ planet_event = {
 					remove_notification_modifier = ghost_signal_2
 					add_notification_modifier = ghost_signal_1
 					every_owned_pop = {
-						limit = { has_modifier = pop_ghost_signal_2 }
+						limit = { has_trait = "trait_robotic_3" }
 						remove_modifier = "pop_ghost_signal_2"
 						add_modifier = { modifier = "pop_ghost_signal_1" days = -1 }
 					}
@@ -1765,7 +1778,7 @@ planet_event = {
 			limit = { has_notification_modifier = ghost_signal_1 }
 			remove_notification_modifier = ghost_signal_1
 			every_owned_pop = {
-				limit = { has_modifier = "pop_ghost_signal_1" }
+				limit = { has_trait = "trait_robotic_3" }
 				remove_modifier = "pop_ghost_signal_1"
 			}
 			every_owned_ship = {
@@ -1883,7 +1896,7 @@ country_event = {
 	}
 }
 
-# Machine World Fleet Reinforcement Cycle
+# Machine World Reinforcement Cycle
 planet_event = {
 	id = crisis.2050
 	hide_window = yes
@@ -1900,7 +1913,22 @@ planet_event = {
 		# If at fleet cap, check again later
 		if = {
 			limit = {
-				owner = { num_ships > 2000 }
+				owner = {
+					OR = {
+						AND = {
+							is_difficulty = 0 # Normal
+							fleet_power > 1000000
+						}
+						AND = {
+							is_difficulty = 1 # Hard
+							fleet_power > 1500000
+						}
+						AND = {
+							is_difficulty = 2 # Insane
+							fleet_power > 2000000
+						}
+					}
+				}
 			}
 			planet_event = { id = crisis.2050 days = 300 }
 			break = yes
@@ -1914,31 +1942,31 @@ planet_event = {
 		# Ghost Signal 2
 		if = {
 			limit = { has_global_flag = ghost_signal_2_flag }
-			planet_event = { id = crisis.2051 days = 1300 random = 200 }
+			planet_event = { id = crisis.2051 days = 1600 random = 200 }
 			break = yes
 		}
 		# Ghost Signal 3
 		if = {
 			limit = { has_global_flag = ghost_signal_3_flag }
-			planet_event = { id = crisis.2051 days = 1400 random = 200 }
+			planet_event = { id = crisis.2051 days = 1300 random = 200 }
 			break = yes
 		}
 		# Ghost Signal 4
 		if = {
 			limit = { has_global_flag = ghost_signal_4_flag }
-			planet_event = { id = crisis.2051 days = 1500 random = 200 }
+			planet_event = { id = crisis.2051 days = 1000 random = 200 }
 			break = yes
 		}
 		# Ghost Signal 5
 		if = {
 			limit = { has_global_flag = ghost_signal_5_flag }
-			planet_event = { id = crisis.2051 days = 1600 random = 200 }
+			planet_event = { id = crisis.2051 days = 700 random = 200 }
 			break = yes
 		}
 	}
 }
 
-# AI Fleet Reinforcements Arrive
+# AI Reinforcements Arrive
 planet_event = {
 	id = crisis.2051
 	hide_window = yes
@@ -1954,88 +1982,9 @@ planet_event = {
 	immediate = {
 		owner = { save_event_target_as = AI_crisis }
 		create_ai_fleet = yes
+		create_ai_armies = yes
 		create_ai_constructors = yes
 		planet_event = { id = crisis.2050 }
-	}
-}
-
-# Machine World Army Reinforcement Cycle
-planet_event = {
-	id = crisis.2052
-	hide_window = yes
-	
-	is_triggered_only = yes
-
-	trigger = {
-		is_planet_class = pc_ai
-		NOT = { has_planet_flag = machine_lair }
-		owner = { is_country_type = "ai_empire" }
-	}
-	
-	immediate = {
-		# If at army cap, check again later
-		if = {
-			limit = {
-				owner = {
-					count_armies = {
-						limit = { army_type = android_army }
-						count > 140
-					}
-				}
-			}
-			planet_event = { id = crisis.2052 days = 300 }
-			break = yes
-		}
-		# If being bombarded, check again later
-		if = {
-			limit = { under_bombardment = yes }
-			planet_event = { id = crisis.2052 days = 300 }
-			break = yes
-		}
-		# Ghost Signal 2
-		if = {
-			limit = { has_global_flag = ghost_signal_2_flag }
-			planet_event = { id = crisis.2053 days = 1600 random = 200 }
-			break = yes
-		}
-		# Ghost Signal 3
-		if = {
-			limit = { has_global_flag = ghost_signal_3_flag }
-			planet_event = { id = crisis.2053 days = 1300 random = 200 }
-			break = yes
-		}
-		# Ghost Signal 4
-		if = {
-			limit = { has_global_flag = ghost_signal_4_flag }
-			planet_event = { id = crisis.2053 days = 1000 random = 200 }
-			break = yes
-		}
-		# Ghost Signal 5
-		if = {
-			limit = { has_global_flag = ghost_signal_5_flag }
-			planet_event = { id = crisis.2053 days = 700 random = 200 }
-			break = yes
-		}
-	}
-}
-
-# AI Army Reinforcements Arrive
-planet_event = {
-	id = crisis.2053
-	hide_window = yes
-	
-	is_triggered_only = yes
-
-	trigger = {
-		is_planet_class = pc_ai
-		NOT = { has_planet_flag = machine_lair }
-		owner = { is_country_type = "ai_empire" }
-	}
-	
-	immediate = {
-		owner = { save_event_target_as = AI_crisis }
-		create_ai_armies = yes
-		planet_event = { id = crisis.2052 }
 	}
 }
 
@@ -2856,6 +2805,48 @@ country_event = {
 
 	immediate = {
 		set_country_flag = machine_mineral_failure
+		#while = {
+		#	count = 3
+		#	random_owned_planet = {
+		#		limit = {
+		#			any_tile = {
+		#				OR = {
+		#					has_building = building_mineral_silo_1
+		#					has_building = building_mineral_silo_2
+		#					has_building = building_mineral_silo_3
+		#					has_building = building_basic_mine
+		#					has_building = building_mining_network_1
+		#					has_building = building_mining_network_2
+		#					has_building = building_mining_network_3
+		#					has_building = building_mining_network_4
+		#					has_building = building_mining_network_5
+		#					has_building = building_mineral_processing_plant_1
+		#					has_building = building_mineral_processing_plant_2
+		#				}
+		#			}
+		#		}
+		#		random_tile = {
+		#			limit = {
+		#				OR = {
+		#					has_building = building_mineral_silo_1
+		#					has_building = building_mineral_silo_2
+		#					has_building = building_mineral_silo_3
+		#					has_building = building_basic_mine
+		#					has_building = building_mining_network_1
+		#					has_building = building_mining_network_2
+		#					has_building = building_mining_network_3
+		#					has_building = building_mining_network_4
+		#					has_building = building_mining_network_5
+		#					has_building = building_mineral_processing_plant_1
+		#					has_building = building_mineral_processing_plant_2
+		#				}
+		#				is_ruined = no
+		#			}
+		#			set_ruined = yes
+		#			kill_pop = yes
+		#		}
+		#	}
+		#}
 	}
 	
 	option = {
@@ -3918,21 +3909,22 @@ country_event = {
 			limit = { is_country_type = default }
 			country_event = { id = crisis.2407 }
 		}
-		random_country = { # Triggered this way to avoid game over when testing
+		random_country = {
 			limit = { is_country_type = cybrex_empire }
-			every_owned_pop = { kill_pop = yes }
-			every_owned_fleet = { delete_fleet = this }
-			every_controlled_planet = {
-				every_tile = { remove_building = yes }
+			every_owned_pop = {
+				kill_pop = yes
+			}
+			every_owned_fleet = {
+				delete_fleet = this
 			}
 			every_controlled_planet = {
-				limit = { is_planet_class = pc_cybrex }
-				set_planet_max_health = 0
-				change_pc = pc_ringworld_habitable
-				reset_planet = yes
+				every_tile = {
+					remove_building = yes
+				}
 			}
 			destroy_country = yes
 		}
+		#destroy_country = yes
 	}
 }
 
@@ -3981,9 +3973,10 @@ country_event = {
 	hide_window = yes
 	
 	trigger = {
-		has_global_flag = ai_invasion_ongoing
 		is_country_type = cybrex_empire
-		num_ships < 300
+		count_owned_ships = {
+			count < 50
+		}
 	}
 	
 	mean_time_to_happen = {

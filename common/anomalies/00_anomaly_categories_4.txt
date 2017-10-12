@@ -12,21 +12,21 @@
 
 # Rogue moon
 # on successful scan, fires one of the discovery events with the same category.
-# ensure there is always at least one event 
+# ensure there is always at least one event
 #anomaly_category = {
-#	key = "rogue_moon_category" 
+#	key = "rogue_moon_category"
 #	desc = "rogue_moon_category_desc"
 #	picture = GFX_evt_mining_station
 #	level = 1
 #	risk = 30
-#	
-#	spawn_chance = {		
+#
+#	spawn_chance = {
 #		modifier = {
 #			add = 3
 #			is_moon = yes
 #		}
 #	}
-#	
+#
 #	on_success = { #Not needed
 #	}
 #
@@ -44,19 +44,19 @@
 
 # Hollow planet
 #anomaly_category = {
-#	key = "hollow_planet_category" 
+#	key = "hollow_planet_category"
 #	desc = "hollow_planet_category_desc"
 #	picture = GFX_evt_mining_station
 #	level = 1
 #	risk = 30
-#	
-#	spawn_chance = {		
+#
+#	spawn_chance = {
 #		modifier = {
 #			add = 3
 #			has_planet_modifier = "pm_hollow_planet"
 #		}
 #	}
-#	
+#
 #	on_success = {
 #	}
 #
@@ -74,21 +74,20 @@
 
 # Strong magnetic field
 anomaly_category = {
-	key = "strong_magnetic_category" 
+	key = "strong_magnetic_category"
 	desc = "strong_magnetic_category_desc"
 	picture = GFX_evt_mining_station
 	level = 1
 	#risk = 30
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		modifier = {
 			add = 3
 			has_planet_modifier = "pm_strong_magnetic_field"
 		}
 	}
-	
-	on_success = {
-	}
+
+	on_success = {}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.1 }
@@ -109,19 +108,14 @@ anomaly_category = {
 	picture = GFX_evt_mining_station #TODO better pic
 	level = 1
 	#risk = 0
-	
-	spawn_chance = {		
+
+	spawn_chance = {
 		#added by event
 	}
-	
-	on_success = {
-	}
 
-	on_fail = {
-		
-	}
+	on_success = {}
 
-	on_critical_fail = {
+	on_fail = {}
 
-	}
+	on_critical_fail = {}
 }
