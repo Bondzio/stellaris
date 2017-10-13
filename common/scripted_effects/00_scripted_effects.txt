@@ -5209,7 +5209,7 @@ randomize_shroud_flags = {
 				else = { set_country_flag = high.1 }
 			}
 		}
-		125 = {}
+		125 = { }
 	}
 	random_list = {
 		25 = {
@@ -5334,7 +5334,7 @@ randomize_shroud_flags = {
 				else = { set_country_flag = medium.1 }
 			}
 		}
-		80 = {}
+		80 = { }
 	}
 	random_list = {
 		25 = {
@@ -6600,7 +6600,7 @@ awaken_guardians_of_the_galaxy = {
 				set_timed_country_flag = { flag = timed_guardians_of_the_galaxy_2 days = 3650 }
 			}
 		}
-		25 = {} # No awakening
+		25 = { } # No awakening
 	}
 }
 

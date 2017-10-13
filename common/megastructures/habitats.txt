@@ -79,8 +79,8 @@ habitat_0 = {
 		factor = 5
 	}
 
-	on_build_start = {}
-	on_build_cancel = {}
+	on_build_start = { }
+	on_build_cancel = { }
 
 	on_build_complete = {
 		spawn_planet = {

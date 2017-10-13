@@ -40,12 +40,12 @@ HUM3 = {
 			Aldrin Armstrong Columbus Copernicus Cortez Drake Hubble Goddard Galileo Einstein Gagarin Tereshkova Magellan Newton Tesla Asimov Clarke Sagan Kepler Ptolemy Pytheas Azophi Discovery Voyager Tradewind Scout Pioneer Explorer Sojourner Hawking Earhart Nobel Kelvin Fahrenheit Equinox Lagrange Tsiolkovsky Darwin Grissom Archimedes
 		}
 
-		orbital_station = {}
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
-		observation_station = {}
-		outpost_station = {}
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		observation_station = { }
+		outpost_station = { }
 
 		transport = {
 			# "Belleau Wood" "Iwo Jima" "Goose Green"
@@ -159,23 +159,21 @@ HUM3 = {
 
 		generic = {
 			names = {
-				# "New Jerusalem" "New Roanoke" "New Jamestown" "New Troy" "Wang Tong" "Las Veredas" "San Lucas" "San Fernando" "San Cristóbal" "Nueva Sonora" "Puerto González" "Nueva Cádiz" "La Isabela" "New Coventry" "St. Yegorov" "St. Pomeroy" "Port Karakosov"
-				Al-Jissa Al-Mada'in Al-Nuqayrah Al-Karak Nova Al-Matabbah Anchor Dis Avalon Bounty Hope Olympia Serendipity Spring Thinis Salaam Xianyang Concord Theia Tuscany Wenzhou Delgovicia Nozomi Akatsuki
+				# "New Jerusalem" "New Roanoke" "New Jamestown" "New Troy" "Wang Tong" "Las Veredas" "San Lucas" "San Fernando" "San Cristóbal" "Nueva Sonora" "Puerto González" "Nueva Cádiz" "La Isabela" "New Coventry" "St. Yegorov" "St. Pomeroy" "Port Karakosov" Al-Jissa Al-Mada'in Al-Nuqayrah Al-Karak Al-Matabbah
+				Anchor Dis Avalon Bounty Hope Olympia Serendipity Spring Thinis Salaam Xianyang Concord Theia Tuscany Wenzhou Delgovicia Nozomi Akatsuki Nova Jissa Madain Nuqayrah Karak Matabbah
 			}
 		}
 
 		pc_desert = {
 			names = {
-				# "Kara Kum" "Kyzyl Kum"
-				Arabia Sahara Gobi Kalahari Mojave Patagonia Syria Chihuahua Sand Colorado Sonora Taklamakan Thar Gibson Namib Lut Kavir Dune Kali Muspelheim Vulcan Baal Carthage Ordos Khara Lop Maranjab Negev Sinai Atacama Simpson
+				Kara Kyzyl Arabia Sahara Gobi Kalahari Mojave Patagonia Syria Chihuahua Sand Colorado Sonora Taklamakan Thar Gibson Namib Lut Kavir Dune Kali Muspelheim Vulcan Baal Carthage Ordos Khara Lop Maranjab Negev Sinai Atacama Simpson
 			}
 		}
 
 		pc_arid = {
 			names = {
 				# "New Mars"
-				Lebanon Tyre Antioch Jaxartes Oxus Turan Accona Bardenas Larzac Oltenia Tabernas Atacama Tanami
-				Rangipo Canaan
+				Lebanon Tyre Antioch Jaxartes Oxus Turan Accona Bardenas Larzac Oltenia Tabernas Atacama Tanami Rangipo Canaan
 			}
 		}
 
@@ -219,11 +217,11 @@ HUM3 = {
 		}
 
 		pc_savannah = {
-			names = {}
+			names = { }
 		}
 
 		pc_alpine = {
-			names = {}
+			names = { }
 		}
 
 	}

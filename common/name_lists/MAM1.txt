@@ -6,35 +6,36 @@ MAM1 = {
 	ship_names = {
 
 		generic = {
-			Ttanak Ttuda Ttimonok Tdimik Tderikam Ddana Dvormat Dkirmik Tkana Ttamik Dtirak Tkomot Dvalam
-			Tligam Dtunak Tkolbak Dtuma Ttollok Ytharak Ygora Yfalsek Ykono Yjargam Ylambak Ynoro Yloram
-			Yvaldim Ysoram Ddirim Dmoro Dfarak Ttimin Tvorg Tlirmak Djolsik Ybamta Ybarra Dsoto Tralsak
-			Dorom Doh Dirim Tylgar Ttorga Tugana Ylesmag Ysorom Yparga Tharik Tsirom Yglara Dnaka Tmiri
-			Tsirma Ttaco Dtarga Dmoro Dirfa Dpollog Dvirbo Tnara Tmigor Danara Daram Ttalok Yario Ymaggro
-			Dvarik Dorang Drila Ttyrik Tterell Ttynnia Tnerok Dallas Tvojak Tnir Ddamma Dpenek Dirio
-			Dtarikon Dsaba Deviko Tblirak Tkanor Ypana Yviram Ykanas Ysarik Ypanjik Tklea Yvardos Ycaram
-			Dburis Dbanna Dkuru Dmarov Dsagri Tbomka Tsaris
+			Ttanak Ttuda Ttimonok Tdimik Tderikam Ddana Dvormat Dkirmik Tkana Ttamik Dtirak Tkomot Dvalam Tligam Dtunak Tkolbak Dtuma Ttollok Ytharak Ygora Yfalsek Ykono Yjargam Ylambak Ynoro Yloram Yvaldim Ysoram Ddirim Dmoro Dfarak Ttimin Tvorg Tlirmak Djolsik Ybamta Ybarra Dsoto Tralsak Dorom Doh Dirim Tylgar Ttorga Tugana Ylesmag Ysorom Yparga Tharik Tsirom Yglara Dnaka Tmiri Tsirma Ttaco Dtarga Dmoro Dirfa Dpollog Dvirbo Tnara Tmigor Danara Daram Ttalok Yario Ymaggro
+			Dvarik Dorang Drila Ttyrik Tterell Ttynnia Tnerok Dallas Tvojak Tnir Ddamma Dpenek Dirio Dtarikon Dsaba Deviko Tblirak Tkanor Ypana Yviram Ykanas Ysarik Ypanjik Tklea Yvardos Ycaram Dburis Dbanna Dkuru Dmarov Dsagri Tbomka Tsaris
 		}
 
-		corvette = {}
+		corvette = {
+		}
 
-		destroyer = {}
+		destroyer = {
+		}
 
-		cruiser = {}
+		cruiser = {
+		}
 
-		battleship = {}
+		battleship = {
+		}
 
-		science = {}
+		science = {
+		}
 
-		colonizer = {}
+		colonizer = {
+		}
 
-		constructor = {}
+		constructor = {
+		}
 
 
 		mining_station = {}
 		research_station = {}
 		wormhole_station = {}
-
+		#terraform_station = { }
 		observation_station = {}
 		outpost_station = {
 			#random_names = {}
@@ -44,7 +45,7 @@ MAM1 = {
 		military_station_small = {}
 		military_station_medium = {}
 		military_station_large = {}
-	}
+		}
 
 	fleet_names = {
 		random_names = {
@@ -153,11 +154,13 @@ MAM1 = {
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+			}
 		}
 
 	}
@@ -167,7 +170,8 @@ MAM1 = {
 	character_names = {
 		default = {
 			# A complete name
-			full_names = {}
+			full_names = {
+			}
 
 			# Always combined with a second name
 			first_names = {

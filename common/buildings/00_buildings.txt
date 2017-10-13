@@ -3795,7 +3795,8 @@ building_colony_shelter = {
 	capital = yes
 	level = 0
 
-	cost = {}
+	cost = {
+	}
 
 	produced_resources = {
 		energy = 1

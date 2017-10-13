@@ -8,35 +8,42 @@ FUN1 = {
 			Ythleemju Vakeemju Madeemju Retheemju Bolteemju Valleemju Buffeemju Bammadeemju Toscheemju Vabreemju Juleemju Mikreemqa Kashmadeemqa Rashbadeemqa Condeemqa Indageemqa Keleemqa Viggadeemqa Othafeemqa Korbadeemqa Kanjareemqa Jockeemqa Sareemqa Vukreemqa Soltreembu Gardeembu Ythareembu Nagreembu Pethreembu Vagreembu Tyraneembu Keldeembu Salasheembu Valdoreembu Leganeembu Lotheembu Lasgareembu Lyrrameenbu Libareembu Boromeenro Patharomeenro Ondareemro Ovgareemro Jhalseemro Berokeemro Manthareemro Mythoreemro Murgareemro Molgareemro Mashgadeemro Uldoreemro Ugaratheemro Utharabeemro Undagreemro Urasmadeemro Uplageemta Hestareemta Hothoreemta Hiniscoreemta Haggrineemta Hirameenta Horbageemta Sarrascameenta Sindorneemta Sukareemta Solbareemta Savironeemni Argoreemni Alduroneemni Algordeemni Abrikoneemni Astorneemni Irrigoneemni Ivobradeemni Indarageemni Ivijhareemni Endoreemni Elgoreemni Evakeemni Eriotheemni Karbadeemsa Matjoneemsa Vokroneemsa Sraknoreemsa Setarobeemsa Iblargobeemsa Purgabeemsa Ylgobeemsa Udnabeemsa Reskobeemsa Ivirbeemsa Bederbeemsa Uliasbeemsa Sotoribeemsa Kervebeemsa Reblabeemsa Rithlabeemsa Evadnobeemsa Cadimobeemsa Cufflabeemsa
 		}
 
-		corvette = {}
+		corvette = {
+		}
 
-		destroyer = {}
+		destroyer = {
+		}
 
-		cruiser = {}
+		cruiser = {
+		}
 
-		battleship = {}
+		battleship = {
+		}
 
-		science = {}
+		science = {
+		}
 
-		colonizer = {}
+		colonizer = {
+		}
 
-		constructor = {}
+		constructor = {
+		}
 
 
-		orbital_station = {}
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
-
-		observation_station = {}
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 		outpost_station = {
-			#random_names = {}
+			#random_names = { }
 			#sequential_name = "%O% Frontier Outpost"
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
 	}
 
 	fleet_names = {
@@ -129,23 +136,28 @@ FUN1 = {
 		}
 
 		pc_ocean = {
-			names = {}
+			names = { 
+			}
 		}
 
 		pc_tundra = {
-			names = {}
+			names = { 
+			}
 		}
 
 		pc_arctic = {
-			names = {}
+			names = { 
+			}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = { 
+			}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = { 
+			}
 		}
 
 	}
@@ -160,10 +172,12 @@ FUN1 = {
 			}
 
 			# Always combined with a second name
-			first_names = {}
+			first_names = { 
+			}
 
 			# Always combined with a first name
-			second_names = {}
+			second_names = { 
+			}
 
 			regnal_first_names = {
 				Spagruum Daggatuum Shabliguum Hingorgh Vagglog Mashgirg Igoriim Elgothuum

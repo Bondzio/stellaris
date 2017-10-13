@@ -9,13 +9,17 @@ HUM2 = {
 			"Jal Kensemma" "Jal Bokanum" "Jal Imkamma" "Jal Progmat" "Jal Tatalon" "Jal Bak" "Jal Irraduna" "Jal Korpok" "Jal Hissimia" "Jal Lak" "Jal Pershmat" "Jal Immakun" "Jal Dorossa" "Jal Teerak" "Jal Pok" "Jal Muk" "Jal Marathol" "Jal Vorgas" "Jal Iknum" "Jal Porton" "Jal Likum" "Jal Voifun" "Jal Tuk" "Jal Lorfun" "Jal Perfun" "Jal Ennik" "Jal Tortus" "Jal Turran" "Jal Radan" "Jal Losk" "Jal Uk" "Jal Vak" "Jal Restok" "Jal Dramon" "Jal Pimmiron" "Jal Irdon" "Jal Wadon" "Jal Vudon" "Jal Lurrmon" "Jal Ickma" "Jal Trassom" "Jal Nurmon" "Jal Nigam" "Jal Rok" "Jal Vokja" "Jal Jekon" "Jal Torbak" "Jal Nisk" "Jal Triken" "Jal Vokal" "Jal Sikra" "Jal Turus" "Jal Jiklan" "Jal Sik" "Jal Irken" "Jal Tenki" "Jal Oka" "Jal Tokkom" "Jal Vikrim" "Jal Jidar" "Jal Bonton" "Jal Sotork" "Jal Tesk" "Jal Pintar" "Jal Everk" "Jal Erk" "Jal Bavak" "Jal Itik" "Jal Kolpo" "Jal Vikisk" "Jal Siba" "Jal Nurgil" "Jal Olesk" "Jal Obassa" "Jal Toroll"
 		}
 
-		corvette = {}
+		corvette = {
+		}
 
-		destroyer = {}
+		destroyer = {
+		}
 
-		cruiser = {}
+		cruiser = {
+		}
 
-		battleship = {}
+		battleship = {
+		}
 
 		science = {
 			"Kal Supon" "Kal Vimon" "Kal Tumon" "Kal Purlon" "Kal Urilon" "Kal Kumpuk" "Kal Valruk" "Kal Imon" "Kal Upon" "Kal Poinun" "Kal Lak" "Kal Tarmon" "Kal Feidon" "Kal Morradon"
@@ -30,19 +34,19 @@ HUM2 = {
 		}
 
 
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
-
-		observation_station = {}
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 		outpost_station = {
-			#random_names = {}
+			#random_names = { }
 			#sequential_name = "%O% Frontier Outpost"
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
 	}
 
 	fleet_names = {
@@ -111,44 +115,48 @@ HUM2 = {
 
 		pc_desert = {
 			names = {
-				"Valk Bellom" "Valk Kruskan" "Valk Masted" "Valk Goram" "Valk Silegg" "Valk Kloster" "Valk Bdurk" "Valk Kunor" "Valk Limteg" "Valk Klasur" "Valk Buregg" "Valk Ordekan" "Valk Mog" "Valk Toram" "Valk Kaskan" "Valk Talas" "Valk Sumat" "Valk Sullug" "Valk Postam" "Valk Tillik" "Valk Pellor" "Valk Pellor" "Valk Valam"
+				"Valk Bellom" "Valk Kruskan" "Valk Masted" "Valk Goram" "Valk Silegg" "Valk Kloster" "Valk Bdurk" "Valk Kunor" "Valk Limteg" "Valk Klasur" "Valk Buregg" "Valk Ordekan" "Valk Mog" "Valk Toram" "Valk Kaskan" "Valk Talas" "Valk Sumat" "Valk Sullug" "Valk Postam" "Valk Tillik" "Valk Pellor" "Valk Valam"
 			}
 		}
 
 		pc_tropical = {
 			names = {
-				"Malh Kradme" "Malh Mirok" "Malh Sirken" "Malh Teles" "Malh Gupok" "Malh Pendak" "Malh Limkar" "Malh Gottam" "Malh Lellir" "Malh Glessor" "Malh Furkalh" "Malh Marold" "Malh Grikes" "Malh Tolokum" "Malh Toledurk" "Malh Voriseg" "Malh Sigrevot" "Malh Tureng"
+				"Malh Kradme" "Malh Mirok" "Malh Sirken" "Malh Teles" "Malh Gupok" "Malh Pendak" "Malh Limkar" "Malh Gottam" "Malh Lellir" "Malh Glessor" "Malh Furkalh" "Malh Marold" "Malh Grikes" "Malh Tolokum" "Malh Toledurk" "Malh Voriseg" "Malh Sigrevot" "Malh Tureng" }
 			}
-		}
 
 		pc_arid = {
 			names = {
-				"Grun Pestid" "Grun Taklan" "Grun Viskod" "Grun Vugus" "Grun Trogak" "Grun Milak" "Grun Malkun" "Grun Tamulk" "Grun Esgik" "Grun Asteg" "Grun Dolask" "Grun Serim" "Grun Lugils" "Grun Korav" "Grun Salkag" "Grun Gamalh" "Grun Dronek" "Grun Tromlok" "Grun Doravek" "Grun Sirkavog" "Grun Kruksalh"
+				"Grun Pestid" "Grun Taklan" "Grun Viskod" "Grun Vugus" "Grun Trogak" "Grun Milak" "Grun Malkun" "Grun Tamulk" "Grun Esgik" "Grun Asteg" "Grun Dolask" "Grun Serim" "Grun Lugils" "Grun Korav" "Grun Salkag" "Grun Gamalh" "Grun Dronek" "Grun Tromlok" "Grun Doravek" "Grun Sirkavog" "Grun Kruksalh" }
+			}
+
+		pc_continental = {
+			names = {
 			}
 		}
 
-		pc_continental = {
-			names = {}
-		}
-
 		pc_ocean = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_tundra = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_arctic = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+			}
 		}
 
 	}
@@ -158,7 +166,8 @@ HUM2 = {
 	character_names = {
 		default = {
 			# A complete name
-			full_names = {}
+			full_names = {
+			}
 
 			# Always combined with a second name
 			first_names = {

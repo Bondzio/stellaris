@@ -3213,7 +3213,7 @@ hostile_init_14 = {
 		count = 1
 		orbit_distance = 20
 		orbit_angle = { min = 90 max = 270 }
-		init_effect = {}
+		init_effect = { }
 	}
 
 	change_orbit = 80

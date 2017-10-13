@@ -8,35 +8,35 @@ ART1 = {
 			Vultra Zikmit Shodan Vidtak Kodmok Humlat Rikhen Utrfas Poltup Rommor Irksas Vikzul Zarpak Corbad Tarzim Hurzam Voltur Imarug Ultamo Arafal Fikyma Pokzor Reltik Baktas Remsuk Ulafon Fejbon Raktar Mikzul Vadbak Hentas Mokilm Zuktor Santar Imiysk Vidhur Hamcor Cinnic Alktar Zirzir Unipok Lasfik Tirfej Montor Koslar Vimder Potaka Taqulu Benbon Ackack Lirpak Nurang Danock Rektir Culcam Ilmata Rojbim Darfam Atajol Timtam Orouri Podcat Dirpok Dikdik Ynator Cancan Wirtra Nidelu Volshu Iniris Athrum Ponfar Rogwil Itafon Mikjol Homtak Etedar Tarkin Tintin Desari Toltum Gargan Mospak Captyr Inshal Vorkot Spikar Kondor Carmas Irilar Purtok Chekov Ridsta Tizval Orndak Ziadol Ramnid Karkar Ramrod Wixald Bolbol Ronmor Mordor Chacha Chacha Iguana Igaturkan Biringlos Bavorling Holdertan Denlanlom Dibvikhas Perushnad Sankurini Sinrantor Pasnalvil Rirgolgib Erigunnug Lerinitok Wasgarnog Girpanpok Ytamabzor Saldimdim Sonommagi Turtantol Hiktondul Puknarzin Lishamdok Hovlesram Imahunima Tortordia Wiklarish Hajathumm Itaitadum Sumcondam Tralesete Eraarmerv Virtikzol Kurzaddin Motlimnog Turfantik Hadhamhir Iniiniwor Docrambol Visvilvik Pofhokgak Feldarima Firvimcot Jantakera Jinjumjan Pijjorcor Terrasnog Hildorbit Etidelann Odoraxari Rimbertor Ralethian Othfordas
 		}
 
-		corvette = {}
+		corvette = { }
 
-		destroyer = {}
+		destroyer = { }
 
-		cruiser = {}
+		cruiser = { }
 
-		battleship = {}
+		battleship = { }
 
-		science = {}
+		science = { }
 
-		colonizer = {}
+		colonizer = { }
 
-		constructor = {}
+		constructor = { }
 
-		orbital_station = {}
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
 
-		observation_station = {}
+		observation_station = { }
 		outpost_station = {
 			Sultavor Eltavor Gultavor Parktavor Lorugtavor Urakttavor Ilikutavor
 		}
 
-		military_station_small = {}
+		military_station_small = { }
 
-		military_station_medium = {}
+		military_station_medium = { }
 
-		military_station_large = {}
+		military_station_large = { }
 	}
 
 	fleet_names = {
@@ -105,39 +105,39 @@ ART1 = {
 		}
 
 		pc_desert = {
-			names = {}
+			names = { }
 		}
 
 		pc_tropical = {
-			names = {}
+			names = { }
 		}
 
 		pc_arid = {
-			names = {}
+			names = { }
 		}
 
 		pc_continental = {
-			names = {}
+			names = { }
 		}
 
 		pc_ocean = {
-			names = {}
+			names = { }
 		}
 
 		pc_tundra = {
-			names = {}
+			names = { }
 		}
 
 		pc_arctic = {
-			names = {}
+			names = { }
 		}
 
 		pc_savannah = {
-			names = {}
+			names = { }
 		}
 
 		pc_alpine = {
-			names = {}
+			names = { }
 		}
 
 	}
@@ -152,10 +152,10 @@ ART1 = {
 			}
 
 			# Always combined with a second name
-			first_names = {}
+			first_names = { }
 
 			# Always combined with a first name
-			second_names = {}
+			second_names = { }
 
 			regnal_first_names = {
 				Vika Poto Rema Supe Ukma Ilsi Imdo Juta Vara Ulta

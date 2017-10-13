@@ -39,27 +39,34 @@ PRT1 = {
 			"Pucker Up" "Short Fuse" Killjoy Footpad "Road Agent" Bushranger Simpleton Ignoramus "Not What It Seems" "Reprehensible" Intolerant Petulant "Deceiving Looks"
 		}
 
-		corvette = {}
+		corvette = {
+		}
 
-		constructor = {}
+		constructor = {
+		}
 
-		colonizer = {}
+		colonizer = {
+		}
 
-		science = {}
+		science = {
+		}
 
-		destroyer = {}
+		destroyer = {
+		}
 
-		cruiser = {}
+		cruiser = {
+		}
 
-		battleship = {}
+		battleship = {
+		}
 
 		mining_station = {
 			"Statione"
 		}
-		research_station = {}
-		wormhole_station = {}
-
-		observation_station = {}
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 
 		transport = {
 			"Carrier"
@@ -88,7 +95,8 @@ PRT1 = {
 		}
 	}
 
-	planet_names = {}
+	planet_names = {
+	}
 
 
 	### CHARACTERS
@@ -107,9 +115,11 @@ PRT1 = {
 			#	"The Midwife" "Blood Queen"
 			#}
 
-			first_names = {}
+			first_names = {
+			}
 
-			second_names = {}
+			second_names = {
+			}
 		}
 	}
 }

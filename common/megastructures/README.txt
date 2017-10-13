@@ -7,8 +7,8 @@
 #		my_flamboyant_megastructure
 #	}
 #	prerequisites = { "tech" }		# required technologies
-#	potential = {}					# trigger, scope: country
-#	possible = {}					# trigger, scope: galactic object, from: country
+#	potential = { }					# trigger, scope: country
+#	possible = { }					# trigger, scope: galactic object, from: country
 #	build_time = 5					# days
 #	build_cost = {
 #		minerals = 8
@@ -21,15 +21,15 @@
 #	maintenance = {
 #		energy = 10
 #	}
-#	country_modifier = {}
+#	country_modifier = { }
 #
 #	placement_rules = {
-#		planet_possible = {}		# trigger, scope: planet
+#		planet_possible = { }		# trigger, scope: planet
 #	}
 #
-#	on_build_start = {}				# effects, scope: galactic object, from: country, fromfrom: megastructure instance (when upgrading existing megastructure)
-#	on_build_cancel = {}			# effects, scope: galactic object, from: country
-#	on_build_complete = {}			# effects, scope: galactic object, from: country, fromfrom: megastructure instance
+#	on_build_start = { }				# effects, scope: galactic object, from: country, fromfrom: megastructure instance (when upgrading existing megastructure)
+#	on_build_cancel = { }			# effects, scope: galactic object, from: country
+#	on_build_complete = { }			# effects, scope: galactic object, from: country, fromfrom: megastructure instance
 #
 #	ai_weight = {					# scope = country, default = 100
 #		modifier = {

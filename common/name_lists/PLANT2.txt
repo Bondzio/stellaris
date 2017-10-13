@@ -5,7 +5,9 @@ PLANT2 = {
 
 	ship_names = {
 
-		generic = {}
+		generic = {
+
+		}
 
 		corvette = {
 			Aurora "Fierce Crenator"  Resinous Tuberous "Green Sentinel" "Red Sentinel" "Golden Sentinel" "Green Sentry" "Red Sentry" "Golden Sentry" Skysentry "Green Assault" Starforce Starleaf "Skyleaf" "Starstriker" "Green Striker" "Fern Striker" "Fir Striker" "Twig Striker" Farskies Skyshooter "Green Flash" Dart Rusher Skyrusher Skystriker Starshoot Triffid "Pride of the Forest" "Tenacious Crenator" "Unassailable Crenator" "Magnificent Crenator" "Exalted Crenator" "Exalted Petiole" "Magnificent Petiole" "Tenacious Petiole" "Fierce Petiole"
@@ -39,13 +41,17 @@ PLANT2 = {
 			"Transport"
 		}
 
-		orbital_station = {}
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
+		orbital_station = {
+		}
+		mining_station = {
+		}
+		research_station = {
+		}
+		wormhole_station = { }
 		#terraform_station = {
 		#}
-		observation_station = {}
+		observation_station = {
+		}
 
 		military_station_small = {
 			"Pride of the Tundra" "Pride of the Rivers" "Pride of Yggdrasil"
@@ -127,39 +133,48 @@ PLANT2 = {
 		}
 
 		pc_desert = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_tropical = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_arid = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_continental = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_ocean = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_tundra = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_arctic = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+			}
 		}
 
 	}
@@ -169,12 +184,12 @@ PLANT2 = {
 	character_names = {
 		default = {
 			# A complete name
-			full_names = {}
+			full_names = {
+			}
 
 			# Always combined with a second name
 			first_names = {
-				White Grey Black Burgundy Red Blue Indigo Cyan Yellow Orange Ivory Ebony Purple Brown Teal Green Aquamarine Khaki Magenta Gold Silver
-				Bronze Honeydew Lavender Maroon Olive
+				White Grey Black Burgundy Red Blue Indigo Cyan Yellow Orange Ivory Ebony Purple Brown Teal Green Aquamarine Khaki Magenta Gold Silver Bronze Honeydew Lavender Maroon Olive
 			}
 
 			# Always combined with a first name

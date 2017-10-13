@@ -6,34 +6,41 @@ MOL3 = {
 			Ganfuss Gandjom Ganlivm Gandov Ganalin Ganobb Ganell Ganumul Ganahb Ganblal Ganalv Ganorth Sifuss Sidjom Silivm Sidov Sialin Siobb Siell Siumul Siahb Siblal Sialv Siorth Dujfuss Dujdjom Dujlivm Dujdov Dujalin Dujobb Dujell Dujumul Dujahb Dujblal Dujalv Dujorth Finfuss Findjom Finlivm Findov Finalin Finobb Finell Finumul Finahb Finblal Finalv Finorth Naiss Nahjum Nahlva Nahala Nahortho Nahribh Nahlog Nahslov Nahdve Nahmni Nahwal Nahmul Nimbiss Nimbhjum Nimbhlva Nimbhala Nimbhortho Nimbhribh Nimbhlog Nimbhslov Nimbhdve Nimbhmni Nimbhwal Nimbhmul Goiss Gohjum Gohlva Gohala Gohortho Gohribh Gohlog Gohslov Gohdve Gohmni Gohwal Gohmul Sothhiss Sothhjum Sothhlva Sothhala Sothhortho Sothhribh Sothhlog Sothhslov Sothhdve Sothhmni Sothhwal Sothhmul
 		}
 
-		corvette = {}
+		corvette = {
+		}
 
-		destroyer = {}
+		destroyer = {
+		}
 
-		cruiser = {}
+		cruiser = {
+		}
 
-		battleship = {}
+		battleship = {
+		}
 
-		science = {}
+		science = {
+		}
 
-		colonizer = {}
+		colonizer = {
+		}
 
-		constructor = {}
+		constructor = {
+		}
 
 
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
-
-		observation_station = {}
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 		outpost_station = {
-			#random_names = {}
+			#random_names = { }
 			#sequential_name = "%O% Frontier Outpost"
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
 	}
 
 	fleet_names = {
@@ -143,11 +150,13 @@ MOL3 = {
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+		}
 		}
 
 	}
@@ -162,10 +171,12 @@ MOL3 = {
 			}
 
 			# Always combined with a second name
-			first_names = {}
+			first_names = {
+			}
 
 			# Always combined with a first name
-			second_names = {}
+			second_names = {
+			}
 
 			regnal_first_names = {
 				Gablal Farahb Nedve Dalva Slamul

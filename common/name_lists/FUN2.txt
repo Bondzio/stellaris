@@ -7,33 +7,40 @@ FUN2 = {
 			Yehmguulyeg Yehmfrahan Yehmqiigrud Yehmpriidgynn Yehmtaagrid Yehmneerolg Yehmtuurazh Yehmphuetl Yehmhoutrend Yehmyglaagd Yehmruuvgru Yehmtiiqup Yehmdaaremt Yehmtraguud Yehmwootunn Yehmraaslurg Yehmrehm Yehmnargudd Yehmfiilyub Yehmraasud Yehmplourh Yehmfleeyup Yehmputrieeg Yehmshaaluv Yehmkhaarnob Yehmtruukend Yehmgfaleehn Yehmyduumen Yehmmuldaryyn Yehmtrooghum Yehmbeiiyud Yehmtiipagh Yehmsughraad Yehmfilgfuul Yehmbuydool
 		}
 
-		corvette = {}
+		corvette = {
+		}
 
-		destroyer = {}
+		destroyer = {
+		}
 
-		cruiser = {}
+		cruiser = {
+		}
 
-		battleship = {}
+		battleship = {
+		}
 
-		science = {}
+		science = {
+		}
 
-		colonizer = {}
+		colonizer = {
+		}
 
-		constructor = {}
+		constructor = {
+		}
 
 
-		orbital_station = {}
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 
-		observation_station = {}
-
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
 		outpost_station = {
-			#random_names = {}
+			#random_names = { }
 			#sequential_name = "%O% Frontier Outpost"
 		}
 	}
@@ -63,7 +70,7 @@ FUN2 = {
 		}
 
 		robotic_army = {
-			sequential_name = "%O% Roboshroom Group"
+			sequential_name = "%O% Robo-Shroom Group"
 		}
 
 		robotic_defense_army = {
@@ -103,39 +110,52 @@ FUN2 = {
 		}
 
 		pc_desert = {
-			names = {}
+			names = {
+				
+			}
 		}
 
 		pc_tropical = {
-			names = {}
+			names = {
+				
+			}
 		}
 
 		pc_arid = {
-			names = {}
+			names = {
+				
+			}
 		}
 
 		pc_continental = {
-			names = {}
+			names = {
+				
+			}
 		}
 
 		pc_ocean = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_tundra = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_arctic = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+		}
 		}
 
 	}
@@ -150,10 +170,12 @@ FUN2 = {
 			}
 
 			# Always combined with a second name
-			first_names = {}
+			first_names = {
+			}
 
 			# Always combined with a first name
-			second_names = {}
+			second_names = {
+			}
 
 			regnal_first_names = {
 				Wuuqam Elgicroon Qaarugm Pubgluurh Mishgreel Shunbloor Seedkugh

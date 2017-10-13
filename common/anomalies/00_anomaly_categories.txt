@@ -28,7 +28,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.1 }
@@ -61,7 +62,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2 }
@@ -94,7 +96,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.3 }
@@ -127,7 +130,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4 }
@@ -160,7 +164,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.5 }
@@ -194,7 +199,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.6 }
@@ -228,7 +234,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.7 }
@@ -261,7 +268,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.8 }
@@ -294,7 +302,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.9 }
@@ -326,7 +335,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.10 }
@@ -357,7 +367,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.11 }
@@ -388,7 +399,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.12 }
@@ -419,7 +431,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.13 }
@@ -450,7 +463,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.14 }
@@ -481,7 +495,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.15 }
@@ -512,7 +527,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.16 }
@@ -545,7 +561,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.17 }
@@ -578,7 +595,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.18 }
@@ -611,7 +629,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.19 }
@@ -652,7 +671,8 @@ anomaly_category = {
 		from.owner = { set_country_flag = solar_sailer_spawned }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.20 }
@@ -685,7 +705,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.21 }
@@ -727,7 +748,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.21 }
@@ -764,7 +786,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.21 }
@@ -800,7 +823,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.22 }
@@ -841,7 +865,8 @@ anomaly_category = {
 		from.owner = { set_country_flag = spawned_battle_uninhabitable_category }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.23 }
@@ -884,7 +909,8 @@ anomaly_category = {
 		from.owner = { set_country_flag = automated_shipyard_found }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.24 }
@@ -917,7 +943,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.25 }
@@ -958,7 +985,8 @@ anomaly_category = {
 		from.owner = { set_country_flag = spawned_writing_uninhabitable_category }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.26 }
@@ -992,7 +1020,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.27 }
@@ -1033,7 +1062,8 @@ anomaly_category = {
 		from.owner = { set_country_flag = spawned_mountain_uninhabitable_category }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.28 }
@@ -1074,7 +1104,8 @@ anomaly_category = {
 		from.owner = { set_country_flag = spawned_object_uninhabitable_category }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.29 }
@@ -1119,7 +1150,8 @@ anomaly_category = {
 		from.owner = { set_country_flag = gas_giant_signal_spawned }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.30 }
@@ -1150,7 +1182,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.31 }
@@ -1182,7 +1215,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.32 }
@@ -1212,11 +1246,14 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
-	on_fail = {}
+	on_fail = {
+	}
 
-	on_critical_fail = {}
+	on_critical_fail = {
+	}
 }
 
 # Terraforming Candidate
@@ -1247,11 +1284,14 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
-	on_fail = {}
+	on_fail = {
+	}
 
-	on_critical_fail = {}
+	on_critical_fail = {
+	}
 }
 
 # Living Metal
@@ -1276,7 +1316,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.16 }

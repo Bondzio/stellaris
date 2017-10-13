@@ -4,7 +4,8 @@ MACHINE3 = {
 
 	ship_names = {
 
-		generic = {}
+		generic = {
+		}
 
 		corvette = {
 			"Chrome Aegis" "Chrome Custodian" "Chrome Escort" "Chrome Guard" "Chrome Keeper" "Chrome Patroller" "Chrome Retainer" "Chrome Tender" "Chrome Warden" "Chrome Warrior" "Cybernated Ranger" "Cybernated Shepard" "Cybernated Warder" "Galvanic Champion" "Galvanic Gunner" "Galvanic Knight" "Galvanic Retainer" "Galvanic Ward" "Galvanized Guardian" "Galvanized Shield" "Iron Guardian" "Iron Mantle" "Iron Overseer" "Iron Shelter" "Iron Shield" "Iron Vigilant" "Iron Ward" "Ironside Responder" "Linked Escort" "Linked Keeper" "Linked Patroller" "Machine Guard" "Machine Protector" "Machine Responder" "Mechanized Overseer" "Silver Aegis" "Silver Bastion" "Silver Lancer" "Silver Mantle" "Silver Partizan" "Silver Warden" "Silver Watcher" "Steel Bastion" "Steel Champion" "Steel Defender" "Steel Fortitude" "Steel Gunner" "Steel Knight" "Steel Lancer" "Steel Partizan" "Steel Preserver" "Steel Protector" "Steel Ranger" "Steel Responder" "Steel Sentinel" "Steel Sentry" "Steel Shepard" "Steel Surveiller" "Steel Warder" "Steel Watcher" "Synchronic Defender" "Synchronic Preserver" "Synchronic Sentinel" "Synchronic Surveiller" "Voltaic Sentry" "Voltaic Vigilant" "Voltaic Warrior"
@@ -43,13 +44,13 @@ MACHINE3 = {
 		}
 
 
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
-
-		observation_station = {}
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 		outpost_station = {
-			#random_names = {}
+			#random_names = { }
 		}
 
 		military_station_small = {
@@ -64,11 +65,14 @@ MACHINE3 = {
 	}
 
 	ship_class_names = {
-		generic = {}
+		generic = {
+
+		}
 	}
 
 	fleet_names = {
-		random_names = {}
+		random_names = {
+		}
 		sequential_name = "%O% Security Echelon"
 	}
 
@@ -112,39 +116,57 @@ MACHINE3 = {
 		}
 
 		pc_desert = {
-			names = {}
+			names = {
+
+			}
 		}
 
 		pc_tropical = {
-			names = {}
+			names = {
+
+			}
 		}
 
 		pc_arid = {
-			names = {}
+			names = {
+
+			}
 		}
 
 		pc_continental = {
-			names = {}
+			names = {
+
+			}
 		}
 
 		pc_ocean = {
-			names = {}
+			names = {
+
+			}
 		}
 
 		pc_tundra = {
-			names = {}
+			names = {
+
+			}
 		}
 
 		pc_arctic = {
-			names = {}
+			names = {
+
+			}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+
+			}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+
+			}
 		}
 
 	}
@@ -163,14 +185,20 @@ MACHINE3 = {
 			}
 
 			# Always combined with a second name
-			first_names = {}
+			first_names = {
+			}
 
 			# Always combined with a first name
-			second_names = {}
+			second_names = {
+			}
 
-			regnal_first_names = {}
+			regnal_first_names = {
 
-			regnal_second_names = {}
+			}
+
+			regnal_second_names = {
+
+			}
 		}
 	}
 

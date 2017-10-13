@@ -7,26 +7,26 @@ ART3 = {
 			Hulkrabmuxi Inklacmuxi Opalcmuxi Xactizmuxi Knakmuxi Hulkrabspectrac Inklacspectrac Opalcspectrac Xactizspectrac Knakspectrac Hulkrabnixpac Inklacnixpac Opalcnixpac Xactiznixpac Knaknixpac Hulkrabtrobbjax Inklactrobbjax Opalctrobbjax Xactiztrobbjax Knaktrobbjax Hulkrabmaqtrac Inklacmaqtrac Opalcmaqtrac Xactizmaqtrac Knakmaqtrac Hulkrabkrabblax Inklackrabblax Opalckrabblax Xactizkrabblax Knakkrabblax Hulkrabupcix Inklacupcix Opalcupcix Xactizupcix Knakupcix Hulkrabybbax Inklacybbax Opalcybbax Xactizybbax Knakybbax Hulkrablobball Inklaclobball Opalclobball Xactizlobball Knaklobball Hulkrabmezotix Inklacmezotix Opalcmezotix Xactizmezotix Knakmezotix Hulkrabpolljac Inklacpolljac Opalcpolljac Xactizpolljac Knakpolljac Hulkrabbetklox Inklacbetklox Opalcbetklox Xactizbetklox Knakbetklox Hulkrabvicopoc Inklacvicopoc Opalcvicopoc Xactizvicopoc Knakvicopoc Hulkrabblatox Inklacblatox Opalcblatox Xactizblatox Knakblatox Hulkrabdunybb Inklacdunybb Opalcdunybb Xactizdunybb Knakdunybb Hulkrabstroxtan Inklacstroxtan Opalcstroxtan Xactizstroxtan Knakstroxtan
 		}
 
-		corvette = {}
+		corvette = { }
 
-		destroyer = {}
+		destroyer = { }
 
-		cruiser = {}
+		cruiser = { }
 
-		battleship = {}
+		battleship = { }
 
-		science = {}
+		science = { }
 
-		colonizer = {}
+		colonizer = { }
 
-		constructor = {}
+		constructor = { }
 
-		orbital_station = {}
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
 
-		observation_station = {}
+		observation_station = { }
 		outpost_station = {
 			#random_names = {
 				"Mecinfic Outpost" "Huxinfic Outpost" "Ytranfic Outpost" "Cabbinfic Outpost" "Lopinfic Outpost" "Draxinfic Outpost" "Ekerinfic Outpost" "Xapinfic Outpost"
@@ -34,11 +34,11 @@ ART3 = {
 			#sequential_name = "%O% Frontier Outpost"
 		}
 
-		military_station_small = {}
+		military_station_small = { }
 
-		military_station_medium = {}
+		military_station_medium = { }
 
-		military_station_large = {}
+		military_station_large = { }
 	}
 
 	fleet_names = {
@@ -107,39 +107,39 @@ ART3 = {
 		}
 
 		pc_desert = {
-			names = {}
+			names = { }
 		}
 
 		pc_tropical = {
-			names = {}
+			names = { }
 		}
 
 		pc_arid = {
-			names = {}
+			names = { }
 		}
 
 		pc_continental = {
-			names = {}
+			names = { }
 		}
 
 		pc_ocean = {
-			names = {}
+			names = { }
 		}
 
 		pc_tundra = {
-			names = {}
+			names = { }
 		}
 
 		pc_arctic = {
-			names = {}
+			names = { }
 		}
 
 		pc_savannah = {
-			names = {}
+			names = { }
 		}
 
 		pc_alpine = {
-			names = {}
+			names = { }
 		}
 
 	}
@@ -149,7 +149,7 @@ ART3 = {
 	character_names = {
 		default = {
 			# A complete name
-			full_names = {}
+			full_names = { }
 
 			# Always combined with a second name
 			first_names = {

@@ -117,7 +117,8 @@ threatened = {
 # Special behaviours for fallen empires
 dismissive = {
 	type = dismissive
-	behaviour = {}
+	behaviour = {
+}
 }
 
 # Special behaviours for fallen empires
@@ -139,7 +140,8 @@ angry = {
 # Special behaviours for fallen empires
 arrogant = {
 	type = arrogant
-	behaviour = {}
+	behaviour = {
+}
 }
 
 # Special behaviours for fallen empires
@@ -187,5 +189,6 @@ berserker = {
 
 null = {
 	type = null
-	behaviour = {}
+	behaviour = {
+	}
 }

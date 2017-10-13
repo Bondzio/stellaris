@@ -61,7 +61,8 @@ special_project = {
 		ship_event = { id = anomaly.2501 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -90,7 +91,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -118,7 +120,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -146,7 +149,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -177,7 +181,8 @@ special_project = {
 		owner = { end_event_chain = "abandoned_terraforming_chain" }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -197,7 +202,8 @@ special_project = {
 		owner = { end_event_chain = "abandoned_terraforming_chain" }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -255,7 +261,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -290,7 +297,8 @@ special_project = {
 		owner = { end_event_chain = "migrating_forests_chain" }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -308,7 +316,8 @@ special_project = {
 		owner = { end_event_chain = "migrating_forests_chain" }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -356,7 +365,8 @@ special_project = {
 		owner = { end_event_chain = "subterranean_civilization_chain" }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -371,7 +381,8 @@ special_project = {
 		planet_event = { id = colony.52 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -405,7 +416,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -428,7 +440,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 #special_project = {
@@ -505,7 +518,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -533,7 +547,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -629,7 +644,8 @@ special_project = {
 		ship_event = { id = anomaly.5008 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -651,7 +667,8 @@ special_project = {
 		ship_event = { id = anomaly.5012 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -673,7 +690,8 @@ special_project = {
 		ship_event = { id = anomaly.5015 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -695,7 +713,8 @@ special_project = {
 		ship_event = { id = anomaly.5020 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -717,7 +736,8 @@ special_project = {
 		ship_event = { id = anomaly.5010 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -786,7 +806,8 @@ special_project = {
 		ship_event = { id = primitive.172 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 
@@ -814,7 +835,8 @@ special_project = {
 		ship_event = { id = precursor.6 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Vultaum Observatory
@@ -839,7 +861,8 @@ special_project = {
 		ship_event = { id = precursor.11 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Vultaum Colony 1
@@ -864,7 +887,8 @@ special_project = {
 		ship_event = { id = precursor.16 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Vultaum Colony 2
@@ -889,7 +913,8 @@ special_project = {
 		ship_event = { id = precursor.21 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Vultaum Colony 3
@@ -914,7 +939,8 @@ special_project = {
 		ship_event = { id = precursor.26 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Vultaum Gas Giant Base
@@ -939,7 +965,8 @@ special_project = {
 		ship_event = { id = precursor.31 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Vultaum Trade Post
@@ -964,7 +991,8 @@ special_project = {
 		ship_event = { id = precursor.36 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Vultaum Satellite
@@ -989,7 +1017,8 @@ special_project = {
 		ship_event = { id = precursor.41 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Vultaum Splinter Colony
@@ -1014,7 +1043,8 @@ special_project = {
 		ship_event = { id = precursor.46 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Vultaum Virtual Reality Center
@@ -1039,7 +1069,8 @@ special_project = {
 		ship_event = { id = precursor.51 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Vultaum Asteroid Mining Base
@@ -1064,7 +1095,8 @@ special_project = {
 		ship_event = { id = precursor.56 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 ### YUHT ARCHEOLOGICAL PROJECTS
@@ -1091,7 +1123,8 @@ special_project = {
 		ship_event = { id = precursor.506 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Yuht Listening Post
@@ -1116,7 +1149,8 @@ special_project = {
 		ship_event = { id = precursor.511 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Yuht Colony 1
@@ -1141,7 +1175,8 @@ special_project = {
 		ship_event = { id = precursor.516 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Yuht Colony 2
@@ -1166,7 +1201,8 @@ special_project = {
 		ship_event = { id = precursor.521 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Yuht Colony 3
@@ -1191,7 +1227,8 @@ special_project = {
 		ship_event = { id = precursor.526 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Yuht Satellite
@@ -1216,7 +1253,8 @@ special_project = {
 		ship_event = { id = precursor.531 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Yuht Cruiser
@@ -1241,7 +1279,8 @@ special_project = {
 		ship_event = { id = precursor.536 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Yuht Colony Ship
@@ -1266,7 +1305,8 @@ special_project = {
 		ship_event = { id = precursor.541 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Yuht Asteroid Hermit
@@ -1291,7 +1331,8 @@ special_project = {
 		ship_event = { id = precursor.546 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 ### FIRST LEAGUE ARCHEOLOGICAL PROJECTS
@@ -1318,7 +1359,8 @@ special_project = {
 		ship_event = { id = precursor.1006 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # League Cruiser
@@ -1343,7 +1385,8 @@ special_project = {
 		ship_event = { id = precursor.1011 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Khamdai Homeworld
@@ -1368,7 +1411,8 @@ special_project = {
 		ship_event = { id = precursor.1016 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Chassago Homeworld
@@ -1393,7 +1437,8 @@ special_project = {
 		ship_event = { id = precursor.1021 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Migir-Yan Homeworld
@@ -1418,7 +1463,8 @@ special_project = {
 		ship_event = { id = precursor.1026 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # V'ropak Homeworld
@@ -1443,7 +1489,8 @@ special_project = {
 		ship_event = { id = precursor.1031 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # League Science Base
@@ -1468,7 +1515,8 @@ special_project = {
 		ship_event = { id = precursor.1036 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Joint League Colony
@@ -1493,7 +1541,8 @@ special_project = {
 		ship_event = { id = precursor.1041 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # League Trade Center
@@ -1518,7 +1567,8 @@ special_project = {
 		ship_event = { id = precursor.1046 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Battle Wreckage
@@ -1543,7 +1593,8 @@ special_project = {
 		ship_event = { id = precursor.1051 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Prison Complex
@@ -1568,7 +1619,8 @@ special_project = {
 		ship_event = { id = precursor.1056 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Protected Primitive World
@@ -1593,7 +1645,8 @@ special_project = {
 		ship_event = { id = precursor.1061 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Blockaded World
@@ -1618,7 +1671,8 @@ special_project = {
 		ship_event = { id = precursor.1066 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Smuggler Asteroid
@@ -1643,7 +1697,8 @@ special_project = {
 		ship_event = { id = precursor.1071 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 ### IRASSIAN ARCHEOLOGICAL PROJECTS
@@ -1670,7 +1725,8 @@ special_project = {
 		ship_event = { id = precursor.1506 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Purified World
@@ -1695,7 +1751,8 @@ special_project = {
 		ship_event = { id = precursor.1511 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Scheming Client Race
@@ -1720,7 +1777,8 @@ special_project = {
 		ship_event = { id = precursor.1516 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Destroyed Client Race
@@ -1745,7 +1803,8 @@ special_project = {
 		ship_event = { id = precursor.1521 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Dead Colony
@@ -1770,7 +1829,8 @@ special_project = {
 		ship_event = { id = precursor.1526 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Dead Mining Base
@@ -1795,7 +1855,8 @@ special_project = {
 		ship_event = { id = precursor.1531 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Point of Outbreak
@@ -1820,7 +1881,8 @@ special_project = {
 		ship_event = { id = precursor.1536 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Derelict Ship
@@ -1845,7 +1907,8 @@ special_project = {
 		ship_event = { id = precursor.1541 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Disease Control Base
@@ -1870,7 +1933,8 @@ special_project = {
 		ship_event = { id = precursor.1546 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Asteroid Listening Post
@@ -1895,7 +1959,8 @@ special_project = {
 		ship_event = { id = precursor.1551 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Gas Giant Science Station
@@ -1920,7 +1985,8 @@ special_project = {
 		ship_event = { id = precursor.1556 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 ### CYBREX ARCHEOLOGICAL PROJECTS
@@ -1947,7 +2013,8 @@ special_project = {
 		ship_event = { id = precursor.2006 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Indimak Homeworld
@@ -1972,7 +2039,8 @@ special_project = {
 		ship_event = { id = precursor.2011 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Broken Cybrex Warforms
@@ -1997,7 +2065,8 @@ special_project = {
 		ship_event = { id = precursor.2016 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Cybrex Invasion
@@ -2022,7 +2091,8 @@ special_project = {
 		ship_event = { id = precursor.2021 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Cybrex Ruins
@@ -2047,7 +2117,8 @@ special_project = {
 		ship_event = { id = precursor.2026 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Cybrex Listening Post
@@ -2072,7 +2143,8 @@ special_project = {
 		ship_event = { id = precursor.2031 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Cybrex Refinery
@@ -2097,7 +2169,8 @@ special_project = {
 		ship_event = { id = precursor.2036 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Battle Debris
@@ -2122,7 +2195,8 @@ special_project = {
 		ship_event = { id = precursor.2041 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Ancient Cybrex Base
@@ -2147,7 +2221,8 @@ special_project = {
 		ship_event = { id = precursor.2046 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Organic Remains
@@ -2172,7 +2247,8 @@ special_project = {
 		ship_event = { id = precursor.2051 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Cybrex Research Station
@@ -2197,7 +2273,8 @@ special_project = {
 		ship_event = { id = precursor.2056 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 ### SPECIMEN PROCUREMENT
@@ -2222,7 +2299,8 @@ special_project = {
 		ship_event = { id = country.54 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # The Mighty Tassargoid
@@ -2245,7 +2323,8 @@ special_project = {
 		ship_event = { id = country.55 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # The Vile Orinthi
@@ -2268,7 +2347,8 @@ special_project = {
 		ship_event = { id = country.56 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # The Insidious Sniran
@@ -2291,7 +2371,8 @@ special_project = {
 		ship_event = { id = country.57 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # The Malleable Goolantha
@@ -2314,7 +2395,8 @@ special_project = {
 		ship_event = { id = country.58 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # The Wily Uddloran
@@ -2337,7 +2419,8 @@ special_project = {
 		ship_event = { id = country.59 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # The Ravenous Zulcor
@@ -2360,7 +2443,8 @@ special_project = {
 		ship_event = { id = country.60 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Recover Sublight Space Probe
@@ -2383,7 +2467,8 @@ special_project = {
 		ship_event = { id = country.4 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Board Cult Ship 1
@@ -2404,7 +2489,8 @@ special_project = {
 		ship_event = { id = country.203 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Board Cult Ship 2
@@ -2425,7 +2511,8 @@ special_project = {
 		owner = { country_event = { id = country.214 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Research Cult debris
@@ -2447,7 +2534,8 @@ special_project = {
 		owner = { country_event = { id = country.208 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Smuggler Raid
@@ -2551,7 +2639,8 @@ special_project = {
 		owner = { set_country_flag = shielded_world_opened }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Test Project
@@ -2678,7 +2767,8 @@ special_project = {
 		owner = { establish_communications = FROM }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Investigate Space Amoeba
@@ -2695,7 +2785,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	abort_trigger = {
 		#OR = {
@@ -2712,7 +2803,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Investigate Crystals
@@ -2729,7 +2821,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	abort_trigger = {
 		#OR = {
@@ -2746,7 +2839,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Investigate Drones
@@ -2763,7 +2857,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	abort_trigger = {
 		#OR = {
@@ -2780,7 +2875,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Investigate Void Clouds
@@ -2797,7 +2893,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	abort_trigger = {
 		#OR = {
@@ -2814,7 +2911,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Investigate Tiyanki
@@ -2831,7 +2929,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	abort_trigger = {
 		#OR = {
@@ -2848,7 +2947,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Investigate Pirates
@@ -2865,7 +2965,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	abort_trigger = {
 		#OR = {
@@ -2882,7 +2983,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Board Hyacinth
@@ -2904,7 +3006,8 @@ special_project = {
 		ship_event = { id = country.255 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Abduct Scientist
@@ -2928,7 +3031,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Implant Malfunctions
@@ -2976,7 +3080,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Synth Infiltration Project
@@ -2990,7 +3095,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	on_success = {
 		owner = {
@@ -2998,7 +3104,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Capture Swarm Queen
@@ -3024,7 +3131,8 @@ special_project = {
 		ship_event = { id = crisis.105 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 
 	AI_wait_days = {
 		weight = 180
@@ -3095,13 +3203,15 @@ special_project = {
 		ship_event = { id = diplomatic.1005 }
 	}
 
-	on_progress_25 = {}
+	on_progress_25 = {
+	}
 
 	on_progress_50 = {
 		ship_event = { id = diplomatic.1010 }
 	}
 
-	on_progress_75 = {}
+	on_progress_75 = {
+	}
 }
 
 # Fleet Maneuvers II
@@ -3133,13 +3243,15 @@ special_project = {
 		ship_event = { id = diplomatic.1005 }
 	}
 
-	on_progress_25 = {}
+	on_progress_25 = {
+	}
 
 	on_progress_50 = {
 		ship_event = { id = diplomatic.1010 }
 	}
 
-	on_progress_75 = {}
+	on_progress_75 = {
+	}
 }
 
 # Fleet Maneuvers III
@@ -3171,13 +3283,15 @@ special_project = {
 		ship_event = { id = diplomatic.1005 }
 	}
 
-	on_progress_25 = {}
+	on_progress_25 = {
+	}
 
 	on_progress_50 = {
 		ship_event = { id = diplomatic.1010 }
 	}
 
-	on_progress_75 = {}
+	on_progress_75 = {
+	}
 }
 
 # AI Crisis Machine Empire Project
@@ -3187,7 +3301,8 @@ special_project = {
 	cost = {
 		base = 600
 		scaled_modifier = {
-			limit = {}
+			limit = {
+			}
 			scope = this
 			add = 100
 			calc = pop_count
@@ -3198,13 +3313,15 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	on_success = {
 		owner = { country_event = { id = crisis.2510 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Test Project (To be removed)
@@ -3223,7 +3340,9 @@ special_project = {
 		shipclass_colonizer = 1
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }

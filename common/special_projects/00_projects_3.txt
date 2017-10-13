@@ -394,7 +394,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	on_success = {
 		owner = {
@@ -419,7 +420,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	on_success = {
 		owner = {
@@ -444,7 +446,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	on_success = {
 		owner = {
@@ -469,7 +472,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	on_success = {
 		owner = {
@@ -522,7 +526,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	on_success = {
 		owner = {
@@ -547,7 +552,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	on_success = {
 		root = {

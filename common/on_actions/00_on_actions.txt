@@ -164,7 +164,8 @@ on_first_contact = {
 # FromFrom = fleet
 # FromFromFrom = system
 on_enforce_borders = {
-	events = {}
+	events = {
+	}
 }
 
 # Triggers country_event for the attacker upon victory
@@ -194,7 +195,8 @@ on_planet_attackers_win = {
 # From = country, planet owner
 # FromFrom = planet
 on_planet_attackers_lose = {
-	events = {}
+	events = {
+	}
 }
 
 # Triggers country_event for the defender upon victory
@@ -486,7 +488,8 @@ on_ship_destroyed_perp = {
 		crisis.2071
 		story.222
 	}
-	random_events = {}
+	random_events = {
+	}
 }
 
 # This = owner of fleet 1 (destroyed)
@@ -582,7 +585,9 @@ on_fleet_disbanded = {
 # This = owner of fleet
 # From = destroyed fleet
 on_fleet_destroyed_maintenance = {
-	events = {}
+	events = {
+
+	}
 }
 
 # The game will generate one on_building_X on_action for every station ship-size
@@ -637,7 +642,8 @@ on_building_outpost_station = {
 # Fires when construction is complete,
 # immediately before station is created
 on_building_wormhole_station = {
-	events = {}
+	events = {
+	}
 }
 
 # This = construction ship
@@ -653,13 +659,15 @@ on_building_anchor_station = {
 # This = country
 # From = opponent war leader
 on_entering_war = {
-	events = {}
+	events = {
+	}
 }
 
 # This = Country
 # From = Fleet
 on_fleet_detected = {
-	events = {}
+	events = {
+	}
 }
 
 # This = Ship
@@ -676,7 +684,8 @@ on_ship_disabled = {
 
 # This = Ship
 on_ship_enabled = {
-	events = {}
+	events = {
+	}
 }
 
 # Triggers when a Special Project to uplift a pre-sapient species is completed.
@@ -727,7 +736,8 @@ on_purge_begun = {
 
 # This = Pop scope
 # From = Planet
-on_purge_canceled = {}
+on_purge_canceled = {
+}
 
 # Planet has been terraformed
 # This = Planet
@@ -758,14 +768,16 @@ on_planet_zero_health = {
 # owner = { owner_species = { (empire main species)
 # owner = { (empire)
 on_pop_enslaved = {
-	events = {}
+	events = {
+	}
 }
 
 # Full Orbital Bombardment commenced
 # This = Country scope
 # From = Planet
 on_full_orbital_bombardment = {
-	events = {}
+	events = {
+	}
 }
 
 # Pop is released from slavery
@@ -774,7 +786,8 @@ on_full_orbital_bombardment = {
 # owner = { owner_species = { (empire main species)
 # owner = { (empire)
 on_pop_emancipated = {
-	events = {}
+	events = {
+	}
 }
 
 # Executed right before a country has established communications with another country
@@ -835,7 +848,8 @@ on_ruler_set = {
 # From = Previous Ruler
 # This = Country
 on_ruler_removed = {
-	events = {}
+	events = {
+	}
 }
 
 # Executed when the ruler is ousted and goes back to their pre-ruler class
@@ -1002,7 +1016,8 @@ on_emergency_ftl = {
 # This = Army
 # From = Planet
 on_army_recruited = {
-	events = {}
+	events = {
+	}
 }
 
 #A building construction has been completed.
@@ -1020,21 +1035,24 @@ on_building_complete = {
 # This = Planet
 # From = Tile
 on_building_queued = {
-	events = {}
+	events = {
+	}
 }
 
 # A building construction has been unqueued.
 # This = Planet
 # From = Tile
 on_building_unqueued = {
-	events = {}
+	events = {
+	}
 }
 
 # A building construction has been completed, which is an upgrade of previous building.
 # This = Planet
 # From = Tile
 on_building_upgraded = {
-	events = {}
+	events = {
+	}
 }
 
 # A building construction has demolished.
@@ -1071,14 +1089,16 @@ on_monthly_orbital_bombardment = {
 # This = Planet
 # From = Tile
 on_building_ruined = {
-	events = {}
+	events = {
+	}
 }
 
 # A tile building has been repaired
 # This = Planet
 # From = Tile
 on_building_repaired = {
-	events = {}
+	events = {
+	}
 }
 
 # Tutorial level for a country has changed
@@ -1202,7 +1222,8 @@ on_pop_rights_change = {
 # A pop has been born
 # This = pop
 on_pop_birth = {
-	events = {}
+	events = {
+	}
 }
 
 # A pop has been built
@@ -1263,17 +1284,20 @@ on_planet_transfer = {
 #From = Planet scope
 #This = Fleet scope
 on_fleet_enter_orbit = {
-	events = {}
+	events = {
+	}
 }
 
 #This = Country scope
 on_join_alliance = {
-	events = {}
+	events = {
+	}
 }
 
 #This = Country scope
 on_leave_alliance = {
-	events = {}
+	events = {
+	}
 }
 
 #This = destroyed country
@@ -1397,7 +1421,8 @@ on_colony_1_year_old = {
 }
 
 on_colony_2_years_old = {
-	events = {}
+	events = {
+	}
 	random_events = {
 		300 = 0
 
@@ -1442,7 +1467,8 @@ on_colony_2_years_old = {
 }
 
 on_colony_3_years_old = {
-	events = {}
+	events = {
+	}
 	random_events = {
 		300 = 0
 
@@ -1505,15 +1531,20 @@ on_colony_5_years_old = {
 	}
 }
 
-on_colony_6_years_old = {}
+on_colony_6_years_old = {
+}
 
-on_colony_7_years_old = {}
+on_colony_7_years_old = {
+}
 
-on_colony_8_years_old = {}
+on_colony_8_years_old = {
+}
 
-on_colony_9_years_old = {}
+on_colony_9_years_old = {
+}
 
-on_colony_10_years_old = {}
+on_colony_10_years_old = {
+}
 
 # a new leader is generated for an empire, to be available for recruitment
 # scope: country, from: leader

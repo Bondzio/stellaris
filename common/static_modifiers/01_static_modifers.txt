@@ -357,7 +357,7 @@ drone_destroyer = {
 	damage_vs_country_type_drone_mult = 0.1
 }
 
-drone_bounty = {}
+drone_bounty = { }
 
 cloudbuster = {
 	damage_vs_country_type_cloud_mult = 0.1

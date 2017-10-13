@@ -3,7 +3,8 @@
 building_hab_capital = {
 	base_buildtime = 1080
 
-	cost = {}
+	cost = {
+	}
 
 	produced_resources = {
 		energy = 5

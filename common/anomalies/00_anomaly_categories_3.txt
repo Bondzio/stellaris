@@ -54,7 +54,8 @@ anomaly_category = {
 	level = 2
 	#risk = 20
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
 	spawn_chance = {
 		modifier = {
@@ -63,7 +64,8 @@ anomaly_category = {
 		}
 	}
 	#Supposed to be empty, handled in anomaly_events.txt
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4000 }
@@ -78,7 +80,8 @@ anomaly_category = {
 	level = 1
 	#risk = 40
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
 	spawn_chance = {
 		modifier = {
@@ -87,7 +90,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4005 }
@@ -131,7 +135,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4010 }
@@ -155,9 +160,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4015 }
@@ -183,9 +190,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4020 }
@@ -211,9 +220,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4025 }
@@ -243,9 +254,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4030 }
@@ -285,7 +298,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4035 }
@@ -320,9 +334,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4045 }
@@ -348,9 +364,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		random_list = {
@@ -399,7 +417,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4060 }
@@ -436,7 +455,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4005 }
@@ -465,9 +485,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4070 }
@@ -507,7 +529,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.4080 }
@@ -563,9 +586,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		random_list = {
@@ -589,9 +614,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		random_list = {
@@ -615,9 +642,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		random_list = {
@@ -641,9 +670,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		random_list = {
@@ -686,7 +717,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		random_list = {
@@ -717,9 +749,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		random_list = {
@@ -744,9 +778,11 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {	
+	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		random_list = {

@@ -36,7 +36,7 @@ planet_edict = {
 
 	length = @standardEdictDuration
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -71,7 +71,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -97,7 +97,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -134,7 +134,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 0
@@ -158,7 +158,7 @@ planet_edict = {
 
 	length = @standardEdictDuration
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -186,7 +186,7 @@ planet_edict = {
 		"tech_colonial_centralization"
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -207,7 +207,7 @@ planet_edict = {
 
 	length = @standardEdictDuration
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -243,7 +243,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -269,7 +269,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -295,7 +295,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -323,7 +323,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -349,7 +349,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 0
@@ -371,7 +371,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 0
@@ -395,7 +395,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -427,7 +427,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1
@@ -456,7 +456,7 @@ planet_edict = {
 		}
 	}
 
-	allow = {}
+	allow = { }
 
 	ai_weight = {
 		weight = 1

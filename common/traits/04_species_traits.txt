@@ -416,7 +416,7 @@ trait_self_modified = {
 
 	allowed_archetypes = { BIOLOGICAL }
 
-	modifier = {}
+	modifier = { }
 }
 
 

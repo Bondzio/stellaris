@@ -5,74 +5,87 @@ PLANT = {
 
 	ship_names = {
 
-		generic = {}
+		generic = {
+		}
 
 		corvette = {
-			"Thorn" "Silver Thorn" "Iron Thorn" "Piercing Thorn" "Emerald Thorn" "Gold Thorn" "Trichome" "Silver Trichome" "Iron Trichome" "Jade Trichome" "Emerald Trichome" "Gold Trichome" "Needle" "Silver Needle" "Iron Needle" "Jade Needle" "Gold Needle" "Piercing Needle" "Emerald Needle" "Rash"
+			Thorn		"Silver Thorn"		"Iron Thorn" "Jade Thorn" "Emerald Thorn"		"Gold Thorn" "Piercing Thorn" "Steel Thorn"
+			Trichome	"Silver Trichome" "Iron Trichome" "Jade Trichome" "Emerald Trichome" "Gold Trichome" "Piercing Trichome" "Steel Trichome"
+			Needle		"Silver Needle"		"Iron Needle" "Jade Needle" "Emerald Needle" "Gold Needle" "Piercing Needle" "Steel Needle"
 		}
 
 		destroyer = {
-			"Petal" "Silver Petal" "Iron Petal" "Jade Petal" "Emerald Petal" "Gold Petal" "Piercer" "Silver Piercer" "Gold Piercer" "Iron Piercer" "Emerald Piercer" "Silver Stinger" "Stinger" "Steel Stinger" "Piercing Stinger" "Slasher" "Cutter"
+			Petal		"Silver Petal"		"Iron Petal" "Jade Petal" "Emerald Petal"		"Gold Petal" "Piercing Petal" "Steel Petal"
+			Piercer		"Silver Piercer" "Iron Piercer" "Jade Piercer" "Emerald Piercer" "Gold Piercer" "Piercing Piercer" "Steel Piercer"
+			Stinger		"Silver Stinger" "Iron Stinger" "Jade Stinger" "Emerald Stinger" "Gold Stinger" "Piercing Stinger" "Steel Stinger"
+			Slasher		"Silver Slasher" "Iron Slasher" "Jade Slasher" "Emerald Slasher" "Gold Slasher" "Piercing Slasher" "Steel Slasher"
+			Cutter		"Silver Cutter"		"Iron Cutter" "Jade Cutter" "Emerald Cutter" "Gold Cutter" "Piercing Cutter" "Steel Cutter"
 		}
 
 		cruiser = {
-			"Blade" "Silver Blade" "Iron Blade" "Jade Blade" "Emerald Blade" "Gold Blade" "Cutting Blade" "Slashing Blade" "Piercing blade"
+			Blade 		"Silver Blade"		"Iron Blade" "Jade Blade" "Emerald Blade"		"Gold Blade" "Piercing Blade" "Steel Blade"
+			# "Cutting Blade" "Slashing Blade"
 		}
 
 		battleship = {
-			Spike "Silver Spike" "Iron Spike" "Jade Spike" "Emerald Spike" "Gold Spike" "Piercing Spike" "Fury" "Emerald Fury" "Thorn Fury" "Spike of Fury" "Punisher"
+			Spike 		"Silver Spike"		"Iron Spike" 	"Jade Spike" "Emerald Spike" 	"Gold Spike" 	"Piercing Spike" 	"Steel Spike"
+			Fury 		"Silver Fury"		"Iron Fury"	 	"Jade Fury"		"Emerald Fury"		"Gold Fury"		"Piercing Fury"		"Steel Fury"
+			Punisher "Silver Punisher" 	"Iron Punisher" 	"Jade Punisher" "Emerald Punisher" 	"Gold Punisher" 	"Piercing Punisher" "Steel Punisher"
+			#"Thorn Fury" "Spike of Fury"
 		}
 
 		science = {
-			"Drifting Leaf" "Floating Leaf" "Seeking Leaf" "Fluttering Leaf" "Soaring Leaf"
+			Leaf "Drifting Leaf" "Floating Leaf" "Seeking Leaf" "Fluttering Leaf" "Soaring Leaf"
 		}
 
 		colonizer = {
-			"Seed Capsule" "Fruit Carrier"
+			Seed Capsule Fruit Carrier Pollen Pollenizer
 		}
 
 		constructor = {
-			"Meristem"
+			Meristem
 		}
 
 		transport = {
-			"Transport"
+			Transport
 		}
 
 		orbital_station = {
-			"Branch"
+			Branch
 		}
 		mining_station = {
-			"Root"
+			Root
 		}
 		research_station = {
-			"Topiary"
+			Topiary "Sensing Topiary" "Climbing Topiary" "Grasping Topiary" "Twining Topiary" "Growing Topiary" "Enveloping Topiary" "Dandelion Topiary"
 		}
-		wormhole_station = {}
-		#terraform_station = {
-		#	"Greenhouse"
-		#	"Orangerie"
-		#}
+		wormhole_station = { }
+
 		observation_station = {
-			"Sensing Vine" "Climbing Vine" "Grasping Vine" "Twining Vine" "Growing Vine" "Enveloping Vine" "Dandelion Vine"
+			Vine "Sensing Vine" "Climbing Vine" "Grasping Vine" "Twining Vine" "Growing Vine" "Enveloping Vine" "Dandelion Vine"
 		}
 
 		military_station_small = {
-			"Ya-te-veo"
+			Ya
 		}
 
 		military_station_medium = {
-			"Ya-te-veo"
+			Te
 		}
 
 		military_station_large = {
-			"Ya-te-veo"
+			Veo
 		}
 	}
 
 	fleet_names = {
 		random_names = {
-			"Blossoming Corolla" "Flourishing Corolla" "Vanquishing Corolla" "Whirling Corolla" "Burgeoning Corolla"
+			"Blossoming Corolla" "Flourishing Corolla" "Blooming Corolla" "Budding Corolla" "Opening Corolla" "Sprouting Corolla" "Burgeoning Corolla" "Prospering Corolla" "Flowering Corolla" "Expanding Corolla" "Growing Corolla" "Thriving Corolla" "Unfolding Corolla" "Pullulating Corolla" "Embelleshing Corolla" "Unraveling Corolla" "Dilating Corolla" "Spreading Corolla" "Opening Corolla" "Bursting Corolla" "Springing Corolla" "Emboldening Corolla" "Invigorating Corolla" "Animating Corolla" "Advancing Corolla" "Swelling Corolla""Whirling Corolla" "Spinning Corolla" "Revolving Corolla" "Rotating Corolla" "Gyrating Corolla" "Twisting Corolla" "Twirling Corolla" "Oscillating Corolla" "Resonating Corolla" "Gyring Corolla" "Wheeling Corolla" "Spiraling Corolla" "Reeling Corolla" "Turning Corolla" "Pirouetting Corolla" "Orbiting Corolla" "Swirling Corolla" "Rolling Corolla" "Sustaining Corolla" "Trundling Corolla" "Cruising Corolla" "Flying Corolla" "Propelling Corolla" "Impelling Corolla" "Riding Corolla" "Flowing Corolla" "Waxing Corolla" "Purling Corolla" "Circling Corolla" "Circulating Corolla" "Whirligiging Corolla" "Joining Corolla" "Healing Corolla" "Progressing Corolla" "Pivoting Corolla" "Sheering Corolla" "Sheering Corolla" "Curving Corolla" "Alternating Corolla" "Swaddling Corolla" "Undulating Corolla" "Swathing Corolla" "Rocking Corolla" "Passing Corolla" "Developing Corolla" "Unfurling Corolla" "Entwining Corolla" "Bifurcating Corolla" "Circumvolving Corolla" "Whirring Corolla" "Surrounding Corolla" "Hemming Corolla" "Encircling Corolla" "Girding Corolla" "Girdling Corolla" "Circumnavigating Corolla" "Skirting Corolla" "Skipping Corolla" "Floating Corolla" "Whizzing Corolla" "Gliding Corolla" "Skimming Corolla" "Cascading Corolla" "Arcing Corolla" "Arching Corolla" "Vibrating Corolla" "Pulsating Corolla" "Weaving Corolla" "Yawing Corolla" "Swiveling Corolla" "Swaying Corolla" "Swinging Corolla" "Winding Corolla" "Inclining Corolla" "Bending Corolla" "Cornering Corolla" "Eddying Corolla" "Tiding Corolla" "Rising Corolla" "Hovering Corolla" "Careening Corolla" "Looping Corolla" "Swerving Corolla" "Crossing Corolla" "Composing Corolla" "Fusing Corolla" "Writhing Corolla" "Wreathing Corolla" "Narrowing Corolla" "Warping Corolla" "Augmenting Corolla""Vanquishing Corolla""Conquering Corolla""Dominating Corolla""Triumphant Corolla""Winning Corolla""Victorious Corolla""Invading Corolla""Occupying Corolla""Sweeping Corolla""Tormenting Corolla""Punishing Corolla""Persecuting Corolla""Brutalizing Corolla""Injuring Corolla""Overthrowing Corolla""Inflicting Corolla""Afflicting Corolla""Swaggering Corolla""Prizewinning Corolla""Elevating Corolla""Accelerating Corolla""Driving Corolla""Quickening Corolla""Rocketing Corolla""Hastening Corolla""Launching Corolla""Promoting Corolla""Forging Corolla""Continuing Corolla""Pursuing Corolla""Achieving Corolla""Pushing Corolla""Pulling Corolla""Speeding Corolla""Surging Corolla""Bolting Corolla""Blasting Corolla""Bouncing Corolla""Storming Corolla""Marching Corolla""Excelling Corolla""Transcending Corolla""Ascending Corolla""Overwhelming Corolla""Besting Corolla""Overcoming Corolla""Thrashing Corolla""Surpassing Corolla""Exceeding Corolla""Mastering Corolla""Shooting Corolla""Totalling Corolla""Destroying Corolla""Annihilating Corolla""Whopping Corolla""Zapping Corolla""Prevailing Corolla""Controlling Corolla""Rounding Corolla""Captivating Corolla""Snatching Corolla""Snaring Corolla""Busting Corolla""Commanding Corolla""Coercing Corolla""Domineering Corolla""Charging Corolla""Directing Corolla""Guiding Corolla""Forcing Corolla""Exacting Corolla""Reigning Corolla""Overbearing Corolla""Governing Corolla""Demolishing Corolla""Obliterating Corolla""Extinguishing Corolla""Defeating Corolla""Wrecking Corolla""Overpowering Corolla""Quelling Corolla""Quelching Corolla""Ruining Corolla""Subjugating Corolla""Suppressing Corolla""Flooring Corolla""Bewildering Corolla""Dumbfounding Corolla""Flabberghasting Corolla""Flattening Corolla""Beating Corolla""Hindering Corolla""Outwitting Corolla""Prohibiting Corolla""Stymying Corolla""Upsetting Corolla""Stumping Corolla""Nullifying Corolla""Impeding Corolla""Blocking Corolla""Balking Corolla""Annuling Corolla""Precluding Corolla""Foiling Corolla""Halting Corolla""Countering Corolla""Negating Corolla""Neutralizing Corolla""Hanging Corolla""Confounding Corolla""Confusing Corolla""Crushing Corolla""Disgracing Corolla""Humbling Corolla""Lowering Corolla""Mortifying Corolla""Ripping Corolla""Slicing Corolla""Cutting Corolla""Tearing Corolla""Stomping Corolla""Slamming Corolla""Snubbing Corolla""Smearing Corolla""Shaming Corolla""Squashing Corolla""Jumping Corolla""Vaulting Corolla""Lopping Corolla""Clearing Corolla""Bounding Corolla""Rebounding Corolla""Striking Corolla""Grazing Corolla""Bumping Corolla""Ricocheting Corolla""Glancing Corolla""Hurdling Corolla""Kicking Corolla""Snapping Corolla""Jerking Corolla""Thumping Corolla""Jounching Corolla""Bobbing Corolla""Hopping Corolla""Leaping Corolla""Caroming Corolla""Quivering Corolla""Jiggling Corolla""Shaking Corolla""Wavering Corolla""Popping Corolla""Hurtling Corolla""Falling Corolla""Barging Corolla""Bucking Corolla""Frisking Corolla""Menacing Corolla""Threatening Corolla""Escalating Corolla""Trouncing Corolla""Smothering Corolla""Spanking Corolla""Routing Corolla""Lambasting Corolla""Hitting Corolla""Flogging Corolla""Downing Corolla""Balancing Corolla""Compensating Corolla""Cancelling Corolla""Abrogating Corolla""Countervailing Corolla""Invalidating Corolla""Offseting Corolla""Offputting Corolla""Offending Corolla""Overruling Corolla""Overriding Corolla""Capturing Corolla""Garrisoning Corolla""Surmounting Corolla""Stunning Corolla""Reducing Corolla""Surviving Corolla""Swamping Corolla""Quelling Corolla""Clobbering Corolla""Creaming Corolla""Purging Corolla""Exterminating Corolla""Terminating Corolla""Subverting Corolla""Upending Corolla""Unseating Corolla""Unsettling Corolla""Razing Corolla""Tumbling Corolla""Tipping Corolla""Toppling Corolla""Leveling Corolla""Deposing Corolla""Knocking Corolla""Eradicating Corolla""Ousting Corolla""Inundating Corolla""Deluging Corolla""Proving Corolla""Succeeding Corolla""Gaining Corolla""Predominating Corolla""Seizing Corolla""Usurping Corolla""Grasping Corolla""Recovering Corolla""Securing Corolla""Earning Corolla""Availing Corolla""Fulfilling Corolla""Distancing Corolla""Profiting Corolla""Realizing Corolla""Reaping Corolla""Receiving Corolla""Retrieving Corolla""Scoring Corolla""Abolishing Corolla""Trampling Corolla""Stifling Corolla""Spiking Corolla""Quashing Corolla""Silencing Corolla""Concealing Corolla""Containing Corolla""Mitigating Corolla""Pacifying Corolla""Bridling Corolla""Hammering Corolla""Walloping Corolla""Thwarting Corolla""Undoing Corolla""Dethroning Corolla""Liquidating Corolla"
+
+
+
+
+
 		}
 		sequential_name = "%O% Corolla"
 	}
@@ -80,7 +93,7 @@ PLANT = {
 	### ARMIES
 	army_names = {
 		defense_army = {
-			sequential_name = "%O% Protector's Wreath"
+			sequential_name = "%O% Protector Wreath"
 		}
 
 		assault_army = {
@@ -132,42 +145,50 @@ PLANT = {
 
 		generic = {
 			names = {
-			"Beauty" "Joy" "New Beginning" "Bears fruit" "Round Nut" "Seed of Hope" "Budding Dreams" "Nectar of Hope" "Hope's Tendrils" "Fruitful Endeavor" "Forever Spring" "Spring Rain" "New Light"	"Triumph" "Scion" "Sprout" "Thriving Green" "Bloom" "Blooming" }
+				"New Beginning" "Bears fruit" "Round Nut" "Seed of Hope" "Budding Dreams" "Nectar of Hope" "Hope's Tendrils" "Fruitful Endeavor" "Forever Spring" "Spring Rain" "New Light" "Thriving Green"
+				Triumph Scion Sprout Bloom Blooming Beauty Joy
+			}
 		}
 
 		pc_desert = {
 			names = {
-				"Cactus' Rest" "Palms' Oasis" "Endless Thirst" "Scorch" "Dune" "Red Earth" "Red Dunes" "Yellow" "Dryland" "Hope" "Eternal Sun" "Sand" "Duststorm" "Burning Plains" "Desert Flower" "Scorched Leaves" "Parched" "Wilted Dreams" "Leafsizzler" "Burning Bushland"
+				"Cactus' Rest" "Palms' Oasis" "Endless Thirst" "Red Earth" "Red Dunes" "Eternal Sun" "Burning Plains" "Desert Flower" "Scorched Leaves" "Wilted Dreams" "Burning Bushland"
+				Scorch Dune Yellow Dryland Hope Sand Duststorm Parched Leafsizzler
 			}
 		}
 
 		pc_savannah = {
 			names = {
-				"Sun Plains" "Far Grass" "Great Plains" "Flatlands" "Grasslands" "Radiance" "Suntear" "Howling Plains" "Yellow Grass" "Windy Plains" "Golden Fields" "Tallgrass Fields" "Lonely Tree"
+				"Sun Plains" "Far Grass" "Great Plains" "Howling Plains" "Yellow Grass" "Windy Plains" "Golden Fields" "Tallgrass Fields" "Lonely Tree"
+				Flatlands Grasslands Radiance Suntear
 			}
 		}
 
 		pc_tropical = {
 			names = {
-				"The Cloud Forest" "The Rainforest" Flourish Leaflands Greenery "Eternal Blossom" "Forever Green" "Misty Forest" "Delight" "Tree Vale" "Fernlands" "Sky Canopy" "Great Humidity" Paradise
+				"The Cloud Forest" "The Rainforest" "Eternal Blossom" "Forever Green" "Misty Forest" "Delight" "Tree Vale" "Fernlands" "Sky Canopy" "Great Humidity"
+				Flourish Leaflands Greenery Paradise
 			}
 		}
 
 		pc_arid = {
 			names = {
-				"Dry Foliage" "Sun Scrutiny" "Riverdry" "Rock" "Deep Roots" "Tolerance" "Great Drought" "No Rest" "Leaf's Folly" "Desolation" "Barren Lands" Treeless Victory Scrublands Shrublands  "Fear of Foliage" "The Great Chaparral" Endeavor
+				"Dry Foliage" "Sun Scrutiny" "Riverdry" "Rock" "Deep Roots" "Tolerance" "Great Drought" "No Rest" "Leaf's Folly" "Desolation" "Barren Lands" "Fear of Foliage" "The Great Chaparral"
+				Treeless Victory Scrublands Shrublands Endeavor
 			}
 		}
 
 		pc_continental = {
-			names = {tem
-				"Many Woods" "Many Meadows" Beryl "Rich Soil" "Green Splendor" Seasons "Green Grove" "Golden Crown" "The Orchard" "Emerald Fields" "Grain of Truth" "Good Prospects" Flourish
+			names = {
+				"Many Woods" "Many Meadows" "Rich Soil" "Green Splendor" "Green Grove" "Golden Crown" "The Orchard" "Emerald Fields" "Grain of Truth" "Good Prospects"
+				Beryl Seasons Flourish
 			}
 		}
 
 		pc_ocean = {
 			names = {
-				"The Great Reef" "Coral's Home" Eversea Blue Oceana Indigo "Blue hope" "Indigo Dream" Plenty "Blue Pearl" Droplet Waterweeds "Floating Blossom" "Blue Home"
+				"The Great Reef" "Coral's Home" "Blue Hope" "Indigo Dream" "Blue Pearl" "Floating Blossom" "Blue Home"
+				Eversea Blue Oceana Indigo Plenty Droplet Waterweeds
 			}
 		}
 
@@ -179,22 +200,26 @@ PLANT = {
 
 		pc_alpine = {
 			names = {
-				"Blossoming Slopes" Befrosted "Valley of Flowers" "Dale" "Billowing Mountains" "Great Ridge" "Jagged Earth" "Torn Earth" "White Crag" "Spring Vale" Pinelands "Fir Valley" "White Ridge"	"Glory Glens"
+				"Blossoming Slopes" "Valley of Flowers" "Dale" "Billowing Mountains" "Great Ridge" "Jagged Earth" "Torn Earth" "White Crag" "Spring Vale" "Fir Valley" "White Ridge" "Glory Glens"
+				Befrosted Pinelands
 			}
 		}
 
 		pc_arctic = {
 			names = {
-				"Evergreen" "Perseverence" "Endurance" "Snowland" "White Storm" "Winterland" "Only Winter"	"White Blanket"	"Snow Globe" "Frosty Roots" "Silver Fields" "White Expanse" "Ice Flower" "Ice Leaf" "Frost Flower" "Defiance"
+				"White Storm" "Only Winter" "White Blanket" "Snow Globe" "Frosty Roots" "Silver Fields" "White Expanse" "Ice Flower" "Ice Leaf" "Frost Flower"
+				Evergreen Perseverence Endurance Snowland Winterland Defiance
 			}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+			}
 		}
 
 	}
@@ -204,7 +229,8 @@ PLANT = {
 	character_names = {
 		default = {
 			# A complete name
-			full_names = {}
+			full_names = {
+			}
 
 			# Always combined with a second name
 			first_names = {
