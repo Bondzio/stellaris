@@ -6,18 +6,24 @@ PLANT4 = {
 
 	ship_names = {
 
-		generic = {}
+		generic = {
 
-		corvette = { "Thisto Jaahne" "Thisto Merok" "Thisto Vornak" "Thisto Vea" "Thisto Varex" "Thisto Raxx" "Thisto Verek" "Thisto Milo" "Thisto Kaado" "Thisto Morek" "Thisto Trylek" "Thisto Peo" "Thisto Maach" "Thisto Keto" "Thisto Vol" "Thisto Luma" "Thisto Rekiel" "Thisto Dramus" "Thisto Licus" "Thisto Marex" "Thisto Ilio" "Thisto Zenet" "Thisto Domes" "Thisto Vivea" "Thisto Ferna" "Thisto Magnoli" "Thisto Gneto" "Thisto Bryo" "Thisto Rophyte" "Thisto Stirpis" "Thisto Vitanixx" "Thisto Aarboro" "Thisto Radixx" "Thisto Zarbor" "Thisto Rotexx" "Thisto Anoma" "Thisto Sallor" "Thisto Mexus"
 		}
 
-		destroyer = { "Dakuur" "Dakrool" "Dakilius" "Dakloor" "Daksaamek" "Dakpretek" "Dakpato" "Dakstilo"  "Dakrotite"  "Lapis Dendri" "Lapis Folio" "Lapis Alata" "Lapis Troccea" "Lapis Moro"
+		corvette = {
+			"Thisto Jaahne" "Thisto Merok" "Thisto Vornak" "Thisto Vea" "Thisto Varex" "Thisto Raxx" "Thisto Verek" "Thisto Milo" "Thisto Kaado" "Thisto Morek" "Thisto Trylek" "Thisto Peo" "Thisto Maach" "Thisto Keto" "Thisto Vol" "Thisto Luma" "Thisto Rekiel" "Thisto Dramus" "Thisto Licus" "Thisto Marex" "Thisto Ilio" "Thisto Zenet" "Thisto Domes" "Thisto Vivea" "Thisto Ferna" "Thisto Magnoli" "Thisto Gneto" "Thisto Bryo" "Thisto Rophyte" "Thisto Stirpis" "Thisto Vitanixx" "Thisto Aarboro" "Thisto Radixx" "Thisto Zarbor" "Thisto Rotexx" "Thisto Anoma" "Thisto Sallor" "Thisto Mexus"
 		}
 
-		cruiser = { "Spakate Jaane" "Spakate Merok" "Spakate Vornak" "Spakate Raxx" "Spakate Verek" "Spakate Milo" "Spakate Caado" "Spakate Morek" "Spakate Trylek" "Spakate Peo" "Spakate Maach" "Spakate Keto"
+		destroyer = {
+			"Dakuur" "Dakrool" "Dakilius" "Dakloor" "Daksaamek" "Dakpretek" "Dakpato" "Dakstilo"  "Dakrotite"  "Lapis Dendri" "Lapis Folio" "Lapis Alata" "Lapis Troccea" "Lapis Moro"
 		}
 
-		battleship = { "Lanci Ulus" "Lanci Incanon" "Lanci Ovus" "Lanci Vector" "Lanci Eovoles" "Lanci Yacto" "Lanci Volea" "Zemore ka Lorensis"
+		cruiser = {
+			"Spakate Jaane" "Spakate Merok" "Spakate Vornak" "Spakate Raxx" "Spakate Verek" "Spakate Milo" "Spakate Caado" "Spakate Morek" "Spakate Trylek" "Spakate Peo" "Spakate Maach" "Spakate Keto"
+		}
+
+		battleship = {
+			"Lanci Ulus" "Lanci Incanon" "Lanci Ovus" "Lanci Vector" "Lanci Eovoles" "Lanci Yacto" "Lanci Volea" "Zemore ka Lorensis"
 		}
 
 		science = {
@@ -36,17 +42,23 @@ PLANT4 = {
 			"Vector"
 		}
 
-		orbital_station = {}
+		orbital_station = {
+
+		}
 		mining_station = {
 			"Mino Adamas" "Adelite Adamas" "Aluntite Adamas" "Tinite Adamas" "Lucite Adamas" "Kalite Adamas" 	"Vermonik Adamas" "Perite Adamas" "Verope Adamas" "Ren-vio Adamas" "Florite Adamas" Betorhiza Macrorhiza Sehriza Peoradix Nearadix Lioradix Vioradix Miradix Elliradix Minoradix
-			}
-		research_station = {}
-		wormhole_station = {}
+		}
+		research_station = {
+
+		}
+		wormhole_station = { }
 		#terraform_station = {
 		#	"Vivea Nevo" "Vivea Kalamas" "Vivea Domas" "Visto Ergonex" "Vora Ergonex" "Azigonea" "Laazo Ergonex" "Vivea Yactis" "Vivea Trixus"
 		#
 		#}
-		observation_station = {}
+		observation_station = {
+
+		}
 
 		military_station_small = { "Miya Tremata" }
 
@@ -122,49 +134,60 @@ PLANT4 = {
 		}
 
 		pc_desert = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_tropical = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_arid = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_continental = {
-			names = {}
-
+			names = {
+			}
 		}
 
 		pc_ocean = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_tundra = {
-			names = {}
-
+			names = {
+			}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+
+			}
 		}
 
 		pc_arctic = {
-			names = {}
+			names = {
+
+			}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+			}
 		}
 
 	}
@@ -174,7 +197,8 @@ PLANT4 = {
 	character_names = {
 		default = {
 			# A complete name
-			full_names = {}
+			full_names = {
+			}
 
 			# Always combined with a second name
 			first_names = {

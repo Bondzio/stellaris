@@ -6,33 +6,40 @@ REP3 = {
 			Lorodkalen Lorodkluven Loroddrexom Lorodkuxel Loroddurgal Lorodcadrom Lorodkendril Lorodferad Loroddefer Loroddoxerga Lorodkundex Lorodcladet Lorodklonol Lorodrekad Lorodgexad Lorodfalder Lorodgaclen Lorodceldaren Loroddeklor Loroddroxag Lorodnergal Lorodfikren Lorodnadlig
 		}
 
-		corvette = {}
+		corvette = {
+		}
 
-		destroyer = {}
+		destroyer = {
+		}
 
-		cruiser = {}
+		cruiser = {
+		}
 
-		battleship = {}
+		battleship = {
+		}
 
-		science = {}
+		science = {
+		}
 
-		colonizer = {}
+		colonizer = {
+		}
 
-		constructor = {}
+		constructor = {
+		}
 
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
-
-		observation_station = {}
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 		outpost_station = {
-			#random_names = {}
+			#random_names = { }
 			#sequential_name = "%O% Frontier Outpost"
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
 	}
 
 	fleet_names = {
@@ -100,39 +107,48 @@ REP3 = {
 		}
 
 		pc_desert = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_tropical = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_arid = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_continental = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_ocean = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_tundra = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_arctic = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+			}
 		}
 
 	}
@@ -147,10 +163,12 @@ REP3 = {
 			}
 
 			# Always combined with a second name
-			first_names = {}
+			first_names = {
+			}
 
 			# Always combined with a first name
-			second_names = {}
+			second_names = {
+			}
 
 			regnal_first_names = {
 				Faragulek Klandrax Kulegaf Ludremex Maxerdok Tredagik Rukagikex Trokaxeg

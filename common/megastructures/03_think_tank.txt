@@ -111,8 +111,8 @@ think_tank_0 = {
 		}
 	}
 
-	on_build_start = {}
-	on_build_cancel = {}
+	on_build_start = { }
+	on_build_cancel = { }
 	on_build_complete = {
 		set_star_flag = think_tank_built
 		fromfrom.planet = {

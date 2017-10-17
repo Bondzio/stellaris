@@ -9,8 +9,8 @@ HUM = {
 		home_planet = Alaria
 		home_system = Alar
 		name_list = "HUM2"
-	}	
-	
+	}
+
 	mireesh = {
 		name = Mireesh
 		plural = Mireeshi
@@ -18,7 +18,7 @@ HUM = {
 		home_system = "Mireesh Mar"
 		name_list = "HUM2"
 	}
-	
+
 	triech = {
 		name = Triech
 		plural = Triechs
@@ -26,7 +26,7 @@ HUM = {
 		home_system = Rechio
 		name_list = "HUM1"
 	}
-	
+
 	vrinn = {
 		name = Vrinn
 		plural = Vrinn
@@ -34,15 +34,15 @@ HUM = {
 		home_system = Vrinnus
 		name_list = "HUM1"
 	}
-	
+
 	cevanti = {
 		name = Cevanti
 		plural = Cevanti
 		home_planet = Oros
-		home_system = Cevant 
+		home_system = Cevant
 		name_list = "HUM2"
 	}
-	
+
 	mishar = {
 		name = Mishar
 		plural = Mishars
@@ -50,7 +50,7 @@ HUM = {
 		home_system = Shar
 		name_list = "HUM1"
 	}
-	
+
 	fareen = {
 		name = Fareen
 		plural = Fareens
@@ -58,7 +58,7 @@ HUM = {
 		home_system = Enato
 		name_list = "HUM2"
 	}
-	
+
 	yldar = {
 		name = Yldar
 		plural = Yldars
@@ -66,7 +66,7 @@ HUM = {
 		home_system = Yliant
 		name_list = "HUM2"
 	}
-	
+
 	korinth = {
 		name = Korinth
 		plural = Korinths
@@ -74,7 +74,7 @@ HUM = {
 		home_system = Korinth
 		name_list = "HUM1"
 	}
-		
+
 	sildor = {
 		name = Sildor
 		plural = Sildors
@@ -109,7 +109,7 @@ MAM = {
 		home_system = Aramus
 		name_list = "MAM3"
 	}
-		
+
 	immutharan = {
 		name = Immutharan
 		plural = Immutharans
@@ -125,7 +125,7 @@ MAM = {
 		home_system = Hiff
 		name_list = "MAM1"
 	}
-	
+
 	zaanami = {
 		name = Zaanami
 		plural = Zaanami
@@ -194,7 +194,7 @@ MAM = {
 		name = Dorbolan
 		plural = Dorbolans
 		home_planet = Dorbol
-		home_system = Dimas-Qul
+		home_system = "Dimas Qul"
 		name_list = "MAM2"
 	}
 
@@ -221,7 +221,7 @@ MAM = {
 		home_system = Glyrr
 		name_list = "MAM1"
 	}
-	
+
 	pallyrian = {
 		name = Pallyrian
 		plural = Pallyrians
@@ -229,7 +229,7 @@ MAM = {
 		home_system = Detnura
 		name_list = "MAM3"
 	}
-	
+
 	quvarian = {
 		name = Quvarian
 		plural = Quvarians
@@ -237,23 +237,23 @@ MAM = {
 		home_system = "Qara Binam"
 		name_list = "MAM1"
 	}
-	
+
 	qellnuram = {
-		name = Qell'Nudar
-		plural = Qell'Nudar
+		name = Qellnudar
+		plural = Qellnudar
 		home_planet = Qell
-		home_system = "Hir'Qelli"
+		home_system = "Hirqelli"
 		name_list = "MAM2"
 	}
-	
+
 	valdari = {
 		name = Valdari
 		plural = Valdari
-		home_planet = Vak-Nosha
-		home_system = Val'Sho
+		home_planet = "Vak Nosha"
+		home_system = Valsho
 		name_list = "MAM2"
 	}
-	
+
 	igarian = {
 		name = Igarian
 		plural = Igarians
@@ -261,7 +261,7 @@ MAM = {
 		home_system = Igra
 		name_list = "MAM3"
 	}
-	
+
 	adnoran = {
 		name = Adnoran
 		plural = Adnorans
@@ -269,15 +269,15 @@ MAM = {
 		home_system = Adanir
 		name_list = "MAM3"
 	}
-	
-	T'Jell = {
-		name = T'Jell
-		plural = T'Jell
-		home_planet = "Hiris'Mo"
-		home_system = Takan'Ja
+
+	Tjell = {
+		name = Tjell
+		plural = Tjell
+		home_planet = Hirismo
+		home_system = Takanja
 		name_list = "MAM1"
 	}
-	
+
 	tarassi = {
 		name = Tarassi
 		plural = Tarassi
@@ -291,29 +291,29 @@ MAM = {
 
 FUN = {
 	bhennthell = {
-		name = Bhenn'Thell
-		plural = Bhenn'Thellians
+		name = Bhennthell
+		plural = Bhennthellians
 		home_planet = Thell
-		home_system = Thar'Biq
+		home_system = Tharbiq
 		name_list = "FUN1"
 	}
 
 	tendrazuhn = {
-		name = Tendra-Zuhn
-		plural = Tendra-Zuhns
+		name = "Tendra Zuhn"
+		plural = "Tendra Zuhns"
 		home_planet = Zuhn
-		home_system = Tarim-Zal
+		home_system = "Tarim Zal"
 		name_list = "FUN2"
 	}
-	
+
 	hahnmur = {
-		name = Hahn-Mur
-		plural = Hahn-Murians
-		home_planet = Hahn-Muria
+		name = "Hahn Mur"
+		plural = "Hahn Murians"
+		home_planet = "Hahn Muria"
 		home_system = Mura
 		name_list = "FUN1"
 	}
-	
+
 	menjeti = {
 		name = Menjeti
 		plural = Menjeti
@@ -337,7 +337,7 @@ FUN = {
 		home_system = Tycor
 		name_list = "FUN2"
 	}
-	
+
 	canthari = {
 		name = Canthari
 		plural = Canthari
@@ -345,7 +345,7 @@ FUN = {
 		home_system = Cantho
 		name_list = "FUN1"
 	}
-	
+
 	otaga = {
 		name = Otaga
 		plural = Otagans
@@ -353,7 +353,7 @@ FUN = {
 		home_system = Otara
 		name_list = "FUN2"
 	}
-	
+
 	zracon = {
 		name = Zracon
 		plural = Zracons
@@ -361,7 +361,7 @@ FUN = {
 		home_system = Zramas
 		name_list = "FUN1"
 	}
-	
+
 	thembolon = {
 		name = Thembolon
 		plural = Thembolons
@@ -369,7 +369,7 @@ FUN = {
 		home_system = Thembor
 		name_list = "FUN2"
 	}
-	
+
 	jhoolian = {
 		name = Jhoolian
 		plural = Jhoolians
@@ -377,7 +377,7 @@ FUN = {
 		home_system = Jhool
 		name_list = "FUN1"
 	}
-	
+
 	djunn = {
 		name = Djunn
 		plural = Djunni
@@ -385,7 +385,7 @@ FUN = {
 		home_system = Djunnir
 		name_list = "FUN2"
 	}
-	
+
 	hulfir = {
 		name = Hulfir
 		plural = Hulfiri
@@ -393,15 +393,15 @@ FUN = {
 		home_system = "Hulfass Khor"
 		name_list = "FUN1"
 	}
-	
+
 	ultur = {
-		name = Ul-Tur
-		plural = Ul-Tur
-		home_planet = Tu'Riab
-		home_system = Ra-Mur
+		name = "Ul Tur"
+		plural = "Ul Tur"
+		home_planet = Turiab
+		home_system = "Ra Mur"
 		name_list = "FUN2"
 	}
-	
+
 	tyrathian = {
 		name = Tyrathian
 		plural = Tyrathians
@@ -409,15 +409,15 @@ FUN = {
 		home_system = Tyrathurus
 		name_list = "FUN1"
 	}
-	
+
 	kithri = {
 		name = Kithri
 		plural = Kithri
 		home_planet = Kithur
-		home_system = Kith'Valas
+		home_system = Kithvalas
 		name_list = "FUN2"
 	}
-	
+
 	jibru = {
 		name = Jibru
 		plural = Jibru
@@ -425,7 +425,7 @@ FUN = {
 		home_system = Jib
 		name_list = "FUN1"
 	}
-	
+
 	hazar = {
 		name = Hazar
 		plural = Hazari
@@ -435,21 +435,21 @@ FUN = {
 	}
 
 	kar-du = {
-		name = Kar-Du
-		plural = Kar-Du
-		home_planet = Kar-Nu
-		home_system = Kar-Zu
+		name = "Kar Du"
+		plural = "Kar Du"
+		home_planet = "Kar Nu"
+		home_system = "Kar Zu"
 		name_list = "FUN1"
 	}
-	
+
 	uriy = {
 		name = Uriy
 		plural = Uriyi
 		home_planet = Uraya
-		home_system = Uri'dath
+		home_system = Uridath
 		name_list = "FUN2"
 	}
-	
+
 	gorf = {
 		name = Gorf
 		plural = Gorf
@@ -457,15 +457,14 @@ FUN = {
 		home_system = Gorfis
 		name_list = "FUN1"
 	}
-	
 	zik-mok = {
-		name = Zik-Mok
-		plural = Zik-Moks
+		name = "Zik Mok"
+		plural = "Zik Moks"
 		home_planet = Mok
 		home_system = Makkar
 		name_list = "FUN2"
 	}
-	
+
 	neborite = {
 		name = Neborite
 		plural = Neborites
@@ -473,7 +472,7 @@ FUN = {
 		home_system = Neborithar
 		name_list = "FUN1"
 	}
-	
+
 	syldaean = {
 		name = Syldaean
 		plural = Syldaeans
@@ -481,11 +480,11 @@ FUN = {
 		home_system = Syldus
 		name_list = "FUN2"
 	}
-	
+
 	meshben = {
-		name = Mesh'Ben
-		plural = Mesh'Bens
-		home_planet = Mesh'Bennur
+		name = Meshben
+		plural = Meshbens
+		home_planet = Meshbennur
 		home_system = Meshka
 		name_list = "FUN1"
 	}
@@ -509,7 +508,7 @@ ART = {
 		home_system = Tizhnig
 		name_list = "ART2"
 	}
-	
+
 	pithok = {
 		name = Pithok
 		plural = Pithoks
@@ -559,13 +558,13 @@ ART = {
 	}
 
 	iknurval = {
-		name = Ik-Nur-Val
-		plural = Ik-Nur-Vals
+		name = "Ik Nur"-Val
+		plural = "Ik Nur"-Vals
 		home_planet = Ik
-		home_system = Ir-Vol-Ta
+		home_system = "Ir Vol"-Ta
 		name_list = "ART1"
 	}
-	
+
 	haddam = {
 		name = Haddam
 		plural = Haddam
@@ -573,7 +572,7 @@ ART = {
 		home_system = Haddorim
 		name_list = "ART2"
 	}
-	
+
 	xeltek = {
 		name = Xeltek
 		plural = Xeltek
@@ -589,7 +588,7 @@ ART = {
 		home_system = Zithras
 		name_list = "ART2"
 	}
-	
+
 	hantak = {
 		name = Hantak
 		plural = Hantak
@@ -597,7 +596,7 @@ ART = {
 		home_system = Takaros
 		name_list = "ART1"
 	}
-	
+
 	rontor = {
 		name = Rontor
 		plural = Rontori
@@ -605,15 +604,15 @@ ART = {
 		home_system = Rontus
 		name_list = "ART2"
 	}
-	
+
 	talakkur = {
-		name = Tal'Akkur
-		plural = Tal'Akkuran
-		home_planet = Tal'Desim
+		name = Talakkur
+		plural = Talakkuran
+		home_planet = Taldesim
 		home_system = Akkur
 		name_list = "ART1"
 	}
-	
+
 	myrran = {
 		name = Myrran
 		plural = Myrrans
@@ -621,7 +620,7 @@ ART = {
 		home_system = Myrrak
 		name_list = "ART2"
 	}
-	
+
 	athallid = {
 		name = Athallid
 		plural = Athallids
@@ -629,7 +628,7 @@ ART = {
 		home_system = Athull
 		name_list = "ART1"
 	}
-	
+
 	entheri = {
 		name = Entheri
 		plural = Entheri
@@ -637,7 +636,7 @@ ART = {
 		home_system = "Na Ethor"
 		name_list = "ART2"
 	}
-	
+
 	chimm = {
 		name = Chimm
 		plural = Chimm
@@ -645,7 +644,7 @@ ART = {
 		home_system = Chiril
 		name_list = "ART1"
 	}
-	
+
 	shabtak = {
 		name = Shabtak
 		plural = Shabtaks
@@ -653,7 +652,7 @@ ART = {
 		home_system = Shabturiss
 		name_list = "ART2"
 	}
-	
+
 	yibrak = {
 		name = Yibrak
 		plural = Yibraki
@@ -661,7 +660,7 @@ ART = {
 		home_system = Yibar
 		name_list = "ART1"
 	}
-	
+
 	qiramulan = {
 		name = Qiramulan
 		plural = Qiramulan
@@ -669,15 +668,15 @@ ART = {
 		home_system = Qirus
 		name_list = "ART2"
 	}
-	
+
 	ethir = {
 		name = Ethir
 		plural = Ethiri
 		home_planet = Elbenthar
-		home_system = Enith'Tas
+		home_system = Enithtas
 		name_list = "ART1"
 	}
-	
+
 	avtyrran = {
 		name = Avtyrran
 		plural = Avtyrrans
@@ -685,7 +684,7 @@ ART = {
 		home_system = Avtyrria
 		name_list = "ART2"
 	}
-	
+
 	pirak = {
 		name = Pirak
 		plural = Piraks
@@ -705,7 +704,7 @@ REP = {
 		home_system = Rethell
 		name_list = "REP1"
 	}
-	
+
 	kammarian = {
 		name = Kammarian
 		plural = Kammarians
@@ -713,7 +712,7 @@ REP = {
 		home_system = Kamdakkor
 		name_list = "REP2"
 	}
-	
+
 	anathurian = {
 		name = Anathurian
 		plural = Anathurians
@@ -729,7 +728,7 @@ REP = {
 		home_system = Zuffur
 		name_list = "REP1"
 	}
-	
+
 	reshethi = {
 		name = Reshethi
 		plural = Reshethi
@@ -761,7 +760,7 @@ REP = {
 		home_system = Vhemmbor
 		name_list = "REP2"
 	}
-	
+
 	tendrakkian = {
 		name = Tendrakkian
 		plural = Trendrakkians
@@ -769,7 +768,7 @@ REP = {
 		home_system = Tendor
 		name_list = "REP3"
 	}
-	
+
 	baanthurian = {
 		name = Baanthurian
 		plural = Baanthurians
@@ -777,7 +776,7 @@ REP = {
 		home_system = "Baanth Vir"
 		name_list = "REP1"
 	}
-	
+
 	cormathani = {
 		name = Cormathani
 		plural = Cormathani
@@ -785,7 +784,7 @@ REP = {
 		home_system = Cormassa
 		name_list = "REP2"
 	}
-	
+
 	kirillian = {
 		name = Kirillian
 		plural = Kirillians
@@ -793,15 +792,15 @@ REP = {
 		home_system = "Koltras Nadh"
 		name_list = "REP3"
 	}
-	
+
 	beldross = {
 		name = Beldross
 		plural = Beldross
-		home_planet = Fenn'Halor
+		home_planet = Fennhalor
 		home_system = Binor
 		name_list = "REP1"
 	}
-	
+
 	jurinn = {
 		name = Jurinn
 		plural = Jurinn
@@ -809,15 +808,15 @@ REP = {
 		home_system = "Jurik Than"
 		name_list = "REP2"
 	}
-	
+
 	ziiran = {
 		name = Ziiran
 		plural = Ziirans
-		home_planet = Ne'Ziira
+		home_planet = Neziira
 		home_system = Ziira
 		name_list = "REP3"
 	}
-	
+
 	athanebian = {
 		name = Athanebian
 		plural = Athanebians
@@ -825,15 +824,15 @@ REP = {
 		home_system = Athas
 		name_list = "REP1"
 	}
-	
+
 	diri = {
 		name = Diri
 		plural = Diri
-		home_planet = Dir-Vanus
+		home_planet = "Dir Vanus"
 		home_system = Dir
 		name_list = "REP2"
 	}
-	
+
 	hydari = {
 		name = Hydari
 		plural = Hydari
@@ -841,15 +840,15 @@ REP = {
 		home_system = Hydor
 		name_list = "REP3"
 	}
-	
+
 	cirrulan = {
 		name = Cirrulan
 		plural = Cirrulans
 		home_planet = Cirra
-		home_system = Cir'Darus
+		home_system = Cirdarus
 		name_list = "REP1"
 	}
-	
+
 	yaanari = {
 		name = Yaanari
 		plural = Yaanari
@@ -857,23 +856,23 @@ REP = {
 		home_system = Yaanus
 		name_list = "REP2"
 	}
-	
+
 	ubaric = {
 		name = Ubaric
 		plural = Ubarics
 		home_planet = Ubaria
-		home_system = Vuza'baru
+		home_system = Vuzabaru
 		name_list = "REP3"
 	}
-	
+
 	kedeshi = {
 		name = Kedeshi
 		plural = Kedeshi
 		home_planet = Kesho
-		home_system = "Kesh-Suras"
+		home_system = "Kesh Suras"
 		name_list = "REP1"
 	}
-	
+
 	tebadoran = {
 		name = Tebadoran
 		plural = Tebadorans
@@ -881,15 +880,15 @@ REP = {
 		home_system = Tabat
 		name_list = "REP2"
 	}
-	
+
 	bessadon = {
 		name = Bessadon
 		plural = Bessadons
 		home_planet = Bessqa
-		home_system = Bess'Qoro
+		home_system = Bessqoro
 		name_list = "REP3"
 	}
-	
+
 	lyrite = {
 		name = Lyrite
 		plural = Lyrites
@@ -899,7 +898,7 @@ REP = {
 	}
 }
 
-### AVIAN 
+### AVIAN
 
 AVI = {
 	shantari = {
@@ -909,7 +908,7 @@ AVI = {
 		home_system = Shantar
 		name_list = "AVI1"
 	}
-	
+
 	saiiban = {
 		name = Saiiban
 		plural = Saiibani
@@ -941,7 +940,7 @@ AVI = {
 		home_system = Khessar
 		name_list = "AVI2"
 	}
-	
+
 	cynn = {
 		name = Cynn
 		plural = Cynn
@@ -949,7 +948,7 @@ AVI = {
 		home_system = Cythra
 		name_list = "AVI3"
 	}
-	
+
 	yeon = {
 		name = Yeon
 		plural = Yeoni
@@ -957,7 +956,7 @@ AVI = {
 		home_system = "Yal Bask"
 		name_list = "AVI1"
 	}
-	
+
 	tezekian = {
 		name = Tezekian
 		plural = Tezekians
@@ -965,7 +964,7 @@ AVI = {
 		home_system = "Tir Batna"
 		name_list = "AVI2"
 	}
-	
+
 	khemplar = {
 		name = Khemplar
 		plural = Khemplari
@@ -973,7 +972,7 @@ AVI = {
 		home_system = "Khem Jhunn"
 		name_list = "AVI3"
 	}
-	
+
 	vissari = {
 		name = Vissari
 		plural = Vissari
@@ -989,7 +988,7 @@ AVI = {
 		home_system = Rackta
 		name_list = "AVI2"
 	}
-	
+
 	tiyal = {
 		name = Tiyal
 		plural = Tiyali
@@ -997,7 +996,7 @@ AVI = {
 		home_system = Yihim
 		name_list = "AVI3"
 	}
-	
+
 	keerim = {
 		name = Keerim
 		plural = Keerimian
@@ -1005,7 +1004,7 @@ AVI = {
 		home_system = Kirim
 		name_list = "AVI1"
 	}
-	
+
 	fiiral = {
 		name = Fiiral
 		plural = Fiirali
@@ -1013,7 +1012,7 @@ AVI = {
 		home_system = Fiiris
 		name_list = "AVI2"
 	}
-	
+
 	cynur = {
 		name = Cynur
 		plural = Cynur
@@ -1021,7 +1020,7 @@ AVI = {
 		home_system = Cyris
 		name_list = "AVI3"
 	}
-	
+
 	imari = {
 		name = Imari
 		plural = Imari
@@ -1029,7 +1028,7 @@ AVI = {
 		home_system = Imur
 		name_list = "AVI1"
 	}
-	
+
 	izirian = {
 		name = Izirian
 		plural = Izirians
@@ -1037,7 +1036,7 @@ AVI = {
 		home_system = Zirma
 		name_list = "AVI2"
 	}
-	
+
 	figyar = {
 		name = Figyar
 		plural = Figyari
@@ -1045,7 +1044,7 @@ AVI = {
 		home_system = Yarus
 		name_list = "AVI3"
 	}
-	
+
 	sibulan = {
 		name = Sibulan
 		plural = Sibulans
@@ -1053,23 +1052,23 @@ AVI = {
 		home_system = Metrak
 		name_list = "AVI1"
 	}
-	
+
 	miidari = {
 		name = Miidari
 		plural = Miidari
 		home_planet = Miidak
-		home_system = M'Than
+		home_system = Mthan
 		name_list = "AVI2"
 	}
-	
+
 	spyran = {
 		name = Spyran
 		plural = Spyrans
 		home_planet = Spyria
-		home_system = "Spyr K'tah"
+		home_system = "Spyr Ktah"
 		name_list = "AVI3"
 	}
-	
+
 	bruggan = {
 		name = Bruggan
 		plural = Bruggans
@@ -1077,7 +1076,7 @@ AVI = {
 		home_system = Birgas
 		name_list = "AVI1"
 	}
-	
+
 	inari = {
 		name = Inari
 		plural = Inari
@@ -1085,7 +1084,7 @@ AVI = {
 		home_system = Inak
 		name_list = "AVI2"
 	}
-	
+
 	penthulan = {
 		name = Penthulan
 		plural = Penthulans
@@ -1093,7 +1092,7 @@ AVI = {
 		home_system = Penkar
 		name_list = "AVI3"
 	}
-	
+
 	rixi = {
 		name = Rixi
 		plural = Rixi
@@ -1113,7 +1112,7 @@ MOL = {
 		home_system = Aztan
 		name_list = "MOL1"
 	}
-	
+
 	karabnar = {
 		name = Karabnar
 		plural = Karabnari
@@ -1121,7 +1120,7 @@ MOL = {
 		home_system = Karabon
 		name_list = "MOL2"
 	}
-	
+
 	ymorz = {
 		name = Ymorz
 		plural = Ymorz
@@ -1129,7 +1128,7 @@ MOL = {
 		home_system = "Ymor Za"
 		name_list = "MOL1"
 	}
-	
+
 	bilnoc = {
 		name = Bilnoc
 		plural = Bilnocs
@@ -1137,7 +1136,7 @@ MOL = {
 		home_system = Bilnagga
 		name_list = "MOL2"
 	}
-	
+
 	larongo = {
 		name = Larongo
 		plural = Larongo
@@ -1145,7 +1144,7 @@ MOL = {
 		home_system = Rongo
 		name_list = "MOL1"
 	}
-	
+
 	uthonian = {
 		name = Uthonian
 		plural = Uthonians
@@ -1153,7 +1152,7 @@ MOL = {
 		home_system = Uthon
 		name_list = "MOL2"
 	}
-	
+
 	elaaminid = {
 		name = Elaaminid
 		plural = Elaaminids
@@ -1161,7 +1160,7 @@ MOL = {
 		home_system = "Ela Gaan"
 		name_list = "MOL1"
 	}
-	
+
 	heejam = {
 		name = Heejam
 		plural = Heejami
@@ -1169,15 +1168,15 @@ MOL = {
 		home_system = Hejiris
 		name_list = "MOL2"
 	}
-	
+
 	hannfelir = {
-		name = Hann'Felir
-		plural = Hann'Felir
+		name = Hannfelir
+		plural = Hannfelir
 		home_planet = Hurum
-		home_system = Dagir'Fon
+		home_system = Dagirfon
 		name_list = "MOL1"
 	}
-	
+
 	cyggan = {
 		name = Cyggan
 		plural = Cyggans
@@ -1185,7 +1184,7 @@ MOL = {
 		home_system = Cyggdar
 		name_list = "MOL2"
 	}
-	
+
 	gorothi = {
 		name = Gorothi
 		plural = Gorothi
@@ -1193,15 +1192,15 @@ MOL = {
 		home_system = Gor
 		name_list = "MOL1"
 	}
-	
+
 	connisthian = {
 		name = Connisthian
 		plural = Connisthians
-		home_planet = "Conn'Aramis"
+		home_planet = "Connaramis"
 		home_system = Connthor
 		name_list = "MOL2"
 	}
-	
+
 	nuurian = {
 		name = Nuurian
 		plural = Nuurians
@@ -1209,7 +1208,7 @@ MOL = {
 		home_system = "Nuur Diamok"
 		name_list = "MOL1"
 	}
-	
+
 	genoggian = {
 		name = Genoggian
 		plural = Genoggians
@@ -1217,7 +1216,7 @@ MOL = {
 		home_system = Genox
 		name_list = "MOL2"
 	}
-	
+
 	dabulan = {
 		name = Dabulan
 		plural = Dabulans
@@ -1225,7 +1224,7 @@ MOL = {
 		home_system = "Demes Qhi"
 		name_list = "MOL1"
 	}
-	
+
 	uthabulan = {
 		name = Uthabulan
 		plural = Uthabulans
@@ -1233,15 +1232,15 @@ MOL = {
 		home_system = "Ithni Zerak"
 		name_list = "MOL2"
 	}
-	
+
 	gurite = {
 		name = Gurite
 		plural = Gurites
 		home_planet = Gur
-		home_system = Gur'Tim
+		home_system = Gurtim
 		name_list = "MOL1"
 	}
-	
+
 	hythean = {
 		name = Hythean
 		plural = Hytheans
@@ -1249,7 +1248,7 @@ MOL = {
 		home_system = Hythus
 		name_list = "MOL2"
 	}
-	
+
 	tebbran = {
 		name = Tebbran
 		plural = Tebbrans
@@ -1257,15 +1256,15 @@ MOL = {
 		home_system = Tebbaris
 		name_list = "MOL1"
 	}
-	
+
 	kundaric = {
 		name = Kundan
 		plural = Kundans
-		home_planet = Kundiya 
-		home_system = Kunn-Ti
+		home_planet = Kundiya
+		home_system = "Kunn Ti"
 		name_list = "MOL2"
 	}
-	
+
 	sejethari = {
 		name = Sejethari
 		plural = Sejethari
@@ -1273,23 +1272,23 @@ MOL = {
 		home_system = Sejethanibus
 		name_list = "MOL1"
 	}
-	
+
 	bakurian = {
 		name = Bakturian
 		plural = Bakturians
 		home_planet = Baktur
-		home_system = Bak'Turim
+		home_system = Bakturim
 		name_list = "MOL2"
 	}
-	
+
 	sebannic = {
 		name = Seban
 		plural = Sebans
 		home_planet = Sebannica
-		home_system = Sebto-Ka
+		home_system = "Sebto Ka"
 		name_list = "MOL1"
 	}
-	
+
 	jakly = {
 		name = Jakly
 		plural = Jakly
@@ -1297,7 +1296,7 @@ MOL = {
 		home_system = Jik
 		name_list = "MOL2"
 	}
-	
+
 	bavi = {
 		name = Bavi
 		plural = Bavi

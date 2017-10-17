@@ -62,7 +62,8 @@ special_project = {
 		ship_event = { id = anomaly.91 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -87,7 +88,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -111,7 +113,8 @@ special_project = {
 		from = { planet_event = { id = colony.1534 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -135,7 +138,8 @@ special_project = {
 		from = { planet_event = { id = colony.1523 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -184,7 +188,8 @@ special_project = {
 
 	on_success = { ship_event = { id = anomaly.165 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -207,7 +212,8 @@ special_project = {
 
 	on_success = { ship_event = { id = anomaly.166 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -230,7 +236,8 @@ special_project = {
 
 	on_success = { ship_event = { id = anomaly.167 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -252,7 +259,8 @@ special_project = {
 
 	on_success = { ship_event = { id = country.1025 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Asteroid
@@ -275,7 +283,8 @@ special_project = {
 
 	on_success = { ship_event = { id = country.1130 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Molten
@@ -298,7 +307,8 @@ special_project = {
 
 	on_success = { ship_event = { id = country.1135 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Barren
@@ -321,7 +331,8 @@ special_project = {
 
 	on_success = { ship_event = { id = country.1140 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Toxic
@@ -344,7 +355,8 @@ special_project = {
 
 	on_success = { ship_event = { id = country.1145 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Frozen
@@ -367,7 +379,8 @@ special_project = {
 
 	on_success = { ship_event = { id = country.1150 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -388,7 +401,8 @@ special_project = {
 
 	on_success = { ship_event = { id = anomaly.186 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -410,7 +424,8 @@ special_project = {
 	on_success = { from = { planet_event = { id = anomaly.191 } } }
 	# on_success = { from = { planet_event = { id = anomaly.191 } } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -431,7 +446,8 @@ special_project = {
 
 	on_success = { ship_event = { id = anomaly.233 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -452,7 +468,8 @@ special_project = {
 
 	on_success = { ship_event = { id = anomaly.251 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -479,7 +496,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -502,7 +520,8 @@ special_project = {
 		ship_event = { id = anomaly.292 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -526,7 +545,8 @@ special_project = {
 		ship_event = { id = anomaly.3017 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -548,7 +568,8 @@ special_project = {
 		ship_event = { id = anomaly.3012 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -570,7 +591,8 @@ special_project = {
 		ship_event = { id = anomaly.3027 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 #special_project = {
@@ -617,7 +639,8 @@ special_project = {
 		owner = { country_event = { id = story.105 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -641,7 +664,8 @@ special_project = {
 		owner = { country_event = { id = story.205 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -665,7 +689,8 @@ special_project = {
 		owner = { country_event = { id = story.305 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -689,7 +714,8 @@ special_project = {
 		owner = { country_event = { id = story.405 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -716,7 +742,7 @@ special_project = {
 	}
 
 	on_fail = {}
-}
+	}
 
 special_project = {
 	key = "HEAD_IN_SAND_PROJECT"
@@ -787,7 +813,8 @@ special_project = {
 
 	on_success = { ship_event = { id = anomaly.3091 } }
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Ancient Alliance - beacon
@@ -1016,7 +1043,8 @@ special_project = {
 		planet_event = { id = story.221 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -1040,5 +1068,6 @@ special_project = {
 		planet_event = { id = story.331 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }

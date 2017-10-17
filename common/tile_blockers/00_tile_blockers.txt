@@ -499,7 +499,7 @@ tb_bomb_crater = {
 
 tb_titanic_life_blocker = {	#Added via event
 	picture = tb_dangerous_wildlife
-	cost = {}
+	cost = { }
 
 	spawn_chance = {
 		modifier = {
@@ -563,7 +563,7 @@ tb_bombarded_land = {
 tb_xeno_preserve = {
 
 	# Can't be removed
-	cost = {}
+	cost = { }
 
 	spawn_chance = {
 		modifier = {

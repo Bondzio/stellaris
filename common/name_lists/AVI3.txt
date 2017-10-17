@@ -35,14 +35,14 @@ AVI3 = {
 			"Glorious Massacre" "Glorious Bloodbath" "Glorious Carnage" "Glorious Slaughter" "Glorious Bloodshed" "Gorgeous Massacre" "Gorgeous Bloodbath" "Gorgeous Carnage" "Gorgeous Slaughter" "Gorgeous Bloodshed" "Inspiring Massacre" "Inspiring Bloodbath" "Inspiring Carnage" "Inspiring Slaughter" "Inspiring Bloodshed" "Delightful Massacre" "Delightful Bloodbath" "Delightful Carnage" "Delightful Slaughter" "Delightful Bloodshed"
 		}
 
-		orbital_station = {}
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
 		#terraform_station = {
 		#	"Nest Shaper" "Roost Shaper"
 		#}
-		observation_station = {}
+		observation_station = { }
 		outpost_station = {
 			#random_names = {
 				"Attentive Eye" "Watchful Eye" "Resting Eye" "Sharp Eye" "Scornful Eye" "Oblivious Eye" "Cunning Eye" "Zealous Eye" "Dauntless Eye" "Stubborn Eye"
@@ -50,11 +50,11 @@ AVI3 = {
 			#sequential_name = "%O% Frontier Outpost"
 		}
 
-		transport = {}
+		transport = { }
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
 	}
 
 	fleet_names = {
@@ -121,39 +121,48 @@ AVI3 = {
 		}
 
 		pc_desert = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_arid = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_tropical = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_continental = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_ocean = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_tundra = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_arctic = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+		}
 		}
 
 	}
@@ -163,7 +172,8 @@ AVI3 = {
 	character_names = {
 		default = {
 			# A complete name
-			full_names = {}
+			full_names = {
+			}
 
 			# Always combined with a second name
 			first_names = {

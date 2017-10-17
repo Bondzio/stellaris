@@ -592,7 +592,7 @@ civic_machine_remnants = {
 	random_weight = { base = 1 }
 	description = FALLEN_EMPIRE_LETHARGY_1
 	modifier = {}
-}
+	}
 
 civic_custodian_directives = {
 	modification = no
@@ -714,7 +714,7 @@ civic_secret_of_fire = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
 	random_weight = { base = 1 }
-	modifier = {}
+	modifier = { }
 }
 
 civic_the_wheel = {
@@ -725,7 +725,7 @@ civic_the_wheel = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
 	random_weight = { base = 1 }
-	modifier = {}
+	modifier = { }
 }
 
 civic_landed_nobility = {
@@ -736,7 +736,7 @@ civic_landed_nobility = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
 	random_weight = { base = 1 }
-	modifier = {}
+	modifier = { }
 }
 
 civic_flat_world_theory = {
@@ -747,7 +747,7 @@ civic_flat_world_theory = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
 	random_weight = { base = 1 }
-	modifier = {}
+	modifier = { }
 }
 
 civic_increasing_urbanization = {
@@ -758,7 +758,7 @@ civic_increasing_urbanization = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
 	random_weight = { base = 1 }
-	modifier = {}
+	modifier = { }
 }
 
 civic_atmospheric_pollution = {
@@ -769,7 +769,7 @@ civic_atmospheric_pollution = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
 	random_weight = { base = 1 }
-	modifier = {}
+	modifier = { }
 }
 
 # Enclaves
@@ -782,7 +782,7 @@ civic_ancient_preservers = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
 	random_weight = { base = 1 }
-	modifier = {}
+	modifier = { }
 }
 
 civic_trading_conglomerate = {
@@ -793,7 +793,7 @@ civic_trading_conglomerate = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
 	random_weight = { base = 1 }
-	modifier = {}
+	modifier = { }
 }
 
 civic_artist_collective = {
@@ -804,7 +804,7 @@ civic_artist_collective = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
 	random_weight = { base = 1 }
-	modifier = {}
+	modifier = { }
 }
 
 # Other
@@ -817,7 +817,7 @@ civic_military_order = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 	}
 	random_weight = { base = 1 }
-	modifier = {}
+	modifier = { }
 }
 
 civic_ancient_machine_intelligence = {

@@ -50,7 +50,8 @@ difficulty_hard_ai = {
 	navy_size_mult = 0.25
 }
 
-difficulty_normal_ai = {}
+difficulty_normal_ai = {
+}
 
 # For non-playable empires, scales to galaxy size
 difficulty_scaled_insane = {
@@ -91,7 +92,8 @@ awakened_empire_decadence = {
 ##########################################################################
 
 # Base Pop Modifiers
-pop_base = {}
+pop_base = {
+}
 
 # At 0% habitability
 pop_habitability = {
@@ -917,7 +919,8 @@ skill_ruler = {
 	country_resource_unity_mult = 0.03
 }
 
-leader_skills_spawn = {}
+leader_skills_spawn = {
+}
 
 ##########################################################################
 # Spaceport levels

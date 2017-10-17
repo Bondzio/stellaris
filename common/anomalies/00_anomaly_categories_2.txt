@@ -28,7 +28,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2500 }
@@ -87,7 +88,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2501 }
@@ -141,7 +143,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2502}
@@ -182,7 +185,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2503 }
@@ -208,7 +212,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2504 }
@@ -246,7 +251,8 @@ anomaly_category = {
 		from = { owner = { set_country_flag = GEN_PLAYGROUND_FLAG } }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2535 }
@@ -292,7 +298,8 @@ anomaly_category = {
 		from = { owner = { set_country_flag = AST_SHRINE_1_FLAG } }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2540 }
@@ -318,7 +325,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2545 }
@@ -354,7 +362,8 @@ anomaly_category = {
 		from = { owner = { set_country_flag = GAS_ZRO_ICE_FLAG } }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2550 }
@@ -385,7 +394,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2555 }
@@ -424,7 +434,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -455,11 +466,13 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
 	}
+
 
 	on_critical_fail = {
 		ship_event = { id = anomaly_failure.2665 }
@@ -481,7 +494,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -516,7 +530,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -563,7 +578,8 @@ anomaly_category = {
 		from = { owner = { set_country_flag = PROJ_MOON_FLAG } }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -623,7 +639,8 @@ anomaly_category = {
 		from = { owner = { set_timed_country_flag = { flag = TIMED_GEOTHERMAL days = 1800 } } }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -656,7 +673,8 @@ anomaly_category = {
 		from = { owner = { set_timed_country_flag = { flag = TIMED_LEVELED days = 3600 } } }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -682,7 +700,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2500 }
@@ -712,7 +731,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -742,7 +762,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -782,7 +803,8 @@ anomaly_category = {
 		from.owner = { set_country_flag = spawned_shadowplay }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -814,7 +836,8 @@ anomaly_category = {
 		from.owner = { set_country_flag = found_grimace }
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -850,7 +873,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -876,7 +900,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -902,7 +927,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -928,7 +954,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -958,7 +985,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -984,7 +1012,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -1010,7 +1039,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -1036,7 +1066,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -1062,7 +1093,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -1088,7 +1120,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -1114,7 +1147,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -1143,7 +1177,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -1169,7 +1204,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -1195,7 +1231,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2560 }
@@ -1358,11 +1395,12 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.2670 }
 	}
 
-	on_critical_fail = {}
+	on_critical_fail = { }
 }

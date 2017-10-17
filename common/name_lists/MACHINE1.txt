@@ -4,7 +4,8 @@ MACHINE1 = {
 
 	ship_names = {
 
-		generic = {}
+		generic = {
+		}
 
 		corvette = {
 			Eradicator Annihilator Pacifier Retaliator Nullifier Exterminator Silencer Vaporizer Eliminator Obliterator Annulator Extinguisher Protector Defender Subduer Suppressor Abolisher Conqueror Vanquisher Prevailer Dominator Resister Assailer Assassin Decimator Disintegrator Vitiator Devastator Effacer Shatterer Ruiner Extirpator Subjugator Razer Dispatcher Liberator Redeemer Deliverer Arbiter Predator Ender Advancer Besieger Stunner Striker Ambusher Thresher Enforcer Marshaller
@@ -39,26 +40,30 @@ MACHINE1 = {
 		}
 
 
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
-
-		observation_station = {}
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 		outpost_station = {
-			#random_names = {}
+			#random_names = { }
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
 	}
 
 	ship_class_names = {
-		generic = {}
+		generic = {
+
+		}
 	}
 
 	fleet_names = {
-		random_names = {}
+		random_names = {
+
+		}
 		sequential_name = "%O% Legion"
 	}
 
@@ -193,14 +198,20 @@ MACHINE1 = {
 			}
 
 			# Always combined with a second name
-			first_names = {}
+			first_names = {
+			}
 
 			# Always combined with a first name
-			second_names = {}
+			second_names = {
+			}
 
-			regnal_first_names = {}
+			regnal_first_names = {
 
-			regnal_second_names = {}
+			}
+
+			regnal_second_names = {
+
+			}
 		}
 	}
 

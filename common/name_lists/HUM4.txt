@@ -38,11 +38,11 @@ HUM4 = {
 			Industry Assiduity Effort Laborer Builder Craftsman Progress Engineer Promise Service Shelter Beast Creator Developer Forger Foundry Factory Anvil Pillar Architect Accommodator Ptah Ilmarinen Creidhne Gobannus Luchtaine Goibniu Vishvakarman Tvastar Ikenga Qaynan Ucuetis Ogoun Longshoreman Stevedore
 		}
 
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
 
-		observation_station = {}
+		observation_station = { }
 		outpost_station = {
 			random_names = {
 				# "Far Reach" "Watchful Eye" "Frontier Finalizer" "Ever Watchful" "Home Turf"
@@ -201,11 +201,11 @@ HUM4 = {
 		}
 
 		pc_savannah = {
-			names = {}
+			names = { }
 		}
 
 		pc_alpine = {
-			names = {}
+			names = { }
 		}
 	}
 

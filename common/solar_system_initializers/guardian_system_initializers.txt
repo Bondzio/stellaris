@@ -1600,7 +1600,7 @@ guardians_init_dragon = {
 			orbit_distance = 5
 		}
 
-		init_effect = {}
+		init_effect = { }
 	}
 }
 

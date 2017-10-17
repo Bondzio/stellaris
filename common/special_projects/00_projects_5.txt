@@ -218,5 +218,5 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = { }
 }

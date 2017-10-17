@@ -40,19 +40,19 @@ HIVE = {
 		}
 
 
-		orbital_station = {}
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
-
-		observation_station = {}
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 		outpost_station = {
 			"Offshoot"
 		}
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
 
 		transport = {
 			"Carrier Vessel"
@@ -66,7 +66,8 @@ HIVE = {
 	}
 
 	fleet_names = {
-		random_names = {}
+		random_names = {
+		}
 		sequential_name = "%O% Combat Swarm"
 	}
 
@@ -128,39 +129,48 @@ HIVE = {
 		}
 
 		pc_desert = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_tropical = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_arid = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_continental = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_ocean = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_tundra = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_arctic = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+		}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+		}
 		}
 
 		### UNINHABITABLE PLANETS
@@ -217,15 +227,19 @@ HIVE = {
 			}
 
 			# Always combined with a second name
-			first_names = {}
+			first_names = {
+			}
 
 			# Always combined with a first name
-			second_names = {}
+			second_names = {
+			}
 
-			regnal_first_names = {}
+			regnal_first_names = {
+			}
 
-			regnal_second_names = {}
+			regnal_second_names = {
 		}
+	}
 	}
 
 	ruler_names = {

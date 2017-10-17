@@ -87,7 +87,8 @@ anomaly_category = {
 		}
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
 	on_fail = {
 		ship_event = { id = anomaly_failure.1 }
@@ -113,9 +114,14 @@ anomaly_category = {
 		#added by event
 	}
 
-	on_success = {}
+	on_success = {
+	}
 
-	on_fail = {}
+	on_fail = {
 
-	on_critical_fail = {}
+	}
+
+	on_critical_fail = {
+
+	}
 }

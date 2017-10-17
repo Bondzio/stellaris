@@ -40,12 +40,12 @@ HUM3 = {
 			Aldrin Armstrong Columbus Copernicus Cortez Drake Hubble Goddard Galileo Einstein Gagarin Tereshkova Magellan Newton Tesla Asimov Clarke Sagan Kepler Ptolemy Pytheas Azophi Discovery Voyager Tradewind Scout Pioneer Explorer Sojourner Hawking Earhart Nobel Kelvin Fahrenheit Equinox Lagrange Tsiolkovsky Darwin Grissom Archimedes
 		}
 
-		orbital_station = {}
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
-		observation_station = {}
-		outpost_station = {}
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		observation_station = { }
+		outpost_station = { }
 
 		transport = {
 			# "Belleau Wood" "Iwo Jima" "Goose Green"
@@ -159,6 +159,7 @@ HUM3 = {
 
 		generic = {
 			names = {
+				# "New Jerusalem" "New Roanoke" "New Jamestown" "New Troy" "Wang Tong" "Las Veredas" "San Lucas" "San Fernando" "San Cristóbal" "Nueva Sonora" "Puerto González" "Nueva Cádiz" "La Isabela" "New Coventry" "St. Yegorov" "St. Pomeroy" "Port Karakosov" Al-Jissa Al-Mada'in Al-Nuqayrah Al-Karak Al-Matabbah
 				Jissa Madain Nuqayrah Karak Nova Matabbah Anchor Dis Avalon Bounty Hope Olympia Serendipity Spring Thinis Salaam Xianyang Concord Theia Tuscany Wenzhou Delgovicia Nozomi Akatsuki Acrisia Aurora Capella Euterpe Faunus Hesperos Keresia Melpomenia Nexon Osiris Pallas Pallena Proclas Rhea Saon Smitheus Solaria Tethys Theia Destinikon Doron Hesperides Noricum Tyndis Athura Tartessos Agartha Truett Flaxington Girdwood Fincastle Rattenbury Grinstead Leffingwell Durkheim Treadway Hoxworth Tronchet Knutton Corregan Mullineux Lockney
 			}
 		}
@@ -171,6 +172,7 @@ HUM3 = {
 
 		pc_arid = {
 			names = {
+				# "New Mars"
 				Tartarus Antioch Lebanon Tyre Antioch Jaxartes Oxus Turan Accona Bardenas Larzac Oltenia Tabernas Atacama Tanami Rangipo Canaan
 			}
 		}
@@ -212,11 +214,11 @@ HUM3 = {
 		}
 
 		pc_savannah = {
-			names = {}
+			names = { }
 		}
 
 		pc_alpine = {
-			names = {}
+			names = { }
 		}
 	}
 

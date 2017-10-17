@@ -27,20 +27,168 @@ basic_init_01 = {
 	change_orbit = 45
 
 	planet = {
-		count = { min = 2 max = 12 }
-		orbit_distance = 20
+		count = { min = 2 max = 14 }
+		orbit_distance = { min = 20 max = 50 }
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 2 }
 			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = 5
+			orbit_distance = { min = 5 max = 10 }
 		}
 	}
 }
 
+# basic_cluster_01 = {
+# 	class = "rl_standard_stars"
+
+# 	usage = misc_system_init
+# 	usage_odds = 20
+
+# 	planet = {
+# 		count = 1
+# 		class = star
+# 		class = "rl_standard_stars"
+# 		orbit_distance = { min = 30 max = 70 }
+# 		orbit_angle = { min = 90 max = 270 }
+# 		size = { min = 26 max = 37 }
+# 		has_ring = no
+# 		moon = {
+# 			count = { min = 0 max = 5 }
+# 			orbit_angle = { min = 90 max = 270 }
+# 			orbit_distance = { min = 5 max = 10 }
+# 		}
+# 	}
+# 	planet = {
+# 		count = { min = 0 max = 1 }
+# 		class = star
+# 		class = "rl_standard_stars"
+# 		orbit_distance = { min = 20 max = 40 }
+# 		orbit_angle = { min = 90 max = 270 }
+# 		size = { min = 26 max = 37 }
+# 		has_ring = no
+# 		moon = {
+# 			count = { min = 0 max = 5 }
+# 			orbit_angle = { min = 90 max = 270 }
+# 			orbit_distance = { min = 5 max = 10 }
+# 		}
+# 	}
+# 	planet = {
+# 		count = { min = 0 max = 1 }
+# 		class = star
+# 		class = "rl_standard_stars"
+# 		orbit_distance = { min = 20 max = 40 }
+# 		orbit_angle = { min = 90 max = 270 }
+# 		size = { min = 26 max = 37 }
+# 		has_ring = no
+# 		moon = {
+# 			count = { min = 0 max = 5 }
+# 			orbit_angle = { min = 90 max = 270 }
+# 			orbit_distance = { min = 5 max = 10 }
+# 		}
+# 	}
+
+# 	change_orbit = 45
+
+# 	planet = {
+# 		count = { min = 2 max = 14 }
+# 		orbit_distance = { min = 20 max = 50 }
+# 		orbit_angle = { min = 90 max = 270 }
+
+# 		change_orbit = @base_moon_distance
+
+# 		moon = {
+# 			count = { min = 0 max = 2 }
+# 			orbit_angle = { min = 90 max = 270 }
+# 			orbit_distance = { min = 5 max = 10 }
+# 		}
+# 	}
+# }
+
+
+# basic_cluster_02 = {
+# 	class = "rl_standard_stars"
+
+# 	usage = misc_system_init
+# 	usage_odds = 20
+
+# 	planet = {
+# 		count = 2
+# 		class = star
+# 		class = "rl_standard_stars"
+# 		orbit_distance = { min = 30 max = 70 }
+# 		orbit_angle = { min = 90 max = 270 }
+# 		size = { min = 26 max = 37 }
+# 		has_ring = no
+# 	}
+
+# 	change_orbit = 45
+
+# 	planet = {
+# 		count = { min = 2 max = 14 }
+# 		orbit_distance = { min = 20 max = 50 }
+# 		orbit_angle = { min = 90 max = 270 }
+
+# 		change_orbit = @base_moon_distance
+
+# 		moon = {
+# 			count = { min = 0 max = 2 }
+# 			orbit_angle = { min = 90 max = 270 }
+# 			orbit_distance = { min = 5 max = 10 }
+# 		}
+# 	}
+# }
+
+# basic_cluster_03 = {
+# 	class = "rl_standard_stars"
+
+# 	usage = misc_system_init
+# 	usage_odds = 20
+
+# 	planet = {
+# 		count = 2
+# 		class = star
+# 		class = "rl_standard_stars"
+# 		orbit_distance = { min = 30 max = 70 }
+# 		orbit_angle = { min = 90 max = 270 }
+# 		size = { min = 26 max = 37 }
+# 		has_ring = no
+# 	}
+
+# 	change_orbit = 45
+
+# 	planet = {
+# 		count = { min = 2 max = 14 }
+# 		orbit_distance = { min = 20 max = 50 }
+# 		orbit_angle = { min = 90 max = 270 }
+
+# 		change_orbit = @base_moon_distance
+
+# 		moon = {
+# 			count = { min = 0 max = 2 }
+# 			orbit_angle = { min = 90 max = 270 }
+# 			orbit_distance = { min = 5 max = 10 }
+# 		}
+# 	}
+# }
+
+# basic_cluster_03 = {
+# 	class = "rl_standard_stars"
+
+# 	usage = misc_system_init
+# 	usage_odds = 20
+
+# 	planet = {
+# 		count = 3
+# 		class = star
+# 		class = "rl_standard_stars"
+# 		orbit_distance = { min = 30 max = 70 }
+# 		orbit_angle = { min = 90 max = 270 }
+# 		size = { min = 26 max = 37 }
+# 		has_ring = no
+# 	}
 
 
 # Basic 2

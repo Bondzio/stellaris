@@ -55,7 +55,8 @@ specimen_collection = {
 		society_research = 8
 	}
 
-	potential = {}
+	potential = {
+	}
 
 	valid = {
 		OR = {

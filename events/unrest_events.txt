@@ -48,7 +48,7 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
@@ -90,7 +90,7 @@ planet_event = {
 
 	trigger = {
 		exists = owner
-		owner = { 
+		owner = {
 			is_country_type = default
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 		}
@@ -105,14 +105,14 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
 		}
 		modifier = {
 			factor = 0.8
-			has_planet_flag = unrest_terror 
+			has_planet_flag = unrest_terror
 		}
 	}
 
@@ -181,7 +181,7 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
@@ -202,7 +202,7 @@ planet_event = {
 	option = {
 		name = OK
 		tooltip = {
-			add_modifier = { 
+			add_modifier = {
 				modifier = riots_averted
 				days = 7200 # 20 years
 			}
@@ -251,7 +251,7 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
@@ -321,7 +321,7 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
@@ -392,7 +392,7 @@ planet_event = {
 		any_owned_pop = {
 			is_same_species = owner
 		}
-		
+
 	}
 
 	mean_time_to_happen = {
@@ -400,7 +400,7 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
@@ -469,7 +469,7 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
@@ -548,7 +548,7 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
@@ -618,7 +618,7 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
@@ -690,7 +690,7 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
@@ -760,7 +760,7 @@ planet_event = {
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel2
-		}	
+		}
 		modifier = {
 			factor = 0.8
 			unrest > @unrestlevel3
@@ -780,7 +780,7 @@ planet_event = {
 
 	option = {
 		name = OK
-		tooltip = { 
+		tooltip = {
 			add_modifier = {
 				modifier = militarist_unrest
 				days = 7200 # 20 years
@@ -814,7 +814,7 @@ planet_event = {
 		NOT = {
 			has_planet_flag = slave_stirring
 			has_planet_flag = recent_unrest_event
-			has_modifier = slave_hunger_strike 
+			has_modifier = slave_hunger_strike
 			has_modifier = slave_riots
 			has_modifier = adding_unrest_slaves
 			has_modifier = revolt_suppressed
@@ -907,7 +907,7 @@ planet_event = {
 					is_sapient = yes
 					is_enslaved = yes
 				}
-				NOT = { 
+				NOT = {
 					has_planet_flag = slave_revolt
 					has_planet_flag = recent_unrest_event
 				}
@@ -956,7 +956,7 @@ planet_event = {
  				any_tile = {
 					has_building = yes
 					is_ruined = no
-					exists = pop 
+					exists = pop
 					pop = {
 						is_enslaved = yes
 					}
@@ -967,11 +967,11 @@ planet_event = {
  					planet_event = { id = unrest.156 }
  				}
  				50 = {
- 					planet_event = { id = unrest.159 } 
+ 					planet_event = { id = unrest.159 }
  				}
  			}
  			else = {
- 				planet_event = { id = unrest.159 } 
+ 				planet_event = { id = unrest.159 }
  			}
 		}
 		planet_event = { id = unrest.157 days = 720 random = 10 }
@@ -996,19 +996,19 @@ planet_event = {
 				limit = {
 					has_building = yes
 					is_ruined = no
-					exists = pop 
+					exists = pop
 					pop = {
 						is_enslaved = yes
 					}
 				}
 				set_ruined = yes
-			}	
+			}
 		}
 		set_timed_planet_flag = {
 			flag = recent_unrest_event
 			days = 720
 		}
-		set_timed_planet_flag = { 
+		set_timed_planet_flag = {
 			flag = slave_resistance
 			days = 3600
 		}
@@ -1020,7 +1020,7 @@ planet_event = {
 		name = unrest.156.b
 	}
 }
-# Resistance: hunger strike 
+# Resistance: hunger strike
 planet_event = {
 	id = unrest.159
 	title = unrest.159.name
@@ -1036,13 +1036,13 @@ planet_event = {
 			set_timed_planet_flag = {
 				flag = recent_unrest_event
 				days = 720
-			}	
+			}
 		}
 		add_modifier = {
 			modifier = slave_hunger_strike
 			days = 1800
 		}
-		set_timed_planet_flag = { 
+		set_timed_planet_flag = {
 			flag = slave_resistance
 			days = 3600
 		}
@@ -1108,7 +1108,7 @@ planet_event = {
 			modifier = slave_riots
 			days = 3600
 		}
-	}	
+	}
 	option = {
 		name = unrest.157.a
 		tooltip = {
@@ -1147,7 +1147,7 @@ planet_event = {
  		any_owned_pop = {
 			is_enslaved = yes
 		}
-		NOT = { 
+		NOT = {
 			has_planet_flag = slave_revolt
 			has_planet_flag = recent_unrest_event
 		}
@@ -1214,7 +1214,7 @@ planet_event = {
 					species = owner_main_species
 					name = random
 					skill = 200
-					traits = {}
+					traits = { }
 				}
 				assign_leader = last_created_leader
 				ruler = {
@@ -1229,7 +1229,7 @@ planet_event = {
 			days = 720
 		}
 	}
-	
+
 	option = {
 		name = unrest.160.a
 		custom_tooltip = unrest.160.a.tooltip
@@ -1355,7 +1355,7 @@ country_event = {
 		From = { save_event_target_as = rebel_country }
 		remove_country_flag = slave_revolt_chain_active
 		save_event_target_as = old_owner
-		
+
 		if = {
 			limit = {
 				any_country = {
@@ -1402,7 +1402,7 @@ country_event = {
 				}
 				country_event = { id = unrest.168 days = 4 }
 			}
-		}	
+		}
 	}
 
 	option = {
@@ -1443,7 +1443,7 @@ country_event = {
 		event_target:revolt_planet = {
 			set_owner = ROOT
 		}
-		hidden_effect = { 
+		hidden_effect = {
 			event_target:old_owner = { country_event = { id = unrest.169 } }
 			event_target:rebel_country = { set_country_flag = silence_destroy_event }
 			event_target:rebel_country = { destroy_country = yes }
@@ -1451,7 +1451,7 @@ country_event = {
 		custom_tooltip = unrest.168.a.tooltip
 		event_target:revolt_planet = {
 			add_modifier = {
-				modifier = slaves_defected 
+				modifier = slaves_defected
 				days = 7200
 			}
 		}
@@ -1472,7 +1472,7 @@ country_event = {
 	location = event_target:revolt_planet
 	title = TRANSMISSION
 	diplomatic = yes
-	
+
 	picture_event_data = {
 		portrait = from
 		planet_background = from.capital_scope
@@ -1612,7 +1612,7 @@ event = {
 		}
 	}
 
-	immediate = { 
+	immediate = {
 		every_country = {
 			limit = {
 				is_country_type = default
@@ -1637,10 +1637,10 @@ event = {
 							has_modifier = adding_unrest_slaves
 							has_modifier = slave_riots
 						}
-					}	
+					}
 				}
 				planet_event = { id = unrest.165 }
-			}	 
+			}
 		}
 	}
 }
@@ -1713,7 +1713,7 @@ planet_event = {
 	trigger = {
 		unrest > 80
 		NOT = {
-			has_planet_flag = recent_unrest_event 
+			has_planet_flag = recent_unrest_event
 			has_planet_flag = slave_stirring
 			has_planet_flag = slave_resistance
 			has_planet_flag = slave_riots
@@ -1865,7 +1865,7 @@ country_event = {
 			species = owner_main_species
 			name = random
 			skill = 200
-			traits = {}
+			traits = { }
 		}
 		assign_leader = last_created_leader
 		ruler = {
@@ -1875,9 +1875,9 @@ country_event = {
 			save_event_target_as = rebelled_against
 			country_event = { id = unrest.4211 }
 		}
-		from = { 
-			add_modifier = { 
-				modifier = free_at_last 
+		from = {
+			add_modifier = {
+				modifier = free_at_last
 				days = 7200
 			}
 		}

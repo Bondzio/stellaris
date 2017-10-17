@@ -1,9 +1,9 @@
-# species_potential_add = {}
+# species_potential_add = { }
 # show the trait to add to species when genemodding or randomizing traits.
 # Scopes are this = species, from = country performing the modification.
 # default = always=yes
 
-# species_possible_remove = {}
+# species_possible_remove = { }
 # allow to remove the trait when genemodding.
 # Scopes are this = species, from = country performing the modification.
 # default = always=yes

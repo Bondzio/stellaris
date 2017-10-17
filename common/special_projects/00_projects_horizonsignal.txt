@@ -20,7 +20,8 @@ special_project = {
 		ship_event = { id = akx.9001 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -44,7 +45,8 @@ special_project = {
 		planet_event = { id = akx.9101 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -69,7 +71,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 special_project = {
@@ -93,7 +96,8 @@ special_project = {
 		owner = { country_event = { id = akx.9210 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 
@@ -119,7 +123,8 @@ special_project = {
 		owner = { country_event = { id = akx.9220 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 
@@ -228,7 +233,8 @@ special_project = {
 		ship_event = { id = akx.9535 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 
@@ -252,7 +258,8 @@ special_project = {
 		from = { planet_event = { id = akx.9545 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 
@@ -274,7 +281,8 @@ special_project = {
 		from = { planet_event = { id = akx.9541 } }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 
@@ -298,7 +306,8 @@ special_project = {
 		planet_event = { id = akx.10010 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 
@@ -322,7 +331,8 @@ special_project = {
 		ship_event = { id = akx.9095 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 
@@ -346,5 +356,6 @@ special_project = {
 		ship_event = { id = akx.9340 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }

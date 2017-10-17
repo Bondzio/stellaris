@@ -7,33 +7,40 @@ FUN3 = {
 			"Nevabb Avabb" "Afiv Avabb" "Sava Avabb" "Povav Avabb" "Simfin Avabb" "Sulabb Avabb" "Yrliva Avabb" "Ysabbiva Addfin" "Omadd Addfin" "Fingav Addfin" "Halav Addfin" "Mogonava Abb Ybb" "Sepava Abb Ybb" "Vvina Abb Ybb" "Drivafin Abb Ybb" "Drivafin Avabb" "Vvina Avabb" "Sepava Avabb" "Mogonava Avabb" "Halav Avabb" "Fingav Avabb" "Omadd Avabb" "Urigavv Addfin" "Yrliva Addfin" "Sulabb Addfin" "Simfin Addfin" "Povav Abb Ybb" "Afiv Abb Ybb" "Sava Abb Ybb" "Afiv Abb Ybb" "Qavabb Avabb" "Qarilav Avabb" "Qillfin Avabb" "Vifin Avabb" "Zerav Avabb" "Zevabb Avabb" "Vvibb Avabb" "Vivvabb Addfin" "Baliav Addfin" "Asibbava Addfin" "Mavabb Addfin" "Obb Abb Ybb" "Abber Abb Ybb" "Dolavv Abb Ybb" "Finrebin Abb Ybb"
 		}
 
-		corvette = {}
+		corvette = {
+		}
 
-		destroyer = {}
+		destroyer = {
+		}
 
-		cruiser = {}
+		cruiser = {
+		}
 
-		battleship = {}
+		battleship = {
+		}
 
-		science = {}
+		science = {
+		}
 
-		colonizer = {}
+		colonizer = {
+		}
 
-		constructor = {}
+		constructor = {
+		}
 
 
-		orbital_station = {}
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 
-		observation_station = {}
-
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
 		outpost_station = {
-			#random_names = {}
+			#random_names = { }
 			#sequential_name = "%O% Frontier Outpost"
 		}
 	}
@@ -103,39 +110,48 @@ FUN3 = {
 		}
 
 		pc_desert = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_tropical = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_arid = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_continental = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_ocean = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_tundra = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_arctic = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_savannah = {
-			names = {}
+			names = {
+			}
 		}
 
 		pc_alpine = {
-			names = {}
+			names = {
+			}
 		}
 
 	}
@@ -145,7 +161,8 @@ FUN3 = {
 	character_names = {
 		default = {
 			# A complete name
-			full_names = {}
+			full_names = {
+			}
 
 			# Always combined with a second name
 			first_names = {

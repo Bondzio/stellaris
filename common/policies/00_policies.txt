@@ -302,7 +302,8 @@ orbital_bombardment = {
 	option = {
 		name = "orbital_bombardment_full"
 
-		potential = {}
+		potential = {
+		}
 
 		valid = {
 			OR = {
@@ -442,7 +443,8 @@ interference = {
 	option = {
 		name = "interference_full"
 
-		potential = {}
+		potential = {
+		}
 		valid = {
 			NOT = { is_subject_type = signatory }
 			NOR = {

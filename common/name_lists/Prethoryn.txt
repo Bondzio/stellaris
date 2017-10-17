@@ -31,15 +31,15 @@ Prethoryn = {
 			"Prethoryn Infestor"
 		}
 
-		mining_station = {}
-		research_station = {}
-		wormhole_station = {}
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
 
-		observation_station = {}
+		observation_station = { }
 
-		military_station_small = {}
-		military_station_medium = {}
-		military_station_large = {}
+		military_station_small = { }
+		military_station_medium = { }
+		military_station_large = { }
 	}
 
 	fleet_names = {

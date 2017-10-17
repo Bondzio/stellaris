@@ -45,7 +45,7 @@ tech_akx_worm_1 = {
 	tier = 3
 	category = { industry }
 	#ai_update_type = all
-	prerequisites = {}
+	prerequisites = { }
 	weight = 0
 
 	modifier = {
@@ -82,7 +82,7 @@ tech_akx_worm_2 = {
 	tier = 3
 	category = { statecraft }
 	#ai_update_type = all
-	prerequisites = {}
+	prerequisites = { }
 	weight = 0
 
 	modifier = {

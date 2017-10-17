@@ -19,11 +19,14 @@ PRT2 = {
 			Jabberwock Boojum Snark
 		}
 
-		constructor = {}
+		constructor = {
+		}
 
-		colonizer = {}
+		colonizer = {
+		}
 
-		science = {}
+		science = {
+		}
 
 		destroyer = {
 			"No Piece" "Two Piece" "Three Piece"
@@ -40,10 +43,10 @@ PRT2 = {
 		mining_station = {
 			"Ruthless Extractor" "Blood From Stone"
 		}
-		research_station = {}
-		wormhole_station = {}
-
-		observation_station = {}
+		research_station = { }
+		wormhole_station = { }
+		#terraform_station = { }
+		observation_station = { }
 
 		transport = {
 			"Carry Me Home"
@@ -68,7 +71,8 @@ PRT2 = {
 		}
 	}
 
-	planet_names = {}
+	planet_names = {
+	}
 
 
 	### CHARACTERS
@@ -77,12 +81,18 @@ PRT2 = {
 
 		names1 = {
 			weight = 100
-			first_names_male = {}
-			first_names_female = {}
-			second_names = {}
-			regnal_first_names_male = {}
-			regnal_first_names_female = {}
-			regnal_second_names = {}
+			first_names_male = {
+			}
+			first_names_female = {
+			}
+			second_names = {			
+			}
+			regnal_first_names_male = {
+			}
+			regnal_first_names_female = {
+			}
+			regnal_second_names = {
+			}
 		}
 	}
 }

@@ -15,7 +15,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	abort_trigger = {
 		OR = {
@@ -30,7 +31,8 @@ special_project = {
 		}
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Stellarite biopsy
@@ -47,13 +49,15 @@ special_project = {
 		shipclass_science_ship = 1
 	}
 
-	abort_trigger = {}
+	abort_trigger = {
+	}
 
 	on_success = {
 		ship_event = { id = guardian.1017 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Stellarite sun project
@@ -70,13 +74,15 @@ special_project = {
 		shipclass_science_ship = 1
 	}
 
-	abort_trigger = {}
+	abort_trigger = {
+	}
 
 	on_success = {
 		ship_event = { id = guardian.1018 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Dimensional Horror Project
@@ -93,13 +99,15 @@ special_project = {
 		shipclass_science_ship = 1
 	}
 
-	abort_trigger = {}
+	abort_trigger = {
+	}
 
 	on_success = {
 		ship_event = { id = guardian.3004 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Automated Dreadnought Project
@@ -116,13 +124,15 @@ special_project = {
 		shipclass_constructor = 1
 	}
 
-	abort_trigger = {}
+	abort_trigger = {
+	}
 
 	on_success = {
 		ship_event = { id = guardian.3103 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Dead Hivers Project
@@ -139,13 +149,15 @@ special_project = {
 		shipclass_science_ship = 1
 	}
 
-	abort_trigger = {}
+	abort_trigger = {
+	}
 
 	on_success = {
 		ship_event = { id = guardian.3205 }
 	}
 
-	on_fail = {}
+	on_fail = {
+	}
 }
 
 # Enigmatic Fortress: Demolitions Team
@@ -191,7 +203,7 @@ special_project = {
 		ship_event = { id = guardian.2113 }
 	}
 
-	on_fail = {}
+	on_fail = { }
 }
 
 # Black Hole Research
@@ -240,7 +252,7 @@ special_project = {
 		owner = { country_event = { id = guardian.2152 } }
 	}
 
-	on_fail = {}
+	on_fail = { }
 }
 
 # Supply Dark Matter
@@ -265,7 +277,7 @@ special_project = {
 		owner = { country_event = { id = guardian.2156 } }
 	}
 
-	on_fail = {}
+	on_fail = { }
 }
 
 # Use Force
@@ -289,7 +301,7 @@ special_project = {
 		owner = { country_event = { id = guardian.2157 } }
 	}
 
-	on_fail = {}
+	on_fail = { }
 }
 
 # Investigate Technosphere
@@ -419,7 +431,7 @@ special_project = {
 		from = { fleet = { destroy_fleet = this } }
 	}
 
-	on_fail = {}
+	on_fail = { }
 }
 
 # Dragon Incubation
@@ -431,7 +443,8 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {}
+	requirements = {
+	}
 
 	on_success = {
 		planet_event = { id = guardian.664 }

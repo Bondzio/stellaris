@@ -14,9 +14,9 @@ guardian = {
 		needs_colony = no
 	}
 	modules = {
-		exclusive_diplomacy_module = {} # Nothing is allowed, but we need this for relationships.
-		basic_technology_module = {}
-		standard_event_module = {} # For bouncing events
+		exclusive_diplomacy_module = { } # Nothing is allowed, but we need this for relationships.
+		basic_technology_module = { }
+		standard_event_module = { } # For bouncing events
 	}
 }
 
@@ -32,9 +32,9 @@ guardian_dragon = {
 		needs_colony = no
 	}
 	modules = {
-		exclusive_diplomacy_module = {} # Nothing is allowed, but we need this for relationships.
-		basic_technology_module = {}
-		standard_event_module = {} # For bouncing events
+		exclusive_diplomacy_module = { } # Nothing is allowed, but we need this for relationships.
+		basic_technology_module = { }
+		standard_event_module = { } # For bouncing events
 	}
 }
 
@@ -50,9 +50,9 @@ guardian_stellarite = {
 		needs_colony = no
 	}
 	modules = {
-		exclusive_diplomacy_module = {} # Nothing is allowed, but we need this for relationships.
-		basic_technology_module = {}
-		standard_event_module = {} # For bouncing events
+		exclusive_diplomacy_module = { } # Nothing is allowed, but we need this for relationships.
+		basic_technology_module = { }
+		standard_event_module = { } # For bouncing events
 	}
 }
 
@@ -68,9 +68,9 @@ guardian_wraith = {
 		needs_colony = no
 	}
 	modules = {
-		exclusive_diplomacy_module = {} # Nothing is allowed, but we need this for relationships.
-		basic_technology_module = {}
-		standard_event_module = {} # For bouncing events
+		exclusive_diplomacy_module = { } # Nothing is allowed, but we need this for relationships.
+		basic_technology_module = { }
+		standard_event_module = { } # For bouncing events
 	}
 }
 
@@ -86,9 +86,9 @@ guardian_hiver = {
 		needs_colony = no
 	}
 	modules = {
-		exclusive_diplomacy_module = {} # Nothing is allowed, but we need this for relationships.
-		basic_technology_module = {}
-		standard_event_module = {} # For bouncing events
+		exclusive_diplomacy_module = { } # Nothing is allowed, but we need this for relationships.
+		basic_technology_module = { }
+		standard_event_module = { } # For bouncing events
 	}
 }
 
@@ -104,9 +104,9 @@ guardian_horror = {
 		needs_colony = no
 	}
 	modules = {
-		exclusive_diplomacy_module = {} # Nothing is allowed, but we need this for relationships.
-		basic_technology_module = {}
-		standard_event_module = {} # For bouncing events
+		exclusive_diplomacy_module = { } # Nothing is allowed, but we need this for relationships.
+		basic_technology_module = { }
+		standard_event_module = { } # For bouncing events
 	}
 }
 
@@ -122,9 +122,9 @@ guardian_fortress = {
 		needs_colony = no
 	}
 	modules = {
-		exclusive_diplomacy_module = {} # Nothing is allowed, but we need this for relationships.
-		basic_technology_module = {}
-		standard_event_module = {} # For bouncing events
+		exclusive_diplomacy_module = { } # Nothing is allowed, but we need this for relationships.
+		basic_technology_module = { }
+		standard_event_module = { } # For bouncing events
 	}
 }
 
@@ -140,9 +140,9 @@ guardian_dreadnought = {
 		needs_colony = no
 	}
 	modules = {
-		exclusive_diplomacy_module = {} # Nothing is allowed, but we need this for relationships.
-		basic_technology_module = {}
-		standard_event_module = {} # For bouncing events
+		exclusive_diplomacy_module = { } # Nothing is allowed, but we need this for relationships.
+		basic_technology_module = { }
+		standard_event_module = { } # For bouncing events
 	}
 }
 
@@ -158,7 +158,7 @@ guardian_sphere = {
 		needs_colony = no
 	}
 	modules = {
-		exclusive_diplomacy_module = {} # Nothing is allowed, but we need this for relationships.
-		basic_technology_module = {}
+		exclusive_diplomacy_module = { } # Nothing is allowed, but we need this for relationships.
+		basic_technology_module = { }
 	}
 }

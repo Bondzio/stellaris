@@ -61,7 +61,9 @@ anomaly_category = {
 		}
 	}
 
-	on_spawn = {}
+	on_spawn = {
+	}
 
-	on_success = {}
+	on_success = {
+	}
 }
