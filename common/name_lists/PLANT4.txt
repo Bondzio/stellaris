@@ -6,23 +6,23 @@ PLANT4 = {
 
 	ship_names = {
 
-		generic = { 
+		generic = {
 
 		}
-	
-		corvette = { 
+
+		corvette = {
 			"Thisto Jaahne" "Thisto Merok" "Thisto Vornak" "Thisto Vea" "Thisto Varex" "Thisto Raxx" "Thisto Verek" "Thisto Milo" "Thisto Kaado" "Thisto Morek" "Thisto Trylek" "Thisto Peo" "Thisto Maach" "Thisto Keto" "Thisto Vol" "Thisto Luma" "Thisto Rekiel" "Thisto Dramus" "Thisto Licus" "Thisto Marex" "Thisto Ilio" "Thisto Zenet" "Thisto Domes" "Thisto Vivea" "Thisto Ferna" "Thisto Magnoli" "Thisto Gneto" "Thisto Bryo" "Thisto Rophyte" "Thisto Stirpis" "Thisto Vitanixx" "Thisto Aarboro" "Thisto Radixx" "Thisto Zarbor" "Thisto Rotexx" "Thisto Anoma" "Thisto Sallor" "Thisto Mexus"
 		}
 
-		destroyer = { 
+		destroyer = {
 			"Dakuur" "Dakrool" "Dakilius" "Dakloor" "Daksaamek" "Dakpretek" "Dakpato" "Dakstilo"  "Dakrotite"  "Lapis Dendri" "Lapis Folio" "Lapis Alata" "Lapis Troccea" "Lapis Moro"
 		}
 
-		cruiser = { 
+		cruiser = {
 			"Spakate Jaane" "Spakate Merok" "Spakate Vornak" "Spakate Raxx" "Spakate Verek" "Spakate Milo" "Spakate Caado" "Spakate Morek" "Spakate Trylek" "Spakate Peo" "Spakate Maach" "Spakate Keto"
 		}
 
-		battleship = { 
+		battleship = {
 			"Lanci Ulus" "Lanci Incanon" "Lanci Ovus" "Lanci Vector" "Lanci Eovoles" "Lanci Yacto" "Lanci Volea" "Zemore ka Lorensis"
 		}
 
@@ -43,13 +43,13 @@ PLANT4 = {
 		}
 
 		orbital_station = {
-			
+
 		}
 		mining_station = {
 			"Mino Adamas" "Adelite Adamas" "Aluntite Adamas" "Tinite Adamas" "Lucite Adamas" "Kalite Adamas" 	"Vermonik Adamas" "Perite Adamas" "Verope Adamas" "Ren-vio Adamas" "Florite Adamas" Betorhiza Macrorhiza Sehriza Peoradix Nearadix Lioradix Vioradix Miradix Elliradix Minoradix
 		}
 		research_station = {
-			
+
 		}
 		wormhole_station = { }
 		#terraform_station = {
@@ -57,7 +57,7 @@ PLANT4 = {
 		#
 		#}
 		observation_station = {
-			
+
 		}
 
 		military_station_small = { "Miya Tremata" }
@@ -135,68 +135,59 @@ PLANT4 = {
 
 		pc_desert = {
 			names = {
-				
 			}
 		}
 
 		pc_savannah = {
 			names = {
-				
 			}
 		}
 
 		pc_tropical = {
 			names = {
-				
 			}
 		}
 
 		pc_arid = {
 			names = {
-				
 			}
 		}
 
 		pc_continental = {
 			names = {
-
+			}
 		}
 
-		}
-		
 		pc_ocean = {
 			names = {
-				 
 			}
 		}
 
 		pc_tundra = {
 			names = {
-
-		}
-
+			}
 		}
 
 		pc_alpine = {
 			names = {
-				
+
 			}
 		}
 
 		pc_arctic = {
 			names = {
-				
+
 			}
 		}
 
 		pc_savannah = {
 			names = {
-		}
+			}
 		}
 
 		pc_alpine = {
 			names = {
-		}
+			}
 		}
 
 	}

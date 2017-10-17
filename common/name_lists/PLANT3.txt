@@ -36,17 +36,21 @@ PLANT3 = {
 		}
 		research_station = {
 		}
-		wormhole_station = { }
+		wormhole_station = {
+		}
 		#terraform_station = {
 		#}
 		observation_station = {
 		}
 
-		military_station_small = { }
+		military_station_small = {
+		}
 
-		military_station_medium = { }
+		military_station_medium = {
+		}
 
-		military_station_large = { }
+		military_station_large = {
+		}
 	}
 
 	fleet_names = {

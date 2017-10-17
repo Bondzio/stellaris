@@ -46,7 +46,7 @@ REP2 = {
 
 	fleet_names = {
 		random_names = {
-			"Finix Star Hunters" "The Ravenous Star Hunters" "The Slithering Star Hunters" "The Awaiting Star Hunters" "The Leaping Star Hunters" "The Relentless Star Hunters" "Cartoich's Star Hunters" "Gror'cash Star Hunters" "The Swift Star Hunters" "The Devouring Star Hunters" "Xo'artish Star Hunters" "Chiklash Star Hunters" "The Harrowed Star Hunters" "The Malevolent Star Hunters" "The Crushing Star Hunters"
+			"Finix Star Hunters" "Ravenous Star Hunters" "Slithering Star Hunters" "Awaiting Star Hunters" "Leaping Star Hunters" "Relentless Star Hunters" "Cartoich Star Hunters" "Grorcash Star Hunters" "Swift Star Hunters" "Devouring Star Hunters" "Xo Aartish Star Hunters" "Chiklash Star Hunters" "Harrowed Star Hunters" "Malevolent Star Hunters" "Crushing Star Hunters"
 		}
 		sequential_name = "%O% Star Hunters"
 	}
@@ -109,47 +109,47 @@ REP2 = {
 
 		pc_desert = {
 			names = {
-		}
+			}
 		}
 
 		pc_tropical = {
 			names = {
-		}
+			}
 		}
 
 		pc_arid = {
 			names = {
-		}
+			}
 		}
 
 		pc_continental = {
 			names = {
-		}
+			}
 		}
 
 		pc_ocean = {
 			names = {
-		}
+			}
 		}
 
 		pc_tundra = {
 			names = {
-		}
+			}
 		}
 
 		pc_arctic = {
 			names = {
-		}
+			}
 		}
 
 		pc_savannah = {
 			names = {
-		}
+			}
 		}
 
 		pc_alpine = {
 			names = {
-		}
+			}
 		}
 
 	}

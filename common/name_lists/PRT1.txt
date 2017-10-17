@@ -107,13 +107,13 @@ PRT1 = {
 				Crossbones Smiler "Wild One" "Devil-that-flies" Flatnose "The Veteran" "Admiral Yellow" "Captain Death" "Colonel Pain" "Bleedin' Qurob" "The Commodore" Gravedigger "Cursed One" "Bane of Civilization" Outrider "Green Demon" Facilitator Scar "Fat Tirak" "The Teacher" "Red Belly" "Kid Rokka" "The Sheriff" "Gold Tooth" Destroyer-of-All "Citizen Jumbka" Deadeye "Silver Eye" "The Savant" "Death's Breath" "Rikam the Drunkard" "The Wizard" "Slippery Luqav" "Chief Nozka" "First Mate Tuwab" "Scourge of the Spacelanes" "The Hunter" "Warlord Gebban" "Big Thing" "Wild Eyes" "Sly Birpe" "The Savage" "Doctor S" "Betak's Bastard"
 			}
 
-			#full_names_male = {
-			#	"The Baron" "Butcher King" "His Lordship" "Emperor of the Universe" "Crazy Helmsman" "Emperor Four-Eyes VII"
-			#}
-			#
-			#full_names_female
-			#	"The Midwife" "Blood Queen"
-			#}
+			# full_names_male = {
+			# 	"The Baron" "Butcher King" "His Lordship" "Emperor of the Universe" "Crazy Helmsman" "Emperor Four-Eyes VII"
+			# }
+
+			# full_names_female
+			# 	"The Midwife" "Blood Queen"
+			# }
 
 			first_names = {
 			}

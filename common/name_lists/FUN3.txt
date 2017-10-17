@@ -111,25 +111,21 @@ FUN3 = {
 
 		pc_desert = {
 			names = {
-
 			}
 		}
 
 		pc_tropical = {
 			names = {
-
 			}
 		}
 
 		pc_arid = {
 			names = {
-
 			}
 		}
 
 		pc_continental = {
 			names = {
-
 			}
 		}
 

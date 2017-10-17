@@ -108,47 +108,47 @@ REP3 = {
 
 		pc_desert = {
 			names = {
-		}
+			}
 		}
 
 		pc_tropical = {
 			names = {
-		}
+			}
 		}
 
 		pc_arid = {
 			names = {
-		}
+			}
 		}
 
 		pc_continental = {
 			names = {
-		}
+			}
 		}
 
 		pc_ocean = {
 			names = {
-		}
+			}
 		}
 
 		pc_tundra = {
 			names = {
-		}
+			}
 		}
 
 		pc_arctic = {
 			names = {
-		}
+			}
 		}
 
 		pc_savannah = {
 			names = {
-		}
+			}
 		}
 
 		pc_alpine = {
 			names = {
-		}
+			}
 		}
 
 	}
