@@ -3,12 +3,12 @@
  # Misc
  ####################################
  SEPARATOR:0 "---"
- 
+
  RESOURCE_AI_VALUE:0 "AI VALUE: $VALUE$"
- 
+
  PLAYER_EMPIRE_MP:0 "§Y$NAME$ (Player Empire)§!"
  PLAYER_EMPIRE_SP:0 "§YPlayer Empire§!"
- 
+
  SHIP_DESIGN_NAME_RANDOMIZE_TOOLTIP:0 "Randomize Name"
 
  STATION:0 "Station"
@@ -17,17 +17,17 @@
  ICON_COLOR_VALUE:0 "£$ICON$ $VALUE|0$"
  ICON_VALUE_POSITIVE:0 "£$ICON$ $VALUE|0+=$"
  ICON_VALUE_NEGATIVE:0 "£$ICON$ $VALUE|0-$"
- 
+
  land_appropriation:0 "Land Appropriated"
  land_appropriation_desc:0 "Land was seized from the native population of this planet to make room for citizen settlers.\n\n§YWhile this modifier is in effect, non-citizen species are not allowed to grow their population on this planet.§!"
- 
+
  TRAIT_CHARISMATIC_EFFECT:2 "Ruler Opinion Impact: §G+25§!\n$MOD_POP_OTHER_SPECIES_OWNER_HAPPINESS$: §G+5%§!"
  TRAIT_REPUGNANT_EFFECT:2 "Ruler Opinion Impact: §R-25§!\n$MOD_POP_OTHER_SPECIES_OWNER_HAPPINESS$: §R-5%§!"
  TRAIT_EMOTION_EMULATORS_EFFECT:0 "Ruler Opinion Impact: §G+25§!"
  TRAIT_UNCANNY_EFFECT:0 "Ruler Opinion Impact: §R-25§!"
- 
+
  CANNOT_ENLIGHTEN_FANATIC_XENOPHOBE:0 "Not possible to technologically enlighten Primitives that are §H$ethic_fanatic_xenophobe$§!."
- 
+
  FOOD_NO_NEED:0 "§YWe have no Pops that require Food to sustain them.§!"
  FOOD_NO_PLANETS:0 "§YWe have no Planets that require Food to grow.§!"
  FOOD_SURPLUS_STARVATION:0 "§ROur empire is starving, halting all £pops  §YPop Growth§!.§!"
@@ -36,15 +36,15 @@
  FROM_FOOD_SURPLUS:1 "From Food Surplus: $VALUE|Y=2$"
 
  SPECIES_LACKS_OPTION:0 "§RYour chosen Species Appearance does not offer any secondary options in this category.§!"
- 
+
  GENERATING_UNREST:0 "This Pop is unhappy, generating $AMOUNT|1R$ Unrest on the planet."
 
  ALL:0 "All"
- 
+
  RT_CUSTODIAN:0 "Custodian"
  RT_ERROR:0 "<ERROR>"
  TERRAFORMING_CANDIDATE_EFFECT:0 "§Y[From.GetName]§! will be able to be terraformed once the £society  §H$tech_climate_restoration$§! technology has been researched."
- 
+
  gov_galactic_defense_unit:0 "Final Defense Unit"
  gov_galactic_defense_unit_desc:0 "This Custodian Matrix AI has activated its Final Defense Directives and is devoting all resources to protecting the galaxy against the Contingency."
  gov_berserker_machine:0 "Malfunctioning Custodian"
@@ -61,7 +61,7 @@
  civic_machine_remnants_desc:0 ""
  civic_custodian_directives:0 "Custodian Matrix"
  civic_custodian_directives_desc:0 ""
- 
+
  FALLEN_EMPIRE_LETHARGY_1:0 "§EUnable to construct new ships.§!"
  FALLEN_EMPIRE_LETHARGY_2:0 "§EUnable to conquer or colonize planets.§!"
 
@@ -109,9 +109,9 @@
  SPECIES_MUST_BE_ASSIMILATING:0 "$TRIGGER_FAIL$Species may not have §Y$citizenship_assimilation$§! citizenship."
  SPECIES_MUST_NOT_BE_ASSIMILATING:0 "$TRIGGER_FAIL$Species must have §Y$citizenship_assimilation$§! citizenship."
  DEFAULT_SPECIES_MUST_BE_HIVE:0 "$TRIGGER_FAIL$Requires §Y$ap_evolutionary_mastery$§!. Only organic §Y$trait_hive_mind$§! species can be de-assimilated."
- 
+
  EMBRACE_FACTION_COOLDOWN:1 "We recently §YEmbraced§! a Faction. This can only be done once every §Y10§! years."
- 
+
  embraced_another_faction:0 "Embraced Other Faction"
  embraced_faction:0 "Faction Embraced"
  embraced_faction_timer:0 "Recently Embraced Faction"
@@ -195,9 +195,9 @@
 
  HABITABILTIY_TOO_LOW:0 "§RHabitability for colonizing species must be at least §Y$MIN|0$%§!.§!"
  RESETTLE_HABITABILTIY_TOO_LOW:0 "§RHabitability for resettled pop must be at least §Y$MIN|0$%§!.§!"
- 
+
  ROOM_BACKGROUND:0 "Room"
- 
+
  #MAP_MODE_TOOLTIP variables: "FROM" source country, "TARGET" tooltiped country, "MAP_MODE_NAME" name of current map mode, "MAP_MODE_TIP" tip generated from map mode
  MAP_MODE_TOOLTIP:0 "$TARGET|H$\n$MAP_MODE_TIP$"
  MAP_MODE_BUTTON_TOOLTIP:1 "$MAP_MODE|H$\n$DESC$\n§GClick to select this Map Mode§!"
@@ -236,7 +236,7 @@
  DIPLOMATIC_MAP_MODE_DEFENSIVE_PACT:0 "§H[This.GetName]§!\nHas Defensive Pact with §H[From.GetName]§!"
  DIPLOMATIC_MAP_MODE_MIGRATION_PACT:0 "§H[This.GetName]§!\nHas Migration Pact with §H[From.GetName]§!"
  MAP_MODE_NO_CONTACT:0 "§H[This.GetName]§!\nHas not yet established Communication with §H[From.GetName]§!"
- 
+
  MAP_MODE_NEIGHBOR:0 "§H[From.GetName]§! is considered a neighbor of §H[This.GetName]§!."
  MAP_MODE_NOT_NEIGHBOR:0 "§H[From.GetName]§! is NOT considered a neighbor of §H[This.GetName]§!."
 
@@ -2407,7 +2407,7 @@
  pc_machine_desc:0 "Rocky world covered with artificial structures. The thin atmosphere consists mostly of industrial pollutants and is not capable of supporting biological life."
  pc_cybrex:0 "$pc_ringworld_habitable$"
  pc_cybrex_desc:0 "$pc_ringworld_habitable_desc$"
- 
+
  ####################################
  # Terrain Tiles
  ####################################
@@ -2442,7 +2442,7 @@
  pc_machine_tile_desc:0 "Sterilized terrain shielding sub-surface superconducting lattices."
  pc_habitat_tile:0 "Habitat Terrain"
  pc_habitat_tile_desc:0 "Wrought mineral plates over artificial gravity generators act as ready-made foundations for urban and industrial construction."
- 
+
  ####################################
  # Tile Blockers
  ####################################
@@ -3386,7 +3386,7 @@
  leader_trait_cataloger_desc:0 "This leader can conceive of no greater calling than to catalog the entirety of the universe."
  leader_trait_restore_point:0 "Restore Point"
  leader_trait_restore_point_desc:0 "This leader will always have a chance to restore themselves to working condition soon after being destroyed in battle, as long as there is a leaderless fleet for them to command."
- 
+
  # Event Special
  leader_trait_sentinel:0 "Sentinel Training"
  leader_trait_sentinel_desc:0 "Sentinel fleet commanders possess detailed knowledge of Prethoryn anatomy and tactics."
@@ -5259,7 +5259,7 @@
  OWNER_POP:1 "This Pop owns a $SPECIES|Y$ Pop."
  OWNED_POP:1 "This Pop is owned by a $SPECIES|Y$ Pop."
  STATE_OWNED_POP:0 "This Pop is owned by the state."
- 
+
  ####################################
  # SPECIES VIEW
  ####################################
@@ -6242,7 +6242,7 @@
  requires_target_not_machine_assimilator:0 "§RWe are a §Y$civic_machine_assimilator$§!. We can only become one with another empire through assimilation.§!"
  requires_actor_not_inward_perfection:1 "§RWe are focusing on their §Y$civic_inwards_perfection$§! and have little interest in diplomacy with other empires.§!"
  requires_target_not_inward_perfection:1 "§RThey are focusing on our §Y$civic_inwards_perfection$§! and have little interest in diplomacy with other empires.§!"
- 
+
  ####################################
  # Basic Resources
  ####################################
@@ -6267,7 +6267,7 @@
  unity_desc:0 "§E§H$unity$§! (£unity ) is used to unlock new §HTraditions§!. We can increase our output by building\n £building  §HAutochthon Monuments§! or other §HUnity buildings§!.§!"
 
  ENERGY_DEFICIT_DESC:1 "§ROur Empire is affected by $DEFICIT|E$ since we are spending more §HEnergy Credits§! than we are producing, and our reserves have run out.§!"
- 
+
  ETHIC_ALLOWS_SLAVERY:0 "§ECan §HEnslave§! aliens§!"
  ETHIC_ALLOWS_CASTE_SYSTEM:1 "§EAllows §HCaste System§! Citizenship Type§!"
  ETHIC_ALLOWS_PURGE:0 "§ECan §HPurge§! and §HDisplace§! aliens§!"
@@ -6609,7 +6609,7 @@
  building_symbol_purity_desc:0 "$tech_symbol_unity_desc$"
  building_control_center:0 "Control Center"
  building_control_center_desc:0 "By construcing powerful processing hubs we can optimize the operational efficiency of our drones."
- 
+
  ####################################
  # Building requirement custom descs
  ####################################
@@ -6693,7 +6693,7 @@
  ####################################
  # Government Authorities
  ####################################
- 
+
  auth_democratic:0 "Democratic"
  auth_democratic_desc:0 "Democratic governments have regular elections where all citizens can vote on who should represent them."
  auth_oligarchic:0 "Oligarchic"
@@ -6994,7 +6994,7 @@
  HT_DEPUTY_OVERLORD_FEMALE:0 "$HT_DEPUTY_OVERLORD$"
  HT_SENIOR_TECHNICIAN:0 "Senior Technician"
  RT_GRAND_MASTER:0 "Grand Master"
- 
+
  RT_CELESTIAL_EMPEROR:0 "Celestial Emperor"
  RT_CELESTIAL_EMPRESS:0 "Celestial Empress"
  RT_WARLORD:0 "Warlord"
@@ -7050,7 +7050,7 @@
  ####################################
  # Civics
  ####################################
- 
+
  civic_feudal_realm:0 "Feudal Society"
  civic_feudal_realm_desc:0 "This society is organized in a feudal manner, with a monarch whose rule relies on powerful vassals that govern their territories with considerable autonomy."
  civic_imperial_cult:0 "Imperial Cult"
@@ -7192,7 +7192,7 @@
  civic_machine_predictive_analysis_desc:0 "The Machine Intelligence seeks to broaden its available avenues of scientific research through low-level evaluation of research methodologies."
  civic_machine_replication:0 "Rapid Replicator"
  civic_machine_replication_desc:0 "The Units that constitute the Machine Intelligence were originally designed for rapid proliferation. The Machine Intelligence retains many of these early production pipeline optimizations."
- 
+
  civic_tooltip_inward_perfection_effects:0 "Cannot have §HRivals§!\nCannot form §HDefensive Pacts§!\nCannot form §HMigration Treaties§!\nCannot §HGuarantee Independence§!\nCannot join §HFederations§!\nCan only have §HTributary§! subjects\nCannot §HInfiltrate§! primitives\n£unity  §Y$country_resource_unity_mult$§! increased by §G+20%§!\n£influence  §Y$country_resource_influence_add$§! increased by §G+1§!\n£pops  §YPop $MOD_POP_GROWTH_SPEED$§! increased by §G+25%§!\n£happiness  §Y$MOD_POP_CITIZEN_HAPPINESS$§! increased by §G+5%§!"
  civic_tooltip_feudal_realm_effects:0 "The effects of §YSubject Power§! on relations is reduced by §G-50%§!, but all Subjects are allowed to colonize planets outside their borders."
  civic_tooltip_agrarian_idyll_effects:0 "£building  §YFarms§! also produce §Y1§! £unity  Unity."
@@ -7203,7 +7203,7 @@
  civic_tooltip_machine_servitor_effects:3 "Start the game with §Y2§! organic £pop  Pops with §Y$citizenship_organic_trophy$§! citizenship and §Y$living_standard_organic_trophy$§! living standard. Caring for organic £pop  Pops in this way fulfills low-level directives, freeing up processing cycles and boosting resource production.\n\nThis manifests as a §YServitor Morale§! Empire Modifier, giving §G+0.5§! £influence monthly and §G+10%§! resource output for every §Y10%§! of the population that have §Y$citizenship_organic_trophy$§! status (max §G+2§! £influence and §G+40%§! resource output) at §Y40% $citizenship_organic_trophy$§! £pop  Pops).\n\nOrganic Pops residing in Servitor civilizations are concentrated into space-efficient living spaces where they can be properly cared for. As a result, crowded planets that are taken over by the Servitors will have some organic £pop  Pops removed from their tiles."
  civic_tooltip_machine_terminator_effects:1 "Cannot engage in §YDiplomacy§! with organic species!\nWill always §YPurge§! organic £pop  Pops.\nGains £unity  §YUnity§! from purging organic £pop  Pops.\nMay use §Y$GROUND_SUPPORT_STANCE_ARMAGEDDON$§! bombardment stance.\n§Y$MOD_SHIP_WEAPON_DAMAGE$§! increased by §G+15%§!"
  civic_tooltip_machine_assimilator_effects:0 "Start the game with §Y4§! cyborg £pop  Pops and the ability to turn organics into cyborgs. Xeno £pop  Pops are automatically §YPurged§! over time, but can be turned into cyborgs and given §YFull Citizenship§!."
- 
+
  civic_tooltip_spiritualist:0 "Is some degree of §YSpiritualist§!"
  civic_tooltip_materialist:0 "Is some degree of §YMaterialist§!"
  civic_tooltip_authoritarian:0 "Is some degree of §YAuthoritarian§!"
@@ -7299,7 +7299,7 @@
 
  PSIONIC_BLAST_1:0 "Psionic Blast"
  PSIONIC_BLAST_1_DESC:0 ""
- 
+
  EXTRADIMENSIONAL_1:0 "Matter Disintegrator"
  EXTRADIMENSIONAL_1_DESC:1 "Hailing from another dimension, the core technologies of the Matter Disintegrator bends several physical laws for destructive results."
 
@@ -8206,7 +8206,7 @@
  ANOMALY_FAILURE_RISK_INCREASED:0 "§TDue to the §HScientist Skill Level§! being lower than the §HAnomaly Level§! we get an increased risk of $VAL|-%0$§!"
  ANOMALY_FAILURE_RISK_REDUCED:0 "§TDue to the §HScientist Skill Level§! being higher than the §HAnomaly Level§! we get a reduced risk of $VAL|-%0$§!"
  ANOMALY_FAILURE_RISK_MIN:0 "§TFailure risk is never lower than $VAL|-%0$§!"
- 
+
  ####################################
  # Edicts
  ####################################
@@ -8248,7 +8248,7 @@
  edict_share_the_burden:0 "Share the Burden"
  edict_share_the_burden_desc:1 "This Edict enforces rotating tasks and work schedules for indentured servants, as more varied drudgery can lead to an uptick in productivity."
  # edict_share_the_burden_desc: "This Edict dictates that the various burdens of society should be given to those best suited to handle them. Manual labour is best left to those used to such tasks..."
- 
+
  edict_engineering_research_focus_hive:0 "Focus our thinker drones on new engineering concepts at the expense of all other knowledge."
  edict_engineering_research_focus_machine:0 "Divert processing power to engineering-focused theoretical models and downgrade priority on other avenues of research"
  edict_physics_research_focus_hive:0 "Focus our thinker drones on new physics concepts at the expense of all other knowledge."
@@ -8321,7 +8321,7 @@
  ALL_POPS_EMANCIPATED:0 "§EAll Pops in your empire will be emancipated§!"
  ALL_ROBOTS_DISASSEMBLED:0 "§EAll robotic Pops in your empire will be disassembled§!"
  CLICK_POLICY_VIEW:0 "§GClick to see list of possible Empire Edicts.§!"
- 
+
  policy_pre_sapients:0 "Pre-Sapients"
  policy_pre_sapients_desc:0 "We can decide whether or not we want pre-sapient species living on our planets."
  pre_sapients_allow:1 "Tolerated"
@@ -8348,7 +8348,7 @@
  core_worlds_citizens_only:0 "Citizens Only"
  core_worlds_citizens_only_name:0 "Citizens Only"
  core_worlds_citizens_only_desc:0 "Our core worlds are the heart of our empire. No lesser species shall be permitted to settle there.\n\n§EPops without Full Citizenship will migrate away from Core Worlds§!"
- 
+
  policy_refugees:0 "Refugees"
  policy_refugees_desc:0 "We can decide whether we should accept or turn away refugees fleeing purges, displacement and persecution in other empires."
  refugees_not_allowed:0 "No Refugees"
@@ -8460,7 +8460,7 @@
  appropriation_allowed:0 "Allowed"
  appropriation_allowed_name:0 "Land Appropriation Allowed"
  appropriation_allowed_desc:0 "The land that the lesser species are not properly utilizing can be put to greater use by their betters.\n\n§ENewly acquired planets with less than §Y5§! tiles of free space will have some of their non-citizen Pops removed from their land.§!"
- 
+
  policy_resettlement:0 "Resettlement"
  policy_resettlement_desc:0 "This policy controls whether or not we are allowed to forcibly relocate Pops between planets.\n"
  resettlement_not_allowed:0 "Prohibited"
@@ -8521,7 +8521,7 @@
  border_policy_closed:0 "Closed"
  border_policy_closed_name:0 "Closed Borders"
  border_policy_closed_desc:0 "The borders of our empire must be well guarded, lest we fall victim to insidious influences. Only those who have proven themselves worthy may enter our space.\n\n§EBorders will be closed to other empires by default.§!"
- 
+
  policy_first_contact_protocol:0 "First Contact Protocol"
  policy_first_contact_protocol_desc:0 "As we travel the stars there is a definite possibility of finding other lifeforms, and we need to have a clear stance on how to approach them.\n"
  first_contact_attack_not_allowed:0 "Peaceful"
@@ -8530,17 +8530,17 @@
  first_contact_attack_allowed:0 "Aggressive"
  first_contact_attack_allowed_name:0 "Aggressive Contact Protocol"
  first_contact_attack_allowed_desc:0 "Unknown dangers may hide among the stars. To ensure our continued survival we must be ready to strike without hesitation.\n\n§ECan attack neutral entities§!"
- 
+
  policy_robot_pop_policy:0 "Robotic Workers"
  policy_robot_pop_policy_desc:0 "The invention of autonomous robots opens for the workers of our species being supplanted and perhaps, in time, surpassed. We must decide our stance on such large-scale automation."
-  
+
  robot_pops_outlawed:0 "Outlawed"
  robots_outlawed_name:0 "Robotic Workers Outlawed"
  robot_pops_outlawed_desc:0 "Robotic automatons are a threat to not only our people's livelihoods, but to the very fabric of society itself. We must not allow ourselves to be made obsolete.\n\n§ERobotic Pops will automatically be disassembled.§!"
  robot_pops_allowed:0 "Allowed"
  robots_allowed_name:0 "Robotic Workers Allowed"
  robot_pops_allowed_desc:0 "The benefits of automation are obvious and immense. For the future of our people, we cannot afford to ignore the opportunies presented to us by technology."
- 
+
  policy_artificial_intelligence_policy:0 "Artificial Intelligence"
  policy_artificial_intelligence_policy_desc:0 "The prospect of a self-aware artificial intelligence raises many philosophical and ethical questions. We must determine where we stand on this issue.\n"
  no_robots_desc:0 "These machines are in the process of being disassembled."
@@ -8574,7 +8574,7 @@
  no_wars:0 "Defensive Wars"
  no_wars_name:0 "Defensive Wars Only"
  no_wars_desc:0 "Violence is a last resort to ensure the integrity of our nation.\n\n§EWars of Aggression are forbidden and conquest wargoals may only be used against previously owned planets.§!"
- 
+
  PURGES_ALLOWED:0 "Purging is enabled in Policies."
 
  policy_food_stockpiling:0 "Food Stockpiling"
@@ -8593,7 +8593,7 @@
  food_stockpiling_3_desc:0 "We can never know when disaster and famine will strike. A large stockpile of food will let us to weather bad circumstances without our population suffering."
  ONLY_SERVITORS_STOCKPILE_FOOD:0 "$TRIGGER_FAIL$Only a §H$civic_machine_servitor$§! may stockpile £food  §H$food$§!."
 
- 
+
  policy_war_economy:0 "War Economy"
  policy_war_economy_desc:0 "We can gear our industry and economy to seize assets from the civilian sector in times of desperate defensive wars. The downside with these policies is that we will suffer corresponding penalties while we are winning offensive wars...\n"
  static_we:0 "Static"
@@ -9209,11 +9209,11 @@
  personality_awakened_fallen_empire_materialist:0 "Watchful Regulators"
  personality_awakened_fallen_empire_xenophobe:0 "Jingoistic Reclaimers"
  personality_awakened_fallen_empire_xenophile:0 "Benevolent Interventionists"
- 
+
  personality_fallen_empire_machine_desc:0 "This Fallen Empire is an ancient artifical intelligence that appears to be operating on some sort of caretaker protocol. It behaves erratically but seems to pose no direct threat to us."
  personality_awakened_fallen_empire_machine_desc:0 "This Awakened Empire is an ancient artificial intelligence acting as a galactic custodian. It will focus all its efforts on defending sapient life against the ongoing crisis."
  personality_berserk_fallen_empire_machine_desc:0 "This Awakened Empire is an ancient artificial intelligence that appears to be malfunctioning, going berserk and attacking everything around it."
- 
+
  personality_fallen_empire_spiritualist_desc:0 "This Fallen Empire dedicates itself to the preservation and defense of its holy sites. Colonizing systems that they consider sacred is likely to incur their ire."
  personality_fallen_empire_materialist_desc:3 "This Fallen Empire dedicates itself to the hoarding of knowledge and technology. They may offer tasks or demand tribute from lesser empires to achieve this end."
  personality_fallen_empire_xenophobe_desc:0 "The Fallen Empire dedicates itself to the defense of its borders against any intrusions. Colonizing systems that border them is likely to draw their ire."
@@ -9222,7 +9222,7 @@
  personality_awakened_fallen_empire_materialist_desc:1 "This Awakened Empire seeks to control the technological level of all other civilizations in the galaxy. They are likely to attack any empire that will not surrender its technological independence."
  personality_awakened_fallen_empire_xenophobe_desc:0 "This Awakened Empire seeks to restore its lost dominion over the galaxy. They are likely to attack any empire that will not acknowledge their overlordship."
  personality_awakened_fallen_empire_xenophile_desc:0 "This Awakened Empire seeks to protect the lesser races from each other. They are likely to attack any empire that will not accept their enforced peace."
- 
+
  personality_null_desc:0 "What makes a species turn neutral... Lust for gold? Power? Or were they just born with hearts full of neutrality?\n\n§RThis is a placeholder personality and should not show up ingame.§!"
  personality_fanatic_befrienders_desc:0 "Fanatical Befrienders are highly friendly but deeply lonely individuals. They will attempt to make friends by any means necessary."
  personality_metalhead_desc:0 "Metal."
@@ -9395,7 +9395,7 @@
  VICTORY_CONDITION_FEDERATION_PROGRESS_TIP:0 "Our Federation owns $OWNED|Y$ out of the $REQUIRED|Y$ Planets required!"
  VICTORY_CONDITION_FEDERATION_END_SCREEN:1 "$WINNER|Y$ has won the Game by having their Federation own §Y60%§! of all Habitable Planets!"
  VICTORY_CONDITION_FEDERATION_PROGRESS_TIP_NO_FEDERATION:0 "We are not in a Federation!"
- 
+
  VICTORY_CONDITION_CRISIS_IN_PROGRESS:0 "It is not possible to win during an ongoing Galactic Crisis!"
 
  VICTORY_CONDITION_CONQUEST_NAME:0 "Conquest Victory"
@@ -9632,15 +9632,15 @@
  INTEGRATE_SUBJECT_MIN_TIME:0 "Has to have been a subject for $DAYS|Y$ days ($DATE$)"
  SUBJECT_INTEGRATION_COMPLETE_TITLE:0 "Subject Integration Complete"
  SUBJECT_INTEGRATION_COMPLETE_DESC:0 "Subject $SUBJECT|Y$ has been successfully integrated into our Empire"
- 
+
  SPECIES_MODIFICATION_COMPLETE_TITLE:0 "Species Modification Complete"
  SPECIES_MODIFICATION_COMPLETE_DESC:0 "We have completed the modifications to the $SPECIES|Y$ species."
  UPLIFT_COMPLETE_TITLE:0 "Uplift Complete"
  UPLIFT_COMPLETE_DESC:0 "We have uplifted the $SPECIES|Y$ species to sapience."
- 
+
  BECOME_FEDERATION_LEADER_TITLE:0 "Federation Leadership Change"
  BECOME_FEDERATION_LEADER_DESC:0 "$LEADER|Y$ is now the leader of our Federation."
-  
+
 # Subjects
  SUBJECT_vassal:0 "Vassal"
  SUBJECT_DESC_vassal:0 "Vassals are subservient to their Overlord. They have limited diplomatic options, and fight along their Overlord."
@@ -9686,7 +9686,7 @@
  EMPIRE_DESIGN_MISSING_HOME_WORLD_NAME:0 "Home World Name can't be empty."
  EMPIRE_DESIGN_MISSING_HOME_SYSTEM_NAME:0 "System Name can't be empty."
  EMPIRE_DESIGN_INVALID_INITIALIZER:0 "Initializer $NAME$ is not valid for empire starts."
- 
+
  EMPIRE_DESIGN_MISSING_EMPIRE_NAME:0 "Empire Name can't be empty."
  EMPIRE_DESIGN_MISSING_EMPIRE_ADJECTIVE:0 "Empire Adjective can't be empty."
  EMPIRE_DESIGN_MISSING_NAME_LIST:0 "Empire has no name list."
@@ -9732,6 +9732,28 @@
 
  sol_system_initializer_NAME:0 "Sol System"
  sol_system_initializer_DESC:0 "System modeled after Earth's solar system, with adjacent stars.\n\n$system_initializer_DESC$"
+
+ sol_neighbor_t1_first_colony_NAME:0 "Alpha Centauri System"
+ sol_neighbor_t1_first_colony_DESC:0 "System modeled after Alpha Centauri System, Sol's closest neighbor.\n\n$system_initializer_DESC$"
+
+ alpha_centauri_colony_NAME:0 "Alpha Centauri System"
+ alpha_centauri_colony_DESC:0 "System modeled after Alpha Centauri System, Sol's closest neighbor.\n\n$system_initializer_DESC$"
+ # random_cluster_1_NAME = "Random Cluster 1"
+ # random_cluster_1_DESC = "Random Cluster 1"
+ # binary_cluster_1_NAME = "Binary Cluster 0"
+ # binary_cluster_1_DESC = "Binary Cluster 0"
+ # binary_cluster_2_NAME = "Binary Cluster 1"
+ # binary_cluster_2_DESC = "Binary Cluster 1"
+ # binary_cluster_3_NAME = "Binary Cluster 2"
+ # binary_cluster_3_DESC = "Binary Cluster 2"
+ # trinary_cluster_1_NAME = "Trinary Cluster 1"
+ # trinary_cluster_1_DESC = "Trinary Cluster 1"
+ # trinary_cluster_2_NAME = "Trinary Cluster 2"
+ # trinary_cluster_2_DESC = "Trinary Cluster 2"
+ # trinary_cluster_3_NAME = "Trinary Cluster 3"
+ # trinary_cluster_3_DESC = "Trinary Cluster 3"
+
+
  deneb_system_NAME:0 "Deneb System"
  deneb_system_DESC:0 "The Commonwealth of Man's starting solar system.\n\n$system_initializer_DESC$"
  CREATE_NEW:0 "Create New"
@@ -9757,7 +9779,7 @@
 
  # Sector settings
  SECTOR_SETTINGS:0 "Sector settings"
- 
+
  lost_owned_pop:0 "Owned Pop Emancipated"
  lost_owned_pop_lesser:0 "$lost_owned_pop$"
 
@@ -9813,7 +9835,7 @@
  EXPANSION_PLANNER_ALREADY_HAD_EXPANSION_ENTRY:0 "§RPlanet already has a Planned Colony.§!"
  EXPANSION_PLANNER_TARGET_UNREACHABLE:0 "§RThe colony ship has no valid route to this planet.§!"
  EXPANSION_PLANNER_TARGET_UNREACHABLE_CURRENTLY:0 "§RWe currently have no valid route to this planet.§!"
- 
+
  SHIPS_NOT_UPGRADABLE:0 "§REvent ships are not upgradable§!"
  CHEAT_OPEN_DIPLO:0 "Cheating"
 

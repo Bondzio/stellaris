@@ -1,6 +1,12 @@
 #one star orbiting another
 
+
+
+@distance = 50
 @base_moon_distance = 10
+
+
+
 
 # Basic 1
 basic_init_01 = {
@@ -35,38 +41,7 @@ basic_init_01 = {
 	}
 }
 
-basic_cluster_01 = {
-	class = "rl_standard_stars"
 
-	usage = misc_system_init
-	usage_odds = 20
-
-	planet = {
-		count = { min = 2 max = 3 }
-		# class = star
-		class = "rl_standard_stars"
-		orbit_distance = { min = 30 max = 70 }
-		orbit_angle = { min = 90 max = 270 }
-		size = { min = 26 max = 37 }
-		has_ring = no
-	}
-
-	change_orbit = 45
-
-	planet = {
-		count = { min = 2 max = 12 }
-		orbit_distance = 20
-		orbit_angle = { min = 90 max = 270 }
-
-		change_orbit = @base_moon_distance
-
-		moon = {
-			count = { min = 0 max = 1 }
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = 5
-		}
-	}
-}
 
 # Basic 2
 basic_init_02 = {

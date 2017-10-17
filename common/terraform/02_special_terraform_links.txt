@@ -1,13 +1,19 @@
+@energy_level_1 = 2500		@duration_level_1 = 1800
+@energy_level_2 = 5000		@duration_level_2 = 3600
+@energy_level_3 = 7500		@duration_level_3 = 5400
+@energy_level_4 = 10000		@duration_level_4 = 7200
+@energy_level_5 = 15000		@duration_level_5 = 10800
+
+
+
 ################
 ## Tomb World ##
 ################
 
-terraform_link = {
-	from = "pc_nuked"
-	to = "pc_desert"
+terraform_link = {from = "pc_nuked"		to = "pc_desert"
 
-	energy = 10000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -25,13 +31,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_nuked"		to = "pc_arid"
 
-terraform_link = {
-	from = "pc_nuked"
-	to = "pc_arid"
-
-	energy = 10000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -49,13 +52,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_nuked"		to = "pc_savannah"
 
-terraform_link = {
-	from = "pc_nuked"
-	to = "pc_savannah"
-
-	energy = 10000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -73,13 +73,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_nuked"		to = "pc_arctic"
 
-terraform_link = {
-	from = "pc_nuked"
-	to = "pc_arctic"
-
-	energy = 10000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -97,13 +94,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_nuked"		to = "pc_tundra"
 
-terraform_link = {
-	from = "pc_nuked"
-	to = "pc_tundra"
-
-	energy = 10000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -121,13 +115,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_nuked"		to = "pc_alpine"
 
-terraform_link = {
-	from = "pc_nuked"
-	to = "pc_alpine"
-
-	energy = 10000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -145,13 +136,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_nuked"		to = "pc_continental"
 
-terraform_link = {
-	from = "pc_nuked"
-	to = "pc_continental"
-
-	energy = 10000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -169,13 +157,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_nuked"		to = "pc_tropical"
 
-terraform_link = {
-	from = "pc_nuked"
-	to = "pc_tropical"
-
-	energy = 10000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -193,13 +178,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_nuked"		to = "pc_ocean"
 
-terraform_link = {
-	from = "pc_nuked"
-	to = "pc_ocean"
-
-	energy = 10000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	condition = {
 		has_technology = "tech_climate_restoration"
@@ -222,12 +204,10 @@ terraform_link = {
 ## Gaia World ##
 ################
 
-terraform_link = {
-	to = "pc_gaia"
-	from = "pc_desert"
+terraform_link = {from = "pc_desert"		to = "pc_gaia"
 
-	energy = 20000
-	duration = 14600
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_technology = "tech_gaia_creation"
@@ -245,13 +225,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_arid"			to = "pc_gaia"
 
-terraform_link = {
-	from = "pc_arid"
-	to = "pc_gaia"
-
-	energy = 20000
-	duration = 14600
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_technology = "tech_gaia_creation"
@@ -269,13 +246,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_savannah"		to = "pc_gaia"
 
-terraform_link = {
-	to = "pc_gaia"
-	from = "pc_savannah"
-
-	energy = 20000
-	duration = 14600
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_technology = "tech_gaia_creation"
@@ -293,13 +267,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_arctic"		to = "pc_gaia"
 
-terraform_link = {
-	to = "pc_gaia"
-	from = "pc_arctic"
-
-	energy = 20000
-	duration = 14600
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_technology = "tech_gaia_creation"
@@ -317,13 +288,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_tundra"		to = "pc_gaia"
 
-terraform_link = {
-	to = "pc_gaia"
-	from = "pc_tundra"
-
-	energy = 20000
-	duration = 14600
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_technology = "tech_gaia_creation"
@@ -341,13 +309,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_alpine"		to = "pc_gaia"
 
-terraform_link = {
-	to = "pc_gaia"
-	from = "pc_alpine"
-
-	energy = 20000
-	duration = 14600
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_technology = "tech_gaia_creation"
@@ -365,13 +330,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_continental"	to = "pc_gaia"
 
-terraform_link = {
-	to = "pc_gaia"
-	from = "pc_continental"
-
-	energy = 20000
-	duration = 14600
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_technology = "tech_gaia_creation"
@@ -389,13 +351,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_tropical"		to = "pc_gaia"
 
-terraform_link = {
-	to = "pc_gaia"
-	from = "pc_tropical"
-
-	energy = 20000
-	duration = 14600
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_technology = "tech_gaia_creation"
@@ -413,13 +372,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_ocean"			to = "pc_gaia"
 
-terraform_link = {
-	to = "pc_gaia"
-	from = "pc_ocean"
-
-	energy = 20000
-	duration = 14600
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_technology = "tech_gaia_creation"
@@ -437,42 +393,175 @@ terraform_link = {
 		}
 	}
 }
-
-terraform_link = {
-	to = "pc_gaia"
-	from = "pc_nuked"
-
-	energy = 20000
-	duration = 14600
-
-	potential = {
-		has_technology = "tech_gaia_creation"
-	}
-
-	ai_weight = {
-		weight = 1
-		modifier = {
-			factor = 0
-			OR = {
-				is_mechanical_empire = yes
-				is_cyborg_empire = yes
-				has_authority = auth_machine_intelligence
-			}
-		}
-	}
-}
-
 
 ##################
 ## Barren World ##
 ##################
 
-terraform_link = {
-	from = "pc_barren"
-	to = "pc_desert"
+terraform_link = {from = "pc_barren"		to = "pc_desert"
 
-	energy = 5000
-	duration = 3600
+	energy = @energy_level_2
+	duration = @duration_level_2
+
+	potential = {
+		from = { has_modifier = terraforming_candidate }
+	}
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+terraform_link = {from = "pc_barren"		to = "pc_arid"
+
+	energy = @energy_level_2
+	duration = @duration_level_2
+
+	potential = {
+		from = { has_modifier = terraforming_candidate }
+	}
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+terraform_link = {from = "pc_barren"		to = "pc_savannah"
+
+	energy = @energy_level_2
+	duration = @duration_level_2
+
+	potential = {
+		from = { has_modifier = terraforming_candidate }
+	}
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+terraform_link = {from = "pc_barren"		to = "pc_continental"
+
+	energy = @energy_level_3
+	duration = @duration_level_3
+
+	potential = {
+		from = { has_modifier = terraforming_candidate }
+	}
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+terraform_link = {from = "pc_barren"		to = "pc_tropical"
+
+	energy = @energy_level_3
+	duration = @duration_level_3
+
+	potential = {
+		from = { has_modifier = terraforming_candidate }
+	}
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+terraform_link = {from = "pc_barren"		to = "pc_ocean"
+
+	energy = @energy_level_3
+	duration = @duration_level_3
+
+	potential = {
+		from = { has_modifier = terraforming_candidate }
+	}
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+terraform_link = {from = "pc_barren"		to = "pc_arctic"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
+
+	potential = {
+		from = { has_modifier = terraforming_candidate }
+	}
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+terraform_link = {from = "pc_barren"		to = "pc_tundra"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
+
+	potential = {
+		from = { has_modifier = terraforming_candidate }
+	}
+	condition = {
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from = { remove_modifier = terraforming_candidate }
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+terraform_link = {from = "pc_barren"		to = "pc_alpine"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		from = { has_modifier = terraforming_candidate }
@@ -490,35 +579,14 @@ terraform_link = {
 	}
 }
 
-terraform_link = {
-	from = "pc_barren"
-	to = "pc_arid"
+#######################
+## Cold Barren World ##
+#######################
 
-	energy = 5000
-	duration = 3600
+terraform_link = {from = "pc_barren_cold"		to = "pc_arctic"
 
-	potential = {
-		from = { has_modifier = terraforming_candidate }
-	}
-	condition = {
-		has_technology = "tech_climate_restoration"
-	}
-
-	effect = {
-		from = { remove_modifier = terraforming_candidate }
-	}
-
-	ai_weight = {
-		weight = 5
-	}
-}
-
-terraform_link = {
-	from = "pc_barren"
-	to = "pc_savannah"
-
-	energy = 5000
-	duration = 3600
+	energy = @energy_level_1
+	duration = @duration_level_1
 
 	potential = {
 		from = { has_modifier = terraforming_candidate }
@@ -535,13 +603,10 @@ terraform_link = {
 		weight = 5
 	}
 }
+terraform_link = {from = "pc_barren_cold"		to = "pc_tundra"
 
-terraform_link = {
-	from = "pc_barren"
-	to = "pc_continental"
-
-	energy = 10000
-	duration = 5400
+	energy = @energy_level_1
+	duration = @duration_level_1
 
 	potential = {
 		from = { has_modifier = terraforming_candidate }
@@ -558,13 +623,10 @@ terraform_link = {
 		weight = 5
 	}
 }
+terraform_link = {from = "pc_barren_cold"		to = "pc_alpine"
 
-terraform_link = {
-	from = "pc_barren"
-	to = "pc_tropical"
-
-	energy = 10000
-	duration = 5400
+	energy = @energy_level_1
+	duration = @duration_level_1
 
 	potential = {
 		from = { has_modifier = terraforming_candidate }
@@ -581,13 +643,10 @@ terraform_link = {
 		weight = 5
 	}
 }
+terraform_link = {from = "pc_barren_cold"		to = "pc_continental"
 
-terraform_link = {
-	from = "pc_barren"
-	to = "pc_ocean"
-
-	energy = 10000
-	duration = 5400
+	energy = @energy_level_3
+	duration = @duration_level_3
 
 	potential = {
 		from = { has_modifier = terraforming_candidate }
@@ -604,14 +663,10 @@ terraform_link = {
 		weight = 5
 	}
 }
+terraform_link = {from = "pc_barren_cold"		to = "pc_tropical"
 
-
-terraform_link = {
-	from = "pc_barren"
-	to = "pc_arctic"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_3
+	duration = @duration_level_3
 
 	potential = {
 		from = { has_modifier = terraforming_candidate }
@@ -628,13 +683,10 @@ terraform_link = {
 		weight = 5
 	}
 }
+terraform_link = {from = "pc_barren_cold"		to = "pc_ocean"
 
-terraform_link = {
-	from = "pc_barren"
-	to = "pc_tundra"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_3
+	duration = @duration_level_3
 
 	potential = {
 		from = { has_modifier = terraforming_candidate }
@@ -651,13 +703,10 @@ terraform_link = {
 		weight = 5
 	}
 }
+terraform_link = {from = "pc_barren_cold"		to = "pc_desert"
 
-terraform_link = {
-	from = "pc_barren"
-	to = "pc_alpine"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		from = { has_modifier = terraforming_candidate }
@@ -674,13 +723,10 @@ terraform_link = {
 		weight = 5
 	}
 }
+terraform_link = {from = "pc_barren_cold"		to = "pc_arid"
 
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_arctic"
-
-	energy = 5000
-	duration = 3600
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		from = { has_modifier = terraforming_candidate }
@@ -697,174 +743,10 @@ terraform_link = {
 		weight = 5
 	}
 }
+terraform_link = {from = "pc_barren_cold"		to = "pc_savannah"
 
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_tundra"
-
-	energy = 5000
-	duration = 3600
-
-	potential = {
-		from = { has_modifier = terraforming_candidate }
-	}
-	condition = {
-		has_technology = "tech_climate_restoration"
-	}
-
-	effect = {
-		from = { remove_modifier = terraforming_candidate }
-	}
-
-	ai_weight = {
-		weight = 5
-	}
-}
-
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_alpine"
-
-	energy = 5000
-	duration = 3600
-
-	potential = {
-		from = { has_modifier = terraforming_candidate }
-	}
-	condition = {
-		has_technology = "tech_climate_restoration"
-	}
-
-	effect = {
-		from = { remove_modifier = terraforming_candidate }
-	}
-
-	ai_weight = {
-		weight = 5
-	}
-}
-
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_continental"
-
-	energy = 10000
-	duration = 5400
-
-	potential = {
-		from = { has_modifier = terraforming_candidate }
-	}
-	condition = {
-		has_technology = "tech_climate_restoration"
-	}
-
-	effect = {
-		from = { remove_modifier = terraforming_candidate }
-	}
-
-	ai_weight = {
-		weight = 5
-	}
-}
-
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_tropical"
-
-	energy = 10000
-	duration = 5400
-
-	potential = {
-		from = { has_modifier = terraforming_candidate }
-	}
-	condition = {
-		has_technology = "tech_climate_restoration"
-	}
-
-	effect = {
-		from = { remove_modifier = terraforming_candidate }
-	}
-
-	ai_weight = {
-		weight = 5
-	}
-}
-
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_ocean"
-
-	energy = 10000
-	duration = 5400
-
-	potential = {
-		from = { has_modifier = terraforming_candidate }
-	}
-	condition = {
-		has_technology = "tech_climate_restoration"
-	}
-
-	effect = {
-		from = { remove_modifier = terraforming_candidate }
-	}
-
-	ai_weight = {
-		weight = 5
-	}
-}
-
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_desert"
-
-	energy = 15000
-	duration = 7200
-
-	potential = {
-		from = { has_modifier = terraforming_candidate }
-	}
-	condition = {
-		has_technology = "tech_climate_restoration"
-	}
-
-	effect = {
-		from = { remove_modifier = terraforming_candidate }
-	}
-
-	ai_weight = {
-		weight = 5
-	}
-}
-
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_arid"
-
-	energy = 15000
-	duration = 7200
-
-	potential = {
-		from = { has_modifier = terraforming_candidate }
-	}
-	condition = {
-		has_technology = "tech_climate_restoration"
-	}
-
-	effect = {
-		from = { remove_modifier = terraforming_candidate }
-	}
-
-	ai_weight = {
-		weight = 5
-	}
-}
-
-terraform_link = {
-	from = "pc_barren_cold"
-	to = "pc_savannah"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		from = { has_modifier = terraforming_candidate }
@@ -887,12 +769,10 @@ terraform_link = {
 ###################
 
 
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_barren"
+terraform_link = {from = "pc_barren"		to = "pc_machine"
 
-	energy = 20000
-	duration = 10080
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_ascension_perk = ap_machine_worlds
@@ -920,13 +800,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_barren_cold"	to = "pc_machine"
 
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_barren_cold"
-
-	energy = 20000
-	duration = 10080
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_ascension_perk = ap_machine_worlds
@@ -954,13 +831,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_nuked"			to = "pc_machine"
 
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_nuked"
-
-	energy = 20000
-	duration = 10080
+	energy = @energy_level_5
+	duration = @duration_level_5
 
 	potential = {
 		has_ascension_perk = ap_machine_worlds
@@ -987,13 +861,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_gaia"			to = "pc_machine"
 
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_gaia"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_ascension_perk = ap_machine_worlds
@@ -1030,12 +901,250 @@ terraform_link = {
 	}
 }
 
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_desert"
+terraform_link = {from = "pc_desert"		to = "pc_machine"
 
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
+
+	potential = {
+		has_ascension_perk = ap_machine_worlds
+	}
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			from = {
+				any_owned_pop = {
+					NOR = {
+						has_trait = trait_machine_unit
+						has_trait = trait_mechanical
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = {
+				is_colony = no
+			}
+		}
+	}
+}
+terraform_link = {from = "pc_arid"			to = "pc_machine"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
+
+	potential = {
+		has_ascension_perk = ap_machine_worlds
+	}
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			from = {
+				any_owned_pop = {
+					NOR = {
+						has_trait = trait_machine_unit
+						has_trait = trait_mechanical
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = {
+				is_colony = no
+			}
+		}
+	}
+}
+terraform_link = {from = "pc_savannah"		to = "pc_machine"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
+
+	potential = {
+		has_ascension_perk = ap_machine_worlds
+	}
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			from = {
+				any_owned_pop = {
+					NOR = {
+						has_trait = trait_machine_unit
+						has_trait = trait_mechanical
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = {
+				is_colony = no
+			}
+		}
+	}
+}
+terraform_link = {from = "pc_arctic"		to = "pc_machine"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
+
+	potential = {
+		has_ascension_perk = ap_machine_worlds
+	}
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			from = {
+				any_owned_pop = {
+					NOR = {
+						has_trait = trait_machine_unit
+						has_trait = trait_mechanical
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = {
+				is_colony = no
+			}
+		}
+	}
+}
+terraform_link = {from = "pc_tundra"		to = "pc_machine"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
+
+	potential = {
+		has_ascension_perk = ap_machine_worlds
+	}
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			from = {
+				any_owned_pop = {
+					NOR = {
+						has_trait = trait_machine_unit
+						has_trait = trait_mechanical
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = {
+				is_colony = no
+			}
+		}
+	}
+}
+terraform_link = {from = "pc_alpine"		to = "pc_machine"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
+
+	potential = {
+		has_ascension_perk = ap_machine_worlds
+	}
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			from = {
+				any_owned_pop = {
+					NOR = {
+						has_trait = trait_machine_unit
+						has_trait = trait_mechanical
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = {
+				is_colony = no
+			}
+		}
+	}
+}
+terraform_link = {from = "pc_continental"	to = "pc_machine"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
+
+	potential = {
+		has_ascension_perk = ap_machine_worlds
+	}
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			from = {
+				any_owned_pop = {
+					NOR = {
+						has_trait = trait_machine_unit
+						has_trait = trait_mechanical
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = {
+				is_colony = no
+			}
+		}
+	}
+}
+terraform_link = {from = "pc_tropical"		to = "pc_machine"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
+
+	potential = {
+		has_ascension_perk = ap_machine_worlds
+	}
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			from = {
+				any_owned_pop = {
+					NOR = {
+						has_trait = trait_machine_unit
+						has_trait = trait_mechanical
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			from = {
+				is_colony = no
+			}
+		}
+	}
+}
+terraform_link = {from = "pc_ocean"			to = "pc_machine"
+
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_ascension_perk = ap_machine_worlds
@@ -1063,276 +1172,10 @@ terraform_link = {
 	}
 }
 
-terraform_link = {
-	from = "pc_arid"
-	to = "pc_machine"
+terraform_link = {from = "pc_machine"		to = "pc_desert"
 
-	energy = 15000
-	duration = 7200
-
-	potential = {
-		has_ascension_perk = ap_machine_worlds
-	}
-
-	ai_weight = {
-		weight = 10
-		modifier = {
-			factor = 0
-			from = {
-				any_owned_pop = {
-					NOR = {
-						has_trait = trait_machine_unit
-						has_trait = trait_mechanical
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			from = {
-				is_colony = no
-			}
-		}
-	}
-}
-
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_savannah"
-
-	energy = 15000
-	duration = 7200
-
-	potential = {
-		has_ascension_perk = ap_machine_worlds
-	}
-
-	ai_weight = {
-		weight = 10
-		modifier = {
-			factor = 0
-			from = {
-				any_owned_pop = {
-					NOR = {
-						has_trait = trait_machine_unit
-						has_trait = trait_mechanical
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			from = {
-				is_colony = no
-			}
-		}
-	}
-}
-
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_arctic"
-
-	energy = 15000
-	duration = 7200
-
-	potential = {
-		has_ascension_perk = ap_machine_worlds
-	}
-
-	ai_weight = {
-		weight = 10
-		modifier = {
-			factor = 0
-			from = {
-				any_owned_pop = {
-					NOR = {
-						has_trait = trait_machine_unit
-						has_trait = trait_mechanical
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			from = {
-				is_colony = no
-			}
-		}
-	}
-}
-
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_tundra"
-
-	energy = 15000
-	duration = 7200
-
-	potential = {
-		has_ascension_perk = ap_machine_worlds
-	}
-
-	ai_weight = {
-		weight = 10
-		modifier = {
-			factor = 0
-			from = {
-				any_owned_pop = {
-					NOR = {
-						has_trait = trait_machine_unit
-						has_trait = trait_mechanical
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			from = {
-				is_colony = no
-			}
-		}
-	}
-}
-
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_alpine"
-
-	energy = 15000
-	duration = 7200
-
-	potential = {
-		has_ascension_perk = ap_machine_worlds
-	}
-
-	ai_weight = {
-		weight = 10
-		modifier = {
-			factor = 0
-			from = {
-				any_owned_pop = {
-					NOR = {
-						has_trait = trait_machine_unit
-						has_trait = trait_mechanical
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			from = {
-				is_colony = no
-			}
-		}
-	}
-}
-
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_continental"
-
-	energy = 15000
-	duration = 7200
-
-	potential = {
-		has_ascension_perk = ap_machine_worlds
-	}
-
-	ai_weight = {
-		weight = 10
-		modifier = {
-			factor = 0
-			from = {
-				any_owned_pop = {
-					NOR = {
-						has_trait = trait_machine_unit
-						has_trait = trait_mechanical
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			from = {
-				is_colony = no
-			}
-		}
-	}
-}
-
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_tropical"
-
-	energy = 15000
-	duration = 7200
-
-	potential = {
-		has_ascension_perk = ap_machine_worlds
-	}
-
-	ai_weight = {
-		weight = 10
-		modifier = {
-			factor = 0
-			from = {
-				any_owned_pop = {
-					NOR = {
-						has_trait = trait_machine_unit
-						has_trait = trait_mechanical
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			from = {
-				is_colony = no
-			}
-		}
-	}
-}
-
-terraform_link = {
-	to = "pc_machine"
-	from = "pc_ocean"
-
-	energy = 15000
-	duration = 7200
-
-	potential = {
-		has_ascension_perk = ap_machine_worlds
-	}
-
-	ai_weight = {
-		weight = 10
-		modifier = {
-			factor = 0
-			from = {
-				any_owned_pop = {
-					NOR = {
-						has_trait = trait_machine_unit
-						has_trait = trait_mechanical
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 0
-			from = {
-				is_colony = no
-			}
-		}
-	}
-}
-
-terraform_link = {
-	from = "pc_machine"
-	to = "pc_desert"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_technology = tech_climate_restoration
@@ -1346,13 +1189,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_machine"		to = "pc_arid"
 
-terraform_link = {
-	to = "pc_arid"
-	from = "pc_machine"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_technology = tech_climate_restoration
@@ -1366,13 +1206,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_machine"		to = "pc_savannah"
 
-terraform_link = {
-	from = "pc_machine"
-	to = "pc_savannah"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_technology = tech_climate_restoration
@@ -1386,13 +1223,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_machine"		to = "pc_arctic"
 
-terraform_link = {
-	from = "pc_machine"
-	to = "pc_arctic"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_technology = tech_climate_restoration
@@ -1406,13 +1240,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_machine"		to = "pc_tundra"
 
-terraform_link = {
-	from = "pc_machine"
-	to = "pc_tundra"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_technology = tech_climate_restoration
@@ -1426,13 +1257,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_machine"		to = "pc_alpine"
 
-terraform_link = {
-	from = "pc_machine"
-	to = "pc_alpine"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_technology = tech_climate_restoration
@@ -1446,13 +1274,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_machine"		to = "pc_continental"
 
-terraform_link = {
-	from = "pc_machine"
-	to = "pc_continental"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_technology = tech_climate_restoration
@@ -1466,13 +1291,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_machine"		to = "pc_tropical"
 
-terraform_link = {
-	from = "pc_machine"
-	to = "pc_tropical"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_technology = tech_climate_restoration
@@ -1486,13 +1308,10 @@ terraform_link = {
 		}
 	}
 }
+terraform_link = {from = "pc_machine"		to = "pc_ocean"
 
-terraform_link = {
-	from = "pc_machine"
-	to = "pc_ocean"
-
-	energy = 15000
-	duration = 7200
+	energy = @energy_level_4
+	duration = @duration_level_4
 
 	potential = {
 		has_technology = tech_climate_restoration

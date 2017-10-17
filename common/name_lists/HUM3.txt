@@ -159,62 +159,55 @@ HUM3 = {
 
 		generic = {
 			names = {
-				# "New Jerusalem" "New Roanoke" "New Jamestown" "New Troy" "Wang Tong" "Las Veredas" "San Lucas" "San Fernando" "San Cristóbal" "Nueva Sonora" "Puerto González" "Nueva Cádiz" "La Isabela" "New Coventry" "St. Yegorov" "St. Pomeroy" "Port Karakosov"
-				Al-Jissa Al-Mada'in Al-Nuqayrah Al-Karak Nova Al-Matabbah Anchor Dis Avalon Bounty Hope Olympia Serendipity Spring Thinis Salaam Xianyang Concord Theia Tuscany Wenzhou Delgovicia Nozomi Akatsuki
+				Jissa Madain Nuqayrah Karak Nova Matabbah Anchor Dis Avalon Bounty Hope Olympia Serendipity Spring Thinis Salaam Xianyang Concord Theia Tuscany Wenzhou Delgovicia Nozomi Akatsuki Acrisia Aurora Capella Euterpe Faunus Hesperos Keresia Melpomenia Nexon Osiris Pallas Pallena Proclas Rhea Saon Smitheus Solaria Tethys Theia Destinikon Doron Hesperides Noricum Tyndis Athura Tartessos Agartha Truett Flaxington Girdwood Fincastle Rattenbury Grinstead Leffingwell Durkheim Treadway Hoxworth Tronchet Knutton Corregan Mullineux Lockney
 			}
 		}
 
 		pc_desert = {
 			names = {
-				# "Kara Kum" "Kyzyl Kum"
-				Arabia Sahara Gobi Kalahari Mojave Patagonia Syria Chihuahua Sand Colorado Sonora Taklamakan Thar Gibson Namib Lut Kavir Dune Kali Muspelheim Vulcan Baal Carthage Ordos Khara Lop Maranjab Negev Sinai Atacama Simpson
+				Arabia Sahara Gobi Kalahari Mojave Patagonia Syria Chihuahua Sand Colorado Sonora Taklamakan Thar Gibson Namib Lut Kavir Dune Kali Muspelheim Vulcan Baal Carthage Ordos Khara Lop Maranjab Negev Sinai Atacama Simpson Kara Kyzyl Sunrise Alexandria Inferno
 			}
 		}
 
 		pc_arid = {
 			names = {
-				# "New Mars"
-				Lebanon Tyre Antioch Jaxartes Oxus Turan Accona Bardenas Larzac Oltenia Tabernas Atacama Tanami
-				Rangipo Canaan
+				Tartarus Antioch Lebanon Tyre Antioch Jaxartes Oxus Turan Accona Bardenas Larzac Oltenia Tabernas Atacama Tanami Rangipo Canaan
 			}
 		}
 
 		pc_tropical = {
 			names = {
-				# "New Africa"
-				Amazonia Congo Ecuador Rain Storm Monsoon Bengal Kishkindha Zanzibar Kipling
+				Amazonia Congo Ecuador Rain Storm Monsoon Bengal Kishkindha Zanzibar Kipling Khersonia Jangala Broadleaf Shrub
 			}
 		}
 
 		pc_continental = {
 			names = {
-				# "Terra Nova" "Tian Yi" "Wu Ding" "Gao Zu"
-				Albion Amor Dawn Horizon Asgard Kongzi Zoroaster Zheng Tokugawa Oda Toyotomi Rama Vishnu Soma Pangea
+				Destiny Bastion Citadel Acropolis Delphi Harmony Dawnlight Myndos Thebes Camelot Arcadia Abbassus Ashur Albion Amor Dawn Horizon Asgard Kongzi Zoroaster Zheng Tokugawa Oda Toyotomi Rama Vishnu Soma Pangea
 			}
 		}
 
 		pc_gaia = {
 			names = {
-				Eden Elysium Cornucopia Utopia Shambhala Xanadu Shangri-La
+				Eden Elysium Cornucopia Utopia Shambhala Xanadu Shangri-La Sanctuary Serendipity Deliverance Apollonia Nova Babylon Garden
 			}
 		}
 
 		pc_ocean = {
 			names = {
-				# "Port Rabcewicz"
-				Atlantis Oceania Pacifica Atlantica Euxina Hyrcania Rubrica Erythraea Baltica R'lyeh Dagon Kraken Aegea Adriatica Tyrrhenia Mediterranea Mare Ningbo
+				Atlantis Oceania Pacifica Atlantica Euxina Hyrcania Rubrica Erythraea Baltica R'lyeh Dagon Kraken Aegea Adriatica Tyrrhenia Mediterranea Mare Ningbo Hyderia Neritum
 			}
 		}
 
 		pc_tundra = {
 			names = {
-				Iceland Canada Kola Scandza Utgard Rus Blizzard Taiyuan
+				Iceland Canada Kola Scandza Utgard Rus Blizzard Taiyuan Stonehead Samarkand Evonium
 			}
 		}
 
 		pc_arctic = {
 			names = {
-				Thule Arctica Greenland Alaska Baffin Siberia Niflheim Hyperborea
+				Thule Arctica Greenland Alaska Baffin Siberia Niflheim Hyperborea Jotunheim Winter Everest
 			}
 		}
 
@@ -225,7 +218,6 @@ HUM3 = {
 		pc_alpine = {
 			names = {}
 		}
-
 	}
 
 

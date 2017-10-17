@@ -66,29 +66,29 @@
 		PARTICLE_GALAXY_TRANSITION_OFFSET	= 30.0
 		PARTICLE_SYSTEM_TRANSITION_OFFSET	= 20.0
 
-		EDGE_SCROLLING_PIXELS					= 3	# how many pixels from window edge that will trigger edge scrolling
+		EDGE_SCROLLING_PIXELS					= 3			# how many pixels from window edge that will trigger edge scrolling
 		SCROLL_SPEED							= 0.035 	# higher values = faster camera. NOTE that this is tweakables from settings as well!
-		SYSTEM_CAMERA_RESTRICT_EXTRA_SPACE 		= 100.0# how far the camera can go outside a systems outer radius
+		SYSTEM_CAMERA_RESTRICT_EXTRA_SPACE 		= 100.0	# how far the camera can go outside a systems outer radius
 
-		SYSTEM_MIN_PITCH						=   1.0	# in degrees
-		SYSTEM_MAX_PITCH						=  89.0	# in degrees
-		GALAXY_MIN_PITCH						=   1.0	# in degrees
-		GALAXY_MAX_PITCH						=  89.0	# in degrees
-		FOCUSED_MIN_PITCH						= -89.0 # in degrees used when focused on planet/ship
-		FOCUSED_MAX_PITCH						=  89.0 # in degrees used when focused on planet/ship
-		FOCUSED_MIN_ZOOM_BASE					= 20.0 # base min zoom
-		FOCUSED_MIN_ZOOM_MULT					= 0.5 # min zoom is base + entity radius * FOCUSED_MIN_ZOOM_MULT
-		FOCUSED_PLANET_MIN_ZOOM_MULT			= 1.6
-		FOCUSED_ZOOM_RATE						= 0.2 # higher values means faster zoom in/out
-		FOCUS_START_ZOOM_STEP					= 4 	# which zoom step will be used when focusing on a new object
+		SYSTEM_MIN_PITCH						= -90.0	# in degrees
+		SYSTEM_MAX_PITCH						=  90.0	# in degrees
+		GALAXY_MIN_PITCH						= -90.0	# in degrees
+		GALAXY_MAX_PITCH						=  90.0	# in degrees
+		FOCUSED_MIN_PITCH						= -90.0 # in degrees used when focused on planet/ship
+		FOCUSED_MAX_PITCH						=  90.0 # in degrees used when focused on planet/ship
+		FOCUSED_MIN_ZOOM_BASE					=  20.0 # base min zoom
+		FOCUSED_MIN_ZOOM_MULT					=   0.5 # min zoom is base + entity radius * FOCUSED_MIN_ZOOM_MULT
+		FOCUSED_PLANET_MIN_ZOOM_MULT			=   1.6
+		FOCUSED_ZOOM_RATE						=   0.5 # higher values means faster zoom in/out
+		FOCUS_START_ZOOM_STEP					=   4 	# which zoom step will be used when focusing on a new object
 
 		ROTATION_RADIANS_PER_MOUSE_UNIT			= 0.004 # moving the mouse 1 pixel results in rotation of X radians * sensitivity from settings
-		MOUSE_MOVEMENT_TO_START_ROTATION_SQ		= 16	 # how far (squared) you need to move the mouse before the game recognizes this as a camera rotation action
+		MOUSE_MOVEMENT_TO_START_ROTATION_SQ		= 25	 # how far (squared) you need to move the mouse before the game recognizes this as a camera rotation action
 
 		OFFSET_ANOMALY_VIEW					= 50	# how far from the right the anomaly view will pop up when toggling in galaxy view
 
 		SYSTEM_SLIDE_RADIUS_FACTOR = 4.0
-		SYSTEM_SLIDE_SPEED = 100.0
+		SYSTEM_SLIDE_SPEED = 200.0
 	}
 
 	NGraphics = {
@@ -760,8 +760,8 @@
 		KEYBOARD_DOUBLE_CLICK_TIME				= 0.5	# Seconds listening to control group double clicks.
 		DOCKED_FLEET_MAINTENANCE_REDUCTION		= 0.25	# Docked fleets will have a lowered maintenance reduction of this amount
 
-		MIN_TRADE_DEAL_LENGTH_YEARS				= 10	# Minimum length of a trade deal in years.
-		MAX_TRADE_DEAL_LENGTH_YEARS				= 30	# Maximum length of a trade deal in years.
+		MIN_TRADE_DEAL_LENGTH_YEARS				= 5	# Minimum length of a trade deal in years.
+		MAX_TRADE_DEAL_LENGTH_YEARS				= 50	# Maximum length of a trade deal in years.
 
 		ORBITAL_BOMBARDMENT_COLONIZE_PROGRESS_DAMAGE_PER_DAY = 4 / 30 # Damage dealt to a colony's progress each day of orbital bombardment. Only applies during the initial colonization process established colonies are unaffected.
 

@@ -52,8 +52,7 @@
 # ###########
 
 # Dry
-pc_desert = {
-	entity = "desert_planet"
+pc_desert = {entity = "desert_planet"
 	icon_frame = 1
 
 	climate = "dry"
@@ -82,9 +81,7 @@ pc_desert = {
 
 	colonizable = yes
 }
-
-pc_arid = {
-	entity = "arid_planet"
+pc_arid = {entity = "arid_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 2
 
@@ -110,9 +107,7 @@ pc_arid = {
 
 	colonizable = yes
 }
-
-pc_savannah = {
-	entity = "savannah_planet"
+pc_savannah = {entity = "savannah_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 20
 
@@ -140,8 +135,7 @@ pc_savannah = {
 }
 
 # Temperate
-pc_tropical = {
-	entity = "tropical_planet"
+pc_tropical = {entity = "tropical_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 5
 
@@ -167,9 +161,7 @@ pc_tropical = {
 
 	colonizable = yes
 }
-
-pc_continental = {
-	entity = "continental_planet"
+pc_continental = {entity = "continental_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 4
 
@@ -196,9 +188,7 @@ pc_continental = {
 
 	colonizable = yes
 }
-
-pc_ocean = {
-	entity = "ocean_planet"
+pc_ocean = {entity = "ocean_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 6
 
@@ -227,8 +217,7 @@ pc_ocean = {
 }
 
 # Cold
-pc_tundra = {
-	entity = "tundra_planet"
+pc_tundra = {entity = "tundra_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 3
 
@@ -254,9 +243,7 @@ pc_tundra = {
 
 	colonizable = yes
 }
-
-pc_arctic = {
-	entity = "arctic_planet"
+pc_arctic = {entity = "arctic_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 7
 
@@ -282,9 +269,7 @@ pc_arctic = {
 
 	colonizable = yes
 }
-
-pc_alpine = {
-	entity = "alpine_planet"
+pc_alpine = {entity = "alpine_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 19
 
@@ -315,8 +300,7 @@ pc_alpine = {
 # Uninhabitable Planets
 # ###########
 
-pc_gas_giant = {
-	entity = "gas_giant"
+pc_gas_giant = {entity = "gas_giant"
 	entity_scale = 14
 	icon_frame = 14
 
@@ -341,9 +325,7 @@ pc_gas_giant = {
 
 	colonizable = no
 }
-
-pc_asteroid = {
-	entity = "asteroid"
+pc_asteroid = {entity = "asteroid"
 	entity_scale = 1.5
 	icon_frame = 18
 
@@ -361,9 +343,7 @@ pc_asteroid = {
 	colonizable = no
 	survey_time_factor = 0.5
 }
-
-pc_molten = {
-	entity = "molten_planet"
+pc_molten = {entity = "molten_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 12
 
@@ -385,9 +365,7 @@ pc_molten = {
 
 	colonizable = no
 }
-
-pc_barren = {
-	entity = "barren_planet"
+pc_barren = {entity = "barren_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 10
 
@@ -409,9 +387,7 @@ pc_barren = {
 
 	colonizable = no
 }
-
-pc_barren_cold = {
-	entity = "cold_barren_planet"
+pc_barren_cold = {entity = "cold_barren_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 9
 
@@ -433,9 +409,7 @@ pc_barren_cold = {
 
 	colonizable = no
 }
-
-pc_toxic = {
-	entity = "toxic_planet"
+pc_toxic = {entity = "toxic_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 11
 
@@ -458,9 +432,7 @@ pc_toxic = {
 
 	colonizable = no
 }
-
-pc_frozen = {
-	entity = "frozen_planet"		#DONE
+pc_frozen = {entity = "frozen_planet"		#DONE
 	entity_scale = @planet_standard_scale
 	icon_frame = 13
 
@@ -487,8 +459,7 @@ pc_frozen = {
 # Special Planets
 # ###########
 
-pc_nuked = {
-	entity = "nuked_planet"
+pc_nuked = {entity = "nuked_planet"
 	picture = pc_tundra # there's no unique nuked_planet picture
 	tile_set = pc_tundra
 	entity_scale = @planet_standard_scale
@@ -515,9 +486,7 @@ pc_nuked = {
 	colonizable = yes
 	#colonization_tech = { "tech_atmospheric_manipulation" }
 }
-
-pc_machine = {
-	entity = "machine_planet"
+pc_machine = {entity = "machine_planet"
 	entity_scale = @planet_standard_scale
 	picture = pc_ai
 	tile_set = pc_ai
@@ -554,9 +523,7 @@ pc_machine = {
 	starting_planet = no
 	show_city = no
 }
-
-pc_shielded = {
-	entity = "shielded_planet"
+pc_shielded = {entity = "shielded_planet"
 	icon_frame = 1
 
 	entity_scale = @planet_standard_scale
@@ -584,9 +551,7 @@ pc_shielded = {
 	colonizable = no
 	starting_planet = no
 }
-
-pc_ai = {
-	entity = "ai_planet"
+pc_ai = {entity = "ai_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 15
 
@@ -614,9 +579,7 @@ pc_ai = {
 	colonizable = no
 	show_city = no
 }
-
-pc_infested = {
-	entity = "infested_planet"		#DONE
+pc_infested = {entity = "infested_planet"		#DONE
 	picture = pc_infested
 	entity_scale = @planet_standard_scale
 	icon_frame = 16
@@ -646,9 +609,7 @@ pc_infested = {
 
 	show_city = no
 }
-
-pc_gaia = {
-	entity = "gaia_planet"
+pc_gaia = {entity = "gaia_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 8
 
@@ -679,7 +640,6 @@ pc_gaia = {
 	ideal = yes
 	starting_planet = no
 }
-
 pc_cybrex = {
 	ringworld = yes
 	entity = "ringworld_habitable_entity"
@@ -707,8 +667,7 @@ pc_cybrex = {
 # Stars
 # ###########
 
-pc_b_star = {
-	entity = "b_star_class_star_entity"
+pc_b_star = {entity = "b_star_class_star_entity"
 	entity_scale = 20.0
 	picture = "pc_b_star"
 
@@ -732,9 +691,7 @@ pc_b_star = {
 
 	colonizable = no
 }
-
-pc_a_star = {
-	entity = "a_star_class_star_entity"
+pc_a_star = {entity = "a_star_class_star_entity"
 	entity_scale = 20.0
 	picture = "pc_a_star"
 
@@ -757,9 +714,7 @@ pc_a_star = {
 
 	colonizable = no
 }
-
-pc_f_star = {
-	entity = "f_star_class_star_entity"
+pc_f_star = {entity = "f_star_class_star_entity"
 	entity_scale = 20.0
 	picture = "pc_f_star"
 
@@ -782,9 +737,7 @@ pc_f_star = {
 
 	colonizable = no
 }
-
-pc_g_star = {
-	entity = "g_star_class_star_entity"
+pc_g_star = {entity = "g_star_class_star_entity"
 	entity_scale = 20.0
 	picture = "pc_g_star"
 
@@ -807,9 +760,7 @@ pc_g_star = {
 
 	colonizable = no
 }
-
-pc_k_star = {
-	entity = "k_star_class_star_entity"
+pc_k_star = {entity = "k_star_class_star_entity"
 	entity_scale = 20.0
 	picture = "pc_k_star"
 
@@ -832,9 +783,7 @@ pc_k_star = {
 
 	colonizable = no
 }
-
-pc_m_star = {
-	entity = "m_star_class_star_entity"
+pc_m_star = {entity = "m_star_class_star_entity"
 	entity_scale = 20.0
 	picture = "pc_m_star"
 
@@ -857,9 +806,7 @@ pc_m_star = {
 
 	colonizable = no
 }
-
-pc_black_hole = {
-	entity = "black_hole_entity"
+pc_black_hole = {entity = "black_hole_entity"
 	entity_scale = 20.0
 
 	atmosphere_color 		= hsv { 0.075 0.13 1.5 }
@@ -882,9 +829,7 @@ pc_black_hole = {
 
 	colonizable = no
 }
-
-pc_neutron_star = {
-	entity = "neutron_star_entity"
+pc_neutron_star = {entity = "neutron_star_entity"
 	entity_scale = 20.0
 
 	star = yes
@@ -902,9 +847,7 @@ pc_neutron_star = {
 
 	colonizable = no
 }
-
-pc_pulsar = {
-	entity = "pulsar_entity"
+pc_pulsar = {entity = "pulsar_entity"
 	entity_scale = 20.0
 
 	atmosphere_color 		= hsv { 0.58 0.35 0.7 }
@@ -959,7 +902,6 @@ pc_ringworld_habitable = {
 	orbit_lines = no
 	has_colonization_influence_cost = no		# applies when within own borders
 }
-
 pc_ringworld_habitable_damaged = {
 	ringworld = yes
 	entity = "ringworld_habitable_damaged_entity"
@@ -980,7 +922,6 @@ pc_ringworld_habitable_damaged = {
 	colonizable = no
 	orbit_lines = no
 }
-
 pc_ringworld_tech = {
 	ringworld = yes
 	entity = "ringworld_tech_entity"
@@ -1001,7 +942,6 @@ pc_ringworld_tech = {
 	colonizable = no
 	orbit_lines = no
 }
-
 pc_ringworld_tech_damaged = {
 	ringworld = yes
 	entity = "ringworld_tech_damaged_entity"
@@ -1022,7 +962,6 @@ pc_ringworld_tech_damaged = {
 	colonizable = no
 	orbit_lines = no
 }
-
 pc_ringworld_seam = {
 	ringworld = yes
 	entity = "ringworld_seam_entity"
@@ -1043,7 +982,6 @@ pc_ringworld_seam = {
 	colonizable = no
 	orbit_lines = no
 }
-
 pc_ringworld_seam_damaged = {
 	ringworld = yes
 	entity = "ringworld_seam_damaged_entity"
@@ -1064,7 +1002,6 @@ pc_ringworld_seam_damaged = {
 	colonizable = no
 	orbit_lines = no
 }
-
 pc_habitat = {
 	habitat = yes
 	entity = "orbital_habitat"
@@ -1092,9 +1029,7 @@ pc_habitat = {
 	can_support_spaceport = no
 	has_colonization_influence_cost = no			# applies when within own borders
 }
-
-pc_shrouded = {
-	entity = "shroud_planet"
+pc_shrouded = {entity = "shroud_planet"
 	entity_scale = @planet_standard_scale
 	icon_frame = 23
 
