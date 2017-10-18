@@ -4,7 +4,7 @@
 #
 #########################################
 
-@distance = 40
+@distance = 50
 @planet_min_size = 25
 @planet_max_size = 25
 @base_moon_distance = 10
