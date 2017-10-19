@@ -38,7 +38,7 @@ sol_system_initializer = {
 		orbit_angle = { min = -180 max = 180 } # # 15
 		size = 9
 		has_ring = no
-		anomaly = "terraforming_candidate_category"
+		# anomaly = "terraforming_candidate_category"
 	}
 
 	planet = {
@@ -48,7 +48,7 @@ sol_system_initializer = {
 		orbit_angle = { min = -180 max = 180 } # # 125
 		size = 16
 		has_ring = no
-		anomaly = "terraforming_candidate_category"
+		# anomaly = "terraforming_candidate_category"
 	}
 
 	planet = {
@@ -80,7 +80,7 @@ sol_system_initializer = {
 			orbit_angle = { min = -180 max = 180 } # 40
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
-			anomaly = "terraforming_candidate_category"
+			# anomaly = "terraforming_candidate_category"
 		}
 	}
 
@@ -146,36 +146,36 @@ sol_system_initializer = {
 			class = "pc_molten"
 			size = 9
 			orbit_distance = 10
-			orbit_angle = { min = -180 max = 180 } # 110
+			orbit_angle = { min = -180 max = 0 } # 110
 			has_ring = no
-			anomaly = "terraforming_candidate_category"
+			# anomaly = "terraforming_candidate_category"
 		}
 		moon = {
 			name = "NAME_Europa"
 			class = "pc_frozen"
 			size = 9
 			orbit_distance = 2.5
-			orbit_angle = { min = -180 max = 180 } # 10
+			orbit_angle = { min = 0 max = 180 } # 10
 			has_ring = no
-			anomaly = "terraforming_candidate_category"
+			# anomaly = "terraforming_candidate_category"
 		}
 		moon = {
 			name = "NAME_Ganymede"
 			class = "pc_frozen"
 			size = 9
 			orbit_distance = 2.5
-			orbit_angle = { min = -180 max = 180 } # 80
+			orbit_angle = { min = -180 max = 0 } # 80
 			has_ring = no
-			anomaly = "terraforming_candidate_category"
+			# anomaly = "terraforming_candidate_category"
 		}
 		moon = {
 			name = "NAME_Callisto"
 			class = "pc_frozen"
 			size = 9
 			orbit_distance = 2.5
-			orbit_angle = { min = -180 max = 180 } # -155
+			orbit_angle = { min = 0 max = 180 } # -155
 			has_ring = no
-			anomaly = "terraforming_candidate_category"
+			# anomaly = "terraforming_candidate_category"
 		}
 	}
 
@@ -196,7 +196,7 @@ sol_system_initializer = {
 			orbit_distance = 12
 			orbit_angle = { min = -180 max = 180 } # 320
 			has_ring = no
-			anomaly = "terraforming_candidate_category"
+			# anomaly = "terraforming_candidate_category"
 		}
 	}
 
@@ -295,125 +295,6 @@ sol_neighbor_t1 = {
 		initializer = "sol_neighbor_t2_second_colony"
 	}
 }
-# alpha_centauri_colony = {
-# 	name = "NAME_Alpha_Centauri"
-# 	class = sc_g
-# 	usage = custom_empire
-
-# 	init_effect = {
-# 		every_neighbor_system = {
-# 			set_star_flag = empire_cluster
-# 			every_neighbor_system = {
-# 				set_star_flag = empire_cluster
-# 			}
-# 		}
-# 	}
-
-# 	planet = {
-# 		name = "NAME_Alpha_Centauri_A"
-# 		count = 1
-# 		class = star
-# 		orbit_distance = 25
-# 		orbit_angle = 180
-# 		size = { min = 30 max = 35 }
-# 		has_ring = no
-# 	}
-# 	planet = {
-# 		name = "NAME_Alpha_Centauri_B"
-# 		count = 1
-# 		class = star
-# 		orbit_distance = 0
-# 		orbit_angle = 90
-# 		size = { min = 30 max = 35 }
-# 		has_ring = no
-# 	}
-
-# 	init_effect = {
-# 		every_neighbor_system = {
-# 			set_star_flag = empire_cluster
-# 			every_neighbor_system = {
-# 				set_star_flag = empire_cluster
-# 			}
-# 		}
-# 	}
-
-# 	change_orbit = 45
-
-# 	planet = {
-# 		count = { min = 0 max = 2 }
-# 		orbit_distance = 20
-
-# 		change_orbit = @base_moon_distance
-
-# 		moon = {
-# 			count = { min = 0 max = 1 }
-# 			orbit_distance = 5
-# 		}
-# 	}
-
-# 	# planet = {
-# 	# 	count = 1
-# 	# 	orbit_distance = 25
-# 	# 	class = ideal_planet_class
-# 	# 	orbit_angle = { min = 90 max = 270 }
-# 	# 	size = { min = 12 max = 18 }
-# 	# 	starting_planet = yes
-# 	# 	has_ring = no
-# 	# 	tile_blockers = none
-# 	# 	modifiers = none
-# 	# 	flags = { planet_earth }
-# 	# 	init_effect = {
-# 	# 		prevent_anomaly = yes
-# 	# 	}
-# 	# 	init_effect = {
-# 	# 		generate_start_buildings_and_blockers = yes
-# 	# 	}
-# 	# }
-
-# 	planet = {
-# 		name = "NAME_Proxima_Centauri"
-# 		count = 1
-# 		orbit_distance = 35
-# 		class = pc_k_star
-# 		orbit_angle = { min = 90 max = 270 }
-# 		size = 26
-# 		moon = {
-# 			count = { min = 1 max = 4 }
-# 			orbit_distance = 5
-# 		}
-# 	}
-
-# 	planet = {
-# 		count = { min = 2 max = 5 }
-# 		orbit_distance = 25
-# 		size = 25
-
-# 		change_orbit = @base_moon_distance
-
-# 		moon = {
-# 			count = { min = 0 max = 1 }
-# 			orbit_distance = 5
-# 			size = 16
-# 		}
-# 	}
-
-# 	# neighbor_system = {
-# 	# 	distance = { min = 10 max = @distance }
-# 	# 	initializer = "neighbor_t1"
-# 	# }
-# 	# neighbor_system = {
-# 	# 	distance = { min = 10 max = @distance }
-# 	# 	initializer = "neighbor_t1_first_colony"
-# 	# }
-# 	# neighbor_system = {
-# 	# 	distance = { min = 10 max = @distance }
-# 	# 	initializer = "neighbor_t2_second_colony"
-# 	# }
-# 	neighbor_system = {
-# 		distance = { min = 10 max = @distance }
-# 		initializer = "sol_neighbor_t2"
-# 	}
-# }
 
 # Neighbor Tier 1 First Colony
 sol_neighbor_t1_first_colony = {
@@ -434,7 +315,7 @@ sol_neighbor_t1_first_colony = {
 		count = 1
 		class = star
 		orbit_distance = 30
-		orbit_angle = 0
+		orbit_angle = { min = -180 max = 180 } # 0
 		size = { min = 30 max = 35 }
 		has_ring = no
 	}

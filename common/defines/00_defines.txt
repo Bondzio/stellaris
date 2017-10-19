@@ -464,7 +464,7 @@
 		FTL_TRAIL_DAYS = 360						# FLT Trail lifetime in days
 
 		NORMAL_TAX_LEVEL 		= 0.5				# Tax level without happiness penalty
-		PLANET_ORBIT_DISTANCE 	= 10.0				# how far from the planet ships will orbit
+		PLANET_ORBIT_DISTANCE 	= 15.0				# how far from the planet ships will orbit
 		PLANET_STATION_ORBIT_DISTANCE = 6.0		# how far from the planet orbital stations will be
 
 		BASE_SURVEY_TIME 		= 10.0				# Base Time In Days for surveying a planet
@@ -531,8 +531,8 @@
 		HABITABILITY_OPPOSITE_PLANET	= 0.40			# Below which point we color habitability icons and text red
 
 		BORDER_BASE_RADIUS				= 20		# The base radius of the border
-		BORDER_NEW_COLONY_START			= 0.25		# Newly started colony's borders is modified by this goes up to 1x with progress
-		BORDER_POPULATION_MODIFIER		= 0.20		# The border population modifier
+		BORDER_NEW_COLONY_START			= 0.5		# Newly started colony's borders is modified by this goes up to 1x with progress
+		BORDER_POPULATION_MODIFIER		= 0.30		# The border population modifier
 		BORDER_HABITAT_MODIFIER 		= 0.33
 
 		PLANETARY_BUILDING_ADD_FACTOR 	= 20		# Used in the calculation of the planetary building progress
@@ -603,7 +603,7 @@
 		DEBRIS_BASE_COST					= 0	# Base cost of special project for analyzing debris
 		DEBRIS_ANALYZED_AREA_POINTS			= 5	# Points * Level given for each component analyzed
 		DEBRIS_ANALYZED_TECH_PROGRESS		= 0.10	# Tech progress added when analyzing component that require tech you don't have
-		DEBRIS_DAYS							= 1800	# How many days the debris is visible for
+		DEBRIS_DAYS							= 0	# How many days the debris is visible for
 		DEBRIS_RESEARCH_TIME				= 90	# How many days it takes to analyze 1 debris.
 
 		BASE_FLEET_SIZE						= 10	# Number of ships allowed in a fleet at game start
@@ -614,17 +614,17 @@
 
 		SCIENCE_SHIP_SPECIAL_PROJECT_DIST	= 25.0	# Distance to be able to progress a special project
 
-		COLONY_SENSOR_RANGE					= 10.0 # Base Sensor range from system from having colony in it (does not stack)
-		EVENT_AUTOSELECT_MONTHS				= 9 	# After these months an event option will be autoselected
+		COLONY_SENSOR_RANGE					= 15.0 # Base Sensor range from system from having colony in it (does not stack)
+		EVENT_AUTOSELECT_MONTHS				= 6 	# After these months an event option will be autoselected
 		REVOLT_RISK_ALERT					= 0.5	# This is the threshold for the revolt risk alert
 
 		SURRENDER_MONTHS					= 6 	# For how many months should a war be active after a surrender
-		TRUCE_YEARS							= 10 	# Truce last for X years
+		TRUCE_YEARS							= 5 	# Truce last for X years
 		WARNING_INACTIVE_IN_WAR				= 20	# Warscore when warning is sent out for being inactive in war
 		ACTION_INACTIVE_IN_WAR				= 50	# Warscore when action is sent out for being inactive in war (opinion change etc)
 
 		INSULT_COOLDOWN_DAYS				= 30 	# How often can you send insults?
-		AUTO_DECLINE_DIPLOMACY_DAYS			= 180	# Number of days after which diplomatic action will automatically be declined
+		AUTO_DECLINE_DIPLOMACY_DAYS			= 90	# Number of days after which diplomatic action will automatically be declined
 
 		FEDERATION_FLEET_SIZE				= 0.1	# Federation fleet capacity is this % of all members' fleets
 
@@ -708,12 +708,12 @@
 
 		INFLUENCE_ADD_UPLIFTED_SPECIES			= 500	# Influence gain when uplifting species
 
-		PLANET_ARMIES_LIMIT_BASE				= 0	# Maximum number of troops per planet (base)
-		PLANET_ARMIES_LIMIT_FROM_SIZE 			= 1 # Extra max number of armies per tile
+		PLANET_ARMIES_LIMIT_BASE				= 1	# Maximum number of troops per planet (base)
+		PLANET_ARMIES_LIMIT_FROM_SIZE 			= 1.1 # Extra max number of armies per tile
 
 		MAX_OBSERVATION_STATIONS 				= 8 	#Maximum observation stations per planet
 
-		SPACEPORT_CONSTRUCTION_TIME				= 360	# Amount of days it takes to construct a spaceport.
+		SPACEPORT_CONSTRUCTION_TIME				= 180	# Amount of days it takes to construct a spaceport.
 		SPACEPORT_CONSTRUCTION_HEALTH			= 0.1	# How much HP in % that the spaceport starts with.
 		SPACEPORT_LEVELS 						= 6	# Number of spaceport levels
 		SPACEPORT_UPGRADE_TIME					= 180	#	Time to upgrade a spaceport to the next level
