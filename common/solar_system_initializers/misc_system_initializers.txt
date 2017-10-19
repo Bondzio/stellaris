@@ -35,7 +35,6 @@ basic_init_01 = {
 	}
 }
 
-
 basic_cluster_01 = {
 	class = "rl_standard_stars"
 
