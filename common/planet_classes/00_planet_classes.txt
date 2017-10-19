@@ -679,7 +679,6 @@ pc_gaia = {
 	ideal = yes
 	starting_planet = no
 }
-
 pc_cybrex = {
 	ringworld = yes
 	entity = "ringworld_habitable_entity"
@@ -959,7 +958,6 @@ pc_ringworld_habitable = {
 	orbit_lines = no
 	has_colonization_influence_cost = no		# applies when within own borders
 }
-
 pc_ringworld_habitable_damaged = {
 	ringworld = yes
 	entity = "ringworld_habitable_damaged_entity"
@@ -980,7 +978,6 @@ pc_ringworld_habitable_damaged = {
 	colonizable = no
 	orbit_lines = no
 }
-
 pc_ringworld_tech = {
 	ringworld = yes
 	entity = "ringworld_tech_entity"
@@ -1001,7 +998,6 @@ pc_ringworld_tech = {
 	colonizable = no
 	orbit_lines = no
 }
-
 pc_ringworld_tech_damaged = {
 	ringworld = yes
 	entity = "ringworld_tech_damaged_entity"
@@ -1022,7 +1018,6 @@ pc_ringworld_tech_damaged = {
 	colonizable = no
 	orbit_lines = no
 }
-
 pc_ringworld_seam = {
 	ringworld = yes
 	entity = "ringworld_seam_entity"
@@ -1043,7 +1038,6 @@ pc_ringworld_seam = {
 	colonizable = no
 	orbit_lines = no
 }
-
 pc_ringworld_seam_damaged = {
 	ringworld = yes
 	entity = "ringworld_seam_damaged_entity"
@@ -1064,7 +1058,6 @@ pc_ringworld_seam_damaged = {
 	colonizable = no
 	orbit_lines = no
 }
-
 pc_habitat = {
 	habitat = yes
 	entity = "orbital_habitat"

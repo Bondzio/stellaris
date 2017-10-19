@@ -11,6 +11,7 @@
 @moon_min_size = 16
 @moon_max_size = 16
 
+
 ### STARTING SYSTEMS
 
 # Empire Initializer I
@@ -553,6 +554,7 @@ neighbor_t1 = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 20
 	}
+
 
 	neighbor_system = {
 		distance = { min = 10 max = @distance }

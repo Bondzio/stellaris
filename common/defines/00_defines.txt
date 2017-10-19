@@ -66,9 +66,9 @@
 		PARTICLE_GALAXY_TRANSITION_OFFSET	= 30.0
 		PARTICLE_SYSTEM_TRANSITION_OFFSET	= 20.0
 
-		EDGE_SCROLLING_PIXELS					= 3	# how many pixels from window edge that will trigger edge scrolling
+		EDGE_SCROLLING_PIXELS					= 3			# how many pixels from window edge that will trigger edge scrolling
 		SCROLL_SPEED							= 0.035 	# higher values = faster camera. NOTE that this is tweakables from settings as well!
-		SYSTEM_CAMERA_RESTRICT_EXTRA_SPACE 		= 100.0# how far the camera can go outside a systems outer radius
+		SYSTEM_CAMERA_RESTRICT_EXTRA_SPACE 		= 100.0	# how far the camera can go outside a systems outer radius
 
 		SYSTEM_MIN_PITCH						=   1.0	# in degrees
 		SYSTEM_MAX_PITCH						=  89.0	# in degrees
@@ -76,11 +76,11 @@
 		GALAXY_MAX_PITCH						=  89.0	# in degrees
 		FOCUSED_MIN_PITCH						= -89.0 # in degrees used when focused on planet/ship
 		FOCUSED_MAX_PITCH						=  89.0 # in degrees used when focused on planet/ship
-		FOCUSED_MIN_ZOOM_BASE					= 20.0 # base min zoom
-		FOCUSED_MIN_ZOOM_MULT					= 0.5 # min zoom is base + entity radius * FOCUSED_MIN_ZOOM_MULT
-		FOCUSED_PLANET_MIN_ZOOM_MULT			= 1.6
+		FOCUSED_MIN_ZOOM_BASE					=  20.0 # base min zoom
+		FOCUSED_MIN_ZOOM_MULT					=   0.5 # min zoom is base + entity radius * FOCUSED_MIN_ZOOM_MULT
+		FOCUSED_PLANET_MIN_ZOOM_MULT			=   1.6
 		FOCUSED_ZOOM_RATE						= 0.2 # higher values means faster zoom in/out
-		FOCUS_START_ZOOM_STEP					= 4 	# which zoom step will be used when focusing on a new object
+		FOCUS_START_ZOOM_STEP					=   4 	# which zoom step will be used when focusing on a new object
 
 		ROTATION_RADIANS_PER_MOUSE_UNIT			= 0.004 # moving the mouse 1 pixel results in rotation of X radians * sensitivity from settings
 		MOUSE_MOVEMENT_TO_START_ROTATION_SQ		= 16	 # how far (squared) you need to move the mouse before the game recognizes this as a camera rotation action
@@ -398,18 +398,18 @@
 		SHROUD_FLAG = "breached_shroud"
 		GUARDIANS_OF_THE_GALAXY_FLAG = "guardians_of_the_galaxy"
 
-		DECADENCE_START = 20	# After this many years of being awakened, an awakened empire will experience decadence
+		DECADENCE_START = 10	# After this many years of being awakened, an awakened empire will experience decadence
 		DECADENCE_CHANCE = 0.5	# Chance of decadence increasing each month (multiplied by total size of empire & subjects)
 		DECADENCE_INCREASE = 2	# How much does decadence increase per time?
 		DECADENCE_MAX = 100		# Max decadence
 
 		ALLOW_MANAGE_SECTOR_PLANETS = 1	# Can empire manually manage sector tiles?
 
-		FTL_MAGNET_DISTANCE = 50	# The distance at which ships will warp in when caught by an FTL snare
+		FTL_MAGNET_DISTANCE = 100	# The distance at which ships will warp in when caught by an FTL snare
 
-		ALLOW_EMPIRE_DESIGN_CHEATS = no
-		VICTORY_CONDITION_DOMINATION = 0.4
-		VICTORY_CONDITION_FEDERATION = 0.6
+		ALLOW_EMPIRE_DESIGN_CHEATS = yes
+		VICTORY_CONDITION_DOMINATION = 0.33
+		VICTORY_CONDITION_FEDERATION = 0.5
 
 		MIN_RESOURCE_STORAGE = 0		# Minimum amount that can always be stored of accumulative resources # changed to 0 for machine food stockpiling
 
@@ -463,11 +463,11 @@
 		WORMHOLE_CAPREQ_OUTSIDE_BORDERS = 0.3		# Percentage malus when opening wormholes to systems outside owner borders
 		FTL_TRAIL_DAYS = 360						# FLT Trail lifetime in days
 
-		NORMAL_TAX_LEVEL 		= 0.25				# Tax level without happiness penalty
+		NORMAL_TAX_LEVEL 		= 0.5				# Tax level without happiness penalty
 		PLANET_ORBIT_DISTANCE 	= 10.0				# how far from the planet ships will orbit
 		PLANET_STATION_ORBIT_DISTANCE = 6.0		# how far from the planet orbital stations will be
 
-		BASE_SURVEY_TIME 		= 20.0				# Base Time In Days for surveying a planet
+		BASE_SURVEY_TIME 		= 10.0				# Base Time In Days for surveying a planet
 
 		PIRATE_TARGET_DIST 		= 80.0				# Target system can't be further away from home system
 
@@ -562,9 +562,9 @@
 		PLANET_FORTIFICATION_DEFENSE_MIN	= 0.5		# At 0% fortification divide damage to defending armies by this
 		PLANET_FORTIFICATION_REPAIR 		= 0.01		# Each day
 		PLANET_FORTIFICATION_REPAIR_BOMBARDMENT 		= 0.25		# Repair is this much less during bombardment (mult)
-		PLANET_FORTIFICATION_REPAIR_DELAY 	= 60	# Days since being bombarded before repairs can be done at full speed
+		PLANET_FORTIFICATION_REPAIR_DELAY 	= 30	# Days since being bombarded before repairs can be done at full speed
 		PLANET_FORTIFICATION_MAX_COMBAT_REPAIR 	= 20	# Max repair while being bombarded
-		MAX_BOMBARD_FLEET_SIZE				= 200	# Fleet size over this won't be counted for how fast planetary defenses are bombed down
+		MAX_BOMBARD_FLEET_SIZE				= 400	# Fleet size over this won't be counted for how fast planetary defenses are bombed down
 
 		ELECTION_COST						= 200 	# Base cost of electing a candidate
 		DEMOCRATIC_ELECTION_COST			= 50	# Base cost of supporting a candidate democratic election.
@@ -626,13 +626,13 @@
 		INSULT_COOLDOWN_DAYS				= 30 	# How often can you send insults?
 		AUTO_DECLINE_DIPLOMACY_DAYS			= 180	# Number of days after which diplomatic action will automatically be declined
 
-		FEDERATION_FLEET_SIZE				= 0.2	# Federation fleet capacity is this % of all members' fleets
+		FEDERATION_FLEET_SIZE				= 0.1	# Federation fleet capacity is this % of all members' fleets
 
-		MIN_RIVAL_YEARS						= 10	# Years before you can remove an empire as a rival
-		DEFENSIVE_PACT_INFLUENCE_COST  		= 1	# Per defensive pact
-		GUARANTEE_INFLUENCE_COST  			= 0.5	# Per guarantee
-		FEDERATION_INFLUENCE_COST  			= 2	# For being in a federation
-		RIVALRY_INFLUENCE_GAIN				= 1	# Per rival (scales to relative power value here is at 2x power)
+		MIN_RIVAL_YEARS						= 0	# Years before you can remove an empire as a rival
+		DEFENSIVE_PACT_INFLUENCE_COST  		= 0	# Per defensive pact
+		GUARANTEE_INFLUENCE_COST  			= 0	# Per guarantee
+		FEDERATION_INFLUENCE_COST  			= 0	# For being in a federation
+		RIVALRY_INFLUENCE_GAIN				= 2	# Per rival (scales to relative power value here is at 2x power)
 
 		MAX_FRICTION 						= 100	# Max friction (total)
 		FRICTION_FROM_BORDERING_SYSTEM 		= 3	# Friction for each bordering system
@@ -727,10 +727,10 @@
 		ANOMALY_CRITICAL_FAIL_CHANCE			= 0.20 # 20% chance of critical fail on fail
 		ANOMALY_SPAWN_CHANCE					= 0.025# Percent chance that a planet gets a discovery when surveyed
 		ANOMALY_SPAWN_CHANCE_INCREMENT			= 0.005# Percentage increase towards next chance when failing
-		GOVERNMENT_COOLDOWN_YEARS				= 20	# Cooldown years after changing government before you can change it again
-		GOVERNMENT_CHANGE_INFLUENCE_COST		= 250	# The Influence it costs to change government type
+		GOVERNMENT_COOLDOWN_YEARS				= 8	# Cooldown years after changing government before you can change it again
+		GOVERNMENT_CHANGE_INFLUENCE_COST		= 50	# The Influence it costs to change government type
 
-		DRAIN_SECTOR_RESOURCES_INFLUENCE_COST	= 100 # The influence cost to drain a sector's stockpile of resources
+		DRAIN_SECTOR_RESOURCES_INFLUENCE_COST	= 0 # The influence cost to drain a sector's stockpile of resources
 		DRAIN_SECTOR_DEFENSIVE_WAR_MULT			= 0.25 # Multiplied to above cost while in a defensive war
 		DRAIN_SECTOR_FRACTION					= 0.75 # How much of sector's stockpile is taken
 		DRAIN_SECTOR_MIN_RESOURCES				= 10
@@ -760,8 +760,8 @@
 		KEYBOARD_DOUBLE_CLICK_TIME				= 0.5	# Seconds listening to control group double clicks.
 		DOCKED_FLEET_MAINTENANCE_REDUCTION		= 0.25	# Docked fleets will have a lowered maintenance reduction of this amount
 
-		MIN_TRADE_DEAL_LENGTH_YEARS				= 10	# Minimum length of a trade deal in years.
-		MAX_TRADE_DEAL_LENGTH_YEARS				= 30	# Maximum length of a trade deal in years.
+		MIN_TRADE_DEAL_LENGTH_YEARS				= 5	# Minimum length of a trade deal in years.
+		MAX_TRADE_DEAL_LENGTH_YEARS				= 50	# Maximum length of a trade deal in years.
 
 		ORBITAL_BOMBARDMENT_COLONIZE_PROGRESS_DAMAGE_PER_DAY = 4 / 30 # Damage dealt to a colony's progress each day of orbital bombardment. Only applies during the initial colonization process established colonies are unaffected.
 
@@ -794,7 +794,7 @@
 		GROUNDSUPPORT_STANCE_FULL_REQUIRED_POLICY_FLAG	= "allow_orbital_bombardment_full"
 		GROUNDSUPPORT_STANCE_ARMAGEDDON_REQUIRED_POLICY_FLAG	= "allow_orbital_bombardment_armageddon"
 
-		BORDER_INFLUENCE_THRESHOLD 				= 0.15	# Min threshhold for countries to be considered intersecting
+		BORDER_INFLUENCE_THRESHOLD 				= 0.25	# Min threshhold for countries to be considered intersecting
 
 		SET_DEFENDER_WAR_DEMANDS_TIME_LIMIT		= 360	# Days defender have to set war demands after war started.
 		PEACE_OFFER_DECLINE_THRESHOLD			= 30.0	# War score diff threshold for when declining a peace offer has a cost applied.
@@ -807,8 +807,8 @@
 
 		RESEARCH_AGREEMENT_SPEED_MULT			= 0.25	# Research speed increased by this for trade research agreement deal
 
-		MOVE_CAPITAL_INFLUENCE_COST				= 250	# Influence cost to move the empire capital to another planet.
-		MOVE_CAPITAL_COOLDOWN_YEARS 			= 10  	# Cooldown in years for moving capital.
+		MOVE_CAPITAL_INFLUENCE_COST				= 50	# Influence cost to move the empire capital to another planet.
+		MOVE_CAPITAL_COOLDOWN_YEARS 			= 8  	# Cooldown in years for moving capital.
 
 		INTEGRATE_SUBJECT_MIN_DAYS 				= 3600 # Amount of days the subject has been a subject before we can integrate it
 		SUBJECTS_INTEGRATION_CAP				= 1 # Amount of integrations you're allowed to have at the same time
@@ -1120,20 +1120,20 @@
 		SEVERE_DEFICIT_VALUE				= 0.8		# Balance/Income smaller than this value counts as severe
 		OUTPOST_STATION_MINERAL_COST		= 200		# Mineral cost to build outpost
 		OUTPOST_STATION_INFLUENCE_COST		= 0.0		# Influence cost to build outpost
-		OUTPOST_STATION_MAINTENANCE			= 3		# Monthly outpost station EC maintenance
-		OUTPOST_STATION_INFLUENCE_MAINTENANCE = 1.0	# Monthly outpost station Influence maintenance
+		OUTPOST_STATION_MAINTENANCE			= 1		# Monthly outpost station EC maintenance
+		OUTPOST_STATION_INFLUENCE_MAINTENANCE = 0	# Monthly outpost station Influence maintenance
 
 		BUILDING_REPARATION_TIME_RATE		= 0.25		# Amount of time required to repair ruined buildings
 		BUILDING_REPARATION_COST_RATE		= 0.25		# Amount of resources required to repair ruined buildings
 
 		RESETTLEMENT_COST_RESOURCES			= { "influence" } # Resources for manual resettlement
-		RESETTLEMENT_COST_AMOUNTS			= { 50 } # Resource costs for manual resettlement
+		RESETTLEMENT_COST_AMOUNTS			= { 25 } # Resource costs for manual resettlement
 
-		EXPANSION_COST_BASE 				= 100.0		# the influence base cost of colonzation and frontier outposts by this value.
-		EXPANSION_COST_DISTANCE_FREE 		= 30.0		# a certain amount of distance that is reduced from actual distance in effect making a "free" distance
-		EXPANSION_COST_DISTANCE_FAR 		= 100.0	# special modifiers will be applied from this range
-		EXPANSION_COST_DISTANCE_COST		= 2.0		# each 1 range equals X of this define as an influence cost to colonize or build a frontier outpost
-		EXPANSION_COST_DISTANCE_SCALE 		= 1.10		# scaled cost for exponentially increased costs depending on range
+		EXPANSION_COST_BASE 				= 50.0		# the influence base cost of colonzation and frontier outposts by this value.
+		EXPANSION_COST_DISTANCE_FREE 		= 50.0		# a certain amount of distance that is reduced from actual distance in effect making a "free" distance
+		EXPANSION_COST_DISTANCE_FAR 		= 10.0	# special modifiers will be applied from this range
+		EXPANSION_COST_DISTANCE_COST		= 1.0		# each 1 range equals X of this define as an influence cost to colonize or build a frontier outpost
+		EXPANSION_COST_DISTANCE_SCALE 		= 1.0		# scaled cost for exponentially increased costs depending on range
 	}
 
 	NEngine = {
@@ -1501,7 +1501,7 @@
 		INFLUENCE_FRACTION_SAVINGS = 0.25		# Fraction of AI influence that is saved
 		INFLUENCE_FRACTION_RESETTLEMENT = 0.10	# Fraction of AI influence that is used for resettlement
 
-		INFLUENCE_MAX_STORED_PER_POST = 200	# Max stored in any single influence budget post
+		INFLUENCE_MAX_STORED_PER_POST = 500	# Max stored in any single influence budget post
 
 		INFLUENCE_BUDGET_STATIONS = 0.40		# Fraction of monthly influence that is used on stations (frontier outposts)
 		INFLUENCE_BUDGET_EDICTS = 0.25			# Fraction of monthly influence that is used on edicts

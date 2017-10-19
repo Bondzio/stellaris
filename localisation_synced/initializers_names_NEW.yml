@@ -1,2 +1,7 @@
 ﻿l_default:
  # Please add any new Initializers name here
+
+ NAME_Alpha_Centauri_A: "Alpha Centauri A"
+ NAME_Alpha_Centauri_B: "Alpha Centauri B"
+ NAME_Proxima_Centauri: "Proxima Centauri"
+ NAME_Pluto: "Pluto"

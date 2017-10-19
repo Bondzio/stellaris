@@ -1,103 +1,90 @@
+@energy_level_1 = 2500
+@duration_level_1 = 1800
+
+
+
 #########
 ## Wet ##
 #########
 
-terraform_link = {
-	from = "pc_continental"
-	to = "pc_tropical"
-	
-	energy = 2000
-	duration = 1800
-	
+terraform_link = {from = "pc_continental" to = "pc_tropical"
+
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_continental" to = "pc_ocean"
 
+	energy = @energy_level_1
+	duration = @duration_level_1
 
-terraform_link = {
-	from = "pc_continental"
-	to = "pc_ocean"
-	
-	energy = 2000
-	duration = 1800
-	
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_ocean" to = "pc_continental"
 
-terraform_link = {
-	from = "pc_ocean"
-	to = "pc_continental"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_ocean" to = "pc_tropical"
 
-terraform_link = {
-	from = "pc_ocean"
-	to = "pc_tropical"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
-	ai_weight = {
-		weight = 0
-	}
-	
-	ai_weight = {
-		weight = 0
-	}
-}
 
-terraform_link = {
-	from = "pc_tropical"
-	to = "pc_continental"
-	
-	energy = 2000
-	duration = 1800
-	
-	condition = {
-		has_technology = "tech_terrestrial_sculpting"
+	ai_weight = {
+		weight = 0
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_tropical" to = "pc_continental"
 
-terraform_link = {
-	from = "pc_tropical"
-	to = "pc_ocean"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
+	ai_weight = {
+		weight = 0
+	}
+}
+terraform_link = {from = "pc_tropical" to = "pc_ocean"
+
+	energy = @energy_level_1
+	duration = @duration_level_1
+
+	condition = {
+		has_technology = "tech_terrestrial_sculpting"
+	}
+
 	ai_weight = {
 		weight = 0
 	}
@@ -107,98 +94,80 @@ terraform_link = {
 ## Frozen ##
 ############
 
-terraform_link = {
-	from = "pc_alpine"
-	to = "pc_arctic"
-	
-	energy = 2000
-	duration = 1800
-	
+terraform_link = {from = "pc_alpine" to = "pc_arctic"
+
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_alpine" to = "pc_tundra"
 
+	energy = @energy_level_1
+	duration = @duration_level_1
 
-terraform_link = {
-	from = "pc_alpine"
-	to = "pc_tundra"
-	
-	energy = 2000
-	duration = 1800
-	
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_tundra" to = "pc_alpine"
 
-terraform_link = {
-	from = "pc_tundra"
-	to = "pc_alpine"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_tundra" to = "pc_arctic"
 
-terraform_link = {
-	from = "pc_tundra"
-	to = "pc_arctic"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_arctic" to = "pc_alpine"
 
-terraform_link = {
-	from = "pc_arctic"
-	to = "pc_alpine"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_arctic" to = "pc_tundra"
 
-terraform_link = {
-	from = "pc_arctic"
-	to = "pc_tundra"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
@@ -208,98 +177,80 @@ terraform_link = {
 ## Dry ##
 #########
 
-terraform_link = {
-	from = "pc_desert"
-	to = "pc_arid"
-	
-	energy = 2000
-	duration = 1800
-	
+terraform_link = {from = "pc_desert" to = "pc_arid"
+
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_desert" to = "pc_savannah"
 
+	energy = @energy_level_1
+	duration = @duration_level_1
 
-terraform_link = {
-	from = "pc_desert"
-	to = "pc_savannah"
-	
-	energy = 2000
-	duration = 1800
-	
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_savannah" to = "pc_desert"
 
-terraform_link = {
-	from = "pc_savannah"
-	to = "pc_desert"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_savannah" to = "pc_arid"
 
-terraform_link = {
-	from = "pc_savannah"
-	to = "pc_arid"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_arid" to = "pc_desert"
 
-terraform_link = {
-	from = "pc_arid"
-	to = "pc_desert"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
 }
+terraform_link = {from = "pc_arid" to = "pc_savannah"
 
-terraform_link = {
-	from = "pc_arid"
-	to = "pc_savannah"
-	
-	energy = 2000
-	duration = 1800
-	
+	energy = @energy_level_1
+	duration = @duration_level_1
+
 	condition = {
 		has_technology = "tech_terrestrial_sculpting"
 	}
-	
+
 	ai_weight = {
 		weight = 0
 	}
