@@ -292,7 +292,8 @@ building_deployment_post = {
 	capital = yes
 	level = 0
 
-	cost = { }
+	cost = {
+	}
 
 	produced_resources = {
 		energy = 1
@@ -738,7 +739,8 @@ building_unit_assembly_plant = {
 		"tech_intelligent_factories"
 	}
 
-	ai_allow = { }
+	ai_allow = {
+	}
 
 	ai_weight = {
 		factor = 10
@@ -972,7 +974,8 @@ building_nutrient_paste_facility = {
 		food = 5
 	}
 
-	planet_modifier = { }
+	planet_modifier = {
+	}
 
 	show_tech_unlock_if = {
 		has_authority = auth_machine_intelligence
@@ -1067,7 +1070,8 @@ building_neuro_electric_amplifier = {
 		}
 	}
 
-	prerequisites = { }
+	prerequisites = {
+	}
 
 	ai_allow = {
 		NOR = {
@@ -1150,7 +1154,8 @@ building_war_factory = {
 		planet_army_build_speed_mult = 0.25
 	}
 
-	prerequisites = { }
+	prerequisites = {
+	}
 
 	ai_allow = {
 		NOR = {
