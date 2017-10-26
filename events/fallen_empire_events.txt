@@ -732,9 +732,10 @@ country_event = {
 		is_country_type = fallen_empire
 		NOT = { has_country_flag = fallen_empire_lost_war }
 		any_country = {
+			NOT = { is_same_value = root }
 			any_owned_planet = {
 				is_original_owner = root
-			}		
+			}
 		}
 	}
 	

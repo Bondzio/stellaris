@@ -97,7 +97,7 @@ ART1 = {
 		}
 
 		psionic_army = {
-			sequential_name = "%O% Psicommando Pod"
+			sequential_name = "%O% Psi Commando Pod"
 		}
 
 		xenomorph_army = {
@@ -105,7 +105,7 @@ ART1 = {
 		}
 
 		gene_warrior_army = {
-			sequential_name = "%O% Genecommando Pod"
+			sequential_name = "%O% Gene Commando Pod"
 		}
 	}
 

@@ -1,6 +1,6 @@
 #one star orbiting another
 
-@base_moon_distance = 10
+@base_moon_distance = 15
 
 # Basic 1
 basic_init_01 = {
@@ -24,14 +24,14 @@ basic_init_01 = {
 		# count = { min = 2 max = 14 }
 		count = 5
 		orbit_distance = { min = 20 max = 50 }
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
 			count = { min = 0 max = 2 }
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = { min = 5 max = 10 }
+			orbit_angle = { min = -180 max = 180 }
+			orbit_distance = { min = 10 max = 15 }
 		}
 	}
 }
@@ -59,14 +59,14 @@ basic_cluster_init_01 = {
 		# count = { min = 2 max = 14 }
 		count = 5
 		orbit_distance = { min = 20 max = 50 }
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
 			count = { min = 0 max = 2 }
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = { min = 5 max = 10 }
+			orbit_angle = { min = -180 max = 180 }
+			orbit_distance = { min = 10 max = 15 }
 		}
 	}
 }
@@ -92,14 +92,14 @@ basic_cluster_init_02 = {
 	planet = {
 		count = 6
 		orbit_distance = { min = 20 max = 50 }
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
 			count = { min = 0 max = 2 }
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = { min = 5 max = 10 }
+			orbit_angle = { min = -180 max = 180 }
+			orbit_distance = { min = 10 max = 15 }
 		}
 	}
 }
@@ -136,14 +136,14 @@ basic_cluster_init_03 = {
 		# count = { min = 2 max = 14 }
 		count = 7
 		orbit_distance = { min = 20 max = 50 }
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
 			count = { min = 0 max = 2 }
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = { min = 5 max = 10 }
+			orbit_angle = { min = -180 max = 180 }
+			orbit_distance = { min = 10 max = 15 }
 		}
 	}
 }
@@ -188,14 +188,14 @@ basic_cluster_init_04 = {
 		# count = { min = 2 max = 14 }
 		count = 8
 		orbit_distance = { min = 20 max = 50 }
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
 			count = { min = 0 max = 2 }
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = { min = 5 max = 10 }
+			orbit_angle = { min = -180 max = 180 }
+			orbit_distance = { min = 10 max = 15 }
 		}
 	}
 }
@@ -264,14 +264,14 @@ basic_cluster_init_05 = {
 		# count = { min = 2 max = 14 }
 		count = 9
 		orbit_distance = { min = 20 max = 50 }
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
 			count = { min = 0 max = 2 }
-			orbit_angle = { min = 90 max = 270 }
-			orbit_distance = { min = 5 max = 10 }
+			orbit_angle = { min = -180 max = 180 }
+			orbit_distance = { min = 10 max = 15 }
 		}
 	}
 }
@@ -300,7 +300,7 @@ basic_init_02 = {
 	planet = {
 		count = 2
 		orbit_distance = 20
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 	}
 
 	change_orbit = 25
@@ -309,19 +309,19 @@ basic_init_02 = {
 		count = { min = 0 max = 5 }
 		class = random_asteroid
 		orbit_distance = 0
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 	}
 
 	planet = {
 		count = { min = 2 max = 6 }
 		orbit_distance = 25
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
 			count = { min = 0 max = 2 }
-			orbit_angle = { min = 90 max = 270 }
+			orbit_angle = { min = -180 max = 180 }
 			orbit_distance = 5
 		}
 	}
@@ -348,14 +348,14 @@ basic_init_03 = {
 	planet = {
 		count = { min = 1 max = 3 }
 		orbit_distance = 10
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 	}
 
 	planet = {
 		count = { min = 1 max = 3 }
 		orbit_distance = 60
 		class = pc_gas_giant
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 		size = 25
 
 		change_orbit = @base_moon_distance
@@ -363,7 +363,7 @@ basic_init_03 = {
 		moon = {
 			count = { min = 1 max = 4 }
 			size = 16
-			orbit_angle = { min = 90 max = 270 }
+			orbit_angle = { min = -180 max = 180 }
 			orbit_distance = 6
 		}
 	}
@@ -373,7 +373,7 @@ basic_init_03 = {
 	planet = {
 		count = { min = 1 max = 3 }
 		orbit_distance = 20
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 	}
 }
 # Basic 4
@@ -399,7 +399,7 @@ basic_init_04 = {
 		count = { min = 3 max = 6 }
 		class = random_asteroid
 		orbit_distance = 0
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 	}
 
 	change_orbit = -80
@@ -407,7 +407,7 @@ basic_init_04 = {
 	planet = {
 		count = { min = 1 max = 3 }
 		orbit_distance = 20
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 	}
 
 	change_orbit = 80
@@ -415,6 +415,6 @@ basic_init_04 = {
 	planet = {
 		count = { min = 1 max = 3 }
 		orbit_distance = 40
-		orbit_angle = { min = 90 max = 270 }
+		orbit_angle = { min = -180 max = 180 }
 	}
 }

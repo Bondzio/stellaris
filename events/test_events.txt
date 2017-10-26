@@ -11,17 +11,17 @@ namespace = henrik
 #	id = henrik.1
 #	title = OK
 #	desc = OK
-#
+#	
 #	hide_window = yes
-#
+#	
 #	mean_time_to_happen = {
 #		days = 1
 #	}
-#
+#	
 #	trigger = {
 #		is_ai = no
 #	}
-#
+#	
 #	immediate = {
 #		random_country = {
 #			limit = {
@@ -41,11 +41,11 @@ namespace = henrik
 #	id = henrik.2
 #	title = OK
 #	desc = OK
-#
+#	
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		FROM = {
 #			country_event = {
@@ -60,11 +60,11 @@ namespace = henrik
 #	id = henrik.3
 #	title = henrik.3.name
 #	desc = henrik.3.desc
-#
+#	
 #	diplomatic = yes # Show the Diplomacy View
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = henrik.3.a
 #		response_text = henrik.3.a.response
@@ -82,10 +82,10 @@ namespace = henrik
 #	id = henrik.4
 #	title = OK
 #	desc = OK
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		capital_scope = {
 #			solar_system = {
@@ -97,29 +97,29 @@ namespace = henrik
 #	}
 #}
 #
-#country_event =
+#country_event = 
 #{
 #	id = henrik.5
 #	title = OK
 #	desc = OK
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		unlock_next_tech = social_engineering_tech_tree
 #	}
 #}
 #
-#country_event =
+#country_event = 
 #{
 #	id = henrik.6
 #	title = OK
 #	desc = OK
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		capital_scope = {
 #			random_pop = {
@@ -129,15 +129,15 @@ namespace = henrik
 #	}
 #}
 #
-#country_event =
+#country_event = 
 #{
 #	id = henrik.7
 #	title = "OK"
 #	desc = "OK"
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		capital_scope = {
 #			space_owner = {
@@ -155,10 +155,10 @@ namespace = henrik
 #	id = henrik.8
 #	title = "OK"
 #	desc = "OK"
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		leader = {
 #			if = {
@@ -177,10 +177,10 @@ namespace = henrik
 #	id = henrik.9
 #	title = "OK"
 #	desc = "OK"
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		create_faction = {
 #			name = "Holy Order"
@@ -192,10 +192,10 @@ namespace = henrik
 #	id = henrik.10
 #	title = "OK"
 #	desc = "OK"
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		capital_scope = {
 #			IF = {
@@ -222,10 +222,10 @@ namespace = henrik
 #	id = henrik.11
 #	title = "OK"
 #	desc = "OK"
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		capital_scope = {
 #			IF = {
@@ -240,10 +240,10 @@ namespace = henrik
 #	id = henrik.12
 #	title = "OK"
 #	desc = "OK"
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		capital_scope = {
 #			IF = {
@@ -258,16 +258,16 @@ namespace = henrik
 #	id = henrik.13
 #	title = "OK"
 #	desc = "OK"
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		capital_scope = {
 #			solar_system = {
 #				every_system_planet = {
 #					IF = {
-#						limit = {
+#						limit = { 
 #							num_minerals > 0
 #						}
 #						create_mining_station = {
@@ -275,8 +275,8 @@ namespace = henrik
 #						}
 #					}
 #					IF = {
-#						limit = {
-#							OR = {
+#						limit = { 
+#							OR = { 
 #								num_physics > 0
 #								num_society > 0
 #								num_engineering > 0
@@ -296,10 +296,10 @@ namespace = henrik
 #	id = henrik.14
 #	title = "OK"
 #	desc = "OK"
-#
+#	
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		create_species = {
 #			name = "Xenomorphs"
@@ -307,26 +307,26 @@ namespace = henrik
 #			portrait = random
 #			traits = random
 #		}
-#
+#		
 #		create_faction = {
 #			name = "Xenomorphs"
 #			species = last_created
 #		}
-#
+#		
 #		create_army = {
 #			name = "Xenomorph Invaders"
 #			type = "assault_army"
 #			species = last_created
 #			owner = last_created
 #		}
-#
+#		
 #		create_army = {
 #			name = "Xenomorph Invaders"
 #			type = "assault_army"
 #			species = last_created
 #			owner = last_created
 #		}
-#
+#		
 #		create_army = {
 #			name = "Xenomorph Invaders"
 #			type = "assault_army"
@@ -343,9 +343,9 @@ namespace = henrik
 #	desc = "henrik.15.desc"
 #	auto_opens = yes
 #	diplomatic = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = henrik.15.a
 #		response_text = henrik.15.a.response
@@ -378,9 +378,9 @@ namespace = henrik
 #	title = "henrik.16.name"
 #	desc = "henrik.16.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = henrik.16.a
 #		enable_special_project = {
@@ -395,9 +395,9 @@ namespace = henrik
 #	title = "henrik.17.name"
 #	desc = "henrik.17.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		IF = {
 #			LIMIT = {
@@ -405,7 +405,7 @@ namespace = henrik
 #			}
 #			add_energy = 1000
 #		}
-#		IF = {
+#		IF = { 
 #			LIMIT = {
 #				NOT = {
 #					tech_tree_completed = "ship_armor_tech_tree"
@@ -421,9 +421,9 @@ namespace = henrik
 #	title = "henrik.18.name"
 #	desc = "henrik.18.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		every_owned_pop = {
 #			IF = {
@@ -449,9 +449,9 @@ namespace = henrik
 #	title = "henrik.19.name"
 #	desc = "henrik.19.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		set_name = "Henrik"
 #	}
@@ -461,9 +461,9 @@ namespace = henrik
 #	title = "henrik.1337.name"
 #	desc = "henrik.1337.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		random_controlled_planet = {
 #			random_planet = {
@@ -485,9 +485,9 @@ namespace = henrik
 #	title = "henrik.20.name"
 #	desc = "henrik.20.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		owner = {
 #			set_country_flag = battle_test
@@ -527,15 +527,15 @@ namespace = henrik
 #	title = "henrik.21.name"
 #	desc = "henrik.21.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		add_modifier = {
 #			modifier = "alien_writing"
 #			days = -1
 #		}
-#	}
+#	}	
 #}
 #
 #planet_event = {
@@ -543,9 +543,9 @@ namespace = henrik
 #	title = "henrik.22"
 #	desc = "henrik.22"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		IF = {
 #			LIMIT = {
@@ -561,9 +561,9 @@ namespace = henrik
 #	title = "henrik.23.name"
 #	desc = "henrik.23.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		create_leader = {
 #			type = 0
@@ -579,11 +579,11 @@ namespace = henrik
 #	title = "henrik.24.name"
 #	desc = "henrik.24.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
-#		set_fleet_flag = flag_test
+#		set_fleet_flag = flag_test 
 #	}
 #}
 #
@@ -592,9 +592,9 @@ namespace = henrik
 #	title = "henrik.25.name"
 #	desc = "henrik.25.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		remove_fleet_flag = flag_test
 #	}
@@ -605,9 +605,9 @@ namespace = henrik
 #	title = "henrik.26"
 #	desc = "henrik.26"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		IF = {
 #			LIMIT = {
@@ -623,9 +623,9 @@ namespace = henrik
 #	title = "henrik.27.name"
 #	desc = "henrik.27.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		unlock_random_tech = 0
 #	}
@@ -638,7 +638,7 @@ namespace = henrik
 #	picture = TEMP_gasgiant
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	IMMEDIATE = {
 #		IF = {
 #			LIMIT = {
@@ -658,9 +658,9 @@ namespace = henrik
 #	title = "henrik.29"
 #	desc = "henrik.29"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		IF = {
 #			LIMIT = {
@@ -676,9 +676,9 @@ namespace = henrik
 #	title = "henrik.30"
 #	desc = "henrik.30"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option {
 #		IF = {
 #			LIMIT = {
@@ -694,9 +694,9 @@ namespace = henrik
 #	title = "henrik.31.name"
 #	desc = "henrik.31.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		reduce_hp = 3
 #	}
@@ -707,9 +707,9 @@ namespace = henrik
 #	title = "henrik.32.name"
 #	desc = "henrik.32.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		reduce_hp_percent = 25
 #	}
@@ -720,9 +720,9 @@ namespace = henrik
 #	title = "henrik.33.name"
 #	desc = "henrik.33.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		repair_ship = yes
 #	}
@@ -733,9 +733,9 @@ namespace = henrik
 #	title = "henrik.34"
 #	desc = "henrik.34"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		IF = {
 #			LIMIT = {
@@ -751,17 +751,17 @@ namespace = henrik
 #	title = "henrik.35"
 #	desc = "henrik.35"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		random_country = {
 #			limit = {
 #				is_ai = no
 #			}
 #			ROOT = {
-#				surveyed = {
-#					set_surveyed = yes
+#				surveyed = { 
+#					set_surveyed = yes 
 #					surveyor = PREV
 #				}
 #			}
@@ -774,11 +774,11 @@ namespace = henrik
 #	title = "henrik.36.name"
 #	desc = "henrik.36.desc"
 #	picture = GFX_evt_exploding_ship
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
-#		set_global_flag = flag_test
+#		set_global_flag = flag_test 
 #	}
 #}
 #
@@ -787,9 +787,9 @@ namespace = henrik
 #	title = "henrik.37.name"
 #	desc = "henrik.37.desc"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		remove_global_flag = flag_test
 #	}
@@ -800,9 +800,9 @@ namespace = henrik
 #	title = "henrik.38"
 #	desc = "henrik.38"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		IF = {
 #			LIMIT = {
@@ -817,9 +817,9 @@ namespace = henrik
 #	title = "henrik.39"
 #	desc = "henrik.39"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		destroy_country = yes
 #	}
@@ -830,10 +830,10 @@ namespace = henrik
 #	title = "henrik.40"
 #	desc = "henrik.40"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
 #	hide_window = yes
-#
+#	
 #	immediate = {
 #		IF = {
 #			LIMIT = {
@@ -855,9 +855,9 @@ namespace = henrik
 #	title = "henrik.41"
 #	desc = "henrik.41"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		create_ship = {
 #			name = "random"
@@ -871,9 +871,9 @@ namespace = henrik
 #	title = "henrik.45"
 #	desc = "henrik.45"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		capital_scope = {
 #			ROOT = {
@@ -894,8 +894,8 @@ namespace = henrik
 #	is_triggered_only = yes
 #	option = {
 #		random = {
-#			chance = 50
-#			add_energy = 200
+#			chance = 50 
+#			add_energy = 200 
 #		}
 #	}
 #}
@@ -918,11 +918,11 @@ namespace = henrik
 #	id = henrik.58
 #	title = "OK"
 #	desc = "OK"
-#
+#	
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		create_faction = {
 #			name = "Hostile Army"
@@ -958,11 +958,11 @@ namespace = henrik
 #	id = henrik.59
 #	title = "OK"
 #	desc = "OK"
-#
+#	
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		create_army = {
 #			name = "Nice Army 1"
@@ -989,9 +989,9 @@ namespace = henrik
 #planet_event = {
 #	id = henrik.100
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		create_faction = {
 #			name = "Hostile Army"
@@ -1027,15 +1027,15 @@ namespace = henrik
 #	id = henrik.101
 #	title = "henrik.101.name"
 #	desc = "henrik.101.desc"
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		FROM = {
 #			country_event = { id = henrik.102 }
 #		}
 #	}
-#
+#	
 #	option = {
 #		name = henrik.101.a
 #	}
@@ -1046,11 +1046,11 @@ namespace = henrik
 #	id = henrik.102
 #	title = "henrik.102.name"
 #	desc = "henrik.102.desc"
-#
+#	
 #	diplomatic = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = henrik.102.a
 #	}
@@ -1061,9 +1061,9 @@ namespace = henrik
 #	title = "henrik.110.name"
 #	desc = "henrik.110.desc"
 #	picture = TEMP_primitive2
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = henrik.110.a
 #		create_species = {
@@ -1078,13 +1078,13 @@ namespace = henrik
 #			species = last_created
 #			ethos = {
 #				ethic = "ethic_xenophile"
-#				ethic = "ethic_fanatic_egalitarian"
+#				ethic = "ethic_fanatic_egalitarian"			
 #			}
 #			color = random
 #			icon = random
 #		}
 #		last_created_country = {
-#
+#			
 #			random_list = {
 #				20 = { set_country_flag = bronze_age }
 #				20 = { set_country_flag = iron_age }
@@ -1096,30 +1096,30 @@ namespace = henrik
 #		create_colony = {
 #			owner = last_created_country
 #			species = last_created
-#			ethos = {
-#				ethic = "ethic_xenophile"
-#				ethic = "ethic_fanatic_egalitarian"
+#			ethos = { 
+#				ethic = "ethic_xenophile" 
+#				ethic = "ethic_fanatic_egalitarian" 
 #			}
 #		}
 #		create_pop = {
 #			species = last_created
 #			ethos = {
 #				ethic = "ethic_xenophile"
-#				ethic = "ethic_fanatic_egalitarian"
+#				ethic = "ethic_fanatic_egalitarian"			
 #			}
 #		}
 #		create_pop = {
 #			species = last_created
 #			ethos = {
 #				ethic = "ethic_xenophile"
-#				ethic = "ethic_fanatic_egalitarian"
+#				ethic = "ethic_fanatic_egalitarian"			
 #			}
 #		}
 #		create_pop = {
 #			species = last_created
 #			ethos = {
 #				ethic = "ethic_xenophile"
-#				ethic = "ethic_fanatic_egalitarian"
+#				ethic = "ethic_fanatic_egalitarian"			
 #			}
 #		}
 #	}
@@ -1130,9 +1130,9 @@ namespace = henrik
 #	title = "henrik.112"
 #	desc = "henrik.112"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		IF = {
 #			LIMIT = {
@@ -1148,9 +1148,9 @@ namespace = henrik
 #	title = "henrik.113"
 #	desc = "henrik.113"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		IF = {
 #			LIMIT = {
@@ -1166,9 +1166,9 @@ namespace = henrik
 #	title = "henrik.114"
 #	desc = "henrik.114"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		IF = {
 #			LIMIT = {
@@ -1182,18 +1182,18 @@ namespace = henrik
 #planet_event = {
 #	id = henrik.130
 #	hide_window = yes
-#
+#	
 #	trigger = {
 #		has_observation_outpost = yes
 #		observation_outpost_owner = {
 #			ai = no
 #		}
 #	}
-#
+#	
 #	mean_time_to_happen = {
 #		days = 1
 #	}
-#
+#	
 #	immediate = {
 #		random_observation_outpost_owner = {
 #			limit = { ai = no }
@@ -1207,9 +1207,9 @@ namespace = henrik
 #	title = "henrik.131"
 #	desc = "henrik.131"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #	}
 #}
@@ -1218,9 +1218,9 @@ namespace = henrik
 #planet_event = {
 #	id = henrik.132
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		spawn_system = {
 #			min_distance = 20
@@ -1233,26 +1233,26 @@ namespace = henrik
 #planet_event = {
 #	id = henrik.135
 #	hide_window = yes
-#
+#	
 #	trigger = {
 #		has_research_station = yes
 #		any_research_station = {
 #			owner = { is_ai = no }
 #		}
 #	}
-#
+#	
 #	mean_time_to_happen = {
 #		days = 1
 #	}
-#
+#	
 #	immediate = {
 #		random_research_station = {
-#			limit = {
+#			limit = { 
 #				owner = {is_ai = no }
 #			}
-#
-#			owner = {
-#				country_event = { id = henrik.136 }
+#			
+#			owner = { 
+#				country_event = { id = henrik.136 } 
 #			}
 #		}
 #	}
@@ -1263,9 +1263,9 @@ namespace = henrik
 #	title = "henrik.136"
 #	desc = "henrik.136"
 #	picture = TEMP_gasgiant
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = henrik.136.a
 #	}
@@ -1276,11 +1276,11 @@ namespace = henrik
 #	title = "henrik.133"
 #	desc = "henrik.133"
 #	picture = TEMP_gasgiant
-#
+#	
 #	trigger = {
 #		has_research_station = yes
 #	}
-#
+#	
 #	option = {
 #		random_research_station = {
 #			dismantle = yes
@@ -1293,11 +1293,11 @@ namespace = henrik
 #	title = "henrik.134.name"
 #	desc = "henrik.134.desc"
 #	picture = TEMP_primitive2
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
-#		name = henrik.134.a
+#		name = henrik.134.a 
 #		random_owned_pop =  {
 #			create_species = {
 #				is_mod = yes
@@ -1307,7 +1307,7 @@ namespace = henrik
 #				traits = this
 #			}
 #		}
-#
+#		
 #		best_tile_for_pop = {
 #			create_pop = {
 #				species = last_created
@@ -1324,7 +1324,7 @@ namespace = henrik
 #	id = henrik.135
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		IF = {
 #			limit = {
@@ -1344,7 +1344,7 @@ namespace = henrik
 #	id = henrik.136
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		set_pop_flag = "SUPER_DUPER_FLAG"
 #	}
@@ -1355,7 +1355,7 @@ namespace = henrik
 #	id = action.6
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		set_name = "Merni"
 #		FROM = {
@@ -1371,7 +1371,7 @@ namespace = henrik
 #	id = henrik.137
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		random_owned_planet = {
 #			random_pop = {
@@ -1385,7 +1385,7 @@ namespace = henrik
 #	id = henrik.138
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		IF = {
 #			limit = {
@@ -1405,11 +1405,11 @@ namespace = henrik
 #	title = "henrik.140.name"
 #	desc = "henrik.140.desc"
 #	picture = GFX_evt_satellite_in_orbit
-#
+#	
 #	location = ROOT
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = INTRIGUING
 #	}
@@ -1420,9 +1420,9 @@ namespace = henrik
 #	title = "henrik.141.name"
 #	desc = "henrik.141.desc"
 #	picture = GFX_evt_satellite_in_orbit
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = OK
 #		every_owned_pop = {
@@ -1438,7 +1438,7 @@ namespace = henrik
 #	id = henrik.141
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		begin_event_chain = {
 #			event_chain = "test_chain"
@@ -1471,7 +1471,7 @@ namespace = henrik
 #	id = henrik.142
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		owner = {
 #			end_event_chain = "test_chain"
@@ -1483,14 +1483,14 @@ namespace = henrik
 #	id = henrik.143
 #	hide_window = yes
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		owner = {
 #			add_event_chain_counter = {
 #				event_chain = "test_chain"
 #				counter = "test_counter"
 #				amount = 2
-#			}
+#			}	
 #		}
 #	}
 #}
@@ -1498,7 +1498,7 @@ namespace = henrik
 #planet_event = {
 #	id = henrik.144
 #	hide_window = yes
-#	is_triggered_only = yes
+#	is_triggered_only = yes	
 #
 #	trigger = {
 #		owner = {
@@ -1515,9 +1515,9 @@ namespace = henrik
 #	title = "henrik.145.name"
 #	desc = "henrik.145.desc"
 #	picture = GFX_evt_satellite_in_orbit
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = OK
 #	}
@@ -1529,9 +1529,9 @@ namespace = henrik
 #	title = "hej"
 #	desc = "hopp"
 #	location = ROOT
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		hidden_effect = {
 #			create_faction = {
@@ -1549,10 +1549,10 @@ namespace = henrik
 #						name = "NAME_Old_Chomper"
 #						design = "Ravager"
 #					}
-#					set_location = ROOT
-#
+#					set_location = ROOT					
+#					
 #					queue_actions = {
-#
+#					
 #						effect = {
 #							id = "hej1"
 #							create_ambient_object = {
@@ -1571,9 +1571,9 @@ namespace = henrik
 #								}
 #							}
 #						}
-#
+#						
 #						#find_closest_planet
-#
+#						
 #						#orbit_planet = ROOT
 #						#
 #						#repeat = {
@@ -1584,7 +1584,7 @@ namespace = henrik
 #						#			num_owned_planets < 5
 #						#		}
 #						#	}
-#						#
+#						#	
 #						#	wait = 1
 #						#	orbit_planet = random
 #						#	effect = {
@@ -1596,14 +1596,14 @@ namespace = henrik
 #						#}
 #						#
 #						#orbit_planet = ROOT
-#
+#					
 #						#repeat = {
 #						#	find_closest_planet = {
 #						#		trigger = {
 #						#			id = "henrik.1337.trigger.1"
-#						#			NOT = {
-#						#				OR = {
-#						#					is_planet_class = "pc_barren"
+#						#			NOT = { 
+#						#				OR = { 
+#						#					is_planet_class = "pc_barren" 
 #						#					is_star = yes
 #						#				}
 #						#			}
@@ -1636,9 +1636,9 @@ namespace = henrik
 #	id = henrik.143
 #	title = henrik.143.name
 #	message_desc = henrik.143.message
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		FROMFROM = {
 #			destroy_fleet = this
@@ -1647,7 +1647,7 @@ namespace = henrik
 #			destroy_fleet = this
 #		}
 #	}
-#
+#	
 #	option = {
 #	}
 #}
@@ -1656,17 +1656,17 @@ namespace = henrik
 #	id = henrik.144
 #	title = henrik.144.name
 #	message_desc = henrik.144.message
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		set_name = Merni
-#
+#		
 #		FROM = {
 #			set_name = Henrik
 #		}
 #	}
-#
+#	
 #	option = {
 #	}
 #}
@@ -1675,17 +1675,17 @@ namespace = henrik
 #	id = henrik.145
 #	title = henrik.145.name
 #	message_desc = henrik.145.message
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		set_name = Merni
-#
+#		
 #		FROM = {
 #			set_name = Henrik
 #		}
 #	}
-#
+#	
 #	option = {
 #	}
 #}
@@ -1694,17 +1694,17 @@ namespace = henrik
 #	id = henrik.146
 #	title = henrik.146.name
 #	message_desc = henrik.146.message
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		set_name = Merni
-#
+#		
 #		FROM = {
 #			set_name = Henrik
 #		}
 #	}
-#
+#	
 #	option = {
 #	}
 #}
@@ -1713,9 +1713,9 @@ namespace = henrik
 #	id = henrik.155
 #	title = henrik.155.name
 #	message_desc = henrik.155.message
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		create_fleet = { name = "NAME_Incoming_Asteroid" }
 #		last_created_fleet = {
@@ -1732,9 +1732,9 @@ namespace = henrik
 #ship_event = {
 #	id = henrik.156
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		solar_system = {
 #			owner = {
@@ -1749,9 +1749,9 @@ namespace = henrik
 #	title = henrik.157.name
 #	desc = henrik.157.desc
 #	picture = GFX_evt_satellite_in_orbit
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = OK
 #	}
@@ -1761,9 +1761,9 @@ namespace = henrik
 #	id = henrik.158
 #	title = henrik.158.name
 #	desc = henrik.158.desc
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		modify_species = {
 #			species = ROOT
@@ -1776,9 +1776,9 @@ namespace = henrik
 #planet_event = {
 #	id = henrik.159
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		save_event_target_as = planet_test
 #		random_country = {
@@ -1794,9 +1794,9 @@ namespace = henrik
 #	desc = henrik.160.desc
 #	picture = GFX_evt_ship_in_orbit
 #	location = event_target:planet_test
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = henrik.160.a
 #		event_target:planet_test = {
@@ -1814,13 +1814,13 @@ namespace = henrik
 #	desc = henrik.161.desc
 #	picture = GFX_evt_ship_in_orbit
 #	location = event_target:ship_test
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		save_event_target_as = ship_test
 #	}
-#
+#	
 #	option = {
 #		name = henrik.161.a
 #	}
@@ -1829,9 +1829,9 @@ namespace = henrik
 #planet_event = {
 #	id = henrik.162
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		set_name = "Success"
 #	}
@@ -1840,9 +1840,9 @@ namespace = henrik
 #planet_event = {
 #	id = henrik.163
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		create_faction = {
 #			name = "Disabables"
@@ -1871,9 +1871,9 @@ namespace = henrik
 #planet_event = {
 #	id = henrik.164
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		owner = {
 #			create_fleet = { name = "Random Corvette" }
@@ -1895,9 +1895,9 @@ namespace = henrik
 #	desc = "henrik.165.desc"
 #	picture = GFX_evt_satellite_in_orbit
 #	location = event_target:space_probe
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		owner = {
 #			begin_event_chain = {
@@ -1917,9 +1917,9 @@ namespace = henrik
 #			id 			= space_probe_poi.1
 #			name 		= "SPACE_PROBE_POI"
 #			desc 		= "SPACE_PROBE_POI_DESC"
-#
+#			
 #			event_chain = "sublight_probes_chain"
-#			location 	= event_target:space_probe
+#			location 	= event_target:space_probe	
 #		}
 #	}
 #
@@ -1937,16 +1937,16 @@ namespace = henrik
 #	title = "henrik.165.name"
 #	desc = "henrik.165.desc"
 #	picture = GFX_evt_satellite_in_orbit
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		remove_point_of_interest = space_probe_poi.1
 #	}
 #
 #	option = {
 #		name = "henrik.165.a"
-#	}
+#	}	
 #}
 
 #ship_event = {
@@ -1954,15 +1954,15 @@ namespace = henrik
 #	title = "henrik.167.name"
 #	desc = "henrik.167.desc"
 #	picture = GFX_evt_satellite_in_orbit
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	immediate = {
 #		create_ambient_object = {
 #			type = "sublight_probe_object"
 #			location = solar_system
 #		}
-#		last_created_ambient_object = {
+#		last_created_ambient_object = { 
 #			save_event_target_as = space_probe
 #		}
 #	}
@@ -1984,11 +1984,11 @@ namespace = henrik
 #				set_location = {
 #					target = event_target:space_probe
 #					distance = 5
-#					angle = random
+#					angle = random 
 #				}
 #			}
 #		}
-#	}
+#	}	
 #}
 
 ###########################
@@ -2029,10 +2029,10 @@ namespace = henrik
 #				has_blocker = no
 #					has_grown_pop = no
 #			}
-#			create_pop = {
-#				species = last_created
+#			create_pop = { 
+#				species = last_created 
 #			}
-#
+#			
 #			last_created_pop = {
 #				set_pop_flag = "Snakeoid"
 #			}
@@ -2042,10 +2042,10 @@ namespace = henrik
 #				has_blocker = no
 #					has_grown_pop = no
 #			}
-#			create_pop = {
-#				species = last_created
+#			create_pop = { 
+#				species = last_created 
 #			}
-#
+#			
 #			last_created_pop = {
 #				set_pop_flag = "Snakeoid"
 #			}
@@ -2055,10 +2055,10 @@ namespace = henrik
 #				has_blocker = no
 #					has_grown_pop = no
 #			}
-#			create_pop = {
-#				species = last_created
+#			create_pop = { 
+#				species = last_created 
 #			}
-#
+#			
 #			last_created_pop = {
 #				set_pop_flag = "Snakeoid"
 #			}
@@ -2073,7 +2073,7 @@ namespace = henrik
 #country_event = {
 #	id = henrik.123
 #	picture = GFX_evt_mining_station
-#
+#	
 #	is_triggered_only = yes
 #
 #	option = {
@@ -2081,10 +2081,10 @@ namespace = henrik
 #		# Will overwrite timed_flag with days 20
 #		set_timed_global_flag = { flag = timed_flag days = 20 }
 #		set_timed_global_flag = { flag = timed_flag_long days = 20 }
-#
+#		
 #		set_timed_country_flag = { flag = timed_flag days = 10 }
 #		set_timed_country_flag = { flag = timed_flag_long days = 20 }
-#
+#		
 #		random_owned_planet = {
 #			set_timed_planet_flag = { flag = timed_flag days = 10 }
 #			set_timed_planet_flag = { flag = timed_flag_long days = 20 }
@@ -2094,7 +2094,7 @@ namespace = henrik
 #				set_timed_pop_flag = { flag = timed_flag_long days = 20 }
 #			}
 #		}
-#
+#		
 #		random_owned_ship = {
 #			set_timed_ship_flag = { flag = timed_flag days = 10 }
 #			set_timed_ship_flag = { flag = timed_flag_long days = 20 }
@@ -2104,12 +2104,12 @@ namespace = henrik
 #				set_timed_fleet_flag = { flag = timed_flag_long days = 20 }
 #			}
 #		}
-#
+#		
 #		random_system = {
 #			set_timed_star_flag = { flag = timed_flag days = 10 }
 #			set_timed_star_flag = { flag = timed_flag_long days = 20 }
 #		}
-#
+#		
 #		random_country = {
 #			set_timed_relation_flag = { who = ROOT flag = timed_flag days = 10 }
 #			set_timed_relation_flag = { who = ROOT flag = timed_flag_long days = 20 }
@@ -2170,15 +2170,15 @@ namespace = henrik
 #	id = henrik.170
 #	title = "henrik.170"
 #	desc = "henrik.170"
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	trigger = {
 #		any_tile = {
-#			has_blocker = "tb_wandering_forests"
+#			has_blocker = "tb_wandering_forests" 
 #		}
 #	}
-#
+#	
 #	option = {
 #		name = EXCELLENT
 #	}
@@ -2194,18 +2194,18 @@ namespace = henrik
 #	picture = GFX_evt_wormhole
 #	show_sound = event_mystic_reveal
 #	location = root
-#
+#	
 #	auto_opens = yes
-#
+#	
 #	trigger = {
 #		is_ai = no
 #		NOT = { has_country_flag = event_test }
 #	}
-#
+#	
 #	immediate = { set_country_flag = event_test }
-#
+#	
 #	mean_time_to_happen = { days = 5 }
-#
+#	
 #	option = {
 #		name = OK
 #		capital_scope = { save_event_target_as = original_target }
@@ -2222,13 +2222,13 @@ namespace = henrik
 #	picture = GFX_evt_wormhole
 #	show_sound = event_mystic_reveal
 #	location = root
-#
+#	
 #	auto_opens = yes
-#
+#	
 #	mean_time_to_happen = { days = 20 }
-#
+#	
 #	trigger = { has_country_flag = event_test NOT = { has_country_flag = event_test_2 } }
-#
+#	
 #	option = {
 #		name = OK
 #		set_country_flag = event_test_2
@@ -2247,17 +2247,17 @@ namespace = henrik
 #	picture = GFX_evt_wormhole
 #	show_sound = event_mystic_reveal
 #	location = root
-#
+#	
 #	auto_opens = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	trigger = { owner = { is_ai = no has_country_flag = event_test_2 } }
 #
 #	immediate = {
 #		save_event_target_as = new_target
 #	}
-#
+#	
 #	option = {
 #		name = OK
 #		owner = { country_event = { id = henrik.2003 days = 10 } }
@@ -2341,7 +2341,7 @@ namespace = henrik
 #				}
 #				set_location = root
 #			}
-#		}
+#		}	
 #	}
 #}
 
@@ -2349,11 +2349,11 @@ namespace = henrik
 #	id = henrik.223
 #	hide_window = yes
 #	location = ROOT
-#
+#	
 #	trigger = {
 #		always = no
 #	}
-#
+#	
 #	immediate = {
 #		create_species = {
 #			name = "test species"
@@ -2393,14 +2393,14 @@ namespace = henrik
 #			species = last_created
 #			type = "assault_army"
 #		}
-#	}
+#	}		
 #}
 #
 #planet_event = {
 #	id = henrik.224
 #	hide_window = yes
 #	location = ROOT
-#
+#	
 #	trigger = {
 #		always = no
 #	}
@@ -2450,7 +2450,7 @@ namespace = henrik
 #				}
 #				set_location = root
 #			}
-#		}
+#		}	
 #	}
 #}
 #planet_event = {
@@ -2492,18 +2492,18 @@ namespace = henrik
 #				}
 #				set_location = root
 #			}
-#		}
+#		}	
 #	}
 #}
 
 #planet_event = {
 #	id = henrik.226
 #	hide_window = yes
-#
+#	
 #	trigger = {
 #		always = no
 #	}
-#
+#	
 #	immediate = {
 #		set_planet_max_health = 100
 #		set_planet_health = 50
@@ -2513,11 +2513,11 @@ namespace = henrik
 #planet_event = {
 #	id = henrik.227
 #	hide_window = yes
-#
+#	
 #	trigger = {
 #		always = no
 #	}
-#
+#	
 #	immediate = {
 #		change_pc = pc_barren
 #		owner = { country_event = { id = henrik.228 } country_event = { id = henrik.229 } }
@@ -2528,13 +2528,13 @@ namespace = henrik
 #country_event = {
 #	id = henrik.228
 #	hide_window = yes
-#
+#	
 #	is_triggered_only = yes
-#
+#	
 #	trigger = {
 #		is_ai = no
 #	}
-#
+#	
 #	immediate = {
 #		capital_scope = {
 #			solar_system = {
@@ -2549,7 +2549,7 @@ namespace = henrik
 #			type = "swarm"
 #		}
 #		last_created_country = {
-#
+#			
 #			### FIRST FLEET
 #			create_fleet = { name = "Prethoryn Vanguard" }
 #			create_species = {
@@ -2769,15 +2769,15 @@ namespace = henrik
 #	is_triggered_only = yes
 #
 #	immediate = {
-#		capital_scope = {
-#			solar_system = {
-#				random_system_planet = {
-#					limit = {
+#		capital_scope = { 
+#			solar_system = { 
+#				random_system_planet = { 
+#					limit = { 
 #						is_star = no
 #						is_capital = no
 #					}
 #					save_event_target_as = the_planet
-#				}
+#				} 
 #			}
 #		}
 #		create_species = {
@@ -2791,7 +2791,7 @@ namespace = henrik
 #			type = "swarm"
 #			species = last_created
 #		}
-#
+#		
 #		last_created_country = {
 #			# Give them a transport fleet design with warp
 #			create_ship_design = {
@@ -2812,7 +2812,7 @@ namespace = henrik
 #
 #			save_event_target_as = colonizer_owner
 #		}
-#
+#		
 #		create_fleet = { name = "Prethoryn Infestor" }
 #		last_created_fleet = {
 #			set_owner = last_created_country
@@ -2828,7 +2828,7 @@ namespace = henrik
 #						trigger = {
 #							id = "test.trigger.2"
 #							has_owner = no
-#							OR = {
+#							OR = { 
 #								is_planet_class = "pc_desert"
 #								is_planet_class = "pc_tropical"
 #								is_planet_class = "pc_arid"
@@ -2859,7 +2859,7 @@ namespace = henrik
 #					find_random_system = {
 #						trigger = {
 #							id = "test.trigger.3"
-#							OR = {
+#							OR = { 
 #								has_planet_class = "pc_desert"
 #								has_planet_class = "pc_tropical"
 #								has_planet_class = "pc_arid"
@@ -2880,7 +2880,7 @@ namespace = henrik
 #					}
 #				}
 #			}
-#		}
+#		}			
 #	}
 #}
 
@@ -2923,7 +2923,7 @@ namespace = henrik
 #				#owner = root
 #			}
 #		}
-#
+#		
 #		#last_created_ambient_object = {
 #		#	enable_special_project = {
 #		#		name = "TEST_AMBIENT_PROJECT"
@@ -3126,7 +3126,7 @@ namespace = henrik
 #				}
 #				set_location = ROOT
 #			}
-#		}
+#		}		
 #	}
 #}
 
@@ -3140,13 +3140,13 @@ namespace = henrik
 #			has_mission = passive_observation
 #		}
 #	}
-#
+#	
 #	mean_time_to_happen = {
 #		months = 1
 #	}
 #
 #	immediate = {
-#		observation_outpost_owner = {
+#		observation_outpost_owner = { 
 #			country_event = { id = henrik.236 }
 #		}
 #		observation_outpost = {
@@ -3186,7 +3186,7 @@ namespace = henrik
 #			name = "Prethoryn Scourge"
 #			type = "swarm"
 #			species = last_created
-#			name_list = "MAM1"
+#			name_list = "MAM1" 
 #		}
 #		last_created_country = {
 #			create_fleet = { name = "Prethoryn Vanguard" }
@@ -3247,7 +3247,7 @@ namespace = henrik
 #				set_location = {
 #					target = event_target:capital
 #					distance = 75
-#					angle = random
+#					angle = random 
 #				}
 #			}
 #		}
@@ -3257,11 +3257,11 @@ namespace = henrik
 planet_event = {
 	id = henrik.239
 	hide_window = yes
-
+	
 	trigger = {
 		always = no
 	}
-
+	
 	immediate = {
 		destroy_fleet = spaceport
 		create_spaceport = {
@@ -3270,7 +3270,7 @@ planet_event = {
 		}
 		spaceport = {
 			set_spaceport_level = 6
-
+			
 			set_spaceport_module = {
 				slot = 1
 				module = "destroyer_assembly_yards"
@@ -3282,18 +3282,18 @@ planet_event = {
 planet_event = {
 	id = henrik.240
 	hide_window = yes
-
+	
 	trigger = {
 		always = no
 	}
-
+	
 	immediate = {
 		switch = {
 			trigger = is_capital
 			yes = { owner = { add_energy = 1 } }
 			no = { owner = { add_energy = 2 } }
 		}
-
+		
 		owner = {
 			switch = {
 				trigger = energy
@@ -3308,19 +3308,19 @@ planet_event = {
 #planet_event = {
 #	id = henrik.241
 #	hide_window = yes
-#
+#	
 #	fire_only_once = yes
-#
+#	
 #	trigger = {
 #		has_observation_outpost = yes
 #		observation_outpost = { has_mission = passive_observation }
 #		observation_outpost_owner = { is_ai = no }
 #	}
-#
+#	
 #	mean_time_to_happen = {
 #		months = 1
 #	}
-#
+#	
 #	immediate = {
 #		observation_outpost_owner = {
 #			country_event = { id = henrik.242 }
@@ -3345,11 +3345,11 @@ planet_event = {
 #planet_event = {
 #	id = henrik.245
 #	hide_window = yes
-#
+#	
 #	trigger = {
 #		always = no
 #	}
-#
+#	
 #	immediate = {
 #		change_pc = pc_continental
 #		if = {
@@ -3442,28 +3442,28 @@ planet_event = {
 #			species = last_created
 #			ethos = {
 #				ethic = random
-#				ethic = random
+#				ethic = random		
 #			}
 #			flag = random
 #			type = primitive
 #		}
 #		last_created_country = {
-#
+#			
 #			random_list = {
-#				25 = {
-#					set_country_flag = industrial_age
+#				25 = { 
+#					set_country_flag = industrial_age 
 #					set_primitive_age = industrial_age
 #				}
-#				25 = {
+#				25 = { 
 #					set_country_flag = machine_age
 #					set_primitive_age = machine_age
 #				}
-#				25 = {
-#					set_country_flag = atomic_age
+#				25 = { 
+#					set_country_flag = atomic_age 
 #					set_primitive_age = atomic_age
 #				}
-#				25 = {
-#					set_country_flag = early_space_age
+#				25 = { 
+#					set_country_flag = early_space_age 
 #					set_primitive_age = early_space_age
 #				}
 #			}
@@ -3539,7 +3539,7 @@ planet_event = {
 #				ethos = owner
 #			}
 #		}
-#
+#		
 #		last_created_country = {
 #			if = {
 #				limit = { has_country_flag = industrial_age }
@@ -3656,7 +3656,7 @@ planet_event = {
 #				break = yes
 #			}
 #		}
-#
+#		
 #		random_country = {
 #			limit = { is_ai = no }
 #			create_fleet = { name = "New Ships" }
@@ -3669,22 +3669,22 @@ planet_event = {
 #				set_location = {
 #					target = ROOT
 #					distance = 25
-#					angle = random
+#					angle = random 
 #				}
 #			}
-#		}
+#		}	
 #	}
 #}
-
+		
 # Primitive Civilization Medieval Test Event
 #planet_event = {
 #	id = henrik.246
 #	hide_window = yes
-#
+#	
 #	trigger = {
 #		always = no
 #	}
-#
+#	
 #	immediate = {
 #		change_pc = pc_continental
 #		if = {
@@ -3777,37 +3777,37 @@ planet_event = {
 #			species = last_created
 #			ethos = {
 #				ethic = random
-#				ethic = random
+#				ethic = random		
 #			}
 #			flag = random
 #			type = primitive
 #		}
-#		last_created_country = {
+#		last_created_country = {		
 #			random_list = {
-#				20 = {
+#				20 = { 
 #					set_country_flag = stone_age
 #					set_primitive_age = stone_age
 #					change_government = tribal_society
-#				}
-#				20 = {
-#					set_country_flag = bronze_age
+#				}			
+#				20 = { 
+#					set_country_flag = bronze_age 
 #					set_primitive_age = bronze_age
 #					change_government = tribal_society
 #				}
-#				20 = {
-#					set_country_flag = iron_age
+#				20 = { 
+#					set_country_flag = iron_age 
 #					set_primitive_age = iron_age
 #				}
-#				20 = {
-#					set_country_flag = late_medieval_age
+#				20 = { 
+#					set_country_flag = late_medieval_age 
 #					set_primitive_age = late_medieval_age
 #				}
-#				20 = {
-#					set_country_flag = renaissance_age
+#				20 = { 
+#					set_country_flag = renaissance_age 
 #					set_primitive_age = renaissance_age
 #				}
-#				20 = {
-#					set_country_flag = steam_age
+#				20 = { 
+#					set_country_flag = steam_age 
 #					set_primitive_age = steam_age
 #				}
 #			}
@@ -3850,7 +3850,7 @@ planet_event = {
 #				ethos = owner
 #			}
 #		}
-#
+#		
 #		last_created_country = {
 #			if = {
 #				limit = { has_country_flag = bronze_age }
@@ -3967,7 +3967,7 @@ planet_event = {
 #				break = yes
 #			}
 #		}
-#
+#		
 #		random_country = {
 #			limit = { is_ai = no }
 #			create_fleet = { name = "New Ships" }
@@ -3980,13 +3980,13 @@ planet_event = {
 #				set_location = {
 #					target = ROOT
 #					distance = 25
-#					angle = random
+#					angle = random 
 #				}
 #			}
-#		}
+#		}	
 #	}
 #}
-
+		
 planet_event = {
 	id = henrik.250
 	hide_window = yes
@@ -3994,7 +3994,7 @@ planet_event = {
 	trigger = {
 		always = no
 	}
-
+	
 	immediate = {
 		owner = {
 			country_event = { id = henrik.251 }
@@ -4008,9 +4008,9 @@ country_event = {
 	desc = "henrik.251.desc"
 	picture = GFX_evt_exploding_ship
 	location = FROM
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "henrik.251.a"
 		capital_scope = {
@@ -4031,9 +4031,9 @@ ship_event = {
 	desc = "henrik.252.desc"
 	picture = GFX_evt_outpost
 	location = FROM
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "henrik.252.a"
 	}
@@ -4046,9 +4046,9 @@ country_event = {
 	desc = "henrik.253.desc"
 	picture = GFX_evt_city_ruins
 	location = FROM
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "henrik.253.a"
 	}
@@ -4057,11 +4057,11 @@ country_event = {
 ship_event = {
 	id = henrik.254
 	hide_window = yes
-
+	
 	trigger = {
 		always = no
 	}
-
+	
 	immediate = {
 		leader = {
 			set_age = 20
@@ -4140,7 +4140,7 @@ country_event = {
 #	id = henrik.270
 #	is_triggered_only = yes
 #	hide_window = yes
-#
+#	
 #	immediate = {
 #		owner = { enable_faction_of_type = slaves }
 #		force_faction_evaluation = this
@@ -4170,7 +4170,7 @@ country_event = {
 #	show_sound = event_ancient_drone
 #	location = FROM
 #	is_triggered_only = yes
-#
+#	
 #	option = {
 #		name = henrik.666.a
 #		capital_scope = {
@@ -4236,7 +4236,7 @@ country_event = {
 	#			add_research_option = "tech_assault_armies"
 	#		}
 	#	}
-
+	
 planet_event = {
 	id = henrik.671
 	title = "TEST TITLE"
@@ -4274,11 +4274,11 @@ planet_event = {
 # 	title = "TEST TITLE"
 # 	desc = "COUNT POP FACTIONS TEST, CHECK WHAT OPTIONS YOU HAVE"
 # 	picture = GFX_evt_exploding_ship
-#
+# 
 # 	trigger = {
 # 		always = no
 # 	}
-#
+# 
 # 	option = {
 # 		name = "NO SEPARATISTS IN EMPIRE"
 # 		trigger = {
@@ -4470,7 +4470,7 @@ planet_event = {
 #	title = "anomaly.4155.name"
 #	desc = "anomaly.4158.desc"
 #	location = event_target:HomePlanet
-#
+#	
 #	is_triggered_only = yes
 #	diplomatic = yes
 #
@@ -4508,7 +4508,7 @@ planet_event = {
 	desc = ""
 	trigger = { always = no }
 	hide_window = yes
-
+	
 	immediate = {
 		closest_system = {
 			min_steps = 0 #if <= 0 then the current system is also a potential match
@@ -4577,9 +4577,9 @@ planet_event = {
 	id = henrik.702
 	title = "test"
 	picture = "GFX_evt_exploding_ship"
-
+	
 	trigger = { always = no }
-
+	
 	desc = {
 		trigger = {
 			hidden:owner = {
@@ -4592,7 +4592,7 @@ planet_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "OK"
 	}
@@ -4619,7 +4619,7 @@ planet_event = {
 	picture = GFX_evt_exploding_ship
 
 	trigger = { always = no }
-
+	
 	immediate = {
 		create_species = {
 			name = "ROBOT_POP_SPECIES_2"
@@ -4629,7 +4629,7 @@ planet_event = {
 				trait = "trait_mechanical"
 				trait = "trait_robotic_2"
 			}
-
+			
 			pops_can_be_colonizers = yes
 			pops_can_migrate = no
 			pops_can_reproduce = no
@@ -4646,7 +4646,7 @@ planet_event = {
 		name = OK
 		create_pop = {
 			species = "ROBOT_POP_SPECIES_2"
-			ethos = owner
+			ethos = owner 
 		}
 	}
 }
@@ -4770,7 +4770,7 @@ country_event = {
 			count_tech_options = { area = physics count = 0 }
 		}
 	}
-
+	
 	option = {
 		name = CONQUEST
 		trigger = {
@@ -4808,7 +4808,7 @@ country_event = {
 #	picture = GFX_evt_exploding_ship
 #
 #	is_triggered_only = yes
-#
+#	
 #	trigger = {
 #		last_increased_tech = "tech_space_construction"
 #		last_increased_tech = {
@@ -4830,98 +4830,98 @@ country_event = {
 #diplomatic = yes
 #	trigger = { always = no }
 #
-#	option = {
-#		name = "ethics1"
+#	option = {	
+#		name = "ethics1"	
 #		trigger = {
 #			has_ethic = "ethic_fanatic_authoritarian"
 #		}
 #	}
-#	option = {
-#		name = "ethics2"
+#	option = {	
+#		name = "ethics2"	
 #		trigger = {
 #			has_ethic = "ethic_authoritarian"
 #		}
 #	}
-#	option = {
-#		name = "ethics3"
+#	option = {	
+#		name = "ethics3"	
 #		trigger = {
 #			has_ethic = "ethic_fanatic_egalitarian"
 #		}
 #	}
-#	option = {
-#		name = "ethics4"
+#	option = {	
+#		name = "ethics4"	
 #		trigger = {
 #			has_ethic = "ethic_egalitarian"
 #		}
 #	}
-#	option = {
-#		name = "ethics5"
+#	option = {	
+#		name = "ethics5"	
 #		trigger = {
 #			has_ethic = "ethic_fanatic_xenophobe"
 #		}
 #	}
-#	option = {
-#		name = "ethics6"
+#	option = {	
+#		name = "ethics6"	
 #		trigger = {
 #			has_ethic = "ethic_xenophobe"
 #		}
 #	}
-#	option = {
-#		name = "ethics7"
+#	option = {	
+#		name = "ethics7"	
 #		trigger = {
 #			has_ethic = "ethic_fanatic_xenophile"
 #		}
 #	}
-#	option = {
-#		name = "ethics8"
+#	option = {	
+#		name = "ethics8"	
 #		trigger = {
 #			has_ethic = "ethic_xenophile"
 #		}
 #	}
-#	option = {
-#		name = "ethics9"
+#	option = {	
+#		name = "ethics9"	
 #		trigger = {
 #			has_ethic = "ethic_fanatic_militarist"
 #		}
 #	}
-#	option = {
-#		name = "ethics10"
+#	option = {	
+#		name = "ethics10"	
 #		trigger = {
 #			has_ethic = "ethic_militarist"
 #		}
 #	}
-#	option = {
-#		name = "ethics11"
+#	option = {	
+#		name = "ethics11"	
 #		trigger = {
 #			has_ethic = "ethic_fanatic_pacifist"
 #		}
 #	}
-#	option = {
-#		name = "ethics12"
+#	option = {	
+#		name = "ethics12"	
 #		trigger = {
 #			has_ethic = "ethic_pacifist"
 #		}
 #	}
-#	option = {
-#		name = "ethics13"
+#	option = {	
+#		name = "ethics13"	
 #		trigger = {
 #			has_ethic = "ethic_fanatic_spiritualist"
 #		}
 #	}
-#	option = {
-#		name = "ethics14"
+#	option = {	
+#		name = "ethics14"	
 #		trigger = {
 #			has_ethic = "ethic_spiritualist"
 #		}
 #	}
-#	option = {
-#		name = "ethics15"
+#	option = {	
+#		name = "ethics15"	
 #		trigger = {
 #			has_ethic = "ethic_materialist"
 #		}
 #	}
-#	option = {
-#		name = "ethics16"
+#	option = {	
+#		name = "ethics16"	
 #		trigger = {
 #			has_ethic = "ethic_fanatic_materialist"
 #		}
@@ -5259,9 +5259,9 @@ country_event = {
 	desc = "TESTING. 1... 2... 3..."
 	picture = GFX_evt_psionics
 	show_sound = event_activating_unknown_technology
-
-	trigger = {
-		always = no
+	
+	trigger = { 
+		always = no 
 	}
 
 	option = {
@@ -5276,9 +5276,9 @@ country_event = {
 	desc = "TESTING. 1... 2... 3..."
 	picture = GFX_evt_psionics
 	show_sound = event_activating_unknown_technology
-
-	trigger = {
-		always = no
+	
+	trigger = { 
+		always = no 
 	}
 
 	option = {
@@ -5293,7 +5293,7 @@ country_event = {
 				create_ambient_object = {
 					type = "dead_swarm_small_object"
 				}
-				last_created_ambient_object = {
+				last_created_ambient_object = { 
 					set_location = {
 						target = event_target:injured_queen
 						distance = 5
@@ -5303,7 +5303,7 @@ country_event = {
 				create_ambient_object = {
 					type = "dead_swarm_large_object"
 				}
-				last_created_ambient_object = {
+				last_created_ambient_object = { 
 					set_location = {
 						target = event_target:injured_queen
 						distance = 5
@@ -5311,7 +5311,7 @@ country_event = {
 					}
 					set_ambient_object_flag = manufactory
 				}
-
+				
 				random_system_ambient_object = {
 					limit = { has_ambient_object_flag = manufactory }
 					destroy_ambient_object = this
@@ -5519,7 +5519,7 @@ country_event = {
 	desc = "mums"
 	picture = GFX_evt_psionics
 	trigger = { always = no }
-
+	
 	option = {
 		name = "magamaga"
 		capital_scope = {
@@ -5530,19 +5530,19 @@ country_event = {
 			set_aggro_range = 20
 			create_fleet = { name = "aggro def(20)" }
 			last_created_fleet = {
-				set_owner = PREV
-				set_fleet_stance = aggressive
-				set_aggro_range_measure_from = self
+				set_owner = PREV				
+				set_fleet_stance = aggressive	
+				set_aggro_range_measure_from = self			
 				create_ship = {	name = "putte"	design = "Swarm Large"	}
 				set_location = {
 					target = event_target:caplol
 					distance = 100
-					angle = random
+					angle = random 
 				}
 			}
 			create_fleet = { name = "aggro 40" }
 			last_created_fleet = {
-				set_owner = PREV
+				set_owner = PREV				
 				set_aggro_range = 40
 				set_fleet_stance = aggressive
 				set_aggro_range_measure_from = self
@@ -5550,33 +5550,33 @@ country_event = {
 				set_location = {
 					target = event_target:caplol
 					distance = 100
-					angle = random
+					angle = random 
 				}
 			}
 			create_fleet = { name = "aggro 60" }
 			last_created_fleet = {
-				set_owner = PREV
+				set_owner = PREV				
 				set_aggro_range = 60
 				set_fleet_stance = aggressive
-				set_aggro_range_measure_from = return_point
+				set_aggro_range_measure_from = return_point	
 				create_ship = {	name = "putte"	design = "Swarm Large"	}
 				set_location = {
 					target = event_target:caplol
 					distance = 100
-					angle = random
+					angle = random 
 				}
 			}
 			create_fleet = { name = "aggro 80" }
 			last_created_fleet = {
-				set_owner = PREV
+				set_owner = PREV				
 				set_aggro_range = 80
-				set_fleet_stance = aggressive
-				set_aggro_range_measure_from = return_point
+				set_fleet_stance = aggressive	
+				set_aggro_range_measure_from = return_point				
 				create_ship = {	name = "putte"	design = "Swarm Large"	}
 				set_location = {
 					target = event_target:caplol
 					distance = 100
-					angle = random
+					angle = random 
 				}
 			}
 		}
@@ -5588,7 +5588,7 @@ country_event = {
 	hide_window = yes
 	picture = GFX_evt_psionics
 	trigger = { always = no }
-
+	
 	immediate = {
 		capital_scope = {
 			solar_system = {
@@ -5680,7 +5680,7 @@ planet_event = {
 	trigger = {
 		always = no
 	}
-
+	
 	immediate = {
 		random_tile = {
 			limit = {
@@ -5760,17 +5760,17 @@ country_event = {
 country_event = {
 	id = henrik.817
 	hide_window = yes
-
+	
 	is_triggered_only = yes
-
+	
 	abort_trigger = {
 		always = yes
 	}
-
+	
 	abort_effect = {
 		add_energy = 50
 	}
-
+	
 	immediate = {
 		add_energy = 100
 	}
@@ -5779,11 +5779,11 @@ country_event = {
 country_event = {
 	id = henrik.818
 	hide_window = yes
-
+	
 	trigger = {
 		always = no
 	}
-
+	
 	immediate = {
 		country_event = { id = henrik.817 days = 10 }
 	}
@@ -5832,11 +5832,11 @@ country_event = {
 country_event = {
 	id = henrik.820
 	hide_window = yes
-
+	
 	trigger = {
 		always = no
 	}
-
+	
 	immediate = {
 		change_country_flag = {
 			icon = {
@@ -5860,11 +5860,11 @@ country_event = {
 country_event = {
 	id = henrik.821
 	hide_window = yes
-
+	
 	trigger = {
 		always = no
 	}
-
+	
 	immediate = {
 		change_country_flag = random
 	}
@@ -5914,7 +5914,7 @@ country_event = {
 #							flag = pirate_relation
 #						}
 #						establish_communications = ROOT
-#
+#						
 #						create_fleet = { name = "NAME_Pirate_Station" #}
 #						last_created_fleet = {
 #							set_owner = PREV
@@ -5958,14 +5958,14 @@ country_event = {
 #							}
 #							assign_leader = last_created_leader
 #							set_location = PREVPREV
-#
+#							
 #							queue_actions = {
 #								repeat = {
 #									find_random_system = {
 #										trigger = {
 #											id = "pirate.test.#trigger.1"
-#											NOT = {
-#												has_star_flag = #hostile_system
+#											NOT = { 
+#												has_star_flag = #hostile_system 
 #												is_same_value = e#vent_target:cap_s#ys
 #											}
 #											#any_planet = {
@@ -5984,7 +5984,7 @@ country_event = {
 #										}
 #										found_system = {
 #											move_to = THIS
-#										}
+#										}	
 #									}
 #									find_closest_planet = {
 #										trigger = {
@@ -6005,7 +6005,7 @@ country_event = {
 #										}
 #										found_system = {
 #											move_to = THIS
-#										}
+#										}	
 #									}
 #									find_closest_planet = {
 #										trigger = {
@@ -6035,16 +6035,16 @@ country_event = {
 #	id = henrik.823
 #	title = "crisis.1010.name"
 #	desc = "crisis.1010.desc"
-#
+#	
 #	diplomatic = yes
-#
+#	
 #	picture_event_data = {
 #		portrait = exd1
 #		room = "extradimensional_room"
 #	}
-#
+#	
 #	trigger = { always = no }
-#
+#	
 #	option = {
 #		name = crisis.1010.a
 #	}
@@ -6536,7 +6536,7 @@ planet_event = {
 			set_location = {
 				target = root
 				distance = 35
-				angle = random
+				angle = random 
 			}
 		}
 	}
@@ -7019,7 +7019,7 @@ country_event = {
 			traits = random
 			immortal = yes
 		}
-
+		
 		create_country = {
 			name = "Prethoryn Scourge"
 			type = "swarm"
@@ -7074,7 +7074,7 @@ country_event = {
 			set_location = {
 				target = root.capital_scope
 				distance = 35
-				angle = random
+				angle = random 
 			}
 		}
 	}
@@ -7185,9 +7185,9 @@ country_event = {
 #					save_event_target_as = leader_pop
 #				}
 #			}
-#
+#			
 #			#pop_faction_event = { id = faction.60 }
-#
+#			
 #			event_target:revolt_planet = {
 #				create_rebels = {
 #					name = random
@@ -7197,7 +7197,7 @@ country_event = {
 #					flag = random
 #				}
 #			}
-#
+#			
 #			last_created_country = {
 #				add_war_demand = {
 #					type = "liberate_country"
@@ -7244,11 +7244,11 @@ country_event = {
 planet_event = {
 	id = henrik.20000
 	hide_window = yes
-
+	
 	trigger = {
 		always = no
 	}
-
+	
 	immediate = {
 		every_country = {
 			limit = {
@@ -7310,7 +7310,7 @@ planet_event = {
 	id = henrik.7774
 	hide_window = yes
 
-	trigger = {
+	trigger = { 
 		always = no
 	}
 
@@ -7326,7 +7326,7 @@ country_event = {
 	id = henrik.7775
 	hide_window = yes
 
-	trigger = {
+	trigger = { 
 		always = no
 	}
 
@@ -7335,7 +7335,7 @@ country_event = {
 			every_owned_pop = {
 				force_faction_evaluation = yes
 			}
-		}
+		}	
 	}
 }
 
@@ -7378,8 +7378,8 @@ country_event = {
 							name = random
 							design = "Imperium"
 							graphical_culture = "fallen_empire_04"
-						}
-					}
+						}						
+					}	
 					if = {
 						limit = {
 							ROOT = { has_ethic = ethic_fanatic_xenophile }
@@ -7388,8 +7388,8 @@ country_event = {
 							name = random
 							design = "Keeper"
 							graphical_culture = "fallen_empire_03"
-						}
-					}
+						}						
+					}	
 					if = {
 						limit = {
 							ROOT = { has_ethic = ethic_fanatic_spiritualist }
@@ -7398,8 +7398,8 @@ country_event = {
 							name = random
 							design = "Eternal"
 							graphical_culture = "fallen_empire_01"
-						}
-					}
+						}						
+					}	
 					if = {
 						limit = {
 							ROOT = { has_ethic = ethic_fanatic_materialist }
@@ -7408,14 +7408,14 @@ country_event = {
 							name = random
 							design = "Alpha"
 							graphical_culture = "fallen_empire_02"
-						}
-					}
+						}						
+					}						
 					set_location = {
 						target = PREV
 						distance = 80
-					}
+					}				
 				}
-			}
+			}				
 		}
 	}
 }
@@ -7447,9 +7447,9 @@ country_event = {
 	id = henrik.1003
 	title = henrik.1003.name
 	desc = henrik.1003.desc
-
+	
 	diplomatic = yes
-
+	
 	trigger = { always = no }
 
 	picture_event_data = {
@@ -7479,7 +7479,7 @@ country_event = {
 ship_event = {
 	id = henrik.1004
 	hide_window = yes
-
+	
 	trigger = { always = no }
 
 	immediate = {
@@ -7493,9 +7493,9 @@ ship_event = {
 planet_event = {
 	id = henrik.1005
 	hide_window = yes
-
+	
 	trigger = { always = no }
-
+	
 	immediate = {
 		solar_system = {
 			every_fleet_in_system = {
@@ -7536,7 +7536,7 @@ planet_event = {
 country_event = {
 	id = henrik.1040
 	hide_window = yes
-
+	
 	trigger = { always = no }
 
 	immediate = {
@@ -7599,7 +7599,7 @@ country_event = {
 country_event = {
 	id = henrik.1045
 	hide_window = yes
-
+	
 	trigger = { always = no }
 
 	immediate = {
@@ -7653,7 +7653,7 @@ country_event = {
 					}
 					save_event_target_as = extradimensionals
 				}
-
+				
 				random_country = {
 					limit = { is_ai = no }
 					establish_communications_no_message = event_target:extradimensionals
@@ -7667,7 +7667,7 @@ country_event = {
 country_event = {
 	id = henrik.1050
 	hide_window = yes
-
+	
 	trigger = { always = no }
 
 	immediate = {
@@ -7792,7 +7792,7 @@ planet_event =  {
 			kill_pop = yes
 		}
 	}
-
+	
 	option = {
 		name = "nah"
 	}
@@ -7803,11 +7803,11 @@ country_event = {
 	id = henrik.1060
 	title = Test
 	desc = Test
-
+	
 	trigger = {
 		always = no
 	}
-
+	
 	diplomatic = yes
 	custom_gui = "enclave_curator_window"
 
@@ -7876,7 +7876,7 @@ country_event = {
 planet_event = {
 	id = henrik.1080
 	hide_window = yes
-
+	
 	trigger = { always = no }
 
 	immediate = {
@@ -7947,7 +7947,7 @@ country_event = {
 	title = "Test"
 	desc = "Test"
 	picture = GFX_evt_enigmatic_fortress
-
+	
 	trigger = { always = no }
 
 	option = {
@@ -7978,7 +7978,7 @@ country_event = {
 	title = "Test"
 	desc = "Test"
 	picture = GFX_evt_enigmatic_fortress
-
+	
 	trigger = { always = no }
 
 	option = {
@@ -8006,7 +8006,7 @@ country_event = {
 planet_event = {
 	id = henrik.1110
 	hide_window = yes
-
+	
 	trigger = { always = no }
 
 	immediate = {
@@ -8092,7 +8092,7 @@ country_event = {
 	title = "Test"
 	desc = "Test"
 	picture = GFX_evt_enigmatic_fortress
-
+	
 	trigger = { always = no }
 
 	option = {
@@ -8133,7 +8133,7 @@ country_event = {
 	title = "LOC KEY TEST"
 	desc = processing_starvation_averted
 	picture = GFX_evt_enigmatic_fortress
-
+	
 	is_triggered_only = yes
 
 	immediate = {
@@ -8152,7 +8152,7 @@ country_event = {
 	title = "Test"
 	desc = "Test"
 	picture = GFX_evt_enigmatic_fortress
-
+	
 	trigger = { always = no }
 
 	immediate = {
@@ -8180,7 +8180,7 @@ country_event = {
 	title = "Test"
 	desc = "Test"
 	picture = GFX_evt_enigmatic_fortress
-
+	
 	trigger = { always = no }
 
 	option = {
@@ -8188,7 +8188,7 @@ country_event = {
 		random_owned_planet = {
 			random_owned_pop = {
 				set_citizenship_type = { type = citizenship_full country = root cooldown = yes }
-			}
+			}		
 		}
 	}
 }
@@ -8370,7 +8370,7 @@ planet_event = {
 					species = owner_main_species
 					name = random
 					skill = 200
-					traits = { }
+					traits = {}
 				}
 				assign_leader = last_created_leader
 				ruler = {
@@ -8385,7 +8385,7 @@ planet_event = {
 			days = 720
 		}
 	}
-
+	
 	option = {
 		name = utopia.160.a
 		custom_tooltip = utopia.160.a.tooltip
@@ -8396,7 +8396,7 @@ planet_event = {
 country_event = {
 	id = henrik.1130
 	hide_window = yes
-
+	
 	trigger = { always = no }
 
 	immediate = {
@@ -8417,7 +8417,7 @@ country_event = {
 country_event = {
 	id = henrik.1131
 	hide_window = yes
-
+	
 	trigger = {
 		has_tradition = tr_prosperity_trans_stellar_corporations
 		has_non_swapped_tradition = tr_prosperity_trans_stellar_corporations
@@ -8455,13 +8455,13 @@ pop_event = {
 	picture = GFX_evt_enigmatic_fortress
 
 	trigger = { always = no }
-
+	
 	immediate = {
 		planet = {
 			save_event_target_as = pop_planet
 		}
 	}
-
+	
 	option = {
 		name = "Test12"
 	}
@@ -8531,7 +8531,7 @@ country_event = {
 	picture = GFX_evt_enigmatic_fortress
 
 	trigger = { always = no }
-
+	
 	option = {
 		name = "Test12"
 		ruler = {

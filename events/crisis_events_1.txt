@@ -2389,8 +2389,7 @@ event = {
 				any_country = {
 					is_country_type = swarm
 					num_owned_planets > 0
-					num_ships < 4711
-					num_armies < 100
+					num_ships < 2000
 				}
 			}
 			random_country = {
@@ -2410,47 +2409,71 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		is_country_type = swarm
-		num_owned_planets > 0
-		num_ships < 4711
-		num_armies < 100
-	}
-
 	immediate = {
 		save_event_target_as = prethoryn
 		owner_species = { save_event_target_as = prethoryn_species }
-		random_owned_planet = {
-			limit = { has_spaceport = yes }
-			save_event_target_as = spaceport_planet
-
-			event_target:prethoryn = {
+			
+		swarm_brood = yes
+		swarm_brood = yes
+	
+		if = {
+			limit = {
+				galaxy_percentage > 0.20
+			}
+			swarm_brood = yes
+		}				
 		
-				swarm_brood = yes
-				swarm_brood = yes
-				swarm_brood = yes
+		if = {
+			limit = {
+				galaxy_percentage > 0.40
+			}
+			swarm_brood = yes
+		}				
 				
-				# Infestors
-				while = {
-					count = 3
-					create_fleet = {
-						name = "NAME_Prethoryn_Infestor"
-						effect = {
-							set_owner = event_target:prethoryn
-							create_ship = {
-								name = random
-								design = "NAME_Swarm_Colonizer"
-								graphical_culture = "swarm_01"
-							}
-							set_location = {
-								target = event_target:spaceport_planet
-								distance = 35
-								angle = random 
-							}
+		if = {
+			limit = {
+				count_owned_ships = {
+					limit = { is_ship_size = colony_ship_swarm }
+					count < 3
+				}					
+			}
+			
+			random_owned_planet = {
+				limit = { 
+					has_spaceport = yes 
+				}			
+				# Infestor
+				create_fleet = {
+					name = "NAME_Prethoryn_Infestor"
+					effect = {
+						set_owner = event_target:prethoryn
+						create_ship = {
+							name = random
+							design = "NAME_Swarm_Colonizer"
+							graphical_culture = "swarm_01"
+						}
+						set_location = {
+							target = prev
+							distance = 35
+							angle = random 
 						}
 					}
-				}
-				
+				}					
+			}
+		}
+		
+		if = {
+			limit = {
+				count_owned_ships = {
+					limit = { is_ship_size = construction_ship_swarm }
+					count < 5
+				}					
+			}
+
+			random_owned_planet = {
+				limit = { 
+					has_spaceport = yes 
+				}				
 				# Constructor
 				create_fleet = {
 					name = "NAME_Prethoryn_Constructor"
@@ -2462,35 +2485,12 @@ country_event = {
 							graphical_culture = "swarm_01"
 						}
 						set_location = {
-							target = event_target:spaceport_planet
+							target = prev
 							distance = 35
 							angle = random 
 						}
 					}
-				}
-
-				# Army Transports
-				#create_fleet = {
-				#	name = "NAME_Prethoryn_Armies"
-				#	effect = {
-				#		set_owner = event_target:prethoryn
-				#		while = {
-				#			count = 3
-				#			create_army_transport = {
-				#				ship_name = "Prethoryn Transport"
-				#				graphical_culture = "swarm_01"
-				#				army_name = "Prethoryn Invaders"
-				#				army_type = "swarm_army"
-				#				species = event_target:prethoryn_species
-				#			}
-				#		}
-				#		set_location = {
-				#			target = event_target:spaceport_planet
-				#			distance = 35
-				#			angle = random 
-				#		}
-				#	}
-				#}
+				}	
 			}
 		}
 	}

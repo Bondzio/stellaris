@@ -18,7 +18,7 @@ time = {
 
 energy = {
 	accumulative = yes
-	collect_if_wrong_building = yes
+	collect_if_wrong_building = no
 	accumulated_by_sectors = yes
 	tradable = yes
 	AI_category = energy
@@ -30,7 +30,7 @@ energy = {
 
 minerals = {
 	accumulative = yes
-	collect_if_wrong_building = yes
+	collect_if_wrong_building = no
 	accumulated_by_sectors = yes
 	tradable = yes
 	AI_category = minerals
@@ -41,28 +41,28 @@ minerals = {
 food = {
 	accumulative = yes
 	tradable = yes
-	collect_if_wrong_building = yes
+	collect_if_wrong_building = no
 	max = 0
 	AI_category = food
 }
 
 physics_research = {
 	accumulative = yes
-	collect_if_wrong_building = yes
+	collect_if_wrong_building = no
 	AI_category = physics
 	base_income = 5
 }
 
 society_research = {
 	accumulative = yes
-	collect_if_wrong_building = yes
+	collect_if_wrong_building = no
 	AI_category = society
 	base_income = 5
 }
 
 engineering_research = {
 	accumulative = yes
-	collect_if_wrong_building = yes
+	collect_if_wrong_building = no
 	AI_category = engineering
 	base_income = 5
 }
@@ -70,7 +70,7 @@ engineering_research = {
 influence = {
 	accumulative = yes
 	AI_category = influence
-	max = 1500
+	max = 1000
 	sector_ignore_cost = yes
 	base_income = 2
 	tooltip_decimals = 1
@@ -78,7 +78,7 @@ influence = {
 
 unity = {
 	accumulative = yes
-	collect_if_wrong_building = yes
+	collect_if_wrong_building = no
 	AI_category = unity
 	base_income = 1
 }
@@ -95,7 +95,7 @@ sr_terraform_gases = {
 	is_global = yes
 
 	modifier = {
-		terraforming_cost_mult = -0.5
+		terraforming_cost_mult = -0.25
 	}
 }
 
@@ -107,7 +107,7 @@ sr_terraform_liquids = {
 	is_global = yes
 
 	modifier = {
-		terraform_speed_mult = 0.5
+		terraform_speed_mult = 0.25
 	}
 }
 
@@ -237,7 +237,7 @@ sr_living_metal = {
 
 	modifier = {
 		megastructure_build_speed_mult = 0.3
-		ship_auto_repair_add = 0.2
+		ship_auto_repair_add = 0.02
 	}
 }
 

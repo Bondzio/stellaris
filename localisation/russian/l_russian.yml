@@ -874,7 +874,7 @@
  REPARATION_COST:0 "Расходы на возмещение ущерба:\n$COST$"
  REPAIR_BUILDING:0 "Отремонтировать сооружение"
  REPAIR_BUILDING_DESC:0 "Вы можете отремонтировать сооружение, затратив часть времени и ресурсов от его общей стоимости."
- BUILDING_CONSTRUCTION_COLONIZATION:0 "§RИдет колонизация планеты.§!"
+ BUILDING_CONSTRUCTION_COLONIZATION:0 "$ERROR_PLANET_UNDER_COLONIZATION$"
  BUILDING_AUTOMATED:0 "Автоматизированное сооружение"
  BUILD_BUILDING:0 "Построить сооружение"
  BUILD_BUILDING_DESC:0 "Сооружения можно возводить в квадратах. Большинство сооружений генерируют ресурс определенного вида."

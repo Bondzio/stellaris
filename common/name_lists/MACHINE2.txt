@@ -9,19 +9,19 @@ MACHINE2 = {
 		}
 
 		science = {
-			"Researcher"
+			Researcher
 		}
 
 		colonizer = {
-			"Carrier"
+			Carrier
 		}
 
 		constructor = {
-			"Fabricator"
+			Fabricator
 		}
 
 		transport = {
-			"Transport"
+			Transport
 		}
 
 
